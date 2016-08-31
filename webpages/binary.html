@@ -5,35 +5,39 @@
 	</head>
 	<body bgcolor="BEC2FF">
 		<h1 style="font-family: Arial Black; color: blue"><u>ASCII Alphabet</u></h1>
-		<h4>How to write letters in Binary</h4>
-		<ol>
-			<li>First come up with a string, for example i will be using the string "hello".</li>
-			<li>draw out a 8 by len(string) table, len(string) meaning the length of the string you are writing in binary, for example "hello" is length 5 so my table would be 8x5 table. In binary (base 2) the digits across the top can be worked out by calculating 2**i, for i being evey integer from 0 to 8, and the '2' representing base 2 'binary'.</li>
-			<li>Next, to write lowercase letters, start by writing the number 96 in binary (to work out upercase letters just start with 64 instead of 96). to write a number in binary add the colums acrors the top up to workout the number. for example to get the number 96 you add 64 + 32, so put a '1' in both those colums and fill the reset of the colums with 0's. this calculates the binary value "01100000".<p>Next work out the order of the letter in the alphabet, for example 'a' is the first letter in the alphabet so will have order 1. if we look back at the example the first character of the string is the letters 'h', 'h' is the 8th letter in the alphabet. so to work out the binary value for the letter 'h' we calculate 96 + 8, 8 being how far the letter is in the alphabet. this gives us the integer 104. now if we add the colums up accross the top of the table to calculate the number 104, we are given the binary value "01101000", so 'h' in binary is '01101000'. The table below shows what "hello" looks like in binary:</p></li>
-		</ol>
-		<table border="1px">
-			<thead>
-				<th>128</th></th><th>64</th><th>32</th><th>16</th><th>8.</th><th>4.</th><th>2.</th><th>1.</th><th>Chr</th>
-			</thead>
-			<tbody>
-				<tr>
-					<td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>h</td>
-				</tr>
-				<tr>
-					<td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>e</td>
-				</tr>
-				<tr>
-					<td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>l</td>
-				</tr>
-				<tr>
-					<td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>l</td>
-				</tr>
-				<tr>
-					<td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>o</td>
-				</tr>
-			<tbody>
-		</table>
-		<hr></hr><h2>ASCII Conversion Table:</h2>
+		<div style="background-color: #A1A8FE;">
+			<hr></hr><h4 style="font-size: 22px; font-family: Arial;">How to write letters in Binary:</h4>
+			<div id="binary-text" style="font-family: Calibri (Body);font-size:18px;">
+				<ol>
+					<li>First come up with a string, for example i will be using the string "hello".</li>
+					<li>draw out a 8 by len(string) table, len(string) meaning the length of the string you are writing in binary, for example "hello" is length 5 so my table would be 8x5 table. In binary (base 2) the digits across the top can be worked out by calculating 2**i, for i being evey integer from 0 to 8, and the '2' representing base 2 'binary'.</li>
+					<li>Next, to write lowercase letters, start by writing the number 96 in binary (to work out upercase letters just start with 64 instead of 96). to write a number in binary add the colums acrors the top up to workout the number. for example to get the number 96 you add 64 + 32, so put a '1' in both those colums and fill the reset of the colums with 0's. this calculates the binary value "01100000".<p>Next work out the order of the letter in the alphabet, for example 'a' is the first letter in the alphabet so will have order 1. if we look back at the example the first character of the string is the letters 'h', 'h' is the 8th letter in the alphabet. so to work out the binary value for the letter 'h' we calculate 96 + 8, 8 being how far the letter is in the alphabet. this gives us the integer 104. now if we add the colums up accross the top of the table to calculate the number 104, we are given the binary value "01101000", so 'h' in binary is '01101000'. The table below shows what "hello" looks like in binary:</p></li>
+				</ol>
+			</div>
+			<table border="1px" style="font-size: 22px;">
+				<thead>
+					<th>128</th></th><th>64</th><th>32</th><th>16</th><th>8.</th><th>4.</th><th>2.</th><th>1.</th><th>Chr</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>h</td>
+					</tr>
+					<tr>
+						<td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>e</td>
+					</tr>
+					<tr>
+						<td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>l</td>
+					</tr>
+					<tr>
+						<td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>l</td>
+					</tr>
+					<tr>
+						<td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>o</td>
+					</tr>
+				<tbody>
+			</table><hr></hr>
+		</div>
+		<h2>ASCII Conversion Table:</h2>
 		<table border="2px" cellspacing="4px" cellpadding="1px" bgcolor="8EFFA5" style="font-size: 25px">
 			<thead>
 				<tr>
