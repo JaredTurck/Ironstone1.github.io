@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<body>
-		<iframe src="" width="100%" height="100%" id="frame"></iframe>
+		<iframe src="" width="100%" height="100%" id="frame">
+			your browser does not support iframes!
+		</iframe>
 		<script>
-			document.getElementById("frame").src = window.location.href.split("?url=")[1]
+			try {
+				var url = window.location.href.split("?url=")[1];
+				document.getElementById("frame").src = url;
+			} catch (e) {
+				console.log("Failed to load webpage!" + e)
+			}
 		</script>
 	</body>
 </html>
