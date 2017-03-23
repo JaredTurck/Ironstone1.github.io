@@ -1,42 +1,7 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Website</title>
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-			}
-			
-			#navbar {
-				font-family: Arial;
-				font-size: 20px;
-				background-color: #00FC61;
-			}
-			#navbar ul {
-				list-style: none;
-				display: flex;
-				justify-content: space-around;
-			}
-			
-			#navbar a {
-				text-decoration: none;
-			}
-			#navbar a:link, a:visited {
-				color: blue;
-			}
-			#navbar a:hover, a:active {
-				color: red;
-			}
-		</style>
-	</head>
-	<body style="background-color: #C0FCD7;">
-		<div id="navbar">
-			<ul>
-				<li><a href=""><b>Home</b></a></li>
-				<li><a href="webpages/binary.html"><b>Binary</b></a></li>
-				<li><a href="webpages/python.html"><b>Python</b></li>
-			</ul>
-		</div>
-	</body>
+	<iframe src="" width="100%" height="100%" id="frame">
+	<script>
+		document.getElementById("frame").src = window.location.href.split("?url=")[1]
+	</script>
 </html>
