@@ -43,15 +43,16 @@
 					}
 				}
 					
-				for (i=0;i<CPU_list.length;i++) {
-					// create new table row, add item to document
+				for (count=0;count<CPU_list.length;count++) {
+					// add to part list button
 					var tr = document.createElement("tr");
 					selectBttn = document.createElement("input");
 					selectBttn.type = "button";
-					selectBttn.onclick = function() {Add2PartList(i);};
+					selectBttn.onclick = function() {Add2PartList(count);}; // problem
 					selectBttn.value = "+";
 					tr.appendChild(selectBttn)
 					
+					// create new table row, add item to document
 					for (index=0;index < CPU_list[i].length; index++) {
 						td = document.createElement("td");
 						td.innerHTML = CPU_list[i][index];
@@ -67,7 +68,6 @@
 		}
 		
 		function Add2PartList(ItemIndex) {
-			//alert, are you sue you want to add '<part name>' to your part list?
 			NameIndex = document.getElementById("dataTable").children[0].children[0].innerHTML.split("</th><th>").indexOf("Name");
 			Name =		document.getElementById("dataTable").children[1].children[ItemIndex].children[NameIndex].innerHTML;
 			if (confirm("Are you sure you want to add '" + Name + "' to your part list?\npress OK to continue or cancel to decline!") == true) {
