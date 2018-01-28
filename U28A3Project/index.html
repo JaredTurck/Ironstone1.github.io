@@ -40,8 +40,28 @@
 			request.send();
 		}*/
 		
-		function getData(file) {
-			console.log($.ajax({url : file}));
+		function getData() {
+			var request = new XMLHttpRequest();
+			request.onreadystatechange = function() {
+				var response = request.responseText.split("\n");
+				console.log(response);
+				
+				var tbody = document.createElement("tbody");
+				
+				var CPU_list = [];
+				for (i=0;i<response.length;i++) {
+					CPU_list.push(response[i].split(","));
+					
+					var tr = document.createElement("tr");
+					for (index=0;index < CPU_list[i].length; index++) {
+						td = document.createElement("td");
+						td.innerHTML = CPU_list[i][index];
+						tr.appendChild(td);
+					} tbody.appendChild(tr);
+				} document.getElementById("dataTable").appendChild(tbody);
+			}
+			request.open("GET", "cpu.txt");
+			request.send();
 		}
 		
 		/*function AddCustomPart() { // alows you to add custom parts to the part list.
@@ -168,7 +188,7 @@
 			<input type="text" name="search" placeholder="Search for a CPU" ></input>
 			
 			<div>
-				<table border="1px solid black" width="100%">
+				<table border="1px solid black" width="100%" id="dataTable">
 					<thead>
 						<th>Manufacturer</th>
 						<th>Name</th>
@@ -176,8 +196,6 @@
 						<th>Cores</th>
 						<th>TDP</th>
 					</thead>
-					<tbody id="table2_body">
-					</tbody>
 				</table>
 			</div>
 		</div>
