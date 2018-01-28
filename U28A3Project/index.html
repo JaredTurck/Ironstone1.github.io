@@ -13,7 +13,7 @@
 	</head>
 	
 	<script>
-		function getData(file) {
+		/*function getData(file) {
 			var request = new XMLHttpRequest();
 			request.onreadystatechange = function() {
 				if (this.readState == 4 && this.status == 200) {
@@ -22,24 +22,26 @@
 					var raw_data = this.reponseText.split("\n");
 					var CPU_list = [];
 					
-					for (int i=0;i < raw_data.length; i++) {
+					for (i=0;i < raw_data.length; i++) {
 						sublist = raw_data[i].split(",");
 						CPU_list.push(sublist);
 						
 						// create table body tr element
 						var tr = document.createElement("tr");
-						for (int ii=0; ii < sublist.length; ii++) {
+						for (ii=0; ii < sublist.length; ii++) {
 							td = document.createElement("td");
 							td.innerHTML = sublist[ii];
 							tr.appendChild(td);
 						} document.getElementById("data_tabe").appendChild(td);
 					}
-					
-					
 				}
 			}
 			request.open("GET", file, true);
 			request.send();
+		}*/
+		
+		function getData(file) {
+			console.log($.ajax({url : file}));
 		}
 		
 		/*function AddCustomPart() { // alows you to add custom parts to the part list.
@@ -74,6 +76,21 @@
 			}
 			console.log(elm);
 			
+		}*/
+		
+		/*
+		function getData(file) {
+			var request = new XMLHttpRequest();
+			request.onreadystatechange = function() {
+				if (this.readState == 4 && this.status == 200) {
+				
+					//Get data from server, and format
+					var raw_data = this.reponseText.split("\n");
+					console.log(raw_data);
+				}
+			}
+			request.open("GET", file, true);
+			request.send();
 		}*/
 		
 	</script>
