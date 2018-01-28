@@ -71,6 +71,8 @@
 		}
 		
 			//("<thead><th>" + response[0].replace(",", "</th><th>") + "</th></thead>");
+			
+			//compatibility, which mobo fits which cpu, etc.
 		
 			/*//form
 			// Enter the part name.
@@ -82,8 +84,9 @@
 			//Cores			$("tbody[id='category_content'] td[style='text-align:center;']")[0].innerHTML
 			//https://pcpartpicker.com/products/cpu/
 			
-			// CASE, CPU cooler?
-			
+			// CASE, CPU cooler?*/
+		
+		/*function get() {		
 			var elm = "";
 			for (i=0;i<$("tbody[id='category_content'] tr").length;i++) {
 				//part 	= $("tbody[id='category_content'] tr td[class='tdname'] a")[i].innerHTML;
@@ -95,6 +98,7 @@
 				i3 = $("tbody[id='category_content'] tr")[i].children[3].innerHTML;
 				i4 = $("tbody[id='category_content'] tr")[i].children[4].innerHTML;
 				i5 = $("tbody[id='category_content'] tr")[i].children[5].innerHTML;
+				i6 = $("tbody[id='category_content'] tr")[i].children[6].innerHTML;
 				
 				
 				//elm += "\n<tr>\n\t<td>" + part + "</td>\n\t<td>" + clock + "</td>\n\t<td>" + cores + "</td>\n</tr>";
@@ -102,7 +106,6 @@
 				elm += i1 + "," + i2 + "," + i3 + "," + i4 + "," + i5 + "\n";
 			}
 			console.log(elm);
-			
 		}*/
 		
 	</script>
