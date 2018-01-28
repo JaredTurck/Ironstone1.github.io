@@ -26,7 +26,7 @@
 				
 				//create table head
 				thead = document.createElement("thead");
-				thead.innerHTML = "<th>" + response[0].replace(/,/g, "</th><th>") + "</th>";
+				thead.innerHTML = "<th>+</th><th>" + response[0].replace(/,/g, "</th><th>") + "</th>";
 				document.getElementById("dataTable").appendChild(thead);
 				
 				for (i=1;i<response.length;i++) {
@@ -46,6 +46,12 @@
 				for (i=0;i<CPU_list.length;i++) {
 					// create new table row, add item to document
 					var tr = document.createElement("tr");
+					selectBttn = document.createElement("input");
+					selectBttn.type = "button";
+					selectBttn.onclick = "Add2PartList()";
+					selectBttn.value = "+";
+					tr.appendChild(selectBttn)
+					
 					for (index=0;index < CPU_list[i].length; index++) {
 						td = document.createElement("td");
 						td.innerHTML = CPU_list[i][index];
@@ -58,6 +64,10 @@
 		}
 		
 		function AddCustomPart() {
+			//alert, are you sue you want to add '<part name>' to your part list?
+		}
+		
+		function Add2PartList() {
 		}
 		
 			//("<thead><th>" + response[0].replace(",", "</th><th>") + "</th></thead>");
