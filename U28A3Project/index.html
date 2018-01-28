@@ -14,7 +14,7 @@
 	
 	<script>
 	
-		function getData(fileName) {
+		function getData(fileName, criteria) {
 			var request = new XMLHttpRequest();
 			request.onreadystatechange = function() {
 				var response = request.responseText.split("\n");
@@ -24,9 +24,27 @@
 				document.getElementById("dataTable").innerHTML = "";
 				var CPU_list = [];
 				
+				//create table head
+				thead = document.createElement("thead");
+				thead.innerHTML = "<th>" + response[0].replace(/,/g, "</th><th>") + "</th>";
+				document.getElementById("dataTable").appendChild(thead);
+				
 				for (i=1;i<response.length;i++) {
-					CPU_list.push(response[i].split(","));
+					// check if item meets criteria.
+					if (criteria == "all") {
+						CPU_list.push(response[i].split(","));
+					} else if (criteria == "") {
+						document.getElementById("tableContainer").innerHTML = "No search Results!";
+						return;
+					} else {
+						if (response[i].indexOf(criteria) != -1) { // problem
+							CPU_list.push(response[i].split(","));
+						}
+					}
+				}
 					
+				for (i=0;i<CPU_list.length;i++) {
+					// create new table row, add item to document
 					var tr = document.createElement("tr");
 					for (index=0;index < CPU_list[i].length; index++) {
 						td = document.createElement("td");
@@ -114,31 +132,31 @@
 			<tbody>
 				<tr>
 					<td class="select_head">CPU</td>
-					<td><button class="select_button" id="cpu-elm" onclick="getData('cpu.txt')">Select a Processor</button></td>
+					<td><button class="select_button" id="cpu-elm" onclick="getData('cpu.txt','all')">Select a Processor</button></td>
 				</tr>
 				<tr>
 					<td class="select_head">MOBO</td>
-					<td><button class="select_button" id="mobo-elm" onclick="getData('mobo.txt')">Select a Motherboard</button></td>
+					<td><button class="select_button" id="mobo-elm" onclick="getData('mobo.txt','all')">Select a Motherboard</button></td>
 				</tr>
 				<tr>
 					<td class="select_head">RAM</td>
-					<td><button class="select_button" id="ram-elm" onclick="getData('ram.txt')">Select a RAM kit</button></td>
+					<td><button class="select_button" id="ram-elm" onclick="getData('ram.txt','all')">Select a RAM kit</button></td>
 				</tr>
 				<tr>
 					<td class="select_head">GPU</td>
-					<td><button class="select_button" id="gpu-elm" onclick="getData('gpu.txt')">Select a Graphics Card</button></td>
+					<td><button class="select_button" id="gpu-elm" onclick="getData('gpu.txt','all')">Select a Graphics Card</button></td>
 				</tr>
 				<tr>
 					<td class="select_head">HDD</td>
-					<td><button class="select_button" id="hdd-elm" onclick="getData('hdd.txt')">Select a Hard Disk Drive</button></td>
+					<td><button class="select_button" id="hdd-elm" onclick="getData('hdd.txt'),'all'">Select a Hard Disk Drive</button></td>
 				</tr>
 				<tr>
 					<td class="select_head">SSD</td>
-					<td><button class="select_button" id="ssd-elm" onclick="getData('ssd.txt')">Select a Solid State Drive</button></td>
+					<td><button class="select_button" id="ssd-elm" onclick="getData('ssd.txt','all')">Select a Solid State Drive</button></td>
 				</tr>
 				<tr>
 					<td class="select_head">PSU</td>
-					<td><button class="select_button" id="psu-elm" onclick="getData('psu.txt')">Select a Power Supply Unit</button></td>
+					<td><button class="select_button" id="psu-elm" onclick="getData('psu.txt','all')">Select a Power Supply Unit</button></td>
 				</tr>
 				<tr>
 					<td class="select_head">Custom</td>
@@ -148,10 +166,10 @@
 		</table>
 		
 		<div>
-			<hr>
-			<input type="text" name="search" placeholder="Search for a CPU" ></input>
+			<input type="text" name="search" placeholder="Search for a part" ></input>
+			<input type="button" name="search" value="Search"></input>
 			
-			<div>
+			<div id="tableContainer">
 				<table border="1px solid black" width="100%" id="dataTable">
 				</table>
 			</div>
