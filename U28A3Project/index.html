@@ -48,7 +48,7 @@
 					var tr = document.createElement("tr");
 					selectBttn = document.createElement("input");
 					selectBttn.type = "button";
-					selectBttn.onclick = "Add2PartList("+i+")";
+					selectBttn.onclick = function() {Add2PartList(i);};
 					selectBttn.value = "+";
 					tr.appendChild(selectBttn)
 					
@@ -68,8 +68,8 @@
 		
 		function Add2PartList(ItemIndex) {
 			//alert, are you sue you want to add '<part name>' to your part list?
-			NameIndex = $("table[id='dataTable'] thead tr").innerHTML.split("</th><th>").indexOf("Name");
-			Name =		$("table[id='dataTable'] tbody").children[ItemIndex].children[NameIndex].innerHTML;
+			NameIndex = document.getElementById("dataTable").children[0].children[0].innerHTML.split("</th><th>").indexOf("Name");
+			Name =		document.getElementById("dataTable").children[1].children[ItemIndex].children[NameIndex].innerHTML;
 			if (confirm("Are you sure you want to add '" + Name + "' to your part list?\npress OK to continue or cancel to decline!") == true) {
 				document.getElementById("cpu-elm").outerHTML = Name;
 			}
