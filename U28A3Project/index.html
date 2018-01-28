@@ -13,8 +13,10 @@
 	</head>
 	
 	<script>
+		var CurrentPartView = "cpu.txt";
 	
 		function getData(fileName, criteria) {
+			var CurrentPartView = fileName;
 			var request = new XMLHttpRequest();
 			request.onreadystatechange = function() {
 				var response = request.responseText.split("\n");
@@ -179,8 +181,8 @@
 		</table>
 		
 		<div>
-			<input type="text" name="search" placeholder="Search for a part" ></input>
-			<input type="button" name="search" value="Search"></input>
+			<input type="text" name="search" placeholder="Search for a part" id="search4part"></input>
+			<input type="button" name="search" value="Search" onclick="getData(CurrentPartView, document.getElementById('search4part').value) "></input>
 			
 			<div id="tableContainer">
 				<table border="1px solid black" width="100%" id="dataTable">
