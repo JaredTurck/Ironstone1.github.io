@@ -13,10 +13,7 @@
 	</head>
 	
 	<script>
-		var CurrentPartView = "cpu.txt";
-	
 		function getData(fileName, criteria) {
-			var CurrentPartView = fileName;
 			var request = new XMLHttpRequest();
 			request.onreadystatechange = function() {
 				var response = request.responseText.split("\n");
@@ -24,6 +21,7 @@
 				
 				var tbody = document.createElement("tbody");
 				document.getElementById("dataTable").innerHTML = "";
+				document.getElementById("dataTable").data = fileName;
 				var CPU_list = [];
 				
 				//create table head
@@ -50,7 +48,7 @@
 					var tr = document.createElement("tr");
 					selectBttn = document.createElement("input");
 					selectBttn.type = "button";
-					selectBttn.onclick = "Add2PartList()";
+					selectBttn.onclick = "Add2PartList("+i+")";
 					selectBttn.value = "+";
 					tr.appendChild(selectBttn)
 					
@@ -66,10 +64,15 @@
 		}
 		
 		function AddCustomPart() {
-			//alert, are you sue you want to add '<part name>' to your part list?
 		}
 		
-		function Add2PartList() {
+		function Add2PartList(ItemIndex) {
+			//alert, are you sue you want to add '<part name>' to your part list?
+			NameIndex = $("table[id='dataTable'] thead tr").innerHTML.split("</th><th>").indexOf("Name");
+			Name =		$("table[id='dataTable'] tbody").children[ItemIndex].children[NameIndex].innerHTML;
+			if (confirm("Are you sure you want to add '" + Name + "' to your part list?\npress OK to continue or cancel to decline!") == true) {
+				document.getElementById("cpu-elm").outerHTML = Name;
+			}
 		}
 		
 			//("<thead><th>" + response[0].replace(",", "</th><th>") + "</th></thead>");
@@ -182,7 +185,7 @@
 		
 		<div>
 			<input type="text" name="search" placeholder="Search for a part" id="search4part"></input>
-			<input type="button" name="search" value="Search" onclick="getData(CurrentPartView, document.getElementById('search4part').value) "></input>
+			<input type="button" name="search" value="Search" onclick="getData(document.getElementById('dataTable').data, document.getElementById('search4part').value) "></input>
 			
 			<div id="tableContainer">
 				<table border="1px solid black" width="100%" id="dataTable">
