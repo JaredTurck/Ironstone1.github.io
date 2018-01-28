@@ -18,9 +18,12 @@
 			var request = new XMLHttpRequest();
 			request.onreadystatechange = function() {
 				var response = request.responseText.split("\n");
-				var tbody = document.createElement("tbody");
+				if (response == "") {return;}
 				
+				var tbody = document.createElement("tbody");
+				document.getElementById("dataTable").innerHTML = "";
 				var CPU_list = [];
+				
 				for (i=0;i<response.length;i++) {
 					CPU_list.push(response[i].split(","));
 					
