@@ -42,15 +42,16 @@
 						}
 					}
 				}
-					
-				for (count=0;count<CPU_list.length;count++) {
+				
+				for (i=0;i<CPU_list.length;i++) {
 					// add to part list button
 					var tr = document.createElement("tr");
 					selectBttn = document.createElement("input");
 					selectBttn.type = "button";
-					selectBttn.onclick = function() {Add2PartList(count);}; // problem
+					selectBttn.onclick = function() {Add2PartList();}; // problem, function only executes after all the elements have been created, so always passes the last index.
 					selectBttn.value = "+";
-					tr.appendChild(selectBttn)
+					selectBttn.id = "item_" + i;
+					tr.appendChild(selectBttn);
 					
 					// create new table row, add item to document
 					for (index=0;index < CPU_list[i].length; index++) {
