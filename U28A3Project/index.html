@@ -24,7 +24,7 @@
 				document.getElementById("dataTable").innerHTML = "";
 				var CPU_list = [];
 				
-				for (i=0;i<response.length;i++) {
+				for (i=1;i<response.length;i++) {
 					CPU_list.push(response[i].split(","));
 					
 					var tr = document.createElement("tr");
@@ -41,6 +41,8 @@
 		
 		function AddCustomPart() {
 		}
+		
+			//("<thead><th>" + response[0].replace(",", "</th><th>") + "</th></thead>");
 		
 			/*//form
 			// Enter the part name.
@@ -151,13 +153,6 @@
 			
 			<div>
 				<table border="1px solid black" width="100%" id="dataTable">
-					<thead>
-						<th>Manufacturer</th>
-						<th>Name</th>
-						<th>Speed</th>
-						<th>Cores</th>
-						<th>TDP</th>
-					</thead>
 				</table>
 			</div>
 		</div>
