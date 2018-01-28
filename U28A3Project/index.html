@@ -34,7 +34,7 @@
 					if (criteria == "all") {
 						CPU_list.push(response[i].split(","));
 					} else if (criteria == "") {
-						document.getElementById("tableContainer").innerHTML = "No search Results!";
+						document.getElementById("NoSearchResults").innerHTML = "No search Results!";
 						return;
 					} else {
 						if (response[i].indexOf(criteria) != -1) { // problem
@@ -172,6 +172,7 @@
 			<div id="tableContainer">
 				<table border="1px solid black" width="100%" id="dataTable">
 				</table>
+				<p id="NoSearchResults"></p>
 			</div>
 		</div>
 		
