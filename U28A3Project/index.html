@@ -47,7 +47,7 @@
 					// add to part list button
 					var tr = document.createElement("tr");
 					var div = document.createElement("div");
-					div.innerHTML = "<input type='button' onclick='Add2PartList("+i+", "+fileName+")' value='+' id='bttn_"+i+"'></input>"
+					div.innerHTML = "<input type='button' onclick='Add2PartList("+i+", '"+fileName+"')' value='+' id='bttn_"+i+"'></input>"
 					tr.appendChild(div);
 					
 					// create new table row, add item to document
@@ -65,11 +65,17 @@
 		function AddCustomPart() {
 		}
 		
-		function Add2PartList(ItemIndex, elm) {
+		function Add2PartList(ItemIndex, Fname) {
+			console.log(Fname);
 			NameIndex = document.getElementById("dataTable").children[0].children[0].innerHTML.split("</th><th>").indexOf("Name");
 			Name =		document.getElementById("dataTable").children[1].children[ItemIndex].children[NameIndex].innerHTML;
 			if (confirm("Are you sure you want to add '" + Name + "' to your part list?\npress OK to continue or cancel to decline!") == true) {
-				document.getElementById(elm.replace(".txt","")+"-elm").outerHTML = Name;
+				var elm = document.getElementById(Fname.replace(".txt","")+"-elm");
+				if (elm == null) {
+					alert("Failed to add '"+Name+"' to your part list!");
+				} else {
+					elm.outerHTML = Name;
+				}
 			}
 		}
 		
