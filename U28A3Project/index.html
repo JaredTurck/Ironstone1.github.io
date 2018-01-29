@@ -66,7 +66,6 @@
 		}
 		
 		function Add2PartList(ItemIndex, Fname) {
-			console.log(Fname);
 			NameIndex = document.getElementById("dataTable").children[0].children[0].innerHTML.split("</th><th>").indexOf("Name");
 			Name =		document.getElementById("dataTable").children[1].children[ItemIndex].children[NameIndex].innerHTML;
 			if (confirm("Are you sure you want to add '" + Name + "' to your part list?\npress OK to continue or cancel to decline!") == true) {
@@ -74,6 +73,7 @@
 				if (elm == null) {
 					alert("Failed to add '"+Name+"' to your part list!");
 				} else {
+					document.getElementById("search4part").value = "";
 					elm.outerHTML = Name;
 				}
 			}
@@ -202,7 +202,7 @@
 		
 		<div>
 			<input type="text" name="search" placeholder="Search for a part" id="search4part"></input>
-			<input type="button" name="search" value="Search" onclick="javascript:InputElm = document.getElementById('search4part'); InputElm.value = ''; getData(document.getElementById('dataTable').data, InputElm);"></input>
+			<input type="button" name="search" value="Search" onclick="getData(document.getElementById('dataTable').data, document.getElementById('search4part').value);"></input>
 			
 			<div id="tableContainer">
 				<table border="1px solid black" width="100%" id="dataTable">
