@@ -46,12 +46,9 @@
 				for (i=0;i<CPU_list.length;i++) {
 					// add to part list button
 					var tr = document.createElement("tr");
-					selectBttn = document.createElement("input");
-					selectBttn.type = "button";
-					selectBttn.onclick = function() {Add2PartList();}; // problem, function only executes after all the elements have been created, so always passes the last index.
-					selectBttn.value = "+";
-					selectBttn.id = "item_" + i;
-					tr.appendChild(selectBttn);
+					var div = document.createElement("div");
+					div.innerHTML = "<input type='button' onclick='Add2PartList("+i+")' value='+' id='bttn_"+i+"'></input>"
+					tr.appendChild(div);
 					
 					// create new table row, add item to document
 					for (index=0;index < CPU_list[i].length; index++) {
