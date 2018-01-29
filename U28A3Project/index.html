@@ -79,6 +79,19 @@
 			}
 		}
 		
+		/*function search() {
+			javascript: InputElm = document.getElementById('search4part'); InputElm.value = ""; getData(document.getElementById("dataTable").data, InputElm);
+			getData(document.getElementById('dataTable').data, document.getElementById('search4part').value);
+			$()
+		}*/
+		
+		// To do:
+		// clear search box after you type
+		// add images for each part
+		// cpu show socket
+		// add validation for each part.
+		// add filters
+		
 			//("<thead><th>" + response[0].replace(",", "</th><th>") + "</th></thead>");
 			
 			//compatibility, which mobo fits which cpu, etc.
@@ -189,7 +202,7 @@
 		
 		<div>
 			<input type="text" name="search" placeholder="Search for a part" id="search4part"></input>
-			<input type="button" name="search" value="Search" onclick="getData(document.getElementById('dataTable').data, document.getElementById('search4part').value) "></input>
+			<input type="button" name="search" value="Search" onclick="javascript:InputElm = document.getElementById('search4part'); InputElm.value = ''; getData(document.getElementById('dataTable').data, InputElm);"></input>
 			
 			<div id="tableContainer">
 				<table border="1px solid black" width="100%" id="dataTable">
