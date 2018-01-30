@@ -112,7 +112,7 @@
 			for (i=0;i<total_no;i++) {
 				if (ItemsPerPage == "all") {
 					document.getElementById("row_" + i).style.display = "";
-				} else if (i >= (page_num-1)*parseInt(ItemsPerPage) && i <= (page_num*parseInt(ItemsPerPage))) {
+				} else if (i >= (page_num-1)*parseInt(ItemsPerPage)+1 && i <= (page_num*parseInt(ItemsPerPage))) {
 					document.getElementById("row_" + i).style.display = "";
 				} else {
 					document.getElementById("row_" + i).style.display = "none";
@@ -123,8 +123,8 @@
 		// To do:
 		// clear search box after you type *
 		// add images for each part
-		// add custom part
-		// cpu show socket
+		// add custom part *
+		// show cpu show socket
 		// add validation for each part.
 		// add filters
 		// show detailed information for each part (spec sheet).
