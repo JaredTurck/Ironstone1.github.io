@@ -61,7 +61,9 @@
 						td.innerHTML = CPU_list[i][index];
 						tr.appendChild(td);
 					} tbody.appendChild(tr);
-				} document.getElementById("dataTable").appendChild(tbody);
+				} 
+				document.getElementById("dataTable").appendChild(tbody);
+				NextPage('back');
 			}
 			request.open("GET", fileName);
 			request.send();
@@ -124,7 +126,7 @@
 		// add validation for each part.
 		// add filters
 		// show detailed information for each part (spec sheet).
-		// only display 100 rows at a time, add next/previous buttons.
+		// only display 100 rows at a time, add next/previous buttons *
 		
 			//("<thead><th>" + response[0].replace(",", "</th><th>") + "</th></thead>");
 			
