@@ -97,10 +97,9 @@
 		}
 		
 		function NextPage(NextPrevious) {
-			//page_num = [page_num-1, page_num+1][NextPrevious];
-			//if (page_num <= 0 || (page_num*100) >= total_no) {}
-			
 			total_no = document.getElementById("tableBody").children.length;
+			ItemsPerPage = document.getElementById("ItemsPerPage").value;
+			
 			if (NextPrevious == "next" && (page_num*100) < total_no) {
 				page_num++;
 			} else if (NextPrevious == "back" && page_num > 1) {
@@ -108,13 +107,14 @@
 			}
 			
 			for (i=0;i<total_no;i++) {
-				if (i >= (page_num-1)*100 && i <= (page_num*100)) {
+				if (ItemsPerPage == "all") {
+					document.getElementById("row_" + i).style.display = "";
+				} else if (i >= (page_num-1)*parseInt(ItemsPerPage) && i <= (page_num*parseInt(ItemsPerPage))) {
 					document.getElementById("row_" + i).style.display = "";
 				} else {
 					document.getElementById("row_" + i).style.display = "none";
 				}
 			}
-			
 		}
 		
 		// To do:
@@ -248,7 +248,16 @@
 				<div>
 					<input type="button" name="back" value="back" onclick="NextPage('back')"></input>/
 					<input type="button" name="next" value="next" onclick="NextPage('next')"></input>
-					Dropdown list - Number of rows per page (10,20,50,100,200,500,all).
+					<select name="ItemsPerPage" id="ItemsPerPage">
+						<option value="5">5</option>
+						<option value="10">10</option>
+						<option value="20">20</option>
+						<option value="50">50</option>
+						<option value="100">100</option>
+						<option value="200">200</option>
+						<option value="500">500</option>
+						<option value="all">all</option>
+					</select>
 				</div>
 			</div>
 		</div>
