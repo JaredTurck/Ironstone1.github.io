@@ -71,7 +71,7 @@
 			} if (parseInt(UserInput) == 8) {
 				elm = document.createElement("div");
 				elm.innerHTML = partName;
-				document.getElementById("custom-elm-div").insertBefore(elm, document.getElementById("custom-elm-div"));
+				document.getElementById("custom-elm-div").insertBefore(elm, document.getElementById("custom-elm-div").firstChild);
 			} else {
 				document.getElementById(["cpu-elm", "mobo-elm", "ram-elm", "gpu-elm", "hdd-elm", "ssd-elm", "psu-elm"][parseInt(UserInput)-1]).outerHTML = partName;
 			}
