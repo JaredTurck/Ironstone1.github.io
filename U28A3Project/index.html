@@ -13,13 +13,17 @@
 	</head>
 	
 	<script>
+		var page_num = 1;
+	</script>
+	
+	<script>
 		function getData(fileName, criteria) {
 			var request = new XMLHttpRequest();
 			request.onreadystatechange = function() {
 				var response = request.responseText.split("\n");
 				if (response == "") {return;}
 				
-				var tbody = document.createElement("tbody");
+				var tbody = document.createElement("tbody");tbody.id = "tableBody";
 				document.getElementById("dataTable").innerHTML = "";
 				document.getElementById("dataTable").data = fileName;
 				var CPU_list = [];
@@ -49,6 +53,7 @@
 					var div = document.createElement("div");
 					div.innerHTML = "<input type='button' onclick='Add2PartList("+i+", \""+fileName+"\")' value='+' id='bttn_"+i+"'></input>"
 					tr.appendChild(div);
+					tr.id = "row_" + i;
 					
 					// create new table row, add item to document
 					for (index=0;index < CPU_list[i].length; index++) {
@@ -89,6 +94,18 @@
 					elm.outerHTML = Name;
 				}
 			}
+		}
+		
+		function NextPage(NextPrevious) {
+			page_num = [page_num+1, page_num-1][NextPrevious];
+			for (i=0;i<document.getElementById("tableBody").children.length;i++) {
+				if (i >= (page_num-1)*100 && i <= (page_num*100)) {
+					document.getElementById("row_" + i).style.display = "";
+				} else {
+					document.getElementById("row_" + i).style.display = "none";
+				}
+			}
+			
 		}
 		
 		// To do:
@@ -219,6 +236,10 @@
 				<table border="1px solid black" width="100%" id="dataTable">
 				</table>
 				<p id="NoSearchResults"></p>
+				<div>
+					<input type="button" name="next" value="next" onclick="NextPage(0)"></input>
+					<input type="button" name="previous" value="previous" onclick="NextPage(1)"></input>
+				</div>
 			</div>
 		</div>
 		
