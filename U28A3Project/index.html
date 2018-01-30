@@ -63,7 +63,7 @@
 					} tbody.appendChild(tr);
 				} 
 				document.getElementById("dataTable").appendChild(tbody);
-				NextPage('back');
+				NextPage('show-table');
 			}
 			request.open("GET", fileName);
 			request.send();
@@ -107,6 +107,8 @@
 				page_num++;
 			} else if (NextPrevious == "back" && page_num > 1) {
 				page_num--;
+			} else if (NextPrevious == "show-table") {
+				document.getElementById("tableContainer").style.display = ""
 			}
 			
 			for (i=0;i<total_no;i++) {
@@ -240,11 +242,11 @@
 			</tbody>
 		</table>
 		
-		<div>
+		<div id="tableContainer" style="display: none;">
 			<input type="text" name="search" placeholder="Search for a part" id="search4part"></input>
 			<input type="button" name="search" value="Search" onclick="getData(document.getElementById('dataTable').data, document.getElementById('search4part').value);"></input>
 			
-			<div id="tableContainer">
+			<div>
 				<table border="1px solid black" width="100%" id="dataTable">
 				</table>
 				<p id="NoSearchResults"></p>
