@@ -100,7 +100,8 @@
 			total_no = document.getElementById("tableBody").children.length;
 			ItemsPerPage = document.getElementById("ItemsPerPage").value;
 			
-			if (NextPrevious == "next" && (page_num*100) < total_no) {
+			//if (NextPrevious == "next" && (page_num*parseInt(ItemsPerPage)) < total_no) { // page_num < (total_no / ItemsPerPage)
+			if (NextPrevious == "next" && page_num < parseInt(total_no / ItemsPerPage)) {
 				page_num++;
 			} else if (NextPrevious == "back" && page_num > 1) {
 				page_num--;
