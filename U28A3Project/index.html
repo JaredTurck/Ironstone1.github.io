@@ -45,6 +45,9 @@
 						if (response[i].toLocaleLowerCase().indexOf(criteria.toLocaleLowerCase()) != -1) {
 							CPU_list.push(response[i].split(","));
 							// check compatibility...
+							
+						} else {
+							document.getElementById("tableHead").innerHTML = "";
 						}
 					}
 				}
