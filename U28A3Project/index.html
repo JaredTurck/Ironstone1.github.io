@@ -63,6 +63,18 @@
 		}
 		
 		function AddCustomPart() {
+			partName = prompt("Enter the name of your custom part: ");
+			text = "select your parts category:\n1. Processor (CPU)\n2. Motherboard\n3. Memory (RAM)\n4. Graphics card (GPU)\n5. Hard drive (HDD)\n6. Solid State (SSD)\n7. power supply (PSU)\n8. Other";
+			UserInput = prompt(text);
+			while (["1","2","3","4","5","6","7", "8"].indexOf(UserInput) == -1) {
+				UserInput = prompt("Invalid Input, Please Try Again!\n" + text);
+			} if (parseInt(UserInput) == 8) {
+				elm = document.createElement("div");
+				elm.innerHTML = partName;
+				document.getElementById("custom-elm-div").insertBefore(elm, document.getElementById("custom-elm-div"));
+			} else {
+				document.getElementById(["cpu-elm", "mobo-elm", "ram-elm", "gpu-elm", "hdd-elm", "ssd-elm", "psu-elm"][parseInt(UserInput)-1]).outerHTML = partName;
+			}
 		}
 		
 		function Add2PartList(ItemIndex, Fname) {
@@ -79,18 +91,15 @@
 			}
 		}
 		
-		/*function search() {
-			javascript: InputElm = document.getElementById('search4part'); InputElm.value = ""; getData(document.getElementById("dataTable").data, InputElm);
-			getData(document.getElementById('dataTable').data, document.getElementById('search4part').value);
-			$()
-		}*/
-		
 		// To do:
-		// clear search box after you type
+		// clear search box after you type *
 		// add images for each part
+		// add custom part
 		// cpu show socket
 		// add validation for each part.
 		// add filters
+		// show detailed information for each part (spec sheet).
+		// only display 100 rows at a time, add next/previous buttons.
 		
 			//("<thead><th>" + response[0].replace(",", "</th><th>") + "</th></thead>");
 			
@@ -195,7 +204,9 @@
 				</tr>
 				<tr>
 					<td class="select_head">Custom</td>
-					<td><button class="select_button" id="custom-elm" onclick="AddCustomPart()">Add a custom part</button></td>
+					<td id="custom-elm-div">
+						<button class="select_button" id="custom-elm" onclick="AddCustomPart()">Add a custom part</button>
+					</td>
 				</tr>
 			</tbody>
 		</table>
