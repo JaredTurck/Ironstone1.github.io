@@ -75,8 +75,8 @@
 			text = "select your parts category:\n1. Processor (CPU)\n2. Motherboard\n3. Memory (RAM)\n4. Graphics card (GPU)\n5. Hard drive (HDD)\n6. Solid State (SSD)\n7. power supply (PSU)\n8. Other";
 			UserInput = prompt(text);
 			while (["1","2","3","4","5","6","7", "8"].indexOf(UserInput) == -1) {
-				UserInput = prompt("Invalid Input, Please Try Again!\n" + text);
 				if (UserInput == null) {return;}
+				UserInput = prompt("Invalid Input, Please Try Again!\n" + text);
 			} if (parseInt(UserInput) == 8) {
 				elm = document.createElement("div");
 				elm.innerHTML = partName;
