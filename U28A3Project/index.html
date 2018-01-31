@@ -46,6 +46,17 @@
 							CPU_list.push(response[i].split(","));
 							// check compatibility...
 							
+								// Motherboard:
+								// - Motherboard form factor fit the case form factor
+								// - number of CPIe x16 slots >= the number of graphics cards.
+								// correct slot of expansions cards (network, sound).
+								
+								// Memory:
+								// - number of RAM slots on the motherboard, fix the number of RAM modules.
+								// - RAM is compatible frequency, and compatible DDR(3/4).
+								// - RAM does not prevent the CPU cooler from being installed.
+								
+							
 						} else {
 							document.getElementById("tableHead").innerHTML = "";
 						}
@@ -213,7 +224,7 @@
 		}
 		
 		body {
-			background-color: red;
+			background-color: white;
 		}
 		
 	</style>
