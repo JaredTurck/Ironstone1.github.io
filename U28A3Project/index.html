@@ -154,7 +154,7 @@
 			
 			// CASE, CPU cooler?*/
 		
-		/*function get() {		
+		/*function get() {
 			var elm = "";
 			for (i=0;i<$("tbody[id='category_content'] tr").length;i++) {
 				//part 	= $("tbody[id='category_content'] tr td[class='tdname'] a")[i].innerHTML;
@@ -166,7 +166,6 @@
 				i3 = $("tbody[id='category_content'] tr")[i].children[3].innerHTML;
 				i4 = $("tbody[id='category_content'] tr")[i].children[4].innerHTML;
 				i5 = $("tbody[id='category_content'] tr")[i].children[5].innerHTML;
-				i6 = $("tbody[id='category_content'] tr")[i].children[6].innerHTML;
 				
 				
 				//elm += "\n<tr>\n\t<td>" + part + "</td>\n\t<td>" + clock + "</td>\n\t<td>" + cores + "</td>\n</tr>";
@@ -213,8 +212,8 @@
 			padding-right: 0%;
 		}
 		
-		.body {
-			background-colour: blue;
+		body {
+			background-color: red;
 		}
 		
 	</style>
@@ -267,6 +266,11 @@
 					<tr>
 						<td class="select_head">PSU</td>
 						<td><button class="select_button" id="psu-elm" onclick="getData('psu.txt','all')">Select a Power Supply Unit</button></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="select_head">CASE</td>
+						<td><button class="select_button" id="case-elm" onclick="getData('case.txt', 'all')">Select a Case</button></td>
 						<td></td>
 					</tr>
 					<tr>
