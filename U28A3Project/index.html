@@ -39,7 +39,7 @@
 						CPU_list.push(response[i].split(","));
 					} else if (criteria == "") {
 						document.getElementById("NoSearchResults").innerHTML = "No search Results!";
-						document.getElementById("tableHead").innerHTML = "";
+						//document.getElementById("tableHead").innerHTML = "";
 						return;
 					} else {
 						if (response[i].toLocaleLowerCase().indexOf(criteria.toLocaleLowerCase()) != -1) {
@@ -58,7 +58,7 @@
 								
 							
 						} else {
-							document.getElementById("tableHead").innerHTML = "";
+							//document.getElementById("tableHead").innerHTML = "";
 						}
 					}
 				}
