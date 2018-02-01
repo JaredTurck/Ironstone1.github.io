@@ -35,9 +35,9 @@
 				
 				for (i=1;i<response.length;i++) {
 					// check if item meets search criteria.
-					if (criteria == "all") {
+					if (criteria == "") {
 						CPU_list.push(response[i].split(","));
-					} else if (criteria == "") {
+					} else if (criteria == "none") {
 						document.getElementById("NoSearchResults").innerHTML = "No search Results!";
 						//document.getElementById("tableHead").innerHTML = "";
 						return;
@@ -254,42 +254,42 @@
 				<tbody>
 					<tr class="green_stripe">
 						<td class="select_head">CPU</td>
-						<td><button class="select_button" id="cpu-elm" onclick="getData('cpu.txt','all')">Select a Processor</button></td>
+						<td><button class="select_button" id="cpu-elm" onclick="getData('cpu.txt','')">Select a Processor</button></td>
 						<td></td>
 					</tr>
 					<tr class="white_stripe">
 						<td class="select_head">MOBO</td>
-						<td><button class="select_button" id="mobo-elm" onclick="getData('mobo.txt','all')">Select a Motherboard</button></td>
+						<td><button class="select_button" id="mobo-elm" onclick="getData('mobo.txt','')">Select a Motherboard</button></td>
 						<td></td>
 					</tr>
 					<tr class="green_stripe">
 						<td class="select_head">RAM</td>
-						<td><button class="select_button" id="ram-elm" onclick="getData('ram.txt','all')">Select a RAM kit</button></td>
+						<td><button class="select_button" id="ram-elm" onclick="getData('ram.txt','')">Select a RAM kit</button></td>
 						<td></td>
 					</tr>
 					<tr class="white_stripe">
 						<td class="select_head">GPU</td>
-						<td><button class="select_button" id="gpu-elm" onclick="getData('gpu.txt','all')">Select a Graphics Card</button></td>
+						<td><button class="select_button" id="gpu-elm" onclick="getData('gpu.txt','')">Select a Graphics Card</button></td>
 						<td></td>
 					</tr>
 					<tr class="green_stripe">
 						<td class="select_head">HDD</td>
-						<td><button class="select_button" id="hdd-elm" onclick="getData('hdd.txt','all')">Select a Hard Disk Drive</button></td>
+						<td><button class="select_button" id="hdd-elm" onclick="getData('hdd.txt','')">Select a Hard Disk Drive</button></td>
 						<td></td>
 					</tr>
 					<tr class="white_stripe">
 						<td class="select_head">SSD</td>
-						<td><button class="select_button" id="ssd-elm" onclick="getData('ssd.txt','all')">Select a Solid State Drive</button></td>
+						<td><button class="select_button" id="ssd-elm" onclick="getData('ssd.txt','')">Select a Solid State Drive</button></td>
 						<td></td>
 					</tr>
 					<tr class="green_stripe">
 						<td class="select_head">PSU</td>
-						<td><button class="select_button" id="psu-elm" onclick="getData('psu.txt','all')">Select a Power Supply Unit</button></td>
+						<td><button class="select_button" id="psu-elm" onclick="getData('psu.txt','')">Select a Power Supply Unit</button></td>
 						<td></td>
 					</tr>
 					<tr class="white_stripe">
 						<td class="select_head">CASE</td>
-						<td><button class="select_button" id="case-elm" onclick="getData('case.txt', 'all')">Select a Case</button></td>
+						<td><button class="select_button" id="case-elm" onclick="getData('case.txt', '')">Select a Case</button></td>
 						<td></td>
 					</tr>
 					<tr class="green_stripe">
