@@ -45,18 +45,19 @@
 						if (response[i].toLocaleLowerCase().indexOf(criteria.toLocaleLowerCase()) != -1) {
 							CPU_list.push(response[i].split(","));
 							// check compatibility...
-							
-								// Motherboard:
+								
+								// - processor and motherboard are compatible sockets.
+								//if (localStorage.getItem("cpu.txt").split(",")[4] ==
+								//localStorage.getItem("mobo.txt").split(",")
+								
 								// - Motherboard form factor fit the case form factor
 								// - number of CPIe x16 slots >= the number of graphics cards.
 								// correct slot of expansions cards (network, sound).
-								
-								// Memory:
 								// - number of RAM slots on the motherboard, fix the number of RAM modules.
 								// - RAM is compatible frequency, and compatible DDR(3/4).
 								// - RAM does not prevent the CPU cooler from being installed.
 								
-							
+								
 						} else {
 							//document.getElementById("tableHead").innerHTML = "";
 						}
@@ -110,6 +111,7 @@
 				if (elm == null) {
 					alert("Failed to add '"+Name+"' to your part list!");
 				} else {
+					localStorage.setItem(Fname, document.getElementById("row_" + ItemIndex).innerText.replace(/\t/g, ",").slice(1));
 					document.getElementById("search4part").value = "";
 					elm.outerHTML = Name;
 				}
