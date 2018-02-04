@@ -35,72 +35,58 @@
 				document.getElementById("dataTable").appendChild(thead);
 				
 				for (i=1;i<response.length;i++) {
+				
+					//check validity
+					switch (fileName) {
+						case "cpu.txt":
+							// check that CPU socket and motherboard socket are compatible.
+							break;
+						
+						case "mobo.txt":
+							// check that the motherboard form factor and case form factor are compatible.
+							// - smaller motherboard form factors fit larger cases, (e.g. mini-itx mobo in atx case).
+							// enough PCI slots for expansions cards (e.g. sound card, network card).
+							// - are the PCI slots compatible with the card (e.g. PCI x4 in PCI x16).
+							break;
+						
+						case "ram.txt":
+							// enough RAM slots for each module (e.g. 2x8 ram kit on 4x8 mobo).
+							// is total RAM size less than motherboard maximum RAM.
+							// is RAM DDR compatible (DDR 2/3/4).
+							// is RAM frequency compatible with motherboard.
+							break;
+						
+						case "gpu.txt":
+							// Is there a x16 PCIe slot on the motherboard.
+							// Is there enough PCIe slots to fit multiple GPUs.
+							break;
+						
+						case "hdd.txt":
+							// enough SATA ports on the motherboard.
+							break;
+						
+						case "ssd.txt":
+							// enough SATA ports on the motherboard.
+							break;
+						
+						case "psu.txt":
+							// does the PSU provide enough wattage for every component (total watts < max PSU watts).
+							break;
+						
+						case "case.txt":
+							// check that the case form factor and motherboard form factor are compatible.
+							break;
+					}
+				
 					// check if item meets search criteria.
-					if (criteria == "") {
+					/*if (criteria == "") {
 						CPU_list.push(response[i].split(","));
 					} else if (criteria == "none") {
 						document.getElementById("NoSearchResults").innerHTML = "No search Results!";
-						//document.getElementById("tableHead").innerHTML = "";
 						return;
-					} else {
-						if (response[i].toLocaleLowerCase().indexOf(criteria.toLocaleLowerCase()) != -1) {
-							CPU_list.push(response[i].split(","));
-							
-							// check compatibility...
-							parts = part_types;
-							for (i=0;i<parts.length;i++) {
-								parts[i] = localStorage.getItem(parts[i]);
-							}
-								
-							switch (fileName) {
-								case "cpu.txt":
-									// check that CPU socket and motherboard socket are compatible.
-									if (parts[1] != null && parts[1] != "") {	// if motherboard defined.
-										if (parts[0].split(",")[6] == parts[1].split(",")[1]) {		// if mobo socket == cpu socket.
-											CPU_list.push(response[i].split(","));	// add part to part list
-										}
-									}
-									
-								case "mobo.txt":
-									// check that the motherboard form factor and case form factor are compatible.
-									// - smaller motherboard form factors fit larger cases, (e.g. mini-itx mobo in atx case).
-									// enough PCI slots for expansions cards (e.g. sound card, network card).
-									// - are the PCI slots compatible with the card (e.g. PCI x4 in PCI x16).
-								
-									// check that the motherboard and CPU socket are compatible.
-								
-								case "ram.txt":
-									// enough RAM slots for each module (e.g. 2x8 ram kit on 4x8 mobo).
-									// is total RAM size less than motherboard maximum RAM.
-									// is RAM DDR compatible (DDR 2/3/4).
-									// is RAM frequency compatible with motherboard.
-								
-								case "gpu.txt":
-									// Is there a x16 PCIe slot on the motherboard.
-									// Is there enough PCIe slots to fit multiple GPUs.
-								
-								case "hdd.txt":
-									// enough SATA ports on the motherboard.
-								
-								case "ssd.txt":
-									// enough SATA ports on the motherboard.
-								
-								case "psu.txt":
-									// does the PSU provide enough wattage for every component (total watts < max PSU watts).
-								
-								case "case.txt":
-									// check that the case form factor and motherboard form factor are compatible.
-								
-								default:
-									// if none of the conditions are met, don't display part.
-									//CPU_list.push(response[i].split(","));
-							}
-								
-								
-						} else {
-							//document.getElementById("tableHead").innerHTML = "";
-						}
-					}
+					} else if (response[i].toLocaleLowerCase().indexOf(criteria.toLocaleLowerCase()) != -1) {
+						CPU_list.push(response[i].split(","));
+					}*/
 				}
 				
 				for (i=0;i<CPU_list.length;i++) {
