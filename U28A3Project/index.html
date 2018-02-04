@@ -35,19 +35,33 @@
 				document.getElementById("dataTable").appendChild(thead);
 				
 				for (i=1;i<response.length;i++) {
-				
+					//IsValid(elm1Name, elm2, elm1Index, elm2Index)
+					
 					//check validity
 					switch (fileName) {
 						case "cpu.txt":
-							// check that CPU socket and motherboard socket are compatible.
+							// Check that CPU socket and motherboard socket are compatible.
+							if (IsValid("mobo.txt", response[i], 1, 6) == true) {
+								CPU_list.push(response[i].split(","));
+							}
 							break;
 						
 						case "mobo.txt":
+							// Check that the Motherboard socket and CPU socket are compatible.
+							if (IsValid("cpu.txt", response[i], 6, 1) == true) { // if socket valid && form factor valid do {}
+								CPU_list.push(response[i].split(","));
+							}
+							break;
+						
 							// check that the motherboard form factor and case form factor are compatible.
+							/*if (IsValid("case.txt", response[i], 1, 2) == true) {
+								CPU_list.push(response[i].split(","));
+							}
+							break;*/
+							
 							// - smaller motherboard form factors fit larger cases, (e.g. mini-itx mobo in atx case).
 							// enough PCI slots for expansions cards (e.g. sound card, network card).
 							// - are the PCI slots compatible with the card (e.g. PCI x4 in PCI x16).
-							break;
 						
 						case "ram.txt":
 							// enough RAM slots for each module (e.g. 2x8 ram kit on 4x8 mobo).
@@ -75,11 +89,16 @@
 						
 						case "case.txt":
 							// check that the case form factor and motherboard form factor are compatible.
+							//CPU_list.push(response[i].split(","));
+							break;
+						
+						default:
 							break;
 					}
 				
-					// check if item meets search criteria.
-					/*if (criteria == "") {
+					// don't delete
+					/*// check if item meets search criteria.
+					if (criteria == "") {
 						CPU_list.push(response[i].split(","));
 					} else if (criteria == "none") {
 						document.getElementById("NoSearchResults").innerHTML = "No search Results!";
@@ -179,11 +198,22 @@
 			}
 		}
 		
+		function IsValid(elm1Name, elm2, elm1Index, elm2Index) {
+			elm1 = localStorage.getItem(elm1Name);
+			if (elm1 == "" || elm1 == null || elm1 == undefined) {
+				return true;
+			} else if (elm1.split(",")[elm1Index] == elm2.split(",")[elm2Index]) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		
 		// To do:
 		// clear search box after you type *
 		// add images for each part
 		// add custom part *
-		// show cpu show socket
+		// show cpu show socket *
 		// add validation for each part.
 		// add filters
 		// show detailed information for each part (spec sheet).
