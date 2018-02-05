@@ -45,11 +45,15 @@
 								CPU_list.push(response[i].split(","));
 							}
 							break;
+							
 						
 						case "mobo.txt":
 							// Check that the Motherboard socket and CPU socket are compatible.
 							if (IsValid("cpu.txt", response[i], 6, 1) == true) { // if socket valid && form factor valid do {}
-								CPU_list.push(response[i].split(","));
+								// check that the motherboard form factor and case form factor are compatible.
+								if (IsValid("case.txt", response[i], 1, 2, true) == true) {
+									CPU_list.push(response[i].split(","));
+								}
 							}
 							break;
 						
@@ -89,7 +93,7 @@
 						
 						case "case.txt":
 							// check that the case form factor and motherboard form factor are compatible.
-							//CPU_list.push(response[i].split(","));
+							CPU_list.push(response[i].split(","));
 							break;
 						
 						default:
@@ -198,17 +202,37 @@
 			}
 		}
 		
-		function IsValid(elm1Name, elm2, elm1Index, elm2Index) {
-			elm1 = localStorage.getItem(elm1Name);
+		function IsValid(elm1Name, elm2, elm1Index, elm2Index, cntns) {
+			if (cntns != "search") {
+				elm1 = localStorage.getItem(elm1Name);
+			}
+			
 			if (elm1 == "" || elm1 == null || elm1 == undefined) {
 				return true;
 			} else if (elm1.split(",")[elm1Index] == elm2.split(",")[elm2Index]) {
+				return true;
+			} else if (cntns == true && elm1.split(",")[elm1Index].includes(elm2.split(",")[elm2Index]) == true) {
+				return true;
+			} else if (cntns == "search" && elm2.toLocaleLowerCase().indexOf(elm1Name.toLocaleLowerCase()) != -1) {
 				return true;
 			} else {
 				return false;
 			}
 		}
 		
+		// if (IsValid("case.txt", response[i], 0, 0, true) == true) {
+		/*
+					// check if item meets search criteria.
+					if (criteria == "") {
+						CPU_list.push(response[i].split(","));
+					} else if (criteria == "none") {
+						document.getElementById("NoSearchResults").innerHTML = "No search Results!";
+						return;
+					} else if (response[i].toLocaleLowerCase().indexOf(criteria.toLocaleLowerCase()) != -1) {
+						CPU_list.push(response[i].split(","));
+					}
+		*/
+		// IsValid(criteria, )
 		// To do:
 		// clear search box after you type *
 		// add images for each part
