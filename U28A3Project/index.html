@@ -232,33 +232,28 @@
 		}
 		
 		function IsValid(elm1Name, elm2, elm1Index, elm2Index, cntns) {
-			elm1 = localStorage.getItem(elm1Name);
-			if (elm1 == "" || elm1 == null || elm1 == undefined) {
-				return true;
-			} else if (elm1.split(",")[elm1Index] == elm2.split(",")[elm2Index]) {
-				return true;
-			} else if (cntns == true && elm1.split(",")[elm1Index].includes(elm2.split(",")[elm2Index]) == true) {
-				return true;
-			} else if (cntns == "search" && elm2.toLocaleLowerCase().indexOf(elm1Name.toLocaleLowerCase()) != -1) {
-				return true;
+			if (cntns == "search") {
+				if (elm1Name == "") {
+					return true;
+				} else if (elm2.toLocaleLowerCase().indexOf(elm1Name.toLocaleLowerCase()) != -1) {
+					return true;
+				} else {
+					return false;
+				}
 			} else {
-				return false;
+				elm1 = localStorage.getItem(elm1Name);
+				if (elm1 == "" || elm1 == null || elm1 == undefined) {
+					return true;
+				} else if (elm1.split(",")[elm1Index] == elm2.split(",")[elm2Index]) {
+					return true;
+				} else if (cntns == true && elm1.split(",")[elm1Index].includes(elm2.split(",")[elm2Index]) == true) {
+					return true;
+				} else {
+					return false;
+				}
 			}
 		}
 		
-		// if (IsValid("case.txt", response[i], 0, 0, true) == true) {
-		/*
-					// check if item meets search criteria.
-					if (criteria == "") {
-						CPU_list.push(response[i].split(","));
-					} else if (criteria == "none") {
-						document.getElementById("NoSearchResults").innerHTML = "No search Results!";
-						return;
-					} else if (response[i].toLocaleLowerCase().indexOf(criteria.toLocaleLowerCase()) != -1) {
-						CPU_list.push(response[i].split(","));
-					}
-		*/
-		// IsValid(criteria, )
 		// To do:
 		// clear search box after you type *
 		// add images for each part
@@ -269,6 +264,7 @@
 		// show detailed information for each part (spec sheet).
 		// only display 100 rows at a time, add next/previous buttons *
 		// redirect to shop
+		// add multiple grphics cards
 		
 			//("<thead><th>" + response[0].replace(",", "</th><th>") + "</th></thead>");
 			
