@@ -42,58 +42,87 @@
 						case "cpu.txt":
 							// Check that CPU socket and motherboard socket are compatible.
 							if (IsValid("mobo.txt", response[i], 1, 6) == true) {
-								CPU_list.push(response[i].split(","));
-							}
-							break;
-							
-						
-						case "mobo.txt":
-							// Check that the Motherboard socket and CPU socket are compatible.
-							if (IsValid("cpu.txt", response[i], 6, 1) == true) { // if socket valid && form factor valid do {}
-								// check that the motherboard form factor and case form factor are compatible.
-								if (IsValid("case.txt", response[i], 1, 2, true) == true) {
+								// Matches search criteria.
+								if (IsValid(criteria, response[i], 0, 0, "search") == true) {
 									CPU_list.push(response[i].split(","));
 								}
 							}
 							break;
-						
-							// check that the motherboard form factor and case form factor are compatible.
-							/*if (IsValid("case.txt", response[i], 1, 2) == true) {
-								CPU_list.push(response[i].split(","));
-							}
-							break;*/
 							
+						case "mobo.txt":
+							// Check that the Motherboard socket and CPU socket are compatible.
+							if (IsValid("cpu.txt", response[i], 6, 1) == true) { // if socket valid && form factor valid do {}
+								// Check that the motherboard form factor and case form factor are compatible.
+								if (IsValid("case.txt", response[i], 1, 2, true) == true) {
+									// Matches search criteria.
+									if (IsValid(criteria, response[i], 0, 0, "search") == true) {
+										CPU_list.push(response[i].split(","));
+									}
+								}
+							}
+							break;
+						
 							// - smaller motherboard form factors fit larger cases, (e.g. mini-itx mobo in atx case).
 							// enough PCI slots for expansions cards (e.g. sound card, network card).
 							// - are the PCI slots compatible with the card (e.g. PCI x4 in PCI x16).
 						
 						case "ram.txt":
+							// Matches search criteria.
+							if (IsValid(criteria, response[i], 0, 0, "search") == true) {
+								CPU_list.push(response[i].split(","));
+							}
+							break;
+						
 							// enough RAM slots for each module (e.g. 2x8 ram kit on 4x8 mobo).
 							// is total RAM size less than motherboard maximum RAM.
 							// is RAM DDR compatible (DDR 2/3/4).
 							// is RAM frequency compatible with motherboard.
-							break;
 						
 						case "gpu.txt":
+							// Matches search criteria.
+							if (IsValid(criteria, response[i], 0, 0, "search") == true) {
+								CPU_list.push(response[i].split(","));
+							}
+							break;
+						
 							// Is there a x16 PCIe slot on the motherboard.
 							// Is there enough PCIe slots to fit multiple GPUs.
-							break;
 						
 						case "hdd.txt":
-							// enough SATA ports on the motherboard.
+							// Matches search criteria.
+							if (IsValid(criteria, response[i], 0, 0, "search") == true) {
+								CPU_list.push(response[i].split(","));
+							}
 							break;
+						
+							// enough SATA ports on the motherboard.
 						
 						case "ssd.txt":
-							// enough SATA ports on the motherboard.
+							// Matches search criteria.
+							if (IsValid(criteria, response[i], 0, 0, "search") == true) {
+								CPU_list.push(response[i].split(","));
+							}
 							break;
 						
+							// enough SATA ports on the motherboard.
+						
 						case "psu.txt":
-							// does the PSU provide enough wattage for every component (total watts < max PSU watts).
+							// Matches search criteria.
+							if (IsValid(criteria, response[i], 0, 0, "search") == true) {
+								CPU_list.push(response[i].split(","));
+							}
 							break;
+						
+							// does the PSU provide enough wattage for every component (total watts < max PSU watts).
 						
 						case "case.txt":
 							// check that the case form factor and motherboard form factor are compatible.
-							CPU_list.push(response[i].split(","));
+							if (IsValid("mobo.txt", response[i], 2, 1, true) == true) {
+								// Matches search criteria.
+								if (IsValid(criteria, response[i], 0, 0, "search") == true) {
+									CPU_list.push(response[i].split(","));
+								}
+							}
 							break;
 						
 						default:
@@ -203,10 +232,7 @@
 		}
 		
 		function IsValid(elm1Name, elm2, elm1Index, elm2Index, cntns) {
-			if (cntns != "search") {
-				elm1 = localStorage.getItem(elm1Name);
-			}
-			
+			elm1 = localStorage.getItem(elm1Name);
 			if (elm1 == "" || elm1 == null || elm1 == undefined) {
 				return true;
 			} else if (elm1.split(",")[elm1Index] == elm2.split(",")[elm2Index]) {
