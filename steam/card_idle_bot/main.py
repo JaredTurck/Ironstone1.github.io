@@ -14,6 +14,7 @@ import pickle, os, time
 # --- INIT ---
 print(("*"*34) + "\n* CARD IDLE BOT - by Jared Turck *\n" + ("*"*34) + "\n[+] Please wait...")
 SteamPath = "D:\Steam\Steam.exe"
+url = ""
 
 # --- LOAD COOKIES ---
 driver = webdriver.Chrome();
@@ -21,33 +22,40 @@ driver = webdriver.Chrome();
     # PhantomJS
 
 def load_cookies():
-    driver.get("https://steamcommunity.com/login/home/")
-    try:
-        for i in range(3):
-            driver.get("http://steamcommunity.com/")
-            for cookie in pickle.load(open("cookies.txt", "rb")):
-                try:
-                    driver.add_cookie(cookie)
-                except:
-                    print("[-]: Message: unable to set cookie")
-                    
-        username = driver.find_element_by_id("account_pulldown").text
-        print("[+] Hello '" + username + "' successfully loged into Steam!")
-        return;
-
-    except Exception as error:
-        print("[-]:", error)
+    driver.get("http://steamcommunity.com/")
+    if (driver.execute_script('return document.getElementById("account_pulldown") == null') == True):
         driver.get("https://steamcommunity.com/login/home/")
-        input("[+] Please login to Steam, then press enter to continue...")
-        pickle.dump(driver.get_cookies(), open("cookies.txt", "wb"))
-        load_cookies()
+        try:
+            for i in range(3):
+                driver.get("http://steamcommunity.com/")
+                for cookie in pickle.load(open("cookies.txt", "rb")):
+                    try:
+                        driver.add_cookie(cookie)
+                    except:
+                        print("[-]: Message: unable to set cookie")
+                        
+            username = driver.find_element_by_id("account_pulldown").text
+            print("[+] Hello '" + username + "' successfully loged into Steam!")
+            return;
 
-load_cookies()
-url = driver.execute_script("return document.querySelectorAll('a[class^=\"user_avatar playerAvatar\"]')[0].href") + "/badges"
+        except Exception as error:
+            print("[-]:", error)
+            driver.get("https://steamcommunity.com/login/home/")
+            input("[+] Please login to Steam, then press enter to continue...")
+            pickle.dump(driver.get_cookies(), open("cookies.txt", "wb"))
+            load_cookies()
+            
+    else:
+        print("[+] Already logged in!")
 
 # --- GET LIST OF GAMES ---
 def get_list_of_games():
+    load_cookies()
+
+    global url
+    url = driver.execute_script("return document.querySelectorAll('a[class^=\"user_avatar playerAvatar\"]')[0].href") + "/badges"
     driver.get(url)
+    
     return driver.execute_script("""
 return (function() {
 	var div = document.getElementsByClassName("badges_sheet")[0];
@@ -77,7 +85,9 @@ def get_appid(gameName):
     ));
 
 
-        
+
+
+'''      
 def run_mutiple_games(): pass
 def alternate_games(): pass
 
@@ -125,3 +135,14 @@ while True:
     {"1" : run_mutiple_games,
      "2" : run_one_game,
      "3" : alternate_games}[user]()
+'''
+
+# move games executable to folder
+# put new exe with same name
+
+#is the game installed
+
+#"D:\\Steam\\Steam.exe" -applaunch 440
+#taskkill /fi "windowtitle eq Team Fortress 2"
+
+#-novid -textmode
