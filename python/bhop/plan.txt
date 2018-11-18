@@ -1,0 +1,15 @@
+press space
+while true {
+	if mouse moving left {
+		'd' up
+		press space
+		'a' down
+
+	} if mouse moving right {
+		'a' up
+		press space
+		'd' down
+
+	}
+}
+

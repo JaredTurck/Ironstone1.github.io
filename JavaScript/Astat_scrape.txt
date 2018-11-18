@@ -1,0 +1,6 @@
+var elm = $("table[class='Coloured'] tbody tr");
+for (i=0;i<elm.length-3;i++) {
+	if (i % 3 == 0) {
+		console.log((elm[i+1].innerText + "," + elm[i+2].innerText + "," + elm[i+3].innerText).replace(/\n/g, ""));
+	}
+}

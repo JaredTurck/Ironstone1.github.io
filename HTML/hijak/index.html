@@ -1,0 +1,202 @@
+<head>
+<style>
+
+body {
+}
+
+#DragDiv {
+	position: absolute;
+	z-index: 9;
+	border: 1px solid #d3d3d3;
+	text-align: center;
+	background-color: #fff;
+	
+	width: 80%;
+	height: 80%;
+}
+
+#DragDiv_head {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+	cursor: move;
+	z-index: 10;
+	color: #000;
+}
+
+#DragDiv_head ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#DragDiv_head ul li {
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#DragDiv_body {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+	color: #b8b6b4;
+	background-color: white;
+}
+
+#loginpage {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	width: 100%;
+	height: 100%;
+	border: 1px solid #000;
+}
+
+#signin_button {
+
+}
+
+.Steam_logo_icon {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+
+.nav_header {
+}
+
+.nav_header span {
+}
+
+#URL_navbar {
+	border: 0px solid black;
+	padding: 0px;
+}
+
+#URL_navbar table {
+	width: 100%;
+	padding: 0px;
+}
+
+#URL_navbar table tr td input {
+	color: black;
+	border: none;
+	padding: 0px;
+	width: 100%;
+}
+
+#URL_navbar table tr td span {
+	color: green;
+	font-weight: none;
+	font-family: Calibri;
+	width: 10%;
+}
+
+</style>
+
+<script>
+
+function dragElm(element_main) {
+	var pos1 = 0;
+	var pos2 = 0;
+	var pos3 = 0;
+	var pos4 = 0;
+	
+	if (document.getElementById(element_main.id + "_head")) {
+		document.getElementById(element_main.id + "_head").onmousedown = drag_down;
+	} else {
+		element_main.onmousedown = drag_down;
+	}
+
+	function drag_down(elm) {
+		elm = elm || window.event;
+		elm.preventDefault();
+	
+		pos3 = elm.clientX;
+		pos4 = elm.clientY;
+		document.onmouseup = drag_close;
+		document.onmousemove = drag_elm_2;
+	}
+
+	function drag_elm_2(elm) {
+		elm = elm || window.event;
+		elm.preventDefault();
+	
+		pos1 = pos3 - elm.clientX;
+		pos2 = pos4 - elm.clientY;
+		pos3 = elm.clientX;
+		pos4 = elm.clientY;
+	
+		element_main.style.top = (element_main.offsetTop - pos2) + "px";
+		element_main.style.left = (element_main.offsetLeft - pos1) + "px";
+	}
+
+	function drag_close() {
+		document.onmouseup = null;
+		document.onmousemove = null;
+	}
+}
+
+function display_elm(display) {
+	if (display == "show") {
+		document.getElementById("DragDiv").style.display = "block";
+		dragElm(document.getElementById("DragDiv"));
+	} else if (display == "hide") {
+		document.getElementById("DragDiv").style.display = "none";
+	}
+}
+
+</script>
+
+</head>
+
+<body bgcolor="green">
+	<div id="DragDiv" style="display:none;">
+		<div id="DragDiv_head">
+			<ul>
+				<li style="float:left" class="nav_header">
+					<img class="Steam_logo_icon" src="img/Steam_logo_2.png"></img>
+					<span>Steam Community</span>
+				</li>
+				<li style="float:right">
+					<span>-</span>
+					<span>[]</span>
+					<span onclick="display_elm('hide')">X</span>
+				</li>
+			</ul>
+		</div><br>
+		
+		<div id="DragDiv_body">
+			<div id="URL_navbar">
+				
+				<table id="NAV_table">
+					<tr>
+						<td width="12%" ><span>Valve Corp. [US]</span>&nbsp;&nbsp;|</td>
+						<td><input value="https://steamcommunity.com/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=checkid_setup&openid.return_to=https%3A%2F%2Fcompletionist.me%2Fauth%2Fsteam%2Fcallback&openid.realm=https%3A%2F%2Fcompletionist.me&openid.ns.sreg=http%3A%2F%2Fopenid.net%2Fextensions%2Fsreg%2F1.1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select"></input></td>
+					</tr>
+				</table>
+			
+			</div>
+			
+			<iframe id="loginpage" src="login.html"></iframe>
+		</div>
+		
+	</div>
+	<div id="BodyDiv">
+		<button class="signin_button" onclick="display_elm('show')">SIGN IN THROUGH STEAM</button>
+	</div>
+</body>

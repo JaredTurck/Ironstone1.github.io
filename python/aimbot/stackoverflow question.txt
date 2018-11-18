@@ -1,0 +1,100 @@
+I’m writing a pixel basted aimbot in Python3 for the computer game CSGO.
+
+Using the OpenCV module, I’m trying to:
+1.	Take a screenshot and save it in memory
+2.	Using open CV scan the screenshot and find the enemy players head using a template image.
+
+    from PIL import ImageGrab
+    from matplotlib import pyplot
+    import cv2
+    import numpy
+
+    #-Take screenshot of screen
+    #img = ImageGrab.grab().tobytes()
+
+    #-scan for pixel in that range (opencv).
+    img = cv2.imread("img//frame_2.png", 0)  #using test frame at the moment, not sure how to get the ImageGrab to be read by OpenCV.
+    img2 = img.copy()
+    template = cv2.imread("img//source_1.png", 0)
+    w, h = template.shape[::-1]
+
+    methods = ['cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR',
+                'cv2.TM_CCORR_NORMED', 'cv2.TM_SQDIFF', 'cv2.TM_SQDIFF_NORMED']
+
+    for meth in methods:
+        img = img2.copy()
+
+        # match template
+        res = cv2.matchTemplate(img, template, eval(meth))
+        v_min, v_max, l_min, l_max = cv2.minMaxLoc(res)
+
+        #
+        if eval(meth) in [cv2.TM_SQDIFF, cv2.TM_SQDIFF_NORMED]:
+            TopLeft = l_min
+        else:
+            TopLeft = l_max
+        BottomRight = (TopLeft[0] + w, TopLeft[1] + h)
+
+        cv2.rectangle(img, TopLeft, BottomRight, 255, 2)
+        pyplot.subplot(121), pyplot.imshow(res, cmap = 'gray')
+        pyplot.title('Matching Result'), pyplot.xticks([]), pyplot.yticks([])
+        pyplot.subplot(122), pyplot.imshow(img, cmap = 'gray')
+        pyplot.title('Detected Point'), pyplot.xticks([]), pyplot.yticks([])
+        pyplot.suptitle(meth)
+        pyplot.show()
+        
+
+    #-If match, get the x,y pos of that pixel.
+    #-Set mouse pos to that x,y pos.
+    #-Click
+
+the main image:
+
+[![enter image description here][1]][1]
+
+the template:
+
+[![enter image description here][2]][2]
+
+a match found:
+
+[![enter image description here][3]][3]
+
+the code works for identifying identical template images. But if 1 or 2 pixels are changed in the main image, the template will no longer match. this is useless for my purpose, as in the game the enemy player is constantly moving meaning there body and head are getting smaller, bigger, stretched, changing colour a little bit depending on the lighting in there current location on the games map.
+
+So there will never be an identical match! How do i search for similar matches, pixels in the main image that are similar to the template image?
+
+EDIT:
+I had a look at [this][4] Stackoverflow question and had a go at using a histogram:
+
+    import cv2
+
+    img = cv2.imread("img//frame_1.png", 0)
+    template = cv2.imread("img//source_1.png", 0)
+
+    methods = ['cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR',
+            'cv2.TM_CCORR_NORMED', 'cv2.TM_SQDIFF', 'cv2.TM_SQDIFF_NORMED']
+
+    match = cv2.matchTemplate(img, template, eval(methods[0]))
+
+When i run the code i get a large array of values (as you can see below), i have no idea what any of them mean. not sure how to adapt the code for my purpose:
+
+    array([[-1136278.9 , -1093150.1 , -1080569.5 , ...,  -405979.28,
+         -414166.75,  -425574.2 ],
+       [-1179708.5 , -1142968.  , -1145978.2 , ...,  -429809.44,
+         -445418.6 ,  -475716.44],
+       [-1210820.1 , -1179169.8 , -1200529.4 , ...,  -459596.62,
+         -485254.97,  -526792.56],
+       ...,
+       [ -566501.75,  -677895.25,  -863794.2 , ...,  1482537.5 ,
+         1321293.1 ,  1255024.8 ],
+       [ -602097.5 ,  -719123.2 ,  -926334.06, ...,  1590121.  ,
+         1438965.9 ,  1394004.4 ],
+       [ -646915.44,  -765088.6 ,  -976994.44, ...,  1722158.9 ,
+         1561813.1 ,  1471592.8 ]], dtype=float32)
+
+
+  [1]: https://i.stack.imgur.com/mdObt.jpg
+  [2]: https://i.stack.imgur.com/cWOqL.png
+  [3]: https://i.stack.imgur.com/s8AGA.jpg
+  [4]: https://stackoverflow.com/questions/11541154/checking-images-for-similarity-with-opencv

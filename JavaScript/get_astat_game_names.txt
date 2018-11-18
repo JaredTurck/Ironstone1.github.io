@@ -1,0 +1,8 @@
+(function() {
+	var name = []
+	var elms = document.querySelectorAll('table[class="Coloured"] tbody font[color^="#"]');
+	for (i=0;i<elms.length;i++) {
+		name.push(elms[i].innerText);
+	}
+	return name;
+})()
