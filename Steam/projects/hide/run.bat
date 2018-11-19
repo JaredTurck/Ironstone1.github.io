@@ -1,0 +1,1 @@
+wscript.exe "%cd%\invisible.vbs" "%cd%\mybat.bat"
