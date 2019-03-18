@@ -14,13 +14,21 @@ wn.setup(width=600, height=600)             # set the windows dimensions
 wn.tracer(0)                                # Turns off the windows updates //?
 
 # Snake head
-head = turtle.Turtle()                      # create an instance of the class turtle called 'head'
-head.speed(0)                               # call the speed method
-head.shape("square")                        # defines the shape of the snakes head
-head.color("black")                         # defines the colour of the snakes head
-head.penup()                                # stop the snake from drawing when moving
-head.goto(0,0)                              # moves the snakes head to the coordinates 0,0 on the screen.
-head.direction = "stop"                     # stops the turtles head from moving strait away
+#head = turtle.Turtle()                      # create an instance of the class turtle called 'head'
+#head.speed(0)                               # call the speed method
+#head.shape("square")                        # defines the shape of the snakes head
+#head.color("black")                         # defines the colour of the snakes head
+#head.penup()                                # stop the snake from drawing when moving
+#head.goto(0,0)                              # moves the snakes head to the coordinates 0,0 on the screen.
+#head.direction = "stop"                     # stops the turtles head from moving strait away
+
+#Snake Head 2
+#image1 = "D:\Desktop\computing\Python\snake game\img\snake_head.png"
+#head = turtle.Screen()
+#head.addshape(image1)
+#turtle.shape(image1)
+#head.goto(0,0)
+#head.direction = "stop"
 
 # Snake food
 food = turtle.Turtle()                      # creates an instance of the class turtle called "food"

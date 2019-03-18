@@ -36,10 +36,6 @@
 				}
 			}
 			
-			function resize_window() {
-				alert("hi");
-			}
-			
 			function select_url(is_select) {
 				if (is_select) {
 					document.getElementById("url_1").style.display = "none";
@@ -68,6 +64,10 @@
 				} else {
 					document.getElementById("https_cerf_container").style.display = "none";
 				}
+			}
+			
+			function resize_window() {
+				alert("hi");
 			}
 			
 		</script>
@@ -114,7 +114,9 @@
 		<style>
 			
 			body {
-				background-color: green;
+				background-color: black;
+				background-image: url('img/background_1.jpg');
+				background-size: 100vw 100vh;
 				overflow: hidden;
 			}
 		
@@ -126,6 +128,57 @@
 			.head_but3 {
 				width: 45px;
 				height: 29px;
+			}
+			
+			#login_button_div_1 {
+				position: absolute;
+				margin: auto;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				width: 20em;
+				height: 100px;
+				//text-align: center;
+				
+			}
+			
+			.button_1 {
+				padding: 1em;
+				margin: 1em;
+				font-family: Arial;
+				color: white;
+				background-color: #f62f6d;
+				border: none;
+				width: 100%;
+			}
+			
+			#logo_main {
+				width: 100%;
+			}
+			
+			#login_button_1 {
+				cursor: pointer;
+				width: auto;
+			}
+			
+			.tou_text_p {
+				//text-align: center;
+				padding: 0;
+				padding-left: 5%;
+				margin: 0;
+			}
+			
+			.tou_text a {
+				color: #f62f6d;
+				text-decoration: none;
+			}
+			
+			#login_button_div_1 p {
+				color: #8f95a0;
+				font-family: Helvetica;
+				font-weight: none;
+				width: 100%;
 			}
 			
 			#popup_window {
@@ -398,8 +451,14 @@
 				
 		</div>
 		
-		
-		<div><button onclick="close_open_window(false);">Click</button></div>
+		<div id="login_button_div_1">
+			<div>
+				<img id="logo_main" src="img/logo_1.png"></img><br></br>
+				<button class="button_1" onclick="close_open_window(false);">SIGN IN THROUGH STEAM</button>
+				<p class="tou_text_p">By signing in with Steam, you agree that you have read and accept our <span class="tou_text"><a href="">Terms of Usage</a></span> and are at least 18 years old.</p>
+			</div>
+			
+		</div>
 		
 	</body>
 </html>
