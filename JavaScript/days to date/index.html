@@ -29,6 +29,8 @@
 					day_dropdown.appendChild(day_dropdown_ul)
 					document.getElementById("day_dropdown").style.display = "block";
 					
+					// validation, date > current date
+					
 				}
 			}
 			
@@ -40,17 +42,77 @@
 					day_input = document.getElementById("day_input")
 					day_input.innerText = Day;
 					day_input.setAttribute("day", Day);
-					calc_number_of_days();
 				}
+				document.getElementById("show_results").style.display = "block";
 			}
 			
-			function calc_number_of_days() {
-				day = document.getElementById("day_input").getAttribute("day"); 
-				month = document.getElementById("month_input").getAttribute("month");
+			function display_number_of_days() {
+				day = parseInt(document.getElementById("day_input").getAttribute("day"));
+				month = (function(m){return [m.getAttribute("month"), m.innerText]})(document.getElementById("month_input"));
 				year = parseInt(new Date().toLocaleDateString().split("/")[2]);
-				days_between = DaysBetween2Dates([parseInt(day), parseInt(month), parseInt(year)]);
-				document.getElementById("result").innerText = days_between;
+				days_between = DaysBetween2Dates([parseInt(day), parseInt(month[0]), parseInt(year)]);
+				current_date = new Date().toLocaleDateString().split("/");
+				
+				// Long date - day
+				st = ["st", "nd", "rd", "th"];
+				if (day >= st) {
+					dayLong = day + st[day]
+				} else {
+					dayLong = day + "th"
+				} 
+				
+				// is/are
+				if (day-parseInt(current_date[0]) == 1) {
+					IsAre = " is "} 
+				else {
+					IsAre = " are "
+				}
+				
+				// Display date
+				var monthsOfYear = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+				
+				result = document.getElementById("result");
+				setInterval(function(){
+					daysLeft = (days_between) + ((1-(percentage_of_day_left() / 100)).toFixed(6).replace("0.","."));
+					result.innerHTML = "<br>There"+IsAre+"<b>"+daysLeft+"</b> days left until the "+dayLong+" of "+month[1]+" "+year+" ("+day+"/"+month[0]+"/"+year+")!";
+				}, 100);
+				
+				// Alternative formats
+				function ta(n) {return "<b>"+parseInt(n).toLocaleString()+"</b>";}
+				weekDay = [parseInt(days_between / 7), parseInt(((days_between / 7) % 1) * 7)] // weeks/days
+				
+				t = new Date();
+				milliseconds_in_day = 86400000-parseInt((t.getHours() * 60 * 60 * 1000) + (t.getMinutes() * 60 * 1000) + (t.getSeconds() * 1000) + t.getMilliseconds());
+				parse_value = parseInt(milliseconds_in_day + ((days_between) * 24 * 60 * 60 * 1000))
+				dhms = (function(a){return [ta(a/1000/60/60/24), ta(a/1000/60/60), ta(a/1000/60), ta(a/1000), ta(a), ta(a)] })(parse_value)
+				
+				
+				// week/day, dont display days if days == 0
+				if (weekDay[1] == 0) {
+					weekDays_text = "<br><b>" + weekDay[0] + "</b> weeks<br>"
+				} else {
+					weekDays_text = "<br><b>" + weekDay[0] + "</b> weeks and <b>" + weekDay[1] + "</b> days<br>"
+				}
+				
+				dhms_text = dhms[4] + " milliseconds<br>" + dhms[3] + " seconds<br>" + dhms[2] + " minutes<br>" + dhms[1] + " hours<br>" + dhms[0] + " days<br>"
+				//dhms_text = dhms[0] + " days<br>" + dhms[1] + " hours<br>" + dhms[2] + " minutes<br>" + dhms[3] + " seconds<br>" + dhms[4] + " milliseconds<br>"
+				prcnt_of_year = "<b>" + ((days_between / 365) * 100).toFixed(2) + "</b> % of " + year
+				
+				document.getElementById("alternative_formats").innerHTML =  "<br><u>Alternative Formats:</u><br>"+dhms_text+weekDays_text+prcnt_of_year
+				
+				// inside table
+				// round rather then slice weeks/days
 			}
+			
+			function percentage_of_day_left() {
+				t = new Date();
+				n = (t.getHours() * 60 * 60 * 1000) + (t.getMinutes() * 60 * 1000) + (t.getSeconds() * 1000) + t.getMilliseconds();
+				return (n / 86400000)*100;
+			}
+			
+			setInterval(function(){
+					display_number_of_days();
+			},10);
 			
 		</script>
 		
@@ -72,7 +134,7 @@
 				<td id="month_input">&nbsp;</td>
 			</table>
 			
-			<button onclick="dropdown_month(true)">Month</button>
+			<button onclick="javascript:dropdown_month(true);">Month</button>
 			<ul id="month" class="dropdown-month">
 				<li onclick="dropdown_month(false, 1)">January</li>
 				<li onclick="dropdown_month(false, 2)">February</li>
@@ -90,7 +152,10 @@
 			<script>document.getElementById("month").style.display = "none";</script>
 		</div>
 		
-		<div id="result"></div>
+		<div id="show_results" style="display:none;">
+			<div><span id="result"></span></div>
+			<div id="alternative_formats"></div>
+		</div>
 	
 	</body>
 </html>
