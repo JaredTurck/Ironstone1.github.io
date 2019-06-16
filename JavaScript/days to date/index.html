@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css"></link>
+		<script type="text/javascript" src="days.js"></script>
+		<script>
+			function dropdown_month(Show, Month) {
+				if (Show) {
+					document.getElementById("month").style.display = "block";
+				} else {
+					// set month input
+					selected_month = document.getElementById("month");
+					selected_month.style.display = "none";
+					selected_month_input = document.getElementById("month_input");
+					selected_month_input.innerText = selected_month.children[Month-1].innerText;
+					selected_month_input.setAttribute("month", Month);
+					
+					// create days drop down
+					days_in_each_month = [31,28,31,30,31,30,31,31,30,31,30,31];
+					day_dropdown = document.getElementById("day_dropdown");
+					day_dropdown_ul = document.createElement("ul");
+					day_dropdown.innerHTML = "";
+					
+					for (i=0;i<days_in_each_month[Month-1];i++) {
+						day_dropdown_li = document.createElement("li");
+						day_dropdown_li.innerText = i+1;
+						day_dropdown_li.setAttribute("onclick", "dropdown_day(false, "+(i+1)+")");
+						day_dropdown_ul.appendChild(day_dropdown_li);
+					}
+					day_dropdown.appendChild(day_dropdown_ul)
+					document.getElementById("day_dropdown").style.display = "block";
+					
+				}
+			}
+			
+			function dropdown_day(Show, Day) {
+				if (Show) {
+					document.getElementById("day_dropdown").style.display = "block";
+				} else {
+					document.getElementById("day_dropdown").style.display = "none";
+					day_input = document.getElementById("day_input")
+					day_input.innerText = Day;
+					day_input.setAttribute("day", Day);
+					calc_number_of_days();
+				}
+			}
+			
+			function calc_number_of_days() {
+				day = document.getElementById("day_input").getAttribute("day"); 
+				month = document.getElementById("month_input").getAttribute("month");
+				year = parseInt(new Date().toLocaleDateString().split("/")[2]);
+				days_between = DaysBetween2Dates([parseInt(day), parseInt(month), parseInt(year)]);
+				document.getElementById("result").innerText = days_between;
+			}
+			
+		</script>
+		
+	</head>
+	
+	<body>
+		<div id="day">
+			<table class="table_month">
+				<td id="day_input">&nbsp;</td>
+			</table>
+			
+			<div id="day_dropdown" class="dropdown-day">
+			</div>
+			
+		</div>
+		
+		<div>
+			<table class="table_month">
+				<td id="month_input">&nbsp;</td>
+			</table>
+			
+			<button onclick="dropdown_month(true)">Month</button>
+			<ul id="month" class="dropdown-month">
+				<li onclick="dropdown_month(false, 1)">January</li>
+				<li onclick="dropdown_month(false, 2)">February</li>
+				<li onclick="dropdown_month(false, 3)">March</li>
+				<li onclick="dropdown_month(false, 4)">April</li>
+				<li onclick="dropdown_month(false, 5)">May</li>
+				<li onclick="dropdown_month(false, 6)">June</li>
+				<li onclick="dropdown_month(false, 7)">July</li>
+				<li onclick="dropdown_month(false, 8)">August</li>
+				<li onclick="dropdown_month(false, 9)">September</li>
+				<li onclick="dropdown_month(false, 10)">October</li>
+				<li onclick="dropdown_month(false, 11)">November</li>
+				<li onclick="dropdown_month(false, 12)">December</li>
+			</ul>
+			<script>document.getElementById("month").style.display = "none";</script>
+		</div>
+		
+		<div id="result"></div>
+	
+	</body>
+</html>
