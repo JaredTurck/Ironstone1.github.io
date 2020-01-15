@@ -1,0 +1,94 @@
+cl_showpos 1 coordinates angles velocity
+
+pos: XYZ
+ang: XYZ
+vel: vel
+
+def player_life():
+	pos_map = GetMapPos(GetMapName()) # format [(posX1, posY1), (posX2, posY2)...]
+	for point in pos_map:
+		player_pos = GetPlayerPos()
+		positions = []
+		while player_pos != point:
+			player_pos = GetPlayerPos() # if player killed raise error
+			player_ang = GetPlayerAng()
+			command.SetCursor(player_ang) # set cursor to angle of point
+			position.append(player_pos)
+			
+			if positions.count(player_pos) >= 60: # check if player stuck
+				tf2_console("kill")
+				raise RunTimeError("The player is stuck!")
+			
+			playerClass = GetPlayerClass()
+			if playerClass == "sniper"
+				while SniperScoped() == True: # moving target harder to hit, sniper scope
+					for key in ["a", "d"]:
+						command.HoldKeyDown(key)
+						time.sleep(1)
+						command.ReleaseKey(key)
+			
+			elif playerClass == "spy":
+				enemy = GetEnemyClass()
+				update_spy_disguise(enemy)
+				
+			else:
+				weaponRange() # switch between weapons, depending on enemy distance.
+				GetEnemyPos() # fire at enemy if near
+			
+			autoTaunt() # taunt if you kill enemy, or others taunt
+			if PlayerHarmed() <= 20: # health under 20
+				Player_Find_Health() # walk to health pack
+			
+BotName, Password = StartBot()
+Steam_Login(BotName, Password) # login to steam account
+
+tf2_console("cl_autoreload 1") # turn on autoreload
+tf2_console("tf_medigun_autoheal 1") # turn on medic autoheal
+
+total_time = 0
+while True:
+	try:
+		command.HoldKeyDown("w") # walk fowards
+		life_start = time.time()
+		player_life()
+	except:
+		command.ReleaseKey("w")
+		total_time += (time.time() - life_start)
+		scoreBoard() # update score board with enemy class
+
+		if total_time >= 36000: # 10 hours playtime
+			Craft_all_Weapons2Scrap()
+			Craft_all_Scrap2Reclaimed()
+			Craft_all_Reclaimed2Refined()
+			Steam_LogOut()
+			
+			print("The bot has reached 10 hours playtime")
+			StartNextBot()
+			sys.exit() # close current bot
+
+
+#List of Functions:
+#player_life() - main function for controlling all actions durian the players life time
+#GetMapPos() - returns a list of checkpoints, a player can move to.
+#GetMapName() - return the name of the current map
+#GetPlayerPos() - returns XYZ of players current position
+#GetPlayerAng() - returns XY of the direction the player is facing
+#tf2_console() - executes command in tf2 console
+#GetPlayerClass() - returns the current class of the player
+#SniperScoped() - returns True if sniper is scoped else False
+#GetEnemyClass() - returns class on near by enemy
+#update_spy_disguise() - change spys disguise, to given class
+#weaponRange() - switchs between: primary, secondary and melee weapons depending on distance of enemy
+#GetEnemyPos() - return XY of enemys coordinates
+#autoTaunt() - will make player taunt, if enemy dead or round ends
+#PlayerHarmed() - returns integer of players current health
+#Player_Find_Health() - forces player to walk to nearest health pack or friendly dispenser, unless player is dead.
+#scoreBoard() - updates scoreboard with information about enemy team, such as there class.
+
+#StartBot() - returns username and password for current bot
+#Steam_Login() - logs into steam account, using given username and password
+#Craft_all_Weapons2Scrap() - iterates through inventory crafting all weapons into scrap metal
+#Craft_all_Scrap2Reclaimed() - iterates through inventory crafting all scrap to reclaimed metal
+#Craft_all_Reclaimed2Refined() - iterates through inventory crafting all reclaimed to refined metal
+#Steam_LogOut() - logout of steam account for current bot
+#StartNextBot() - start script for next bot

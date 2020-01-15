@@ -1,0 +1,10 @@
+What characters do you want to use in the Brutal Force attack.
+Menu:
+1) digits 0-9  (10 characters)
+2) just lowercase alphabet 'a-z' (26 characters)
+3) just uppercase alphabet 'A-Z' (26 characters)
+4) Lower and Uppercase alphabet 'a-z, A-Z' (52 characters)
+5) standard ASCII (Dec 32-127) (96 characters)
+6) extended ASCII (Dec 32-255) (223 characters)
+
+>>> 

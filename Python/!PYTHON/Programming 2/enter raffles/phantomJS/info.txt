@@ -1,0 +1,9 @@
+# LOAD COOKIES
+driver.execute_script('''$("a[href='/login']")[0].click();''')
+driver.execute_script('document.getElementById("steamAccountName").value = "'+input("Steam Account Name: ")+'"')
+driver.execute_script('document.getElementById("steamPassword").value = "'+input("Steam Password: ")+'"')
+driver.execute_script('document.getElementById("imageLogin").click();')
+driver.execute_script('document.getElementById("twofactorcode_entry").value = "'+input("Steam Guard code: ")+'"')
+driver.execute_script('document.getElementById("login_twofactorauth_buttonset_entercode").children[0].click();')
+pickle.dump(driver.get_cookies(), open("Cookies", "wb"))
+

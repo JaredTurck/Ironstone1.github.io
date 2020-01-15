@@ -1,0 +1,16 @@
+}
+	//Time in seconds to wait, before next raffle is entered.
+	"wait-time" : 5
+	
+	//1 = enter all raffles once, 0 = enter raffles once on first page.
+	"all-raffles" : 1
+
+	//Time in seconds to wait beforce next check, after all raffles have been entered. default 300 (5 mins)
+	"sleep-for" : 300
+
+	//preform 'N' number of check, 0 = exit program after "all-raffles".
+	"no-checks" : 0
+
+	//prompt user to log into steam, 1 = Yes, 0 = No
+	"login" : 1
+{

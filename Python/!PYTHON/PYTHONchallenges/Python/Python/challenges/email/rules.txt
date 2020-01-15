@@ -1,0 +1,12 @@
+Local:
+- has @
+- is not blank
+- contains . valid, but if contains .. invalid
+if . at begginning invalid, if . at end invalid
+- length less than 64
+- only contains a-Z, 0-9, !#$%'*+-/=?^_`{}|~.
+
+Domain:
+- has @
+- is not blank
+- only contains a-Z, 0-9

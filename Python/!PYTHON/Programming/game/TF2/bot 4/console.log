@@ -1,0 +1,47 @@
+For FCVAR_REPLICATED, ConVar must be defined in client and game .dlls (sv_use_steam_voice)
+[TF Workshop] Got 0 subscribed maps, 0 new
+maxplayers set to 24
+Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\platform\config
+CClientSteamContext logged on = 1
+Loaded default network config file.  Loaded revision 89 OK
+Loaded cached network config file.  Loaded revision 91 OK
+Starting ping measurement
+Cleaning up unneeded replay block data...
+Replay cleanup done.
+Loading default settings for high sensitivity
+Connection to game coordinator established.
+CTFGCClientSystem::PostInitGC
+CTFGCClientSystem - adding listener
+Hiding LobbyContainerFrameHiding LobbyContainerFrameHiding LobbyContainerFrameCan't use cheat cvar fog_start in multiplayer, unless the server has sv_cheats set to 1.
+Can't use cheat cvar fog_end in multiplayer, unless the server has sv_cheats set to 1.
+Can't use cheat cvar fog_startskybox in multiplayer, unless the server has sv_cheats set to 1.
+Can't use cheat cvar fog_endskybox in multiplayer, unless the server has sv_cheats set to 1.
+Can't use cheat cvar r_farz in multiplayer, unless the server has sv_cheats set to 1.
+Got network config from CDN.  Data contains revision 91, not newer than current revision 91; ignoring.
+Applying new item schema, version B97B7B30
+Ping measurement completed
+**WARNING** Item schema mismatch after update!
+GC told us to expect B97B7B30, we got 245B4516
+Applied updated item schema from GC. 3477088 bytes, version B97B7B30.
+Starting ping measurement
+Ping measurement completed
+Starting ping measurement
+Ping measurement completed
+Starting ping measurement
+Ping measurement completed
+Starting ping measurement
+Ping measurement completed
+Starting ping measurement
+Ping measurement completed
+Network: IP 192.168.1.64, mode MP, dedicated No, ports 27015 SV / 27005 CL
+Connecting to 192.168.1.34...
+Retrying 192.168.1.34...
+Retrying 192.168.1.34...
+Retrying 192.168.1.34...
+Connection failed after 4 retries.
+
+Host_WriteConfiguration: Wrote cfg/config.cfg
+CTFGCClientSystem::ShutdownGC
+CTFGCClientSystem - adding listener
+Unable to remove c:\program files (x86)\steam\steamapps\common\team fortress 2\tf\textwindow_temp.html!
+Shutdown function ShutdownMixerControls() not in list!!!

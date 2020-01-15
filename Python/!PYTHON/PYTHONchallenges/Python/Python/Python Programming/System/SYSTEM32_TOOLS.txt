@@ -1,0 +1,152 @@
+SYSTEM32 APPLICATIONS:
+
+The following Menu contains 116 items,
+The menu contains a variation on “exe” and “msc” files. 
+All of which have been taken from the %windir%\system32 folder, 
+of a Microsoft Windows 7 Pro Service Pack 1 Operating System.
+Beware that depending on your version of windows some of these features many not work.
+The idea of this Menu is to give you direct access, to a detailed list of core operating system files. use this Menu at your own risk! some of these files can cause serious 
+or devestating damage, as they are all necessary operating system files.
+
+---------------------------------------------------------------------------
+Accessories:
+1) DisplaySwitch.exe 				- Switch between screen
+2) NetProj.exe 					- Network Projector
+3) SoundRecorder.exe 				- Sound Recorder
+4) StikyNot.exe 				- Sticky notepad
+5) calc.exe 					- Calculator
+6) cmd.exe 					- Command Prompt
+7) eudcedit.exe 				- Private Character Editor
+8) mobsync.exe 					- Sync Center
+9) mspaint.exe 					- MS Paint
+10) msra.exe 					- Windows Remote Assistance
+11) mstsc.exe 					- Remote Desktop Connection
+12) psr.exe 					- Problem Steps Recorder
+13) write.exe 					- WordPad
+14) xpsrchvw.exe 				- XPS Viewer
+^
+Diagnostic:
+15) msdt.exe 					- Microsoft Support Diagnostic
+16) dxdiag.exe 					- DirectX Diagnostic Tool
+17) MdSched.exe 				- Windows Memory Diagnostic tool
+^
+Hardware:
+18) WDeviceEject.exe 				- Eject Device
+19) DevicePairingWizard.exe 			- Device Pairing
+20) FXSCOVER.exe 				- Fax Cover Page
+21) LogiDPPApp.exe 				- Web Cam
+22) MigAutoPlay.exe 				- AutoPlay tool
+23) PresentationSettings.exe 			- Presentation
+24) PrintBrmUi.exe 				- Printer Migration
+25) TpmInit.exe 				- TPM security hardware
+26) WFS.exe 					- Windows fax and scan
+27) bthudtask.exe 				- Blue tooth
+28) devmgmt.msc 				- Device Manager
+29) dialer.exe 					- Phone Dialer
+30) dvdplay.exe 				- Play DVD
+31) hdwwiz.exe 					- Add Hardware
+32) newdev.exe 					- new Device
+33) printmanagement.msc 			- Print Managment
+34) verifier.exe 				- Driver Verifier Manager
+35) wiaacmgr.exe 				- Scanner
+^
+Output software:
+36) DpiScaling.exe 				- Display
+37) Magnify.exe 				- Magnifying glass
+38) Narrator.exe 				- narrator
+39) SndVol.exe 					- Volume mixer
+40) Utilman.exe 				- utilman
+41) charmap.exe 				- Character Map
+42) cttune.exe 					- ClearType Text Tuner
+43) lpksetup.exe 				- Install/Uninstall languages
+44) mblctr.exe 					- Windows Mobility Center
+45) osk.exe 					- On Screen Keyboard
+^
+Programming:
+46) iexpress.exe 				- EXE creation tool
+47) notepad.exe 				- Notepad
+48) wscript.exe 				- Windows Script Host Settings
+^
+SYSTEM Info:
+49) winver.exe 					- About Windows
+50) msinfo32.exe 				- System Info
+51) SystemPropertiesAdvanced.exe 		- Properties Advanced
+52) SystemPropertiesComputerName.exe 		- Properties Computer Name
+53) SystemPropertiesDataExecutionPrevention.exe - Properties Performance Options
+54) SystemPropertiesHardware.exe 		- Properties Hardware
+55) SystemPropertiesPerformance.exe 		- Properties Visual Effects
+56) SystemPropertiesProtection.exe 		- Properties System Protection
+57) SystemPropertiesRemote.exe 			- Properties Remote
+^
+Screen:
+58) Mystify.scr 				- Misty screen saver
+59) PhotoScreensaver.scr 			- Photos Screen saver
+60) Ribbons.scr 				- ribbons screen saver
+61) colorcpl.exe 				- Color Managment
+62) dccw.exe 					- Display Color Calibration
+63) ssText3d.scr 				- 'Windows 7' screen saver
+^
+System tools:
+64) Defrag.exe 					- Defrag tool
+65) LocationNotifications.exe 			- GPS tracker
+66) OptionalFeatures.exe 			- Windows Features
+67) SnippingTool.exe 				- Crop screenshot
+68) WmiMgmt.msc 				- Console Root\WMI Control
+69) cleanmgr.exe 				- Disk Cleanup
+70) comexp.msc 					- Computer Services
+71) compmgmt.msc 				- Computer Management
+72) control.exe 				- Control Panel
+73) dfrgui.exe 					- Disk Fragment
+74) diskmgmt.msc 				- Disk Managment
+75) eventvwr.exe 				- Event Viewer
+76) eventvwr.msc 				- Event Viewer
+77) fsmgmt.msc 					- Shared Folders
+78) gpedit.msc 					- Local Group Policy Editor
+79) mmc.exe 					- Microsoft Managment Console
+80) msconfig.exe 				- System Configuration
+81) perfmon.exe 				- Performance Monitor
+82) perfmon.msc 				- Performance Monitor
+83) regedt32.exe 				- Registry Editor
+84) resmon.exe 					- Resource Monitor
+85) rstrui.exe 					- System Restore
+86) taskmgr.exe 				- Windows Task Manager
+87) taskschd.msc 				- Task Scheduler
+^
+Update / Upgrade:
+88) WindowsAnytimeUpgrade.exe 			- Anytime Upgrade
+89) WindowsAnytimeUpgradeResults.exe 		- Upgrade Result
+90) WindowsAnytimeUpgradeui.exe 		- Windows Upgrade
+^
+Security:
+91) MRT.exe 					- Malicous Software Removal Tool
+92) Netplwiz.exe 				- User Accounts
+93) UserAccountControlSettings.exe 		- UAC Settings
+94) WF.msc 					- Windows Firewall
+95) azman.msc 					- Authorization Manager
+96) certmgr.msc 				- Certificates
+97) certreq.exe 				- certificate request
+98) credwiz.exe 				- Store User Names and Passwords
+99) dpapimig.exe 				- Protected Content Migration
+100) recdisc.exe 				- Create System Repair Disk
+101) rekeywiz.exe 				- Encrypting File System
+102) sdclt.exe 					- Back up and restore
+103) secpol.msc 				- Local Security Policy
+104) services.msc 				- Services
+105) sigverif.exe 				- File Signature Verification
+106) slui.exe 					- Windows activation client
+107) tpm.msc 					- Trusted Platform Module
+^
+server tools:
+108) NAPCLCFG.MSC 				- NAP Client Configuration
+109) RegisterIEPKEYs.exe 			- Register custom PKEYs for IE
+110) cliconfg.exe 				- SQL Server Network Utility
+111) iscsicpl.exe 				- iSCSI service
+112) lusrmgr.msc 				- Local Users and Groups
+113) nslookup.exe 				- NSlookup tool
+114) odbcad32.exe 				- ODBC Data Source Administrator
+115) shrpubw.exe 				- Share Folders
+116) syskey.exe 				- Securing Win Account Database
+
+---------------------------------------------------------------------------
+Enter an option from the Menu above:
+

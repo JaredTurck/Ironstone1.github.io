@@ -1,0 +1,11 @@
+Disk Check - error and coruption fixing tool
+
+Menu:
+1) Scan local driver in read-only mode.
+   this option will scan the drive without fixing.
+2) scan local drive and fix errors on the disk
+3) scan local drive, fix errors, and locate bad sectors.
+   warning: could take a long time
+4) start the error checking application
+
+>>> 

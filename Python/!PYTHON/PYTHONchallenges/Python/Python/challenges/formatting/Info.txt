@@ -1,0 +1,40 @@
+________________________________________________________________________________
+< ========== ~ ========== >
+        Instructions:
+< ========== ~ ========== >
+
+press "ESC" to clear screen.
+press "b'\x08'" Backspace to remove character
+press "b'\xe0' b'O'" END key to end current session
+
+Navigation:
+press "b'\xe0' b'K'" LEFT arrow key to move left
+press "b'\xe0' b'M'" RIGHT arrow key to move right
+press "b'\xe0' b'P'" DOWN arrow key to move down
+press "b'\xe0' b'H'" UP arrow key to move up
+
+press "b'\xe0' b'G'" HOME key to input "COUNT"
+you input should be 3 digits long.
+The First Digit of your input reperesents the line number.
+The second 2 digits reperesnts the colum.
+for example if i want to visit line 3, colum 10 my input would be "310".
+
+Copy and Paste:
+To paste text, right click with mouse, and on the drop down menu click "paste"
+To copy text, right click with mouse, and on the drop down menu click "Mark",
+then press "Ctrl" + "C" to copy. and open a text editor like "notepad.exe" 
+and press "Ctrl" + "v" to paste.
+
+Import:
+bellow is a Menu where you can choose to import a saved session, 
+or create a new one. when importing a saved session you have to give the path
+and file name. to get the path of a file right click the file and click "Properties"
+from the drop down menu, then copy and paste the path marked as "Location" in the
+files properties. also then paste the name of the file for example "save1.txt",
+into the python program.
+
+Menu:
+1) open saved session
+2) create new session
+3) exit program
+>>> 

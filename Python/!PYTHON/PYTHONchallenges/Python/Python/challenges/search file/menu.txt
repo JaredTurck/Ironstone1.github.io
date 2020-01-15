@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ~=~=~=~=~= Please Choose your TEXT file to open ~=~=~=~=~= #
+            ...``                                                           
+          `yyhhhhhysso+//:--..``                                           
+          `yyyyyhddmmmmmddddddddhhhys+//::-.```                            
+          .yyyyyyyyhddmmmmmmddddddddddddddddddhhhyso+/::-.`                
+          -yyyyyyyyyyyhddmmmmmmdddddddddddddddddddddddddddh+.              
+          -yyyyyyyyyyyyyyyhdmmmmdddddddddddddddddddddddddddh:              
+          `yyyyyyyyyyyyyyyyydmmmmddddddddddddddddddddddddddy-              
+          `yyyyyyyyyyyyyyyyydmmmmmmddddddddddddddddddddddddy-              
+          `yyyyyyyyyyyyyyyyydmmmmmmmddddddddddddddddddddddds-              
+          .yyyyyyyyyyyyyyyyydmmmmmmmmddddddddddddddddddddddy/              
+          .yyyyyyyyyyyyyyyyydmmmmmmmmmddddddddddddddddddddddh.             
+          .yyyyyyyyyyyyyyyyydmmmmmmmmmddddddddddddddddddddddd:             
+          `yyyyyyyyyyyyyyyyydmmmmmmmmmmdddddddddddddddddddddd-             
+          `yyyyyyyyyyyyyyyyydmmmmmmmmmmdddddddddddddddddddddd.             
+           oyyyyyyyyyyyyyyyydmmmmmmmmmmdddddddddddddddddddddd.             
+           oyyyyyyyyyyyyyyyydmmmmmmmmmmdddddddddddddddddddddh`             
+           oyyyyyyyyyyyyyyyydmmmmmmmmmmddddddddddddddddddddd+              
+           oyyyyyyyyyyyyyyyydmmmmmmmmmmddddddddddddddddddddd/              
+           oyyyyyyyyyyyyyyyydmmmmmmmmmmddddddddddddddddddmddo.`            
+           syyyyyyyyyyyyyyyymmmmmmmmmmmddddddddddddddddddddddhs:.          
+          `yyyyyyyyyyyyyyyyhmmmmmmmmmmmmdddddddddddddddddddddddd+`         
+          .yyyyyyyyyyyyyyydmmmmmmmmmmmmmdddddddddddddddddddddhhds``        
+          :yyyyyyyyyyyyyyymmmmmmmmmmmmmddddddddddddddddddddddhhds````````  
+          .yyyyyyyyyyyyyyydmmmmmmmmmmmmddddddddddddddddddmmmdhhds.```````` 
+          .yyyyyyyyyyyyyyymmmmmmmmmmmmmmmmddddddmmmdmmmmmmmmdhhd+..````````
+          `+yyyyyyyyyyyyyymmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdhhh+........``
+            `/yyyyyyyyyyyyyyhddddddmmmmmmmmmmmmmmmmmmmmmmmmmd/+y+-........`
+              .+yyyyyyyyyyo::------:+osyhhddddddmmmmmmmmmmmmmhyh+-.....``  
+                -oyyyyyyyyo:---..```     ``.--://osyddddmmmmmmmd/..``      
+                  .oyyyyyy+:--..```                 `-///oyhys+.           
+                    -syyyy+-...```                                         
+                      :syy+.````                                           
+                        :+-                                                
+# ========== @ ========== #
+now that your file has been imported into python,
+what would you like to do with it?
+bellow is some information about your file.
+
+FILE:
+Name: %s
+Location: %s
+Length: %s characters
+File extension: %s
+File size: %s bytes
+Last modified: %s
+Created: %s
+
+Menu:
+1) Print file (not recomended if handling large files)
+2) Search file for keyword
+3) clone file
+>>> 

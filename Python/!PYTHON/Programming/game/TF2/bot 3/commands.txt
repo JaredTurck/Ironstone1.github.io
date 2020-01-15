@@ -1,0 +1,30 @@
+taunt_by_name	execute taunt by set name
+bind		binds a command to a key
+unbind		unbinds a command froma a key
+kill		commit suicide
+explode		commit suicide by exploding
+
++attack		constantly use primary weapon
++attack2	constantly use secondry weapon
++attack3	constantly use melee weapon
+invnext		switch to next weapon
+invprev		switch to previous weapon
+lastinv		switch to last weapon used
+use		use tf_weapon_<name>
+
++forward	constantly walks forward
++back		constantly walks backwards
++moveleft	constantly walk left
++moveright	constantly walk right
++jump		jumps
++duck		crouch
+
++right		constantly moves you right
++left		constantly moves you right
+
+
+
+alias idle loop
+alias loop_on "+forward;+attack;wait 200;-attack;+left;wait 60;-left;+jump;+duck;-jump;-duck;invnext;+right;wait 60;-right;wait 1000;-forward;+back;wait 100;-back;+left;wait 100;-left;+right;wait 100;-right;+forward;wait 100;-forward;loop"
+alias loop_off "-attack;-forward;-left;-right;-back;-jump;-duck;loop_on"
+bind i idle

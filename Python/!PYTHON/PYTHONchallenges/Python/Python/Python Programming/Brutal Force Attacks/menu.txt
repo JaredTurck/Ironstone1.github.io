@@ -1,0 +1,17 @@
+Bellow is an List of fast hashing algorithms. 
+please choose the algorithm used to create the hash, 
+that you would like me to try and decrypt. 
+if do not know what algorithm was used, 
+make an educated guess by looking at the length.
+bellow is a table showing the lenth of common algorithms. 
+for example a 'SHA-1' hash contains 40 characters. e.g. len('c571b86549e49bf223cf648388c46288c2241b5a') = 40.
+_______________________________________
+	Hash Function		Lenth
+1)	SHA-1			40
+2)	SHA-224			56
+3)	SHA-256			64
+4)	SHA-384			96
+5)	SHA-512			128
+
+Please enter the number of the Hashing algorithm from the table above.
+>>> 

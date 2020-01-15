@@ -1,0 +1,52 @@
+>> Right Shift	- moves bits right for number of places
+<< Left Shift 	- moves bits left for number of places
+
+for example: 01101000 (104) >> 2 = 00011010 (26)
+128 64  32  16  8   4   2   1
+-----------------------------
+0   1   1   0   1   0   0   0 - 104
+0   0   0   1   1   0   1   0 - 26
+
+As you can see above the bits in the number have been shifted right 2,
+this also works the opposite way by shifiting left.
+
+&  AND		- This Bitwise Operator compares to values,
+if there is a 1 in both colums, a 1 will be returned.
+
+128 64  32  16  8   4   2   1
+-----------------------------
+1   0   1   1   0   1   0   0 - 180
+1   1   0   0   1   1   1   0 - 206
+1   0   0   0   0   1   0   0 - 132
+
+As you can see above there is a two 1's in the 128 bit colum, so a 1 is
+returned, and there is also two 1's in the 4 colum so another one is 
+returned. as none of the other colums contain two ones the rest is filled 
+with 0's, resulting in the number 132 being generated.
+
+
+|  OR		- This Bitwise Operator compares two values,
+and retunrs a 1 if there is a 1 in either colum, or both colums.
+
+128 64  32  16  8   4   2   1
+-----------------------------
+0   0   1   0   1   0   0   0 - 40
+1   0   0   0   1   0   1   0 - 138
+1   0   1   0   1   0   1   0 - 170
+
+As you can see above all the colums that there is atleast one 1 in,
+results in a 1 being returned. if there is no 1's in a colum a 0 is returned
+else if there is two 1's, 1 is returned.
+
+^  XOR		- This Operator is similar to 'OR' but the only diffrence is that a 1 will not be retunred if the colum contains only 1's. if the colums contains a 1 and 0, then a 1 will be still be returned, but if the colum contain 1 and 1 then a 0 will be returned.
+
+128 64  32  16  8   4   2   1
+-----------------------------
+0   1   1   0   0   1   0   1 - 101
+1   0   1   1   0   0   0   1 - 177
+1   1   0   1   0   1   0   0 - 212
+
+As you can see above the XOR works the same as an OR does returning 1's then there is a mixture of 1's and 0's, but as you can see in colum 1 and colum 
+32, there is two 1's which results in a 0.
+
+~  NOT		- The bitwise NOT operator (~) flips all of the bits in a single number.

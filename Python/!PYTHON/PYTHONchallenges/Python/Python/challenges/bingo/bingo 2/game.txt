@@ -1,0 +1,12 @@
+Press enter to begin the game!
+
+once the game has started, you will be playing aginst the computer.
+random numbers will be called out every 0.4 seconds.
+if the number called out is in your grid,
+your grid will be updated with a '#'.
+if the computers grid has a number called out then,
+the computers grid will be updated with a '#'.
+to puase the game, open the 'pause.txt' file and delete everythin in it. then click save (Ctrl + S)
+
+first person to fill a horizontal row, or vertical colum WINS!
+[ENTER]

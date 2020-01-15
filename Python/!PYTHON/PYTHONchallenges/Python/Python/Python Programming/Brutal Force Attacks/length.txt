@@ -1,0 +1,5 @@
+what is the maximum length of the string, you are tyring to decrypt.
+for example if this hash was taken from a password databse,
+you could assume that nobody is going to create a password longer then 20 characters. so the max lenth would be 20.
+Please enter the max length
+>>> 
