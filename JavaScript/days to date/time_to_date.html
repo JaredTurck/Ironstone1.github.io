@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<script type="text/javascript" src="days.js"></script>
+		<script>
+			var StartDate = [8,7,2019];
+			var monthsOfYear = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+			
+			function percentage_of_day_left() {
+				t = new Date();
+				n = (t.getHours() * 60 * 60 * 1000) + (t.getMinutes() * 60 * 1000) + (t.getSeconds() * 1000) + t.getMilliseconds();
+				return (n / 86400000)*100;
+			}
+			
+			function start_countdown() {
+				elm = document.getElementById("value");
+				document.getElementById('text_display').innerText = 'Days until the ' + StartDate[0] + 'th of ' + monthsOfYear[StartDate[1]-1];
+				setInterval(function(){
+					elm.innerText = (DaysBetween2Dates(StartDate)-1) + ((1-(percentage_of_day_left() / 100)).toFixed(6).replace("0.","."));
+				}, 100);
+			}
+			
+			setTimeout(function(){start_countdown()},100);
+		</script>
+		<style>
+			#main_div {
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				margin-top: -50px;
+				margin-left: -100px;
+				color: black;
+				padding: 0;
+			}
+			
+			#value {
+				font-family: "Arial Black";
+				font-size: 3em;
+			}
+			
+			#text_display {
+				font-family: Arial;
+				font-size: 1em;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="main_div">
+			<span id="value"></span><br>
+			<span id="text_display"></span>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+[h1]Introduction[/h1]
+To get this achievement, all you have to do it launch Garry’s mod one thousand times.
+Doing this manually would be very time consuming and tedious. However, the task in simple and repetitive which makes it easy to automate using a script.
+There are a variety of programs you could download from the internet and install, but then you could face the risk of potential malware (viruses, trojans, etc). Using my method, the achievement can be obtained using just the windows built-in command line language batch (no need to download anything).
+
+[h1]Creating the batch file[/h1]
+First open up any text editor of your choice, for example ‘notepad.exe’. (How? You could search for it in the start menu, or alternatively use the keyboard shortcut {WIN KEY} + R to open the run dialog box, and then type notepad).
+Next copy and paste the script below into your chosen text editor:
+
+[h1]The Code:[/h1]
+[code]
+@ECHO OFF
+
+SET DRIVE_LETTER=C:
+SET GMOD_PATH=C:\Program Files (x86)\Steam\steamapps\common\GarrysMod
+SET /A TIMEOUT=5
+SET /A N=0
+
+%DRIVE_LETTER%
+cd %GMOD_PATH%
+SET /A TIMEOUT=TIMEOUT+1
+echo GMod Launcher:
+
+:main
+START hl2.exe -windowed -w 500 -h 500 >nul
+PING 0.0.0.0 -n %TIMEOUT% >nul
+TASKKILL /F /IM hl2.exe >nul
+
+SET /A N=N+1
+if (%n% GEQ 1000) (exit /b)
+SET /A TIME_LEFT=((%TIMEOUT%-1) * (1000-%N%))/60
+ECHO [+] The game has been launched '%n%/1000' times! %TIME_LEFT% Mins Remaining...
+goto main
+[/code][/h1]
+[h1]Configuration[/h1]
+Then change the “DRIVE_LETTER” to the drive that your Steam folder is located on, for most users this will be “C:” and change the ‘GMOD_PATH’ to the path of your Garry’s mod folder (e.g. ‘C:\Program Files (x86)\Steam\steamapps\common\GarrysMod’).
+The ‘TIMEOUT’ is then number of seconds the script should wait after opening Garry’s mod, before it closes the program again. When changing this value, you should consider how long Garry’s mod takes to load up the main menu. On my SSD it takes around 5-6 seconds. Adjust the value accordingly.
+‘N’ represents the number of times you have already opened Garry’s mod, for example if you think you’ve loaded the game up around 200 times then set it a bit below that (e.g. 150) else just leave it at 0.
+Finally save the file with a “.bat” or “.cmd” file extension, find the directory where you saved it and double (left) click it to execute.
+
+[h1]What does each line do?[/h1]
+@echo off, prevents the terminal from displaying each command that it executes on the screen.
+3-4: The variables: ‘DRIVE_LETTER’ and ‘GMOD’ are defined and assigned string values.
+5-6: The variables ‘TIMEOUT’ and ‘N’ are defined and assigned integer values.
+8-9: The current working drive and directory is changed.
+10: the TIMEOUT variable is incremented by one (+1).
+11: the string “GMod Laucher” is output to the screen.
+13: the function ‘main’ is defined, it takes no arguments and has no return type.
+14: Garry’s mod is executed, the program launches in windowed mode with the dimensions 500x500. The ‘>nul’ prevents the command from displaying its output.
+15: the program is paused for X seconds, where X is the value of the variable TIMEOUT.
+16: Garry’s mods executable is terminated forcefully.
+18: the variable ‘N’ is incremented by one (+1).
+19: comparison, IF N is great than or equal to 1000 then exit the program.
+20: A formula is used to calculate then number of mins left until N is equal to 1000, the value is assigned to the variable ‘TIME_LEFT’.
+21: the use told the number of times Garry’s mod has launched and the time left in mins.
+22: endless recursive function.

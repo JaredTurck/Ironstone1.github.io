@@ -20,10 +20,11 @@ def cookies(c):
             cookies("save")
 
 options = webdriver.ChromeOptions()
+#options = webdriver.Options()
 options.add_argument('--disable-notifications')
 driver = webdriver.Chrome(chrome_options=options)
 
-message = "ok"
+message = "like and fav please https://steamcommunity.com/sharedfiles/filedetails/?id=1494079762"
 url = "https://steamcommunity.com/id/JaredCat".lower()
 cookies("load")
 

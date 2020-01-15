@@ -1,0 +1,12 @@
+type of buy,weapon,money,,,
+full echo,same as eco round but with armour and no utility,<1000,,,
+echo,"USP-S, P250, CZ75-Auto, Desert Eagle",<1000,,,
+force buy,"SSG 08, MP5-SD, UMP-45, MP9",1000-2000,,,
+full buy,"AWP, M4A4, AK47",2000-3000+,,,
+,,,,,
+never buy,,,,,
+situwational,,,,,
+,,,,,
+,,,,green,full buy=RIFLE
+,,,,orange,force buy=SMG
+,,,,red,eco/full eco = PISTOL

@@ -1,0 +1,7 @@
+function click_me() [
+	job_list = document.querySelectorAll('div[data-tn-component="organicJob"] h2[id][class] a[href]');
+
+	for (i=0;i<job_list.length;i++) {
+		open(job_list[i].href);
+	}
+}

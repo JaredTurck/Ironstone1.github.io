@@ -1,0 +1,6 @@
+netsh wlan disconnect
+netsh wlan show networks
+netsh wlan connect {Name of network}
+ipconfig /release
+ipconfig / renew
+ipconfig /flushdns

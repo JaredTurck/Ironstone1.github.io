@@ -1,0 +1,94 @@
+FUNCTION F {}
+FUNCTION G {}
+FUNCTION H {}
+FUNCTION I {}
+
+
+FUNCTION FF (A,B,C,D,E,F,G,H,I,J,K,L, N, AC) {
+
+	A		C		E		G		I		K
+B	F(B,A,AC)	F(B,C,AC)	F(B,E,AC)	F(B,G,AC)	F(B,I,AC)	F(B,K,AC)
+D	F(D,A,AC)	F(D,C,AC)	F(D,E,AC)	F(D,G,AC)	F(D,I,AC)	F(D,K,AC)
+F	F(F,A,AC)	F(F,C,AC)	F(F,E,AC)	F(J,G,AC)	F(F,I,AC)	F(F,K,AC)
+H	F(H,A,AC)	F(H,C,AC)	F(H,E,AC)	F(H,G,AC)	F(H,I,AC)	F(H,K,AC)
+J	F(J,A,AC)	F(J,C,AC)	F(J,E,AC)	F(J,G,AC)	F(J,I,AC)	F(J,K,AC)
+L	F(L,A,AC)	F(L,C,AC)	F(L,E,AC)	F(L,G,AC)	F(K,I,AC)	F(L,K,AC)
+
+}
+
+
+FUNCTION TRANSFORM {
+
+//GRID
+
+FF(A,B,C,D,E,F,G,H,I,J,K,L, N[0])
+FF(B,C,D,E,F,G,H,I,J,K,L,A, N[1])
+FF(C,D,E,F,G,H,I,J,K,L,A,B, N[2])
+FF(D,E,F,G,H,I,J,K,L,A,B,C, N[3])
+FF(E,F,G,H,I,J,K,L,A,B,C,D, N[4])
+FF(F,G,H,I,J,K,L,A,B,C,D,E, N[5])
+FF(G,H,I,J,K,L,A,B,C,D,E,F, N[6])
+FF(H,I,J,K,L,A,B,C,D,E,F,G, N[7])
+FF(I,J,K,L,A,B,C,D,E,F,G,H, N[8])
+FF(J,K,L,A,B,C,D,E,F,G,H,I, N[9])
+FF(K,L,A,B,C,D,E,F,G,H,I,J, N[10])
+FF(L,A,B,C,D,E,F,G,H,I,J,K, N[11])
+FF(A,B,C,D,E,F,G,H,I,J,K,L, N[12])
+FF(B,C,D,E,F,G,H,I,J,K,L,A, N[13])
+FF(C,D,E,F,G,H,I,J,K,L,A,B, N[14])
+FF(D,E,F,G,H,I,J,K,L,A,B,C, N[15])
+
+GG(E,F,G,H,I,J,K,L,A,B,C,D, N[0])
+GG(F,G,H,I,J,K,L,A,B,C,D,E, N[1])
+GG(G,H,I,J,K,L,A,B,C,D,E,F, N[2])
+GG(H,I,J,K,L,A,B,C,D,E,F,G, N[3])
+GG(I,J,K,L,A,B,C,D,E,F,G,H, N[4])
+GG(J,K,L,A,B,C,D,E,F,G,H,I, N[5])
+GG(K,L,A,B,C,D,E,F,G,H,I,A, N[6])
+GG(L,A,B,C,D,E,F,G,H,I,J,K, N[7])
+GG(A,B,C,D,E,F,G,H,I,J,K,L, N[8])
+GG(B,C,D,E,F,G,H,I,J,K,L,A, N[9])
+GG(C,D,E,F,G,H,I,J,K,L,A,B, N[10])
+GG(D,E,F,G,H,I,J,K,L,A,B,C, N[11])
+GG(E,F,G,H,I,J,K,L,A,B,C,D, N[12])
+GG(F,G,H,I,J,K,L,A,B,C,D,E, N[13])
+GG(G,H,I,J,K,L,A,B,C,D,E,F, N[14])
+GG(H,I,J,K,L,A,B,C,D,E,F,G, N[15])
+
+HH(I,J,K,L,A,B,C,D,E,F,G,H, N[0])
+HH(J,K,L,A,B,C,D,E,F,G,H,I, N[1])
+HH(K,L,A,B,C,D,E,F,G,H,I,J, N[2])
+HH(L,A,B,C,D,E,F,G,H,I,J,K, N[3])
+HH(A,B,C,D,E,F,G,H,I,J,K,L, N[4])
+HH(B,C,D,E,F,G,H,I,J,K,L,A, N[5])
+HH(C,D,E,F,G,H,I,J,K,L,A,B, N[6])
+HH(D,E,F,G,H,I,J,K,L,A,B,C, N[7])
+HH(E,F,G,H,I,J,K,L,A,B,C,D, N[8])
+HH(F,G,H,I,J,K,L,A,B,C,D,E, N[9])
+HH(G,H,I,J,K,L,A,B,C,D,E,F, N[10])
+HH(H,I,J,K,L,A,B,C,D,E,F,G, N[11])
+HH(I,J,K,L,A,B,C,D,E,F,G,H, N[12])
+HH(J,K,L,A,B,C,D,E,F,G,H,I, N[13])
+HH(K,L,A,B,C,D,E,F,G,H,I,J, N[14])
+HH(L,A,B,C,D,E,F,G,H,I,J,K, N[15])
+
+II(A,B,C,D,E,F,G,H,I,J,K,L, N[0])
+II(B,C,D,E,F,G,H,I,J,K,L,A, N[1])
+II(C,D,E,F,G,H,I,J,K,L,A,B, N[2])
+II(D,E,F,G,H,I,J,K,L,A,B,C, N[3])
+II(E,F,G,H,I,J,K,L,A,B,C,D, N[4])
+II(F,G,H,I,J,K,L,A,B,C,D,E, N[5])
+II(G,H,I,J,K,L,A,B,C,D,E,F, N[6])
+II(H,I,J,K,L,A,B,C,D,E,F,G, N[7])
+II(I,J,K,L,A,B,C,D,E,F,G,H, N[8])
+II(J,K,L,A,B,C,D,E,F,G,H,I, N[9])
+II(K,L,A,B,C,D,E,F,G,H,I,J, N[10])
+II(L,A,B,C,D,E,F,G,H,I,J,K, N[11])
+II(A,B,C,D,E,F,G,H,I,J,K,L, N[12])
+II(B,C,D,E,F,G,H,I,J,K,L,A, N[13])
+II(C,D,E,F,G,H,I,J,K,L,A,B, N[14])
+II(D,E,F,G,H,I,J,K,L,A,B,C, N[15])
+
+}
+
+//Break Input-N into 16-blocks

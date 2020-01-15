@@ -1,0 +1,52 @@
+do you have a physical network card in your computer?
+  no:
+    display error message, please insert a netowkr card into your PSI or USB slot.  
+
+does the network card have driver sofrware installed for it?
+  no:
+    get hardware ID for network card
+    search for driver on the internet
+    download driver, and run it.
+    wait for the driver to be installed then:
+      ping google.com
+      has the problem been resolved?
+        no:
+          next
+
+is the network card enabled in windows?
+  no:
+    enable the network card
+
+is airplane mode enabled:
+  yes:
+    disable it.
+  no:
+    next
+
+are you connected to a network?
+  no:
+    netsh wlan disconnect
+    netsh wlan show networks
+    netsh wlan connect {Name of network}
+    ping google.com
+    has the problem been resolved?
+      no:
+        ipconfig /release
+        ipconfig /renew
+        ipconfig /flushdns
+
+are you connected to the router?
+  ping {default gateway}
+  yes:
+    display error message, you are connected to a network, the problem is to do with your router.
+
+  no:
+    you are not connected to a network, this tool is unsure of the problem.
+
+commands:
+netsh wlan disconnect
+netsh wlan show networks
+netsh wlan connect {Name of network}
+ipconfig /release
+ipconfig /renew
+ipconfig /flushdns
