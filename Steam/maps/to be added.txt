@@ -1,0 +1,49 @@
+giant colour chart RGB, as user changes RGB color, a dot on the image moves to the color the user has changed it to.
+
+pro csgo player crosshairs
+
+outputs:
+- set RGB hex value output display in the map, that changes when you adjust the custom RGB colours
+- set the word: red, green, yellow, dark blue, light blue to display under the colour chooser area
+- set the transparancy value to display under the transparancy area
+- set the word: hide or show to display under the hide/show crosshair area
+
+every pro csgo player and there crosshairs, when you click on the pro's crosshair it will change your crosshair to there's
+- https://prosettings.net/cs-go-pro-settings-gear-list/
+
+create a fancy looking description with images
+
+
+notes:
+pro player that i have missed out, either dont have config files, have not made there configs pubicly avaliable.
+and pros that i have added but put a ? next, means there config files do not contain commands to adjust there crosshair.
+or there crosshair is unknown, maybe they adjust it through the CSGO settings menu instead of using commands.
+or they could be using the deafult crosshair.
+
+
+print out all the commands to the console so the user can copy and paste them to there autoexec file
+clear
+prinl (for each command)
+
+add a custom workshop prevew image to the map
+
+cashz map features:
+- has a list of all the pro players from the well known teams
+- your crosshair changes to the same as pro player when you click on it.
+- can adjust all the crosshair settings
+    - has moving gifs of the diffrent crosshairs
+
+- can save the crosshair for latter
+    - i.e. add the current crosshair settings to a variable in VScript
+
+- you can change the background colours of the actual map
+- some of the baxkgrounds actully move
+- you can toggle the HUD on and off
+
+- lots of little finer deails that make the map look good, like a moving line around the door entrance
+
+- has the crosshair's of famous CSGO YouTubers
+
+- has a cool sky effect that changes
+
+allows you to connect to a deathmatch server with your new crosshair
