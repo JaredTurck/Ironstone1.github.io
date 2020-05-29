@@ -1,0 +1,24 @@
+write2video function writes wrong fames becuase take_screenshot is running at the same time.
+
+write previous frames
+
+range(self.frame_counter-self.avg_fps, self.frame_counter)
+
+is writing previous frame...
+
+			expected
+0-31, 0 = -31,0		(0,31)
+31-31,31 = 0,31		(31,61)
+61-31,61 = 31,61	(61,91)
+
+writer thread could jsut continue to endlessly write frames without stopping every second
+
+if new frame in dict, write frame to disk
+
+How does writer know when the video ends?
+- self.var ends while loop
+
+video playing to fast, FPS not match with video
+
+
+use threading to execute take_screenshot multiple times a second
