@@ -21,6 +21,7 @@ How does writer know when the video ends?
 video playing to fast, FPS not match with video
 
 
+<<<<<<< HEAD
 use threading to execute take_screenshot multiple times a second
 
 tkinter GUI
@@ -34,3 +35,6 @@ you can record a second video, after recording a previous one within the same py
 
 https://stackoverflow.com/questions/40587343/python-pil-find-the-size-of-image-without-writing-it-as-a-file/40588202#40588202
 https://stackoverflow.com/questions/52411503/convert-image-to-base64-using-python-pil/52411829#52411829
+=======
+use threading to execute take_screenshot multiple times a second
+>>>>>>> f512dd3c9d5dc6925668413d8444a1645a6f7535
