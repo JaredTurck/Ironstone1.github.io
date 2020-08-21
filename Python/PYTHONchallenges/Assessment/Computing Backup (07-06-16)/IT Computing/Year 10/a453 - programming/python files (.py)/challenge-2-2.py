@@ -1,0 +1,5 @@
+favouriteSong = str(input("what is your favourite song: "))
+line1 = str(input("what is the first line of your song:"))
+line2 = str(input("what is the second line of your song: "))
+line3 = str(input("what is the third line of your song: "))
+print("your favourite song is ",favouriteSong,line1,line2,line3)

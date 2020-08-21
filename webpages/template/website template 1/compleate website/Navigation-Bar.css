@@ -1,0 +1,39 @@
+.NavBar li {
+	margin: 0%;
+	float: left;
+	color: 00117A;
+	font-size: 35;
+}
+.NavBar {
+	height: 0px;
+	float: left;
+	text-align: justify;
+}
+.texture-image {
+	width: 94% ;
+}
+#GlobalNavBar {
+	position: absolute;
+	width: 94%;
+	display: flex;
+	justify-content: space-between;
+	left: 45px;
+	font-family: Arial Black;
+}
+a:visited {
+	color: 000;
+}
+.item {
+	position: absolute;
+	top: 25px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.handprint {
+	position: relative;
+	height: 135px;
+	width: 165px;
+	top: -30px;
+	background: transparent;
+}

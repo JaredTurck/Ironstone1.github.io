@@ -1,0 +1,223 @@
+<html class="t-chrome t-chrome83"><head><title>
+	Global Teach - AUI
+</title><link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
+    <link href="App_Themes/standard/all.css" type="text/css" rel="stylesheet"><link href="App_Themes/standard/brh/general_brh.css" type="text/css" rel="stylesheet"><link href="App_Themes/standard/jquery-ui-1.8.6.custom.css" type="text/css" rel="stylesheet"><link href="/Twi.Gt.Aui/WebResource.axd?d=vsKpXOsoEwDUfVug9KOqSt6FSC9QXrwFMEWYD7kkpEmAi35nlVNG3Sm3xj7JXG1yqfBYrdtQdpJ93gCteAzayO6qaZlabV90E3zwJ4-8iZQ1WH-HBMOeT2DZC8mFIghh0&amp;t=637176084560000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet"><link href="/Twi.Gt.Aui/WebResource.axd?d=vM1K5Gk9WFjha8-5ZR8YFIOvptDrPR7T03apDxsIGaE1eF3ce3dgGx-HdABX2y_Lqceja1CGNHERhlZxZHHdyY5rSUQLIdYMK73exnEfOUcPka8voDnz5vEmS457IlnOMY-Tq1xRcUMPQ3gm-Z0CdB0Kkjno4p7re43u-fTgvT81&amp;t=637176084560000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet"></head>
+<body>
+    <form method="post" action="./default.aspx" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="ctl00_sm_TSM" id="ctl00_sm_TSM" value=";;System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35:en-US:ad6c4949-7f20-401f-a40f-4d4c52722104:ea597d4b:b25378d2;Telerik.Web.UI, Version=2020.1.219.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en-US:bb184598-9004-47ca-9e82-5def416be84b:16e4e7cd:ed16cbdc:33715776:f7645509:24ee1bba:e330518b:2003d0b8:c128760b:88144a7a:1e771326:c8618e41:1a73651d:333f8d94">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="pIEiv/OSoCk9udp0dM/arN47CpvGops6sYy6z1ONE/uGQSFEAVfdzaR5dJseL7qENyDlIZNmnAqm56u4QC0cYBkN0jNkBQa0u08cX6ZrI2a1b9DaBvvYl3M+gIu85PswXzJqxAvt7qoA+/DSwppDm162eNLyBNsUusm77OG9QmSJAgi/HVyOhCG7PyDUFr/k+PvlF5tU4TG1umVkGmBQVpfmGnx0+l4RpRedagmpafk=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/Twi.Gt.Aui/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZC5RCN_UtQEWOyRGBIn9rT0yHJT34Hz8jRXx1t29qNZj_efePkd1a-ja5x7-hLb8YA2&amp;t=637100842445053551" type="text/javascript"></script>
+
+
+<script src="/Twi.Gt.Aui/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_sm_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3aad6c4949-7f20-401f-a40f-4d4c52722104%3aea597d4b%3ab25378d2%3bTelerik.Web.UI%2c+Version%3d2020.1.219.45%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-US%3abb184598-9004-47ca-9e82-5def416be84b%3a16e4e7cd%3aed16cbdc%3a33715776%3af7645509%3a24ee1bba%3ae330518b%3a2003d0b8%3ac128760b%3a88144a7a%3a1e771326%3ac8618e41%3a1a73651d%3a333f8d94" type="text/javascript"></script>
+<script src="resources/scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="resources/scripts/AuiHelpers.js" type="text/javascript"></script>
+<script src="services/AuiService.asmx/js" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FBBE3800">
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$sm', 'aspnetForm', ['tctl00$hdr$Err$ctl00$hdr$Err$apErrPanel',''], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <script>
+            //fix: panel default button is not working for rad combobox
+            if (Telerik.Web.UI.RadComboBox) {
+                var $p = Telerik.Web.UI.RadComboBox.prototype;
+                var keyDownHandler = $p._onKeyDown;
+                $p._onKeyDown = function (e) {
+                    var oReturnValue = e.returnValue;
+                    var oPreventDefault = e.preventDefault;
+                    var keyCode = e.keyCode || e.which;
+
+                    if (keyCode === 13 && this.get_dropDownElement().clientHeight == 0)
+                        e.preventDefault = null;
+                    keyDownHandler.call(this, e);
+                    if (keyCode === 13 && this.get_dropDownElement().clientHeight == 0) {
+                        e.returnValue = oReturnValue;
+                        e.preventDefault = oPreventDefault;
+                    }
+                };
+            }
+        </script>
+
+        
+<div class="appTitle">
+    <table class="layout" style="width: 100%;">
+        <tbody><tr>
+            <td width="33%">
+                
+                <div id="ctl00_hdr_pnlCurrentUser">
+	
+                    <h2 style="margin:0; margin-bottom:10px;">Istvan Huse (ST\hui5bp2)</h2>
+                    
+                    
+                
+</div>
+            </td>
+            <td width="33%" style="vertical-align: bottom; text-align: center;" rowspan="2">
+                <div></div>
+                <div></div>
+            </td>
+            <td style="text-align: right;">
+                <img id="ctl00_hdr_imgLogo" title="Version 9.7.8" src="resources/images/gt_logo_top.gif" alt="Global Teach" style="padding-bottom:3px">
+            </td>
+        </tr>
+        <tr>
+            <td width="33%" style="vertical-align:bottom;">
+                <span id="spanDateTime">6/5/2020 3:50:59 PM</span>
+            </td>
+            <td style="text-align: right;">
+                <div style="padding-right: 6px;"></div>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+
+<div class="RadAjaxPanel" id="ctl00_hdr_Err_ctl00_hdr_Err_apErrPanel">
+	<div id="ctl00_hdr_Err_apErr">
+		<!-- 2020.1.219.45 -->
+    
+
+	</div>
+</div>
+
+<script type="text/javascript">
+var disableKeepSessionAlive = false;
+$(document).ready(function () {
+    if (typeof(Twi) != 'undefined' && typeof(Twi.Gt) != 'undefined' && typeof(Twi.Gt.Aui) != 'undefined') {
+        if (typeof (Twi.Gt.Aui.AuiService) == 'function') window.setInterval('updateTime()', 600000);
+    }
+});
+function updateTime() {
+    if (!disableKeepSessionAlive) {
+        new Twi.Gt.Aui.AuiService.KeepSessionAlive(function (res, ctxt, m) { $('#spanDateTime').text(res); });
+    }
+}
+</script>
+
+
+
+        <div style="padding: 5px;">
+            <div class="spacerV"></div>
+            <div class="mainMenu">
+                <div tabindex="0" id="ctl00_m_m" class="RadMenu RadMenu_Office2007 rmSized" style="border-style: none; width: 100%; z-index: 10000;">
+	<ul class="rmRootGroup rmHorizontal">
+		<li class="rmItem rmFirst" style="z-index: 0;"><a class="rmLink rmRootLink" href="#"><span class="rmText rmExpandDown">Questions</span></a><div class="rmSlide" style="visibility: visible; height: 48px; width: 195px; display: none; overflow: hidden; left: 0px; top: 24px; z-index: 13;">
+			<ul class="rmVertical rmGroup rmLevel1" style="display: block; top: -48px; left: 0px; visibility: visible; transition: none 0s ease 0s;">
+				<li class="rmItem rmFirst"><a class="rmLink" href="/Twi.Gt.Aui/sco/sco_search.aspx" style="width: 193px;"><span class="rmText">Questions</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/sco/subject_search.aspx" style="width: 193px;"><span class="rmText">Question subjects</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a class="rmLink rmRootLink" href="#"><span class="rmText rmExpandDown">Lessons</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=0"><span class="rmText">All Lesson Types</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1051"><span class="rmText">Document</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1492"><span class="rmText">File Sharing</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1310"><span class="rmText">Assessment</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1048"><span class="rmText">CBT</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1252"><span class="rmText">WBT</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1050.2"><span class="rmText">F2F Course</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1050.3"><span class="rmText">Virtual Course</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1277"><span class="rmText">Agenda</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1278"><span class="rmText">Recordings</span></a></li><li class="rmItem rmSeparator"><span class="rmText"></span></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1222.1"><span class="rmText">Standard Test</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1222.2"><span class="rmText">Random Test</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1222.4"><span class="rmText">Survey</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a class="rmLink rmRootLink" href="/Twi.Gt.Aui/tplan/tplan_search.aspx"><span class="rmText">Training Plans</span></a></li><li class="rmItem "><a class="rmLink rmRootLink" href="/Twi.Gt.Aui/catalog/catalog.aspx"><span class="rmText">Catalog</span></a></li><li class="rmItem "><a class="rmLink rmRootLink" href="#"><span class="rmText rmExpandDown">Users</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a class="rmLink" href="/Twi.Gt.Aui/user/user_search.aspx"><span class="rmText">Users</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/user/user_advancedsearch.aspx"><span class="rmText">Advanced User Search</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a class="rmLink rmRootLink" href="/Twi.Gt.Aui/group/group_search.aspx"><span class="rmText">Groups</span></a></li><li class="rmItem "><a class="rmLink rmRootLink" href="/Twi.Gt.Aui/notification/notification_search.aspx"><span class="rmText">Notifications</span></a></li><li class="rmItem "><a class="rmLink rmRootLink" href="#"><span class="rmText">License accounts</span></a><div class="rmSlide">
+
+		</div></li><li class="rmItem " style="z-index: 0;"><a class="rmLink rmRootLink" href="#"><span class="rmText rmExpandDown">Competences</span></a><div class="rmSlide" style="visibility: visible; height: 71px; width: 205px; display: none; overflow: hidden; left: 0px; top: 24px; z-index: 13;">
+			<ul class="rmVertical rmGroup rmLevel1" style="display: block; top: -71px; left: 0px; visibility: visible; transition: none 0s ease 0s;">
+				<li class="rmItem rmFirst"><a class="rmLink" href="/Twi.Gt.Aui/skill/skill_search.aspx" style="width: 203px;"><span class="rmText">Skills</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/skill/SkillSet_search.aspx" style="width: 203px;"><span class="rmText">Competence Levels</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/skill/skillProfile_search.aspx" style="width: 203px;"><span class="rmText">Target-Profile</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a class="rmLink rmRootLink" href="#"><span class="rmText rmExpandDown">Face-To-Face</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a title="ResourceManagement" class="rmLink" href="#"><span class="rmText">Resources</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesMasterdata/inventory_search.aspx"><span class="rmText">Equipment</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesResource/venue_search.aspx"><span class="rmText">Venue</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesResource/room_search.aspx"><span class="rmText">Room</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesResource/trainer_search.aspx"><span class="rmText">Trainer</span></a></li><li class="rmItem "><a class="rmLink" href="#"><span class="rmText">Offtime</span></a><div class="rmSlide">
+							<ul class="rmVertical rmGroup rmLevel3">
+								<li class="rmItem rmFirst"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesMasterdata/offtimereason_search.aspx?target=Trainer"><span class="rmText">Trainer</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesMasterdata/offtimereason_search.aspx?target=Room"><span class="rmText">Room</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesMasterdata/offtimereason_search.aspx?target=Equipment"><span class="rmText">Equipment</span></a></li>
+							</ul>
+						</div></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesMasterdata/cancellation_search.aspx"><span class="rmText">Cancellation Reason</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/lesson/item_search.aspx?type=1050.2&amp;m=f2f"><span class="rmText">Course</span></a></li><li class="rmItem "><a class="rmLink" href="#"><span class="rmText">Planning</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesPlanning/class_search.aspx"><span class="rmText">Class</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesPlanning/trainerplan_search.aspx"><span class="rmText">Trainer</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesPlanning/roomplan_search.aspx"><span class="rmText">Room</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesPlanning/inventoryplan_search.aspx"><span class="rmText">Equipment</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a class="rmLink" href="#"><span class="rmText">Reporting</span></a><div class="rmSlide">
+					<ul class="rmVertical rmGroup rmLevel2">
+						<li class="rmItem rmFirst"><a class="rmLink" href="#"><span class="rmText">Statistics</span></a><div class="rmSlide">
+							<ul class="rmVertical rmGroup rmLevel3">
+								<li class="rmItem rmFirst"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesReporting/courseReport.aspx"><span class="rmText">By Courses</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesReporting/classReport2.aspx"><span class="rmText">By Classes</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesReporting/trainerReport2.aspx"><span class="rmText">By Trainer</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesReporting/inventoryReport.aspx"><span class="rmText">By Equipment</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesReporting/participantReport.aspx"><span class="rmText">By Participants</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="#"><span class="rmText">Cancellations</span></a><div class="rmSlide">
+									<ul class="rmVertical rmGroup rmLevel4">
+										<li class="rmItem rmFirst"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesReporting/courseCancellationReport.aspx"><span class="rmText">Classes</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesReporting/classCancellationReport.aspx"><span class="rmText">Registrations</span></a></li>
+									</ul>
+								</div></li>
+							</ul>
+						</div></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesReporting/classReport.aspx"><span class="rmText">Class</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesReporting/trainerReport.aspx"><span class="rmText">Trainer</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesReporting/roomReport.aspx"><span class="rmText">Room</span></a></li>
+					</ul>
+				</div></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesTrainerMatrix/trainer_filter.aspx"><span class="rmText">Trainermatrix</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesRoomMatrix/room_filter.aspx"><span class="rmText">Roommatrix</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesInventoryMatrix/inventory_filter.aspx"><span class="rmText">Equipment Matrix</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/f2f/pagesPlanning/requested_registrations.aspx"><span class="rmText">Unapproved registrations</span></a></li>
+			</ul>
+		</div></li><li class="rmItem "><a class="rmLink rmRootLink" href="#"><span class="rmText rmExpandDown">Configuration</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst"><a class="rmLink" href="/Twi.Gt.Aui/configuration/preferences.aspx"><span class="rmText">Default Values for new Objects</span></a></li><li class="rmItem "><a class="rmLink" href="/Twi.Gt.Aui/misc/account.aspx"><span class="rmText">My Account</span></a></li><li class="rmItem rmLast"><a class="rmLink" href="/Twi.Gt.Aui/misc/sui.aspx"><span class="rmText">Student User Interface</span></a></li>
+			</ul>
+		</div></li><li class="rmItem rmLast"><a class="rmLink rmRootLink" href="/Twi.Gt.Aui/auilogout.aspx"><span class="rmText">Logout</span></a></li>
+	</ul><input id="ctl00_m_m_ClientState" name="ctl00_m_m_ClientState" type="hidden" autocomplete="off">
+</div>
+
+
+            </div>
+            <div class="spacerV" style="clear: both;"></div>
+            
+
+    Please select a function from the main menu.
+    <br><br>
+    
+
+
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl00_sm_TSM');var _gtUiLanguage = 'en-US';
+var _gtCurrentDomainName = 'ST';
+var _gtCurrentDomainId = 10;
+var _gtLoggedInUserId = 126642;
+var _gtLoggedInUserDisplayName = 'Istvan Huse';
+var _gtLoggedInUserName = 'ST\\hui5bp2';
+var _gtAppRootUrl = '/Twi.Gt.Aui/';
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxPanel, {"clientEvents":{OnRequestStart:"",OnResponseEnd:"$('#waitMessage').hide();"},"enableAJAX":true,"enableHistory":false,"links":[],"loadingPanelID":"","styles":[],"uniqueID":"ctl00$hdr$Err$apErr"}, null, null, $get("ctl00_hdr_Err_apErr"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadMenu, {"_childListElementCssClass":null,"_skin":"Office2007","attributes":{},"clientStateFieldID":"ctl00_m_m_ClientState","collapseAnimation":"{\"duration\":450}","expandAnimation":"{\"duration\":450}","itemData":[{"items":[{"value":"AuiMenu:SCOs","navigateUrl":"/Twi.Gt.Aui/sco/sco_search.aspx"},{"value":"AuiMenu:QuestionSubject","navigateUrl":"/Twi.Gt.Aui/sco/subject_search.aspx"}],"value":"AuiMenu:SCOs"},{"items":[{"value":"AuiMenu:AllLessonTypes","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=0"},{"value":"AuiMenu:Document","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1051"},{"value":"AuiMenu:FileSharing","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1492"},{"value":"AuiMenu:Assessment","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1310"},{"value":"AuiMenu:CBT","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1048"},{"value":"AuiMenu:WBT","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1252"},{"value":"AuiMenu:CourseF2F","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1050.2"},{"value":"Separator","navigateUrl":"/Twi.Gt.Aui/separator1.aspx","isSeparator":true},{"value":"AuiMenu:CourseVirtual","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1050.3"},{"value":"AuiMenu:Agenda","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1277"},{"value":"AuiMenu:Recordings","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1278"},{"value":"Separator","navigateUrl":"/Twi.Gt.Aui/separator2.aspx","isSeparator":true},{"value":"AuiMenu:TestStandard","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1222.1"},{"value":"AuiMenu:TestRandom","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1222.2"},{"value":"AuiMenu:TestSurvey","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1222.4"}],"value":"AuiMenu:Lessons"},{"value":"AuiMenu:TrainingPlans","navigateUrl":"/Twi.Gt.Aui/tplan/tplan_search.aspx"},{"value":"AuiMenu:Catalog","navigateUrl":"/Twi.Gt.Aui/catalog/catalog.aspx"},{"items":[{"value":"AuiMenu:Users","navigateUrl":"/Twi.Gt.Aui/user/user_search.aspx"},{"value":"AuiMenu:AdvancedUsers","navigateUrl":"/Twi.Gt.Aui/user/user_advancedsearch.aspx"}],"value":"AuiMenu:Users"},{"value":"AuiMenu:Groups","navigateUrl":"/Twi.Gt.Aui/group/group_search.aspx"},{"value":"AuiMenu:Notifications","navigateUrl":"/Twi.Gt.Aui/notification/notification_search.aspx"},{"value":"AuiMenu:License"},{"items":[{"value":"AuiMenu:Skills","navigateUrl":"/Twi.Gt.Aui/skill/skill_search.aspx"},{"value":"AuiMenu:CompetenceLevels","navigateUrl":"/Twi.Gt.Aui/skill/SkillSet_search.aspx"},{"value":"AuiMenu:TargetProfile","navigateUrl":"/Twi.Gt.Aui/skill/skillProfile_search.aspx"}],"value":"AuiMenu:Competences"},{"items":[{"items":[{"value":"AuiMenu:Equipment","navigateUrl":"/Twi.Gt.Aui/f2f/pagesMasterdata/inventory_search.aspx"},{"value":"AuiMenu:Venue","navigateUrl":"/Twi.Gt.Aui/f2f/pagesResource/venue_search.aspx"},{"value":"AuiMenu:Room","navigateUrl":"/Twi.Gt.Aui/f2f/pagesResource/room_search.aspx"},{"value":"AuiMenu:Trainer","navigateUrl":"/Twi.Gt.Aui/f2f/pagesResource/trainer_search.aspx"},{"items":[{"value":"AuiMenu:OfftimeTrainer","navigateUrl":"/Twi.Gt.Aui/f2f/pagesMasterdata/offtimereason_search.aspx?target=Trainer"},{"value":"AuiMenu:OfftimeRoom","navigateUrl":"/Twi.Gt.Aui/f2f/pagesMasterdata/offtimereason_search.aspx?target=Room"},{"value":"AuiMenu:OfftimeEquipment","navigateUrl":"/Twi.Gt.Aui/f2f/pagesMasterdata/offtimereason_search.aspx?target=Equipment"}],"value":"AuiMenu:Offtime"},{"value":"AuiMenu:CancellationReason","navigateUrl":"/Twi.Gt.Aui/f2f/pagesMasterdata/cancellation_search.aspx"}],"value":"AuiMenu:Resources"},{"value":"AuiMenu:Course","navigateUrl":"/Twi.Gt.Aui/lesson/item_search.aspx?type=1050.2\u0026m=f2f"},{"items":[{"value":"AuiMenu:Class","navigateUrl":"/Twi.Gt.Aui/f2f/pagesPlanning/class_search.aspx"},{"value":"AuiMenu:Trainer","navigateUrl":"/Twi.Gt.Aui/f2f/pagesPlanning/trainerplan_search.aspx"},{"value":"AuiMenu:Room","navigateUrl":"/Twi.Gt.Aui/f2f/pagesPlanning/roomplan_search.aspx"},{"value":"AuiMenu:Equipment","navigateUrl":"/Twi.Gt.Aui/f2f/pagesPlanning/inventoryplan_search.aspx"}],"value":"AuiMenu:Planning"},{"items":[{"items":[{"value":"AuiMenu:ByCourses","navigateUrl":"/Twi.Gt.Aui/f2f/pagesReporting/courseReport.aspx"},{"value":"AuiMenu:ByClasses","navigateUrl":"/Twi.Gt.Aui/f2f/pagesReporting/classReport2.aspx"},{"value":"AuiMenu:ByTrainer","navigateUrl":"/Twi.Gt.Aui/f2f/pagesReporting/trainerReport2.aspx"},{"value":"AuiMenu:ByEquipment","navigateUrl":"/Twi.Gt.Aui/f2f/pagesReporting/inventoryReport.aspx"},{"value":"AuiMenu:ByParticipant","navigateUrl":"/Twi.Gt.Aui/f2f/pagesReporting/participantReport.aspx"},{"items":[{"value":"AuiMenu:ClassCancellation","navigateUrl":"/Twi.Gt.Aui/f2f/pagesReporting/courseCancellationReport.aspx"},{"value":"AuiMenu:RegistrationCancellation","navigateUrl":"/Twi.Gt.Aui/f2f/pagesReporting/classCancellationReport.aspx"}],"value":"AuiMenu:StatisticsCancellation"}],"value":"AuiMenu:Statistics"},{"value":"AuiMenu:Class","navigateUrl":"/Twi.Gt.Aui/f2f/pagesReporting/classReport.aspx"},{"value":"AuiMenu:Trainer","navigateUrl":"/Twi.Gt.Aui/f2f/pagesReporting/trainerReport.aspx"},{"value":"AuiMenu:Room","navigateUrl":"/Twi.Gt.Aui/f2f/pagesReporting/roomReport.aspx"}],"value":"AuiMenu:Reporting"},{"value":"AuiMenu:TrainerMatrix","navigateUrl":"/Twi.Gt.Aui/f2f/pagesTrainerMatrix/trainer_filter.aspx"},{"value":"AuiMenu:RoomMatrix","navigateUrl":"/Twi.Gt.Aui/f2f/pagesRoomMatrix/room_filter.aspx"},{"value":"AuiMenu:InventoryMatrix","navigateUrl":"/Twi.Gt.Aui/f2f/pagesInventoryMatrix/inventory_filter.aspx"},{"value":"AuiMenu:UnapprovedRegistrations","navigateUrl":"/Twi.Gt.Aui/f2f/pagesPlanning/requested_registrations.aspx"}],"value":"AuiMenu:FaceToFace"},{"items":[{"value":"AuiMenu:DefaultValuesForNewObjects","navigateUrl":"/Twi.Gt.Aui/configuration/preferences.aspx"},{"value":"AuiMenu:MyAccount","navigateUrl":"/Twi.Gt.Aui/misc/account.aspx"},{"value":"AuiMenu:StudentUserInterface","navigateUrl":"/Twi.Gt.Aui/misc/sui.aspx"}],"value":"AuiMenu:Configuration"},{"value":"AuiMenu:Logout","navigateUrl":"/Twi.Gt.Aui/auilogout.aspx"}]}, null, null, $get("ctl00_m_m"));
+});
+//]]>
+</script>
+</form>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.defaultFocus').focus();
+        });
+    </script>
+
+
+</body></html>

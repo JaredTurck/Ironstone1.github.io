@@ -1,0 +1,25 @@
+[INFO  - 2017-08-27T14:32:19.897Z] GhostDriver - Main - running on port 49278
+[INFO  - 2017-08-27T14:32:21.070Z] Session [88f8daa0-8b34-11e7-94c3-0b95316a1089] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-08-27T14:32:21.070Z] Session [88f8daa0-8b34-11e7-94c3-0b95316a1089] - page.customHeaders:  - {}
+[INFO  - 2017-08-27T14:32:21.070Z] Session [88f8daa0-8b34-11e7-94c3-0b95316a1089] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-08-27T14:32:21.070Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 88f8daa0-8b34-11e7-94c3-0b95316a1089
+[ERROR - 2017-08-27T14:32:22.380Z] Session [88f8daa0-8b34-11e7-94c3-0b95316a1089] - page.onError - msg: TypeError: undefined is not an object (evaluating '_detectBrowser2.default.version')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-27T14:32:22.380Z] Session [88f8daa0-8b34-11e7-94c3-0b95316a1089] - page.onError - stack:
+  (anonymous function) (https://scrap.tf/cdn-cgi/apps/body/V3M_NzsqhuCG87RP62jouuMkcVo.js:6)
+  (anonymous function) (https://scrap.tf/cdn-cgi/apps/body/V3M_NzsqhuCG87RP62jouuMkcVo.js:9)
+  __webpack_require__ (https://scrap.tf/cdn-cgi/apps/body/V3M_NzsqhuCG87RP62jouuMkcVo.js:2)
+  (anonymous function) (https://scrap.tf/cdn-cgi/apps/body/V3M_NzsqhuCG87RP62jouuMkcVo.js:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-27T14:32:27.599Z] Session [88f8daa0-8b34-11e7-94c3-0b95316a1089] - page.onError - msg: TypeError: undefined is not an object (evaluating '_detectBrowser2.default.version')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-27T14:32:27.599Z] Session [88f8daa0-8b34-11e7-94c3-0b95316a1089] - page.onError - stack:
+  (anonymous function) (https://scrap.tf/cdn-cgi/apps/body/V3M_NzsqhuCG87RP62jouuMkcVo.js:6)
+  (anonymous function) (https://scrap.tf/cdn-cgi/apps/body/V3M_NzsqhuCG87RP62jouuMkcVo.js:9)
+  __webpack_require__ (https://scrap.tf/cdn-cgi/apps/body/V3M_NzsqhuCG87RP62jouuMkcVo.js:2)
+  (anonymous function) (https://scrap.tf/cdn-cgi/apps/body/V3M_NzsqhuCG87RP62jouuMkcVo.js:3)
+
+  phantomjs://platform/console++.js:263 in error

@@ -1,0 +1,26 @@
+{
+	"name" : "raffles bot",
+	"description" : "automatically enter scrap.tf raffles",
+	"author" : "Ironstone1_",
+	
+	"manifest_version" : 2,
+	"version" : "1",
+	
+	"icons" : {
+		"128" : "icons/logo128.png",
+		"48" : "icons/logo48.png",
+		"16" : "icons/logo16.png"
+	},
+	"permissions" : ["activeTab"],
+	"browser_action" : {
+		"default_icon" : "icons/logo16.png",
+		"default_popup" : "menu.html"
+	},
+	"content_scripts" : [
+		{
+		"matches" : ["https://*/*", "http://*/*"],
+		"js" : ["bot.js"]
+		"run_at" : "document_end"
+		}
+	]
+}

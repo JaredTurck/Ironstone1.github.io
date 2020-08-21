@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Steam\Steam.exe" -login "Ironstone1_" "Gingko1234" -condebug -flushlog -applaunch 440

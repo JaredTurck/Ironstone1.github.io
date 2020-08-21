@@ -1,5 +1,6 @@
 import time, cv2, os
 from PIL import ImageGrab
+from mss import mss
 
 def start_capture():
     no_frames = 0
@@ -10,8 +11,12 @@ def start_capture():
         fps = 0
         start = time.time()
         while time.time() < (start+1):
-            img = ImageGrab.grab()
-            img.save("temp_img/"+str(no_frames)+".png")
+
+            #img = ImageGrab.grab()
+            #img.save("temp_img/"+str(no_frames)+".png")
+            with mss() as next_shot:
+                next_shot.shot(output="temp_img/"+str(no_frames)+".png")
+
             fps += 1
             no_frames += 1
 
@@ -34,9 +39,13 @@ def merge_frames():
     video.release()
     os.rmdir(folder)
 
+input("press enter to start")
 print("Started recording...\n Press CTRL + C to stop\n")
 try:
     start_capture()
     
 except KeyboardInterrupt:
     merge_frames()
+
+# store the screenshots in memory
+# after a second write to desktop

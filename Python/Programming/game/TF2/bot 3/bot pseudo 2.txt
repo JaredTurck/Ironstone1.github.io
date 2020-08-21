@@ -1,0 +1,41 @@
+username, password = GetBotLogin()
+steamLogin(username, password)
+
+# login to steam
+# start TF2
+# join VAC server
+# play game:
+	# get player position
+	# if player cordinates not changed:
+		# change player ang
+
+
+while True:
+	player_pos = GetPlayerPos()
+	player_ang = GetPlayerAng()
+	command.SetCursor(player_ang)
+	position.append(player_pos)
+			
+	if positions.count(player_pos) >= 60:
+		tf2_console("kill")
+
+
+player = [GetPlayerPos()]
+while True:
+	pos = GetPlayerPos()
+
+	if player[-1] == pos: # check if player moving
+		PlayerLeft()
+	else:
+		if random.randint(0,50) == 0:
+			tf2_console("+attack")
+			if random.randint(0,20) == 0:
+				tf2_conole("+jump; +duck")
+
+			time.sleep(2)
+			tf2_console("-attack")
+	
+	if len(set(player[-60:])) == 1: # check if player stuck
+		PlayerStuck()
+
+	player.append(pos)

@@ -1,0 +1,1 @@
+runas.exe /savecred /user:STEAM "%CD%\test.bat"

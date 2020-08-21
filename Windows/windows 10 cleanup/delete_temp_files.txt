@@ -1,0 +1,10 @@
+del /f "%temp%"
+del /f "%windir%\Temp"
+del /f "%windir%\Prefetch"
+del /f "%windir%\SoftwareDistribution\Download
+
+del /f "%windir%\Downloaded Program Files"
+del /f "%LocalAppData%\Microsoft\Windows\INetCache"
+del /f "%LocalAppData%\Microsoft\Windows\Temporary Internet Files\Content.IE5"
+del /f "%LocalAppData%\Microsoft\Windows\Temporary Internet Files"
+del /f "%LocalAppData%\Temp"

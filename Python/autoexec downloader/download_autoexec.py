@@ -142,63 +142,9 @@ def get_data():
 
 def convert_data_to_nut():
     # --- convert the whole dataset to a .nut format ---
-    data = eval(open("raw_dataset.txt", "r").read().lower())
+    data = eval(open("raw_dataset.txt", "r").read())
 
-    # write the data to the file
-    file_writer = open("raw_dataset.nut", "w")
-    file_writer.write("// --- Raw Data saved in global table ---\n")
-    file_writer.write("teams <- {};\n")
-    
-    for team in data:
-        file_writer.write("teams." + format_text(team) + " <- {};\n")
-        
-        for player in data[team]:
-            file_writer.write("teams." + format_text(team) + "." + format_text(player) + " <- {};\n")
-            
-            for setting in data[team][player]:
-                file_writer.write(
-                    "teams." + format_text(team) +\
-                    "." + format_text(player) +\
-                    "." + format_text(setting) +\
-                    ' <- "' + format_text(data[team][player][setting]) + '";\n'
-                )
-    file_writer.write("\n// --- Functions ---")
-    file_writer.write("\nfunction run_command(command_input) {")
-    file_writer.write("\n\tSendToConsole(command_input);")
-    file_writer.write("\n}")
-    file_writer.close()
-
-def format_text(text):
-    # dont format if text has 'cl_crosshair' or 'viewmodel' or 'cl_bob'
-    if 'cl_crosshair' in text or 'viewmodel' in text or 'cl_bob' in text:
-        return text.replace('"', "").replace("'", "").replace("\n","")
-    
-    invalid_char = "!@#$%^&*()+-=[]{}|/,.<>?'\";:"
-    for char in invalid_char:
-        text = text.replace(char, "")
-        
-    text = text.replace(" ", "_").replace("\n", "").replace("\t", "").replace("\\", "")
-    text = text.replace("__", "_").replace("___", "_")
-    if not text == "":
-        if text[0] in "0123456789":
-            text = "i" + text[1:]
-    
-    return text
-    
-
-
-# teams['Coach']["SmithZz"]["mouse"]
-
-# download all player configs from prosettings website
-# read the files and extract the crosshair and viewmodel commands
-# write all this data in a diconary and save as a .nut file
-
-# performance: program takes approximately 5 mins to scrape all the data
-#   17 mins in total
-
-# note: player device is set as 'dev1ce' as key in dataset
-
-#data["G2 Esports"]["kennyS"]["role"]
+    #data["G2 Esports"]["kennyS"]["role"]
 
     # squirrel table format:
     #local myTable = {};               // Create an empty table
@@ -213,22 +159,30 @@ def format_text(text):
     #       add settings to player
     #   add player to team
 
+    # write the data to the file
+
+    # local teams = {}
+    for team in data:
+        # local team_name = {}
+        for player in team:
+            # local player_name = {}
+            for setting in player:
+                pass
+
+
+# teams['Coach']["SmithZz"]["mouse"]
+
+# download all player configs from prosettings website
+# read the files and extract the crosshair and viewmodel commands
+# write all this data in a diconary and save as a .nut file
+
+# performance: program takes approximately 5 mins to scrape all the data
+#   17 mins in total
+
+# note: player device is set as 'dev1ce' as key in dataset
+
 
 #teams[team][player]
 
-user = input("Menu:\n1. Get Data\n2. Convert data to .nut\n3. Do both, get data and convert it\n4. Exit\n\n>>> ")
-while user not in ["1", "2", "3", "4"]:
-    user = input("Invalid input\n>>> ")
-
-if user == "1":
-    get_data()
-
-elif user == "2":
-    convert_data_to_nut()
-
-elif user == "3":
-    get_data()
-    convert_data_to_nut()
-
-elif user == "4":
-    exit()
+#get_data()
+convert_data_to_nut()

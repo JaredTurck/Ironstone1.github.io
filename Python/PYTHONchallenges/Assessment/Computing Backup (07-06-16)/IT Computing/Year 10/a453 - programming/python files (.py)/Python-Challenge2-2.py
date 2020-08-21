@@ -1,0 +1,6 @@
+FavouriteSong = input("What is your favourite song? ")
+line1 = str(input("How does the first line go? "))
+Line2 = str(input("How does the second line go? "))
+Line3 = str(input("How does the third line go? "))
+total =("your favourite song is",FavouriteSong,"and it sounds like this",line1,Line2,Line3)
+print(total)

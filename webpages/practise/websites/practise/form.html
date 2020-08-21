@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+form * {
+  display: block;
+  margin: 10px;
+}
+</style>
+<script language="Javascript" >
+function download(filename, text) {
+  var pom = document.createElement('a');
+  pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + 
+
+encodeURIComponent(text));
+  pom.setAttribute('download', filename);
+
+  pom.style.display = 'none';
+  document.body.appendChild(pom);
+
+  pom.click();
+
+  document.body.removeChild(pom);
+}
+</script>
+</head>
+<body>
+
+<form onsubmit="download(this['name'].value, this['text'].value)">
+  <input type="text" name="name" value="test.txt">
+  <textarea></textarea>
+  <input type="submit" value="Download">
+</form>
+</body>
+</html>

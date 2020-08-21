@@ -1,0 +1,21 @@
+-gamestatslogging -
+-gamestatsloggingtofile -
+
+TF2 path = C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\hl2.exe
+Steam path = C:\Program Files (x86)\Steam\Steam.exe
+
+start "C:\Program Files (x86)\Steam\Steam.exe" -login "<Username>" "<Password>" -launch app 440
+
+connect "server"
+jointeam <red/blue/random>
+exec idle
+
+if disconnected from server
+if item drop notification present
+
+
+-condebug - Logs all console output into the console.log text file
+-flushlog - Causes log files to be flushed to disk once per second (rather than after every 4kbytes of log data).
+
+condump
+con_log <file>
