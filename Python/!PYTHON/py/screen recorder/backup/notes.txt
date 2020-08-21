@@ -1,10 +1,7 @@
 [f1,f2,f3,...]
 
-<<<<<<< HEAD
 multi threading is not being used if the pool.map function is taking 1.5 seconds to execute
 
-=======
->>>>>>> f512dd3c9d5dc6925668413d8444a1645a6f7535
 dont clear the whole list, jsut delete a frame from the list after adding it to the video
 
 get key by value
