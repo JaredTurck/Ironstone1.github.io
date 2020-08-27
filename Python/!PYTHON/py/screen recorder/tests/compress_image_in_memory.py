@@ -10,7 +10,7 @@ def take_screenshot():
 
 def func_speed(func_name):
     start = time.time()
-    eval(func_name+"()")
+    eval(func_name)
     return time.time() - start
 
 def benchmark(timeout=1, display=True):
@@ -38,13 +38,30 @@ img = ImageGrab.grab()
 img.save("img1.png")
 
 #compress image, save in memory then show
-a = {1 : img}
 
-buffer = BytesIO()
-a[1].save(buffer, "PNG", optimize=True, quality=20)
+#print(func_speed("img.resize((320,180))"))
+#img = img.resize((320,180))
+
+img = img.resize((320,180))
+
+img.save(BytesIO(), "PNG", optimize=True, quality=20)
+img.save("img2.png")
 
 # capture image
 # optimise image
 # write image to ram
 
+# timings
+# resize            - 0.014002799987792969
+# resize            - 0.015003442764282227
+# save optimized    - 0.22405004501342773
+# save optimized    - 0.22805094718933105
+
+# optimize only reduce file size by a few kilobytes at most
+# regardless of the quality settings 5 to 95.
+# it is not worth running
+
+# best way to reduce file size would be to down scale the images as they are written to the video
+# then just upscale the whole video afterwards back to desired resolution.
+# and also run through ffmpeg to reduce file size further?
 

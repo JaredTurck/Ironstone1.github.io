@@ -25,16 +25,16 @@ class screen_recorder():
         self.frame_counter = 0
         self.total_frames = 0
         self.current_frame = 0
+        self.quality = 1
         self.between_frames_timeout = 0.01
         self.filecounter = len([i for i in os.listdir(".") if os.path.isfile(i) and i.endswith(".avi")])
         self.avg_fps = int(self.benchmark(timeout=1, display=False)[1])
         self.vid_name = "vid_" + str(self.filecounter) + ".avi"
-        self.video = cv2.VideoWriter(self.vid_name, 0, self.avg_fps-1, (self.res_w, self.res_h))
+        self.video = cv2.VideoWriter(self.vid_name, 0, self.avg_fps-1, (int(self.res_w//self.quality), int(self.res_h//self.quality)))
         self.exit = False
         self.error_timeout = 0.1
         self.error_count = 0
         self.running_time = 0
-        self.optimised_frames = 0
 
     def reset(self):
         self.frames = {}
@@ -111,12 +111,11 @@ class screen_recorder():
 
     def optimize_frames(self):
         while self.exit == False:
-            try:
-                current = list(self.frames.keys())[0]
-                self.frames[current].save(BytesIO(), "PNG", optimize=True, quality=10) # frames are not actully beeing saved to dict
-                self.optimised_frames += 1
-            except:
-                pass
+            keys = list(self.frames.keys())
+            if keys != []:
+                if keys[0] in self.frames.keys():
+                    self.frames[keys[0]] = self.frames[keys[0]].resize((int(self.res_w//self.quality), int(self.res_h//self.quality)))
+                    print(True)
 
     def start(self, sec=pow(2,16)):
         threading.Thread(target = self.write2video_loop).start()
@@ -138,4 +137,4 @@ class screen_recorder():
         print("File Name:",self.vid_name)
 
 r = screen_recorder()
-r.start()
+r.start(sec=5)
