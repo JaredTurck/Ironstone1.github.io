@@ -1,0 +1,11 @@
+image recognition
+
+take source video
+strip if off into individal frames
+crop the frames to only show the persons face (can use facial recognition for this)
+compress the images down to a very small size (dimensions of each frame is the same)
+save each frame to the disk as a seperate file
+
+read all the data and pass it into the network
+
+source frame, need to know what the frame is an image of
