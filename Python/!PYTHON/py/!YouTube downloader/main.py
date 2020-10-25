@@ -7,7 +7,10 @@ def get_input():
         user = input("Invalid URL!\n> ")
     return user
 
-download_path = YouTube(get_input()).streams.get_highest_resolution().download()
+if input("press enter to download at highest resolution, else type 'low' for low res!") == "low":
+    download_path = YouTube(get_input()).streams.get_lowest_resolution().download()
+else:
+    download_path = YouTube(get_input()).streams.get_highest_resolution().download()
 
 # download 1 video
 # download playlist

@@ -1,0 +1,12 @@
+(function(){
+	friends = document.querySelectorAll('[id^="fr_"]');
+	count = 0
+	for (i=0;i<friends.length;i++) {
+		try {
+			last_online = friends[i].querySelectorAll('[class="friend_last_online_text"]')[0].innerText;
+			url = friends[i].querySelectorAll('[class="selectable_overlay"]')[0].getAttribute("href");
+			count += 1
+		} catch {}
+	}
+	return count
+})();

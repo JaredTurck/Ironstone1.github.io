@@ -5,13 +5,14 @@
 
 import numpy as np
 from PIL import Image
-import copy, time
+import copy, time, os
 
 class neuralnet():
-    def __init__(self):
+    def __init__(self, network_shape):
         np.random.seed(1)
         self.data_dst_path = 'images/data_dst/'
         self.data_src_path = 'images/data_src/'
+        self.shape = network_shape
     
     def sigmoid(self, x):
         '''Keeps the output in the range of -1 to 1 with a smooth transition'''
@@ -23,11 +24,11 @@ class neuralnet():
         return x * (1 - x)
 
 
-    def generate_network(self, network_shape):
+    def generate_network(self):
             '''
             Given a shape of the network, generate randomized weight matrices for the network
             '''
-            self.shape = network_shape
+            network_shape = self.shape
             weight_arrays = []
             for i in range(0, len(network_shape) - 1):
                 cur_idx = i
@@ -37,7 +38,8 @@ class neuralnet():
                 weight_array = 2*np.random.rand(network_shape[next_idx], network_shape[cur_idx]) - 1
                 weight_arrays.append(weight_array)
 
-            return weight_arrays
+            #store weights in memory
+            self.weight_arrays = weight_arrays
 
 
     def run_network(self, input, network_shape, network_weights):
@@ -78,10 +80,17 @@ class neuralnet():
             return weight_arrays
 
 
-    def train_network(self, input, output, training_rate, network_shape, network_weights):
+    def train_network(self, training_rate, network_weights):
         '''
         Given an untrained network, inputs and expected outputs, train the network
         '''
+
+        #init
+        input = self.input
+        output = self.output
+        network_shape = self.shape
+        network_weights = self.weight_arrays
+        
         #print network_weights
         current_input = input
         #Our predicted outputs
@@ -95,7 +104,7 @@ class neuralnet():
 
         #This will be in the reverse order
         #Deltas will contain the error along with a few other terms which we come across
-        # due to how we formulate gradient descent of the neural network
+        #due to how we formulate gradient descent of the neural network
         deltas = []
 
         #We get these deltas according to the formula for gradient descent
@@ -154,19 +163,29 @@ class neuralnet():
         '''
         Generate the images dataset which will be used by run_dataset
         '''
+        # Prepare the data
+        self.FileExtension = '.png'
         imgArrList = []
-        numbersWeHave = range(0, 10) #We have 10 digits 
-        versionsWeHave = range(1, 16) #We have 15 versions of each digit
         outputs = []
+        
+        file_list = list(filter(None, [i if i.find(self.FileExtension)!=-1 else "" for i in os.listdir('images/data_src/')]))
+        min_value = min([len(list(filter(None, [i if i.find(l+".")==0 else '' for i in file_list]))) for l in "0123456789"])
+        
+        self.versionsWeHave = range(1, min_value+1) # min number of source files
+        self.numbersWeHave = range(0, 10)
         self.data_src_path = ImgPath
 
-        for number in numbersWeHave:
-            for version in versionsWeHave:
+        for number in self.numbersWeHave:
+            for version in self.versionsWeHave:
                 cur_output = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
                 cur_output[int(number)] = 1.0
                 outputs.append(cur_output)
-                imgPath = self.data_src_path + str(number) + '.' + str(version) + '.png'
+                imgPath = self.data_src_path + str(number) + '.' + str(version) + self.FileExtension
                 imgCur = Image.open(imgPath)
+                
+                #Resize the Image
+                imgCur = imgCur.resize((self.shape[0], self.shape[0]))
+                
                 #Make it black and white
                 imgCurArr = self.normalize_image(np.array(imgCur))
                 imgArrList.append(imgCurArr)
@@ -180,7 +199,9 @@ class neuralnet():
                     pixels.append(col[0]/255.0)
             inputs.append(pixels)
 
-        return [inputs, outputs]
+        # store img data in memory
+        self.inputs = np.array(inputs).T
+        self.outputs = np.array(outputs).T
 
     def generate_test_data(self, imgPath):
         '''
