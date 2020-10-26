@@ -4,7 +4,7 @@ from urllib.request import urlretrieve
 
 driver = webdriver.Chrome("chromedriver.exe")
 website_url = "https://danbooru.donmai.us"
-trust_modules = ["datetime", "math", "random", "pickle", "csv", "hashlib", "time", "getpass", "socket", "urllib"]
+trust_modules = ["datetime", "math", "random", "hashlib", "time", "getpass", "socket", "urllib"]
 cat_memes = []
 normal_memes = []
 
@@ -90,6 +90,24 @@ def run_code():
         if "open" in execute_file_reader:
             with open("execute_output.txt", "w", encoding="utf-8") as f_output:
                 f_output.write("File IO is disabled!")
+            clear_exec()
+            return True
+        
+        if "builtins" in execute_file_reader:
+            with open("execute_output.txt", "w", encoding="utf-8") as f_output:
+                f_output.write("builtins is disabled!")
+            clear_exec()
+            return True
+
+        if "os" in execute_file_reader:
+            with open("execute_output.txt", "w", encoding="utf-8") as f_output:
+                f_output.write("os is disabled!")
+            clear_exec()
+            return True
+
+        if "globals" in execute_file_reader:
+            with open("execute_output.txt", "w", encoding="utf-8") as f_output:
+                f_output.write("os is disabled!")
             clear_exec()
             return True
 

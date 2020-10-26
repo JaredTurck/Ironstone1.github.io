@@ -3,8 +3,16 @@
 //login
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-const token = "";
-bot.login(token);
+
+token_reader = require('fs');
+token_reader.readFile("TOKEN_DO_NOT_SHARE.txt", "utf-8", function(err, data) {
+	if (err) {
+		return console.log("failed to read token! " + err);
+	}
+	
+	const token = data;
+	bot.login(token);
+})
 
 bot.on("ready", () => {
 	console.log("This bot is online!");
@@ -60,7 +68,8 @@ Admin/mod Commands:
 -mute @user 		- mutes a user
 -unmute @user 		- unmutes a user
 -stop				- disables auto response (use this if the bot is spamming)
--autoresponse		- enables auto response`)
+-autoresponse		- enables auto response
+-replychance		- set hot often the bot replys`)
 	}
 })
 
@@ -405,6 +414,22 @@ var reply_chance = 3
 var DoReply = true;
 
 bot.on("message", msg => {
+	if (msg.content.toLowerCase().slice(0,13) == "-replychance ") {
+		value = parseInt(msg.content.toLowerCase().slice(13, msg.content.length));
+		if (value != NaN) {
+			if (value > 0) {
+				reply_chance = value;
+				msg.channel.send("reply chance set to " + parseInt((1 / reply_chance)*100)+"%!");
+			} else if (value == 0) {
+				msg.channel.send("You can't set the reply chance to 0%! please use -stop instead to turn the bot auto response off!");
+			} else if (value < 0) {
+				msg.channel.send("Negative percentages not allowed!");
+			}
+		}
+	}
+})
+
+bot.on("message", msg => {
 	if (msg.content.toLowerCase() == "-stop") {
 		DoReply = false;
 		msg.reply("Auto response is turned off! Sorry if I was spamming :(");
@@ -478,6 +503,12 @@ bot.on("message", msg => {
 		if (msg.content.toLowerCase() == ":o") {
 			if (new Date().getMilliseconds() % reply_chance == 0) {
 				msg.channel.send(":o ");
+			}
+		}
+		
+		if (msg.content.toLowerCase() == ":v") {
+			if (new Date().getMilliseconds() % reply_chance == 0) {
+				msg.channel.send(":v ");
 			}
 		}
 
@@ -709,7 +740,9 @@ bot.on("message", msg => {
 		}
 		
 		if (msg.content.toLowerCase() === "fuck") {
-			msg.channel.send("why you mad bruh?");
+			if (parseInt(Math.random() * 10) % (reply_chance+5) == 0) {
+				msg.channel.send("why you mad bruh?");
+			}
 		}
 		
 		if (msg.content.toLowerCase() === "random") {
@@ -766,6 +799,14 @@ bot.on("message", msg => {
 		setTimeout(function(){
 			DoReply = true;
 		}, 1000)
+	}
+})
+
+// killed by
+bot.on("message", msg => {
+	if (msg.content.toLowerCase().slice(0, 6) == "-kill ") {
+		let member = msg.mentions.members.first();
+		msg.reply("");
 	}
 })
 
