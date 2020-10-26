@@ -1,10 +1,11 @@
-import selenium, random, time, os, traceback
+import selenium, random, time, os, traceback, subprocess, psutil, signal
 from selenium import webdriver
 from urllib.request import urlretrieve
 
 driver = webdriver.Chrome("chromedriver.exe")
 website_url = "https://danbooru.donmai.us"
 trust_modules = ["datetime", "math", "random", "hashlib", "time", "getpass", "socket", "urllib"]
+dangerious_keywords = ["input", "exec", "eval", "compile", "open", "builtins", "os", "globals", "locals", "breakpoint", "dir", "delattr", "getattr", "repr", "vars"]
 cat_memes = []
 normal_memes = []
 
@@ -68,48 +69,13 @@ def run_code():
                     time.sleep(1)
                 clear_exec()
                 return True
-                
-        if "input" in execute_file_reader:
-            with open("execute_output.txt", "w", encoding="utf-8") as f_output:
-                f_output.write("Input statements are not allowed!")
-            clear_exec()
-            return True
-            
-        if "exec" in execute_file_reader:
-            with open("execute_output.txt", "w", encoding="utf-8") as f_output:
-                f_output.write("Execute calls are disabled!")
-            clear_exec()
-            return True
 
-        if "eval" in execute_file_reader:
-            with open("execute_output.txt", "w", encoding="utf-8") as f_output:
-                f_output.write("Eval calls are disabled!")
-            clear_exec()
-            return True
-
-        if "open" in execute_file_reader:
-            with open("execute_output.txt", "w", encoding="utf-8") as f_output:
-                f_output.write("File IO is disabled!")
-            clear_exec()
-            return True
-        
-        if "builtins" in execute_file_reader:
-            with open("execute_output.txt", "w", encoding="utf-8") as f_output:
-                f_output.write("builtins is disabled!")
-            clear_exec()
-            return True
-
-        if "os" in execute_file_reader:
-            with open("execute_output.txt", "w", encoding="utf-8") as f_output:
-                f_output.write("os is disabled!")
-            clear_exec()
-            return True
-
-        if "globals" in execute_file_reader:
-            with open("execute_output.txt", "w", encoding="utf-8") as f_output:
-                f_output.write("os is disabled!")
-            clear_exec()
-            return True
+        for keyword in dangerious_keywords:
+            if keyword in execute_file_reader:
+                with open("execute_output.txt", "w", encoding="utf-8") as f_output:
+                    f_output.write(keyword + " is not allowed!")
+                clear_exec()
+                return True
 
         if "time.sleep(" in execute_file_reader:
             a = execute_file_reader
@@ -135,12 +101,32 @@ def run_code():
                 return True
 
         # check if runs for longer then 1 second
-        title_name = "python_execute_code"
-        if (title_name in os.popen('tasklist /V /FI "WindowTitle eq '+title_name+'"').read()) == False:
-            os.popen('start "'+title_name+'" execute.py')
+        #title_name = "python_execute_code"
+        #if (title_name in os.popen('tasklist /V /FI "WindowTitle eq '+title_name+'"').read()) == False:
+        #    os.popen('start "'+title_name+'" execute.py')
+        pid = subprocess.Popen(["python.exe", "./execute.py"]).pid
 
         # terminate the script if it runs for long time
         time.sleep(1)
+
+        try:
+            psutil.Process(pid)
+            os.kill(pid, signal.SIGTERM)
+            
+            # clear execute file
+            with open("execute.py","w", encoding="utf-8") as execute_file:
+                execute_file.write("")
+
+            # write output to file
+            with open("execute_output.txt","w", encoding="utf-8") as output_file:
+                output_file.write("Script terminated as it ran for too long!")
+            clear_exec()
+            return True
+
+        except:
+            print("code is safe!")
+        
+        """
         if (title_name in os.popen('tasklist /V /FI "WindowTitle eq '+title_name+'"').read()) == True:
             [os.popen('taskkill /FI "WindowTitle eq '+title_name+'" /T /F') for i in range(5)]
             print("code is dangerous!")
@@ -158,6 +144,7 @@ def run_code():
             
         else:
             print("code is safe!")
+        """
             
         # run code
         try:

@@ -39,7 +39,8 @@ Info:
 -invitelink			- shows invite link
 -author				- shows author
 -membercount		- shows No. people on server
--testbot        - checks that the bot is online
+-testbot        	- checks that the bot is online
+-uptime				- shows how long the bot has been online for
 
 Chat Commands:
 -default dance		- does the default dance
@@ -51,6 +52,7 @@ Chat Commands:
 -imbored		- gives you something to do
 -random name		- generates random name
 -bot				- allows you to talk to chatbot
+-kill				- kill someone
 
 Image commands:
 -random animal		- shows photo of a random animal
@@ -166,7 +168,7 @@ bot.on("message", msg => {
 				// send message
 				msg.reply(data);
 			});
-		}, 15*1000, msg);
+		}, 3000, msg);
 		
 	}
 })
@@ -806,7 +808,14 @@ bot.on("message", msg => {
 bot.on("message", msg => {
 	if (msg.content.toLowerCase().slice(0, 6) == "-kill ") {
 		let member = msg.mentions.members.first();
-		msg.reply("");
+		animals_reader = require('fs')
+		animals_reader.readFile("datasets/methods_of_death.txt", "utf-8", function(err, data) {
+			if (err) {
+				return console.log(err);
+			}
+			death_method = data.split("\n")[parseInt(Math.random() * 1000) % data.split("\n").length]
+			msg.channel.send("<@" + member + "> " + death_method);
+		})
 	}
 })
 
@@ -902,12 +911,26 @@ bot.on("message", msg => {
 	}
 })
 
+//botup time
+var up_time = new Date();
+bot.on("message", msg => {
+	if (msg.content == "-uptime") {
+		current_time = new Date();
+		run_sec = (current_time - up_time)/1000;
+		formatted = parseInt(run_sec / 3600) + " hours, " + parseInt(run_sec % 3600 / 60) + " mins, " + parseInt(run_sec % 3600 % 60);
+		console.log(run_sec, formatted);
+		msg.reply("The bot has been online for " + formatted + " seconds");
+	}	
+})
+
 //stopwatch
 var stopwatch_start = new Date();
+var stopwatch_on = false;
 bot.on("message", msg => {
 	if (msg.content.toLowerCase().slice(0,11) == "-stopwatch ") {
 		if (msg.content.toLowerCase().split("-stopwatch ")[1] == "start") {
-			var stopwatch_start = new Date();
+			stopwatch_start = new Date();
+			stopwatch_on = true;
 			msg.reply("Stopwatch started! type '-stopwatch stop' to end!");
 		} 
 	}
@@ -916,12 +939,13 @@ bot.on("message", msg => {
 bot.on("message", msg => {
 	if (msg.content.toLowerCase().slice(0,11) == "-stopwatch ") {
 		if (msg.content.toLowerCase().split("-stopwatch ")[1] == "stop") {
-			if (stopwatch_start > 0) {
+			if (stopwatch_on == true) {
 				var stopwatch_stop = new Date();
 				run_sec = (stopwatch_stop - stopwatch_start)/1000;
 				formatted = parseInt(run_sec / 3600) + " hours, " + parseInt(run_sec % 3600 / 60) + " mins, " + parseInt(run_sec % 3600 % 60);
 				console.log(run_sec, formatted);
 				msg.reply("Stopwatch stopped!\nRunning time: " + formatted + " seconds!");
+				stopwatch_on = false;
 			} else {
 				msg.reply("You have not started the stopwatch, type '-stopwatch start' to start!");
 			}
