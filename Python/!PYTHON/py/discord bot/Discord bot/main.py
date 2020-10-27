@@ -1,6 +1,6 @@
 import selenium, random, time, os, traceback, subprocess, psutil, signal
 from selenium import webdriver
-from urllib.request import urlretrieve
+from urllib.request import urlretrieve, urlopen
 
 driver = webdriver.Chrome("chromedriver.exe")
 website_url = "https://danbooru.donmai.us"
@@ -322,6 +322,58 @@ def get_meme():
         urlretrieve(url, file_name)
         print("["+str(len(cat_memes))+"]downloaded normal meme! ")
 
+def get_steam_info():
+    command = open("steam_info_input.txt", "r").read()
+    with open("steam_info_input.txt", "w") as info_input:
+        info_input.write("")
+
+    # check for command in file
+    if command[0:15] == "get-steam-info ":
+        data = {}
+
+        # define URL
+        if command[15:].isdigit() == True:
+            url = "https://steamcommunity.com/profiles/" + command[15:]
+        elif "steamcommunity.com" in command[15:]:
+            url = command[15:]
+        else:
+            url = "https://steamcommunity.com/id/" + command[15:]
+
+        # get HTML
+        html = urlopen(url + "?xml=1").read().decode("utf-8")
+        tags = ['steamID64', 'steamID', 'customURL', 'onlineState', 'privacyState', 'visibilityState',
+                'vacBanned', 'tradeBanState', 'isLimitedAccount', 'memberSince', 'location', 'realname', 'summary']
+
+        # check for error
+        if "The specified profile could not be found" in html:
+            with open("steam_data_output.txt", "w") as file:
+                file.write("The specified profile could not be found.")
+
+        # remove tags from HTML
+        replaces = ["<![CDATA[", "]]</", "</", "]]/", "]]", "<", ">"]
+        for item in replaces:
+            html = html.replace(item, "")
+
+        for tag in tags:
+            try:
+                data[tag] = html.split(tag)[1].split(tag)[0]
+            except:
+                print("failed to add tag! " + tag)
+
+        # cleanup data
+        data["vacBanned"] = ["No", "Yes"][int(data["vacBanned"])]
+        data["visibilityState"] = ["Private", "Friend's Only", "Public"][int(data["visibilityState"])-1]
+        data["isLimitedAccount"] = ["No", "Yes"][int(data["isLimitedAccount"])]
+
+        # write data to output file
+        file = open("steam_data_output.txt", "w")
+        for key in data.keys():
+            file.write(key + ": \t" + data[key] + "\n")
+
+        print("steam data writen to file!")
+        file.close()
+
+
 while True:
     try:
         process()
@@ -329,6 +381,7 @@ while True:
         clever_bot()
         random_animal()
         get_meme()
+        get_steam_info()
         
     except Exception as err:
         print("error in while", err)

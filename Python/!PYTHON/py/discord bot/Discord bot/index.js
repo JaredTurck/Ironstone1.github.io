@@ -1,11 +1,84 @@
-//init vars
+/*
+JaredBot is a multipurpose Discord bot created by Jared Turck, 
+mainly to be used on the Jared Network Discord server.
 
+It has a range of features from tools such as execute, which 
+allows you to run Python code directly on your discord server, 
+steaminfo which allows you to see other users steam stats, an AI 
+chat bot which you can talk an interact with, auto response chat 
+commands, random images and memes, to games like rock paper scissors, 
+higher lower and TickTackToe. The bot also has moderation commands 
+for managing your server, like announce, warn, mute, unmute, kick, 
+ban, unban, to logging which saves a copy of every message allowing 
+you to retrieve messages even after they have been deleted.
+*/
+
+// --- Init Vars ---
+// IDs Pez, Skittle, Jared, Elyxia
+const authorised_IDs = ["497067274428219423", "268394063550611456", "364787379518701569", "714207191573463102"];
+const user_ID = "364787379518701569"; // Jared ID
+const hentai_channel_ID = "756291926277357600"; // hentai channel ID
+const channel_IDs = ["751827086137622658", "762103168061538315"]; // announcement channel IDs
+const muted_role_ID = "755217590296772658" // muted role ID
+
+var logging = true;				// turn logging on or off
+var reply_chance = 4;			// message reply chance
+var prefix = "-";				// default prefix
+var tag_tag_output = "Admin" 	// Display tag when mod commands are run
+var perm_invite_link = "https://discord.gg/QDeUXq4" // permanent invite link
+
+// file names
+const output_file_henati = "output.txt"
+const inputs_file_henati = "commands.txt"
+const output_file_execute = "execute_output.txt"
+const inputs_file_execute = "execute.py"
+const output_file_chatbot = "chat_bot_output.txt"
+const inputs_file_chatbot = "chat_bot_input.txt"
+const output_file_animals = "animal_output.txt"
+const inputs_file_animals = "animal_input.txt"
+const output_file_steaminfo = "steam_data_output.txt"
+const inputs_file_steaminfo = "steam_info_input.txt"
+const output_file_random_animal_png = "./current_image.png"
+const inputs_file_meme = "meme_input.txt"
+const outputs_file_meme = "./meme.png"
+
+const dataset_imbored = "datasets/imbored.txt";
+const dataset_firstname = "datasets/firstname.txt"
+const dataset_surname = "datasets/surname.txt"
+const default_dance_dir = "datasets/deafult_dance/"
+const dataset_methods_of_death = "datasets/methods_of_death.txt"
+const dataset_coins_dir = "datasets/coins/"
+
+const flip_coin_tails = "tails.gif"
+const flip_coin_heads = "heads.gif"
+const flip_coin_file_extension = ".gif"
+const text_meme_thef = "datasets/text_memes/thef.txt"
+const log_file_name = "SERVER_LOG_DONT_SHARE.log";
+const token_file_name = "TOKEN_DO_NOT_SHARE.txt";
+
+// Dont change these variables
+var DoReply = true;					// Dont change value
+var stopwatch_start = new Date();	// Dont change value
+var stopwatch_on = false;			// Dont change value
+var start_game = false; 			// Dont change value
+var random_num = 0;					// Dont change value
+var user_counter = 0;				// Dont change value
+var TicTacToe_start_game = false;	// Dont change value
+var TicTacToe_draw_board = true;	// Dont change value
+var show_prefix = true;				// Dont change value
+var member = undefined;				// Dont change value
+var up_time = new Date();			// Dont change value
+var n = [[".",".","."],[".",".","."],[".",".","."]];
+const ASCII = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+1234567890-=[]{}\|,.<>/?`~";
+
+
+// --- Main ---
 //login
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 
 token_reader = require('fs');
-token_reader.readFile("TOKEN_DO_NOT_SHARE.txt", "utf-8", function(err, data) {
+token_reader.readFile(token_file_name, "utf-8", function(err, data) {
 	if (err) {
 		return console.log("failed to read token! " + err);
 	}
@@ -20,7 +93,7 @@ bot.on("ready", () => {
 
 // commands
 bot.on("message", msg=> {
-	if(msg.content === "-testbot") {
+	if(msg.content === prefix+"testbot") {
 		msg.reply("Jared Bot is online!")
 	}
 })
@@ -31,71 +104,86 @@ bot.on("message", msg => {
 		
 Tools:
 -remind me {reminder} {No. min/sec} - sets a reminder
--timer {HH:MM:SS}	- sets a timer
+-timer {HH:MM:SS}		- sets a timer
 -stopwatch {start/stop} - sets a stopwatch
--execute        - executes Python code
+-execute        		- executes Python code
 
 Info:
--invitelink			- shows invite link
--author				- shows author
--membercount		- shows No. people on server
--testbot        	- checks that the bot is online
--uptime				- shows how long the bot has been online for
+-invitelink				- shows invite link
+-author					- shows author
+-membercount			- shows No. people on server
+-testbot        		- checks that the bot is online
+-uptime					- shows how long the bot has been online for
+-steaminfo				- show info of any steam user
+-prefix					- shows the current prefix
 
 Chat Commands:
--default dance		- does the default dance
--say {type something}    - repeats whatever you say
--do you {question}	- asks a question
--is {question}		- asks a question
--will {question}	- asks a question
--howgay 		- tests how gay they are
--imbored		- gives you something to do
--random name		- generates random name
--bot				- allows you to talk to chatbot
--kill				- kill someone
+-default dance			- does the default dance
+-say {type something}   - repeats whatever you say
+-do you {question}		- asks a question
+-is {question}			- asks a question
+-will {question}		- asks a question
+-howgay 				- tests how gay they are
+-imbored				- gives you something to do
+-random name			- generates random name
+-bot					- allows you to talk to chatbot
+-kill					- kill someone
+-stop					- disables auto response (use this if the bot is spamming)
+-autoresponse			- enables auto response
+-replychance			- set hot often the bot replys
 
 Image commands:
--random animal		- shows photo of a random animal
--hentai            - nsfw command
--meme				- posts a meme
--catmeme			- posts a cat meme
+-random animal			- shows photo of a random animal
+-hentai					- nsfw command
+-meme					- posts a meme
+-catmeme				- posts a cat meme
+-flipcoin				- flips a coin
 
 Games:
--rock/-paper/-scissors -play a game of Rock, Paper, Scissors
--higherlower		- guess the number
--ttt				- TicTacToe
+-rock/-paper/-scissors 	-play a game of Rock, Paper, Scissors
+-higherlower			- guess the number
+-ttt					- TicTacToe
 
 Admin/mod Commands:
--announce 			- admin command, sends announcement
--mute @user 		- mutes a user
--unmute @user 		- unmutes a user
--stop				- disables auto response (use this if the bot is spamming)
--autoresponse		- enables auto response
--replychance		- set hot often the bot replys`)
+-announce 				- admin command, sends announcement
+-mute @user 			- mutes a user
+-unmute @user 			- unmutes a user
+-tempmute @user length 	- mutes user for specified length then unmutes
+-kick @user				- kicks a user
+-ban @user				- bans a user
+-unban @user			- unbans a use
+-logging [on/off]		- turn message logging on or off
+-prefix {prefix}		- change the bots prefix`)
 	}
 })
 
 bot.on("message", msg=> {
-	if (msg.content.slice(0,4).toLowerCase() === "-say") {
+	if (msg.content.slice(0,4).toLowerCase() === prefix+"say") {
 		msg.reply(msg.content.slice(4, msg.content.length));
 	}
 })
 
 bot.on("message", msg => {
-	if (msg.content.slice(0,8).toLowerCase() === "-do you " || msg.content.slice(0,6) === "-do u ") {
+	if (msg.content.slice(0,8).toLowerCase() === prefix+"do you " || msg.content.slice(0,6) === prefix+"do u ") {
 		msg.reply(["Yes", "No"][parseInt(Math.random() * 100) % 2]);
 	}
 })
 
 bot.on("message", msg => {
-	if (msg.content.slice(0,4).toLowerCase() == "-is ") {
+	if (msg.content.slice(0,4).toLowerCase() == prefix+"is ") {
 		msg.reply(["Yes", "No"][parseInt(Math.random() * 100) % 2]);
 	}
 })
 
 bot.on("message", msg => {
-	if (msg.content.slice(0,8).toLowerCase() === "-howgay " || msg.content === "-howgay") {
-		if (msg.content === "-howgay") {
+	if (msg.content.slice(0,8).toLowerCase() == prefix+"should ") {
+		msg.reply(["Yes", "No"][parseInt(Math.random() * 100) % 2]);
+	}
+})
+
+bot.on("message", msg => {
+	if (msg.content.slice(0,8).toLowerCase() === prefix+"howgay " || msg.content === prefix+"howgay") {
+		if (msg.content === prefix+"howgay") {
 			msg.reply("You are " + String(parseInt(Math.random()*100)) + "% gay!")
 		} else {
 			name = msg.content.replace(" is "," ").split(" ")[1];
@@ -105,20 +193,18 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.content.slice(0,6).toLowerCase() === "-will ") {
+	if (msg.content.slice(0,6).toLowerCase() === prefix+"will ") {
 		msg.reply(["Yes", "No"][parseInt(Math.random() * 100) % 2]);
 	}
 })
 
 // post henati
-var hentai_channel_ID = "756291926277357600"
-
 bot.on("message", msg => {
-	if (msg.content.toLowerCase() === "-hentai") {
+	if (msg.content.toLowerCase() === prefix+"hentai") {
 		if (msg.channel.id == hentai_channel_ID) {
 			// write command to file
 			const fs_commands = require('fs');
-			fs_commands.writeFile('commands.txt', "get-henati", function(err) {
+			fs_commands.writeFile(inputs_file_henati, "get-henati", function(err) {
 				if (err) {
 					return console.log(err);
 				}
@@ -129,7 +215,7 @@ bot.on("message", msg => {
 			setTimeout(function(){
 				// read output file
 				fs_output = require('fs');
-				fs_output.readFile("output.txt", "utf8", function(err,data) {
+				fs_output.readFile(output_file_henati, "utf8", function(err,data) {
 					if (err) {
 						return console.log(err);
 					}
@@ -145,12 +231,13 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.content.slice(0,8) === "-execute") {
+	if (msg.content.slice(0,8) === prefix+"execute") {
 		var input_code = msg.content.slice(9,msg.length);
+		input_code = input_code.split("```").join("").split("`").join("");
 		
 		// write code to file
 		const fs_execute_code = require('fs');
-		fs_execute_code.writeFile('execute.py', input_code, function(err) {
+		fs_execute_code.writeFile(inputs_file_execute, input_code, function(err) {
 			if (err) {
 				return console.log(err);
 			}
@@ -160,7 +247,7 @@ bot.on("message", msg => {
 		// read code output
 		setTimeout(function(){
 			fs_execute_input = require('fs');
-			fs_execute_input.readFile("execute_output.txt", "utf-8", function(err, data) {
+			fs_execute_input.readFile(output_file_execute, "utf-8", function(err, data) {
 				if (err) {
 					return console.log(err);
 				}
@@ -174,9 +261,9 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.content.toLowerCase() === "-imbored") {
+	if (msg.content.toLowerCase() === prefix+"imbored") {
 		bored_dataset = require('fs');
-		bored_dataset.readFile("datasets/imbored.txt", "utf-8", function(err, data) {
+		bored_dataset.readFile(dataset_imbored, "utf-8", function(err, data) {
 			if (err) {
 				return console.log(err);
 			}
@@ -190,9 +277,9 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.content.toLowerCase() === "-random name") {
+	if (msg.content.toLowerCase() === prefix+"random name") {
 		first_name_dataset = require('fs')
-		first_name_dataset.readFile("datasets/firstname.txt", "utf-8", function(err, data) {
+		first_name_dataset.readFile(dataset_firstname, "utf-8", function(err, data) {
 			if (err) {
 				return console.log(err);
 			}
@@ -203,7 +290,7 @@ bot.on("message", msg => {
 			
 			//surname
 			surname_dataset = require('fs')
-			surname_dataset.readFile("datasets/surname.txt", "utf-8", function(err, data) {
+			surname_dataset.readFile(dataset_surname, "utf-8", function(err, data) {
 				if (err) {
 					return console.log(err);
 				}
@@ -223,13 +310,10 @@ bot.on("message", msg => {
 })
 
 // anouncment
-var user_ID = "364787379518701569"
-var channel_IDs = ["751827086137622658", "762103168061538315"]
-
 bot.on("message", msg => {
 	if (msg.channel.type == 'dm') {
 		if (msg.author.id === user_ID) {
-			if (msg.content.toLowerCase().slice(0,10) === "-announce ") {
+			if (msg.content.toLowerCase().slice(0,10) === prefix+"announce ") {
 				console.log("Message from Jared recived!");
 				var TheMessage = msg.content.slice(10, msg.content.length);
 			
@@ -242,21 +326,22 @@ bot.on("message", msg => {
 	}
 })
 
-
+// default dance
 bot.on("message", msg => {
-	if (msg.content.toLowerCase().slice(0, 14) == "-default dance") {
-		if (msg.author.id === user_ID) {
-			
+	if (msg.content.toLowerCase().slice(0, 14) == prefix+"default dance") {
+		if (authorised_IDs.indexOf(msg.author.id) > -1) {
 			// message reply
 			for (i=1;i<11;i++) {
 				deafult_dance = require('fs')
-				deafult_dance.readFile("datasets/deafult_dance/"+i+".txt", "utf-8", function(err, data) {
+				deafult_dance.readFile(default_dance_dir+i+".txt", "utf-8", function(err, data) {
 					if (err) {
 						return console.log(err);
 					}
 					msg.reply(data);
 				})
 			}
+		} else {
+			msg.reply("You can't run this command!");
 		}
 	}
 })
@@ -266,7 +351,7 @@ function get_output(msg, channel_id) {
 	setTimeout(function() {
 		try {
 			fs_execute_input2 = require('fs');
-			fs_execute_input2.readFile("chat_bot_output.txt", "utf-8", function(err, data) {
+			fs_execute_input2.readFile(output_file_chatbot, "utf-8", function(err, data) {
 				if (err) {
 					return console.log(err);
 				}
@@ -286,13 +371,13 @@ function get_output(msg, channel_id) {
 
 // clever bot
 bot.on("message", msg => {
-	if (msg.content.slice(0,4) === "-bot") {
+	if (msg.content.slice(0,4) === prefix+"bot") {
 		var input_code = msg.content.slice(5,msg.length);
 		
 		if (input_code == "restart") {
 			// write code to file
 			fs_restart = require('fs');
-			fs_restart.writeFile('chat_bot_input.txt', "{RESTART}", function(err) {
+			fs_restart.writeFile(inputs_file_chatbot, "{RESTART}", function(err) {
 				if (err) {
 					return console.log(err);
 				}
@@ -303,7 +388,7 @@ bot.on("message", msg => {
 		
 		// write code to file
 		const fs_execute_code = require('fs');
-		fs_execute_code.writeFile('chat_bot_input.txt', input_code, function(err) {
+		fs_execute_code.writeFile(inputs_file_chatbot, input_code, function(err) {
 			if (err) {
 				return console.log(err);
 			}
@@ -313,7 +398,7 @@ bot.on("message", msg => {
 		// read code output
 		setTimeout(function(){
 			fs_chatbot_input = require('fs');
-			fs_chatbot_input.readFile("chat_bot_output.txt", "utf-8", function(err, data) {
+			fs_chatbot_input.readFile(output_file_chatbot, "utf-8", function(err, data) {
 				if (err) {
 					return console.log(err);
 				}
@@ -328,10 +413,10 @@ bot.on("message", msg => {
 
 // random animal
 bot.on("message", msg => {
-	if (msg.content.toLowerCase() === "-random animal") {
+	if (msg.content.toLowerCase() === prefix+"random animal") {
 		// write command to file
 		const fs_commands = require('fs');
-		fs_commands.writeFile('animal_input.txt', "random-animal", function(err) {
+		fs_commands.writeFile(inputs_file_animals, "random-animal", function(err) {
 			if (err) {
 				return console.log(err);
 			}
@@ -341,13 +426,13 @@ bot.on("message", msg => {
 		// read file after 5 second
 		setTimeout(function(){
 			rand_animal_output = require('fs');
-			rand_animal_output.readFile("animal_output.txt", "utf-8", function(err, data) {
+			rand_animal_output.readFile(output_file_animals, "utf-8", function(err, data) {
 				if (err) {
 					return console.log(err);
 				}
 				
 				//send message
-				msg.channel.send(data, { files: ['./current_image.png'] }).then (msg => {
+				msg.channel.send(data, { files: [output_file_random_animal_png] }).then (msg => {
 					console.log("uploaded random animal image to discord!")
 				})
 			})
@@ -359,12 +444,12 @@ bot.on("message", msg => {
 // post meme
 bot.on("message", msg => {
 	var command = msg.content.toLowerCase()
-	if (command === "-catmeme" || command === "-meme") {
+	if (command === "-catmeme" || command === prefix+"meme") {
 		try {
 			// write command to file
 			if (command === "-catmeme") {
 				cat_input_writer = require('fs');
-				cat_input_writer.writeFile('meme_input.txt', "meme-cat", function(err) {
+				cat_input_writer.writeFile(inputs_file_meme, "meme-cat", function(err) {
 					if (err) {
 						return console.log(err);
 					}
@@ -372,7 +457,7 @@ bot.on("message", msg => {
 				});
 			} else if (command === "-meme") {
 				meme_input_writer = require('fs');
-				meme_input_writer.writeFile('meme_input.txt', "meme", function(err) {
+				meme_input_writer.writeFile(inputs_file_meme, "meme", function(err) {
 					if (err) {
 						return console.log(err);
 					}
@@ -382,7 +467,7 @@ bot.on("message", msg => {
 		
 			// read output
 			setTimeout(function() {
-				msg.reply("", { files: ['./meme.png'] }).then (msg => {
+				msg.reply("", { files: [outputs_file_meme] }).then (msg => {
 					console.log("uploaded meme to discord!");
 				});
 			}, 5000, msg);
@@ -394,29 +479,26 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.content.toLowerCase() === "-invitelink") {
-		msg.reply("https://discord.gg/QDeUXq4");
+	if (msg.content.toLowerCase() === prefix+"invitelink") {
+		msg.reply(perm_invite_link);
 	}
 })
 
 bot.on("message", msg => {
-	if (msg.content === "-author") {
+	if (msg.content === prefix+"author") {
 		msg.reply("JaredBot was created by Jared Turck")
 	}
 })
 
 bot.on("message", msg => {
-	if (msg.content === "-membercount") {
+	if (msg.content === prefix+"membercount") {
 		msg.reply("There are " + bot.guilds.cache.reduce((a,g) => a + g.memberCount, 0) + " members on the server!");
 	}
 })
 
 // chat replys
-var reply_chance = 3
-var DoReply = true;
-
 bot.on("message", msg => {
-	if (msg.content.toLowerCase().slice(0,13) == "-replychance ") {
+	if (msg.content.toLowerCase().slice(0,13) == prefix+"replychance ") {
 		value = parseInt(msg.content.toLowerCase().slice(13, msg.content.length));
 		if (value != NaN) {
 			if (value > 0) {
@@ -432,14 +514,14 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.content.toLowerCase() == "-stop") {
+	if (msg.content.toLowerCase() == prefix+"stop") {
 		DoReply = false;
 		msg.reply("Auto response is turned off! Sorry if I was spamming :(");
 	}
 })
 
 bot.on("message", msg => {
-	if (msg.content.toLowerCase() == "-autoresponse") {
+	if (msg.content.toLowerCase() == prefix+"autoresponse") {
 		DoReply = true;
 		msg.reply("Auto response turned on!");
 	}
@@ -806,10 +888,10 @@ bot.on("message", msg => {
 
 // killed by
 bot.on("message", msg => {
-	if (msg.content.toLowerCase().slice(0, 6) == "-kill ") {
+	if (msg.content.toLowerCase().slice(0, 6) == prefix+"kill ") {
 		let member = msg.mentions.members.first();
 		animals_reader = require('fs')
-		animals_reader.readFile("datasets/methods_of_death.txt", "utf-8", function(err, data) {
+		animals_reader.readFile(dataset_methods_of_death, "utf-8", function(err, data) {
 			if (err) {
 				return console.log(err);
 			}
@@ -821,7 +903,7 @@ bot.on("message", msg => {
 
 // Rock, Paper, Scissors
 bot.on("message", msg => {
-	if (["-rock", "-paper", "-scissors"].indexOf (msg.content.toLowerCase()) > -1) {
+	if ([prefix+"rock", prefix+"paper", prefix+"scissors"].indexOf (msg.content.toLowerCase()) > -1) {
 		bot_answer = ["Rock!", "Paper!", "Scissors!"][parseInt(Math.random() * 10) % 3];
 		winning_text = "";
 		
@@ -829,23 +911,23 @@ bot.on("message", msg => {
 		console.log(bot_answer)
 		
 		// conditions
-		if (msg.content.toLowerCase() == "-rock" && bot_answer == "Rock!") {
+		if (msg.content.toLowerCase() == prefix+"rock" && bot_answer == "Rock!") {
 			winning_text = "Draw!";
-		} else if (msg.content.toLowerCase() == "-rock" && bot_answer == "Paper!") {
+		} else if (msg.content.toLowerCase() == prefix+"rock" && bot_answer == "Paper!") {
 			winning_text = "HAHA I win!";
-		} else if (msg.content.toLowerCase() == "-rock" && bot_answer == "Scissors!") {
+		} else if (msg.content.toLowerCase() == prefix+"rock" && bot_answer == "Scissors!") {
 			winning_text = "You Win!";
-		} else if (msg.content.toLowerCase() == "-paper" && bot_answer == "Rock!") {
+		} else if (msg.content.toLowerCase() == prefix+"paper" && bot_answer == "Rock!") {
 			winning_text = "You Win!";
-		} else if (msg.content.toLowerCase() == "-paper" && bot_answer == "Paper!") {
+		} else if (msg.content.toLowerCase() == prefix+"paper" && bot_answer == "Paper!") {
 			winning_text = "Draw!";
-		} else if (msg.content.toLowerCase() == "-paper" && bot_answer == "Scissors!") {
+		} else if (msg.content.toLowerCase() == prefix+"paper" && bot_answer == "Scissors!") {
 			winning_text = "HAHA I Win!";
-		} else if (msg.content.toLowerCase() == "-scissors" && bot_answer == "Rock!") {
+		} else if (msg.content.toLowerCase() == prefix+"scissors" && bot_answer == "Rock!") {
 			winning_text = "HAHA I Win!";
-		} else if (msg.content.toLowerCase() == "-scissors" && bot_answer == "Paper!") {
+		} else if (msg.content.toLowerCase() == prefix+"scissors" && bot_answer == "Paper!") {
 			winning_text = "You Win!";
-		} else if (msg.content.toLowerCase() == "-scissors" && bot_answer == "Scissors!") {
+		} else if (msg.content.toLowerCase() == prefix+"scissors" && bot_answer == "Scissors!") {
 			winning_text = "Draw!";
 		}
 		
@@ -859,12 +941,12 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.content.toLowerCase().slice(0, 10) == "-remind me") {
+	if (msg.content.toLowerCase().slice(0, 10) == prefix+"remind me") {
 		try {
 			if (msg.content.toLowerCase().indexOf(" second") > -1) {
-				user_input = msg.content.toLowerCase().replace("-remind me ","").split(" sec")[0]
+				user_input = msg.content.toLowerCase().replace(prefix+"remind me ","").split(" sec")[0]
 				time = user_input.split(" ")[user_input.split(" ").length -1];
-				reminder = msg.content.toLowerCase().replace("-remind me ","")
+				reminder = msg.content.toLowerCase().replace(prefix+"remind me ","")
 			
 				setTimeout(function() {
 					msg.reply("Reminder! "+ reminder.split(" sec")[0]);
@@ -872,9 +954,9 @@ bot.on("message", msg => {
 				msg.reply("Ok i will remind you!");
 			
 			} else if (msg.content.toLowerCase().indexOf(" min") > -1) {
-				user_input = msg.content.toLowerCase().replace("-remind me ","").split(" min")[0]
+				user_input = msg.content.toLowerCase().replace(prefix+"remind me ","").split(" min")[0]
 				time = user_input.split(" ")[user_input.split(" ").length -1];
-				reminder = msg.content.toLowerCase().replace("-remind me ","")
+				reminder = msg.content.toLowerCase().replace(prefix+"remind me ","")
 			
 				setTimeout(function() {
 					msg.reply("Reminder! "+ reminder.split(" min")[0]);
@@ -889,8 +971,8 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.content.toLowerCase().slice(0,7) == "-timer ") {
-		time = msg.content.toLowerCase().replace("-timer ","").split(":");
+	if (msg.content.toLowerCase().slice(0,7) == prefix+"timer ") {
+		time = msg.content.toLowerCase().replace(prefix+"timer ","").split(":");
 		if (time.length == 3) {
 			if (parseInt(time[0]) != NaN && parseInt(time[1]) != NaN && parseInt(time[2]) != NaN) {
 				secs = parseInt(time[2])
@@ -912,9 +994,8 @@ bot.on("message", msg => {
 })
 
 //botup time
-var up_time = new Date();
 bot.on("message", msg => {
-	if (msg.content == "-uptime") {
+	if (msg.content == prefix+"uptime") {
 		current_time = new Date();
 		run_sec = (current_time - up_time)/1000;
 		formatted = parseInt(run_sec / 3600) + " hours, " + parseInt(run_sec % 3600 / 60) + " mins, " + parseInt(run_sec % 3600 % 60);
@@ -924,21 +1005,19 @@ bot.on("message", msg => {
 })
 
 //stopwatch
-var stopwatch_start = new Date();
-var stopwatch_on = false;
 bot.on("message", msg => {
-	if (msg.content.toLowerCase().slice(0,11) == "-stopwatch ") {
-		if (msg.content.toLowerCase().split("-stopwatch ")[1] == "start") {
+	if (msg.content.toLowerCase().slice(0,11) == prefix+"stopwatch ") {
+		if (msg.content.toLowerCase().split(prefix+"stopwatch ")[1] == "start") {
 			stopwatch_start = new Date();
 			stopwatch_on = true;
-			msg.reply("Stopwatch started! type '-stopwatch stop' to end!");
+			msg.reply("Stopwatch started! type '"+prefix+"stopwatch stop' to end!");
 		} 
 	}
 })
 
 bot.on("message", msg => {
-	if (msg.content.toLowerCase().slice(0,11) == "-stopwatch ") {
-		if (msg.content.toLowerCase().split("-stopwatch ")[1] == "stop") {
+	if (msg.content.toLowerCase().slice(0,11) == prefix+"stopwatch ") {
+		if (msg.content.toLowerCase().split(prefix+"stopwatch ")[1] == "stop") {
 			if (stopwatch_on == true) {
 				var stopwatch_stop = new Date();
 				run_sec = (stopwatch_stop - stopwatch_start)/1000;
@@ -947,18 +1026,15 @@ bot.on("message", msg => {
 				msg.reply("Stopwatch stopped!\nRunning time: " + formatted + " seconds!");
 				stopwatch_on = false;
 			} else {
-				msg.reply("You have not started the stopwatch, type '-stopwatch start' to start!");
+				msg.reply("You have not started the stopwatch, type '"+prefix+"stopwatch start' to start!");
 			}
 		}
 	}
 })
 
 // Higher or Lower
-var start_game = false;
-var random_num = 0;
-var user_counter = 0;
 bot.on("message", msg => {
-	if (msg.content.toLowerCase() == "-higherlower") {
+	if (msg.content.toLowerCase() == prefix+"higherlower") {
 		start_game = true;
 		random_num = parseInt(Math.random() * 100) % 100;
 		msg.reply("Im thinking of a number between 1 and 100! Guess the number!")
@@ -992,9 +1068,6 @@ bot.on("message", msg => {
 })
 
 // TicTacToe
-var n = [[".", ".", "."], [".", ".", "."],[".", ".", "."]]
-var TicTacToe_start_game = false;
-var TicTacToe_draw_board = true;
 function draw_board(msg) {
 	if (TicTacToe_draw_board == true) {
 		msg.channel.send("```   A   B   C\n" +
@@ -1025,7 +1098,7 @@ function condition_draw(msg) {
 }
 
 bot.on("message", msg => {
-	if (msg.content == "-ttt") {
+	if (msg.content == prefix+"ttt") {
 		TicTacToe_start_game = true;
 		draw_board(msg);
 	}
@@ -1092,35 +1165,265 @@ bot.on("message", msg => {
 	}
 })
 
+// flip a coin
+bot.on("message", msg => {
+	if (msg.content == prefix+"flipcoin") {
+		coin = [flip_coin_tails, flip_coin_heads][parseInt(Math.random() * 10) % 2];
+		name = coin[0].toUpperCase() + coin.slice(1,coin.length).replace(flip_coin_file_extension, "") + "!"
+		msg.reply(name, { files: [dataset_coins_dir+coin] }).then (msg => {
+			console.log("Coin fliped!")
+		})
+	}
+})
+
+// text memes
+bot.on("message", msg => {
+	if (msg.content.toLowerCase() == prefix+"killjaredbot") {
+		if (msg.author.id == "364787379518701569") {
+			kill_dank_memer = require('fs')
+			kill_dank_memer.readFile(text_meme_thef, "utf-8", function(err, data) {
+				if (err) {
+					return console.log(err);
+				}
+				msg.reply(data);
+			})
+		}
+	}
+})
+
+// steam info
+bot.on("message", msg => {
+	if (msg.content.toLowerCase().slice(0, 11) == prefix+"steaminfo ") {
+		steam_info_writer = require('fs');
+		steam_info_writer.writeFile(inputs_file_steaminfo, "get-steam-info " + msg.content.slice(11, msg.content.length), function(err) {
+			if (err) {
+				return console.log(err);
+			}
+			console.log("wrote command get-steam-info to file!");
+		})
+		
+		// read the steam data
+		setTimeout(function(){
+			get_steam_data = require('fs')
+			get_steam_data.readFile(output_file_steaminfo, "utf-8", function(err, data) {
+				if (err) {
+					return console.log(err);
+				}
+				msg.reply("\n" + data);
+			})
+		}, 3000, msg);
+	}
+})
+
+// change prefix
+bot.on("message", msg => {
+	if (msg.content.slice(0, 8) == prefix+"prefix ") {
+		if (authorised_IDs.indexOf(msg.author.id) > -1) {
+			new_prefix = msg.content.slice(8, msg.content.length);
+			if (new_prefix.length == 1) {
+				if (ASCII.indexOf(new_prefix) > -1) {
+					old_prefix = prefix;
+					prefix = new_prefix;
+					msg.reply("["+tag_tag_output+"] Prefix changed from `" + old_prefix + "` to `" + prefix + "`!")
+				} else {
+					msg.reply("Prefix must be an ASCII character!");
+				}
+			} else {
+				msg.reply("Prefix must be a single character!");
+			}
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can change the bpt prefix!");
+		}
+	}
+})
+
+// show current prefix
+bot.on("message", msg => {
+	if (msg.content == prefix+"prefix") {
+		msg.reply("JaredBot's prefix is `" + prefix + "`")
+		show_prefix = false;
+		setTimeout(function(){
+			show_prefix = true;
+		}, 1000);
+	}
+})
+
 
 // moderation
-// IDs Pez, Skittle, Jared, Elyxia
-authorised_IDs = ["497067274428219423", "268394063550611456", "364787379518701569", "714207191573463102"];
 bot.on("message", msg => {
-	if (msg.content.slice(0, 5) == "-warn") {
+	if (msg.content.slice(0, 6) == prefix+"warn ") {
 		if (authorised_IDs.indexOf(msg.author.id) > -1) {
-			msg.channel.send("[WARNING]"+ msg.content.slice(5, msg.length));
-			console.log("user warned!");
+			let member = msg.mentions.members.first();
+			if (member != undefined) {
+				msg.channel.send("[WARNING]"+ msg.content.slice(5, msg.length));
+				console.log("user warned!");
+			} else {
+				msg.reply("Failed to warn! The specified User could not be found!");
+			}
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can use the warn command!");
 		}
 	}
 })
 
 bot.on("message", msg => {
-	if (msg.content.slice(0,5) == "-mute") {
+	if (msg.content.slice(0, 5) == prefix+"mute") {
 		if (authorised_IDs.indexOf(msg.author.id) > -1) {
 			let member = msg.mentions.members.first();
-			member.roles.add("755217590296772658");
-			msg.channel.send("User "+ member + " muted!");
+			if (member != undefined) {
+				member.roles.add(muted_role_ID);
+				msg.channel.send("["+tag_tag_output+"] <@"+ member + "> muted!");
+			} else {
+				msg.reply("Failed to mute! The specified User could not be found!");
+			}
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can use the mute command!");
 		}
 	}
 })
 
 bot.on("message", msg => {
-	if (msg.content.slice(0,7) == "-unmute") {
+	if (msg.content.slice(0, 7) == prefix+"unmute") {
 		if (authorised_IDs.indexOf(msg.author.id) > -1) {
 			let member = msg.mentions.members.first();
-			member.roles.remove("755217590296772658");
-			msg.channel.send("User "+ member + " unmuted!");
+			if (member != undefined) {
+				member.roles.remove(muted_role_ID);
+				msg.channel.send("["+tag_tag_output+"] <@"+ member + "> unmuted!");
+			} else {
+				msg.reply("Failed to unmute! The specified User could not be found!");
+			}
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can use the unmute command!");
 		}
 	}
 })
+
+bot.on("message", msg => {
+	if (msg.content.slice(0, 9) == prefix+"tempmute") {
+		if (authorised_IDs.indexOf(msg.author.id) > -1) {
+			let member = msg.mentions.members.first();
+			if (member != undefined) {
+				message = msg.content.split(" ")
+				if (message.length == 3 && message[0] == prefix+"tempmute" && parseInt(message[2]) != NaN) {
+					if (message[2] > 0) {
+						if (message[2] < 1440) {
+							// mute user
+							member.roles.add(muted_role_ID);
+							msg.channel.send("["+tag_tag_output+"] <@"+ member + "> muted for "+message[2]+" mins!");
+					
+							//unmute user
+							setTimeout(function(){
+								member.roles.remove(muted_role_ID);
+								msg.channel.send("["+tag_tag_output+"] <@" + member + "> has been unmuted!");
+							}, parseInt(message[2]) * 1000 * 60, member, msg);
+						} else {
+							msg.reply("Mute Length too large, must be less than 24 hours (1440 mins)!");
+						}
+					} else {
+						if (parseInt(message[2]) < 0) {
+							msg.reply("Mute Length cant be a negative number!");
+						} else {
+							msg.reply("Invalid Format! Mute length must be a number!");
+						}
+					}
+				} else {
+					msg.reply("Invalid Format! Please use -tempmute @user {length in mins}");
+				}
+			} else {
+				msg.reply("Failed to mute! The specified User could not be found!");
+			}
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can use the mute command!");
+		}
+	}
+})
+
+bot.on("message", msg => {
+	if (msg.content.slice(0, 5) == prefix+"kick") {
+		if (authorised_IDs.indexOf(msg.author.id) > -1) {
+			let member = msg.mentions.members.first();
+			if (member != undefined) {
+				member.kick();
+				msg.channel.send("["+tag_tag_output+"] <@" + member + "> has been kicked!");
+			} else {
+				msg.reply("Failed to kick! The specified User could not be found!");
+			}
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can use the kick command!");
+		}
+	}
+})
+
+bot.on("message", msg => {
+	if (msg.content.slice(0, 4) == prefix+"ban") {
+		if (authorised_IDs.indexOf(msg.author.id) > -1) {
+			let member = msg.mentions.members.first();
+			custom_ID = msg.content.slice(5, msg.content.length);
+			if (member != undefined) {
+				member.ban();
+				msg.channel.send("["+tag_tag_output+"] <@" + member + "> has been banned!");
+			} else {
+				msg.reply("Failed to ban! The specified User could not be found!");
+			}
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can use the ban command!");
+		}
+	}
+})
+
+bot.on("message", msg => {
+	if (msg.content.slice(0, 6) == prefix+"unban") {
+		if (authorised_IDs.indexOf(msg.author.id) > -1) {
+			ID = msg.content.slice(7, msg.content.length)
+			if (/^\d+$/.test(ID) == true) {
+				msg.guild.members.unban(ID);
+				msg.channel.send("["+tag_tag_output+"] <@" + ID + "> has been unbanned!");
+			} else {
+				msg.channel.send("Please specify a User ID! " +
+				"you can get the User ID by right clicking on a message the user has sent, then selecting Copy ID");
+			}
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can use the unban command!");
+		}
+	}
+})
+
+// logging
+bot.on("message", msg => {
+	if (msg.content.slice(0, 9) == prefix+"logging ") {
+		if (authorised_IDs.indexOf(msg.author.id) > -1) {
+			command = msg.content.slice(9, msg.content.length);
+			if (command == "on") {
+				logging = true;
+				msg.channel.send("Logging turned on! All messages are now being logged!");
+			} else if (command == "off") {
+				logging = false;
+				msg.channel.send("Logging turned off! Messages are no longer being logged!");
+			} else {
+				msg.reply("Invalid syntax! Please use -logging [on/off]!");
+			}
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can use the bot prefix!");
+		}
+	}
+})
+
+bot.on("message", msg => {
+	if (logging == true) {
+		try {
+			date = String(new Date()).split(" GMT")[0];
+			user = msg.member.user.tag;
+			channel = msg.channel.name;
+		
+			fs_log_writer = require('fs');
+			fs_log_writer.appendFile(log_file_name, "["+channel+"]["+user+"]["+date+"] "+msg.content+"\n", function(err) {
+				if (err) {
+					console.log(err);
+				}
+			})
+		} catch (err) {
+			console.log("Failed to write to log file! " + err);
+		}
+	}
+})
+
