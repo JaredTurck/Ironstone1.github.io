@@ -1,0 +1,536 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.vmf
+Map revision 128
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (132823 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 21
+Reduced 6 texdatas to 6 (142 bytes to 142)
+Writing D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+reading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.prt
+ 302 portalclusters
+1121 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 12 visible clusters (0.00%)
+Total clusters visible: 33896
+Average clusters visible: 112
+Building PAS...
+Average clusters audible: 301
+visdatasize:23830  compressed from 24160
+writing d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+1551 faces
+7 degenerate faces
+409625 square feet [58986032.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1544 patches before subdivision
+31032 patches after subdivision
+51 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4140652, max 683
+transfer lists:  31.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(19792, 8975, 4826)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1843, 685, 260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(283, 55, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(33, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0094 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                285/8192         3420/98304    ( 3.5%) 
+brushsides            3397/81920       27176/655360   ( 4.1%) 
+planes                4972/65536       99440/1310720  ( 7.6%) 
+vertexes              2555/65536       30660/786432   ( 3.9%) 
+nodes                  803/65536       25696/2097152  ( 1.2%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1551/65536       86856/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1065/65536       59640/3670016  ( 1.6%) 
+facebrushes            443/0             886/0        ( 0.0%) 
+facebrushlists        1551/0            6204/0        ( 0.0%) 
+leaves                 810/65536       25920/2097152  ( 1.2%) 
+leaffaces             2082/65536        4164/131072   ( 3.2%) 
+leafbrushes            777/65536        1554/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            12296/512000      49184/2048000  ( 2.4%) 
+edges                 6872/256000      27488/1024000  ( 2.7%) 
+LDR worldlights         50/8192         5000/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            120/32768        1200/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1584/65536        3168/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2471116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       23830/16777216 ( 0.1%) 
+entdata               [variable]       41679/393216   (10.6%) 
+LDR ambient table      810/65536        3240/262144   ( 1.2%) 
+HDR ambient table      810/65536        3240/262144   ( 1.2%) 
+LDR leaf ambient      2419/65536       67732/1835008  ( 3.7%) 
+HDR leaf ambient       810/65536       22680/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]      132823/4194304  ( 3.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 4619
+Writing d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+38 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.vmf
+Map revision 139
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (132823 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 21
+Reduced 6 texdatas to 6 (142 bytes to 142)
+Writing D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+reading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.prt
+ 302 portalclusters
+1121 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 12 visible clusters (0.00%)
+Total clusters visible: 33896
+Average clusters visible: 112
+Building PAS...
+Average clusters audible: 301
+visdatasize:23830  compressed from 24160
+writing d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+1551 faces
+7 degenerate faces
+409625 square feet [58986032.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1544 patches before subdivision
+31032 patches after subdivision
+51 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4140652, max 683
+transfer lists:  31.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(19792, 8975, 4826)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1843, 685, 260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(283, 55, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(33, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0075 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                285/8192         3420/98304    ( 3.5%) 
+brushsides            3397/81920       27176/655360   ( 4.1%) 
+planes                4972/65536       99440/1310720  ( 7.6%) 
+vertexes              2555/65536       30660/786432   ( 3.9%) 
+nodes                  803/65536       25696/2097152  ( 1.2%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1551/65536       86856/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1065/65536       59640/3670016  ( 1.6%) 
+facebrushes            443/0             886/0        ( 0.0%) 
+facebrushlists        1551/0            6204/0        ( 0.0%) 
+leaves                 810/65536       25920/2097152  ( 1.2%) 
+leaffaces             2082/65536        4164/131072   ( 3.2%) 
+leafbrushes            777/65536        1554/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            12296/512000      49184/2048000  ( 2.4%) 
+edges                 6872/256000      27488/1024000  ( 2.7%) 
+LDR worldlights         50/8192         5000/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            120/32768        1200/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1584/65536        3168/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2471116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       23830/16777216 ( 0.1%) 
+entdata               [variable]       42643/393216   (10.8%) 
+LDR ambient table      810/65536        3240/262144   ( 1.2%) 
+HDR ambient table      810/65536        3240/262144   ( 1.2%) 
+LDR leaf ambient      2418/65536       67704/1835008  ( 3.7%) 
+HDR leaf ambient       810/65536       22680/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]      132823/4194304  ( 3.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 4619
+Writing d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+42 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.vmf
+Map revision 141
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (132823 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 21
+Reduced 6 texdatas to 6 (142 bytes to 142)
+Writing D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+reading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.prt
+ 302 portalclusters
+1121 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 12 visible clusters (0.00%)
+Total clusters visible: 33896
+Average clusters visible: 112
+Building PAS...
+Average clusters audible: 301
+visdatasize:23830  compressed from 24160
+writing d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+1551 faces
+7 degenerate faces
+409625 square feet [58986032.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1544 patches before subdivision
+31032 patches after subdivision
+51 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4140652, max 683
+transfer lists:  31.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(19793, 8975, 4826)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1843, 685, 260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(283, 55, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(33, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0078 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                285/8192         3420/98304    ( 3.5%) 
+brushsides            3397/81920       27176/655360   ( 4.1%) 
+planes                4972/65536       99440/1310720  ( 7.6%) 
+vertexes              2555/65536       30660/786432   ( 3.9%) 
+nodes                  803/65536       25696/2097152  ( 1.2%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1551/65536       86856/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1065/65536       59640/3670016  ( 1.6%) 
+facebrushes            443/0             886/0        ( 0.0%) 
+facebrushlists        1551/0            6204/0        ( 0.0%) 
+leaves                 810/65536       25920/2097152  ( 1.2%) 
+leaffaces             2082/65536        4164/131072   ( 3.2%) 
+leafbrushes            777/65536        1554/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            12296/512000      49184/2048000  ( 2.4%) 
+edges                 6872/256000      27488/1024000  ( 2.7%) 
+LDR worldlights         50/8192         5000/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            120/32768        1200/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1584/65536        3168/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2471116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       23830/16777216 ( 0.1%) 
+entdata               [variable]       42643/393216   (10.8%) 
+LDR ambient table      810/65536        3240/262144   ( 1.2%) 
+HDR ambient table      810/65536        3240/262144   ( 1.2%) 
+LDR leaf ambient      2418/65536       67704/1835008  ( 3.7%) 
+HDR leaf ambient       810/65536       22680/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]      132823/4194304  ( 3.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 4619
+Writing d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+38 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.vmf
+Map revision 143
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (132823 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 21
+Reduced 6 texdatas to 6 (142 bytes to 142)
+Writing D:\Desktop\csgo\hammer maps\Glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+reading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.prt
+ 302 portalclusters
+1121 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 12 visible clusters (0.00%)
+Total clusters visible: 33896
+Average clusters visible: 112
+Building PAS...
+Average clusters audible: 301
+visdatasize:23830  compressed from 24160
+writing d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+1551 faces
+7 degenerate faces
+409625 square feet [58986032.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1544 patches before subdivision
+31032 patches after subdivision
+51 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4140652, max 683
+transfer lists:  31.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(19792, 8975, 4826)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1843, 685, 260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(283, 55, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(33, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0076 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                285/8192         3420/98304    ( 3.5%) 
+brushsides            3397/81920       27176/655360   ( 4.1%) 
+planes                4972/65536       99440/1310720  ( 7.6%) 
+vertexes              2555/65536       30660/786432   ( 3.9%) 
+nodes                  803/65536       25696/2097152  ( 1.2%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1551/65536       86856/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1065/65536       59640/3670016  ( 1.6%) 
+facebrushes            443/0             886/0        ( 0.0%) 
+facebrushlists        1551/0            6204/0        ( 0.0%) 
+leaves                 810/65536       25920/2097152  ( 1.2%) 
+leaffaces             2082/65536        4164/131072   ( 3.2%) 
+leafbrushes            777/65536        1554/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            12296/512000      49184/2048000  ( 2.4%) 
+edges                 6872/256000      27488/1024000  ( 2.7%) 
+LDR worldlights         50/8192         5000/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            120/32768        1200/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1584/65536        3168/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2471116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       23830/16777216 ( 0.1%) 
+entdata               [variable]       42641/393216   (10.8%) 
+LDR ambient table      810/65536        3240/262144   ( 1.2%) 
+HDR ambient table      810/65536        3240/262144   ( 1.2%) 
+LDR leaf ambient      2418/65536       67704/1835008  ( 3.7%) 
+HDR leaf ambient       810/65536       22680/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]      132823/4194304  ( 3.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 4619
+Writing d:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\glock aim training\glock_aim_training.bsp', but we don't own that location. Allowing...
+39 seconds elapsed

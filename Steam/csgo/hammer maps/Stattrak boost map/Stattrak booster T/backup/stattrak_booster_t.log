@@ -1,0 +1,441 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Stattrak boost map\Stattrak booster T\stattrak_booster_T.vmf
+Map revision 190
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Stattrak boost map\Stattrak booster T\stattrak_booster_T.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29285 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 120 texinfos to 75
+Reduced 10 texdatas to 10 (251 bytes to 251)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Stattrak boost map\Stattrak booster T\stattrak_booster_T.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_t.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.prt
+  15 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 137
+Average clusters visible: 9
+Building PAS...
+Average clusters audible: 10
+visdatasize:190  compressed from 240
+writing d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_t.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+149 faces
+14019 square feet [2018753.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+149 patches before subdivision
+621 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 24925, max 136
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14280, 4068, 131)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8307, 715, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4836, 130, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2819, 23, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1646, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(963, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(564, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(332, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(195, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(115, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(68, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(40, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             350/81920        2800/655360   ( 0.4%) 
+planes                 286/65536        5720/1310720  ( 0.4%) 
+vertexes               408/65536        4896/786432   ( 0.6%) 
+nodes                  254/65536        8128/2097152  ( 0.4%) 
+texinfos                75/12288        5400/884736   ( 0.6%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  149/65536        8344/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              131/65536        7336/3670016  ( 0.2%) 
+facebrushes              6/0              12/0        ( 0.0%) 
+facebrushlists         149/0             596/0        ( 0.0%) 
+leaves                 292/65536        9344/2097152  ( 0.4%) 
+leaffaces              168/65536         336/131072   ( 0.3%) 
+leafbrushes             73/65536         146/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1168/512000       4672/2048000  ( 0.2%) 
+edges                  732/256000       2928/1024000  ( 0.3%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              7/32768          70/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           105/65536         210/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       25732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         190/16777216 ( 0.0%) 
+entdata               [variable]       45286/393216   (11.5%) 
+LDR ambient table      292/65536        1168/262144   ( 0.4%) 
+HDR ambient table      292/65536        1168/262144   ( 0.4%) 
+LDR leaf ambient       741/65536       20748/1835008  ( 1.1%) 
+HDR leaf ambient       292/65536        8176/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       29285/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 346
+Writing d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_t.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Stattrak boost map\Stattrak booster T\stattrak_booster_T.vmf
+Map revision 192
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Stattrak boost map\Stattrak booster T\stattrak_booster_T.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29285 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 120 texinfos to 75
+Reduced 10 texdatas to 10 (251 bytes to 251)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Stattrak boost map\Stattrak booster T\stattrak_booster_T.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_t.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.prt
+  15 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 137
+Average clusters visible: 9
+Building PAS...
+Average clusters audible: 10
+visdatasize:190  compressed from 240
+writing d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_t.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+149 faces
+14019 square feet [2018753.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+149 patches before subdivision
+621 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 24925, max 136
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14280, 4068, 131)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8307, 715, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4836, 130, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2819, 23, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1646, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(963, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(564, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(332, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(195, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(115, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(68, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(40, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             350/81920        2800/655360   ( 0.4%) 
+planes                 286/65536        5720/1310720  ( 0.4%) 
+vertexes               408/65536        4896/786432   ( 0.6%) 
+nodes                  254/65536        8128/2097152  ( 0.4%) 
+texinfos                75/12288        5400/884736   ( 0.6%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  149/65536        8344/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              131/65536        7336/3670016  ( 0.2%) 
+facebrushes              6/0              12/0        ( 0.0%) 
+facebrushlists         149/0             596/0        ( 0.0%) 
+leaves                 292/65536        9344/2097152  ( 0.4%) 
+leaffaces              168/65536         336/131072   ( 0.3%) 
+leafbrushes             73/65536         146/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1168/512000       4672/2048000  ( 0.2%) 
+edges                  732/256000       2928/1024000  ( 0.3%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              7/32768          70/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           105/65536         210/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       25732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         190/16777216 ( 0.0%) 
+entdata               [variable]       45285/393216   (11.5%) 
+LDR ambient table      292/65536        1168/262144   ( 0.4%) 
+HDR ambient table      292/65536        1168/262144   ( 0.4%) 
+LDR leaf ambient       741/65536       20748/1835008  ( 1.1%) 
+HDR leaf ambient       292/65536        8176/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       29285/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 346
+Writing d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_t.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Stattrak boost map\Stattrak booster T\stattrak_booster_T.vmf
+Map revision 193
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Stattrak boost map\Stattrak booster T\stattrak_booster_T.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29285 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 120 texinfos to 75
+Reduced 10 texdatas to 10 (251 bytes to 251)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Stattrak boost map\Stattrak booster T\stattrak_booster_T.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_t.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.prt
+  15 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 137
+Average clusters visible: 9
+Building PAS...
+Average clusters audible: 10
+visdatasize:190  compressed from 240
+writing d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_t.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+149 faces
+14019 square feet [2018753.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+149 patches before subdivision
+621 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 24925, max 136
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14280, 4068, 131)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8307, 715, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4836, 130, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2819, 23, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1646, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(963, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(564, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(332, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(195, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(115, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(68, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(40, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                 58/8192          696/98304    ( 0.7%) 
+brushsides             350/81920        2800/655360   ( 0.4%) 
+planes                 286/65536        5720/1310720  ( 0.4%) 
+vertexes               408/65536        4896/786432   ( 0.6%) 
+nodes                  254/65536        8128/2097152  ( 0.4%) 
+texinfos                75/12288        5400/884736   ( 0.6%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  149/65536        8344/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              131/65536        7336/3670016  ( 0.2%) 
+facebrushes              6/0              12/0        ( 0.0%) 
+facebrushlists         149/0             596/0        ( 0.0%) 
+leaves                 292/65536        9344/2097152  ( 0.4%) 
+leaffaces              168/65536         336/131072   ( 0.3%) 
+leafbrushes             73/65536         146/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1168/512000       4672/2048000  ( 0.2%) 
+edges                  732/256000       2928/1024000  ( 0.3%) 
+LDR worldlights          3/8192          300/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              7/32768          70/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           105/65536         210/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       25732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         190/16777216 ( 0.0%) 
+entdata               [variable]       45285/393216   (11.5%) 
+LDR ambient table      292/65536        1168/262144   ( 0.4%) 
+HDR ambient table      292/65536        1168/262144   ( 0.4%) 
+LDR leaf ambient       741/65536       20748/1835008  ( 1.1%) 
+HDR leaf ambient       292/65536        8176/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       29285/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 346
+Writing d:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_T.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\stattrak boost map\stattrak booster t\stattrak_booster_t.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

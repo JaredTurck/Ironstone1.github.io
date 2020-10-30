@@ -1,0 +1,515 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.vmf
+Map revision 31
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5900 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 8
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+reading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.prt
+   6 portalclusters
+   6 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 20
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+29 faces
+1847 square feet [266106.88 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+29 patches before subdivision
+79 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 890, max 32
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12, 11, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                225/8192         2700/98304    ( 2.7%) 
+brushsides            1350/81920       10800/655360   ( 1.6%) 
+planes                  72/65536        1440/1310720  ( 0.1%) 
+vertexes                73/65536         876/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   29/65536        1624/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          29/0             116/0        ( 0.0%) 
+leaves                  36/65536        1152/2097152  ( 0.1%) 
+leaffaces               32/65536          64/131072   ( 0.0%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              198/512000        792/2048000  ( 0.0%) 
+edges                  124/256000        496/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            36/65536          72/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        2692/393216   ( 0.7%) 
+LDR ambient table       36/65536         144/262144   ( 0.1%) 
+HDR ambient table       36/65536         144/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient        36/65536        1008/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74482/0        ( 0.0%) 
+physics               [variable]        5900/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 68
+Writing d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.vmf
+Map revision 31
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5900 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 8
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+reading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.prt
+   6 portalclusters
+   6 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 20
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+29 faces
+1847 square feet [266106.88 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+29 patches before subdivision
+79 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 890, max 32
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12, 11, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                225/8192         2700/98304    ( 2.7%) 
+brushsides            1350/81920       10800/655360   ( 1.6%) 
+planes                  72/65536        1440/1310720  ( 0.1%) 
+vertexes                73/65536         876/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   29/65536        1624/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          29/0             116/0        ( 0.0%) 
+leaves                  36/65536        1152/2097152  ( 0.1%) 
+leaffaces               32/65536          64/131072   ( 0.0%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              198/512000        792/2048000  ( 0.0%) 
+edges                  124/256000        496/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            36/65536          72/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        2692/393216   ( 0.7%) 
+LDR ambient table       36/65536         144/262144   ( 0.1%) 
+HDR ambient table       36/65536         144/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient        36/65536        1008/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74482/0        ( 0.0%) 
+physics               [variable]        5900/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 68
+Writing d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.vmf
+Map revision 31
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5900 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 8
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+reading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.prt
+   6 portalclusters
+   6 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 20
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+29 faces
+1847 square feet [266106.88 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+29 patches before subdivision
+79 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 890, max 32
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12, 11, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                225/8192         2700/98304    ( 2.7%) 
+brushsides            1350/81920       10800/655360   ( 1.6%) 
+planes                  72/65536        1440/1310720  ( 0.1%) 
+vertexes                73/65536         876/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   29/65536        1624/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          29/0             116/0        ( 0.0%) 
+leaves                  36/65536        1152/2097152  ( 0.1%) 
+leaffaces               32/65536          64/131072   ( 0.0%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              198/512000        792/2048000  ( 0.0%) 
+edges                  124/256000        496/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            36/65536          72/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        2692/393216   ( 0.7%) 
+LDR ambient table       36/65536         144/262144   ( 0.1%) 
+HDR ambient table       36/65536         144/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient        36/65536        1008/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74482/0        ( 0.0%) 
+physics               [variable]        5900/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 68
+Writing d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.vmf
+Map revision 31
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5900 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 8
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Desktop\computing\Counter Strike\maps\Plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+reading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.prt
+   6 portalclusters
+   6 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 20
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+29 faces
+1847 square feet [266106.88 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+29 patches before subdivision
+79 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 890, max 32
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12, 11, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                225/8192         2700/98304    ( 2.7%) 
+brushsides            1350/81920       10800/655360   ( 1.6%) 
+planes                  72/65536        1440/1310720  ( 0.1%) 
+vertexes                73/65536         876/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   29/65536        1624/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          29/0             116/0        ( 0.0%) 
+leaves                  36/65536        1152/2097152  ( 0.1%) 
+leaffaces               32/65536          64/131072   ( 0.0%) 
+leafbrushes             33/65536          66/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              198/512000        792/2048000  ( 0.0%) 
+edges                  124/256000        496/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            36/65536          72/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        2692/393216   ( 0.7%) 
+LDR ambient table       36/65536         144/262144   ( 0.1%) 
+HDR ambient table       36/65536         144/262144   ( 0.1%) 
+LDR leaf ambient        87/65536        2436/1835008  ( 0.1%) 
+HDR leaf ambient        36/65536        1008/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74482/0        ( 0.0%) 
+physics               [variable]        5900/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 68
+Writing d:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\plant 100 bombs\achiv_plant_100_bombs.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

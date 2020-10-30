@@ -1,0 +1,9 @@
+0
+hide hud
+add 1, val = 1
+
+1
+still hide hud as val still not eql to 2
+add 1, val = 2
+max hid, val = 0
+val = 0, hide hud

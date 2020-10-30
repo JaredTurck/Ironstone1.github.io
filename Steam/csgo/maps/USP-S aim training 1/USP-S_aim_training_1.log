@@ -1,0 +1,3010 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 41
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4.Brush 17066: WARNING, microbrush
+..5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-224.00 -64.00 64.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-678.7 1167.3 128.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 6809: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-648.3 1169.4 128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 6809: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-800.5 1118.8 128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 6796: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (158.1 492.9 128.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 6119: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-477.9 624.9 16.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 6567: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-566.4 528.5 16.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 6567: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-568.6 526.6 16.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 6567: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-574.8 521.3 16.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 6567: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (239119 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 11
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 43
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (67303 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 11
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+  99 portalclusters
+ 353 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 193 visible clusters (0.00%)
+Total clusters visible: 7620
+Average clusters visible: 76
+Building PAS...
+Average clusters audible: 99
+visdatasize:3397  compressed from 3168
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+428 faces
+34870 square feet [5021410.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+428 patches before subdivision
+2962 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 261589, max 391
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9286, 8802, 7993)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2322, 2176, 1892)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(856, 793, 658)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(362, 327, 256)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(153, 135, 99)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(65, 56, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(28, 23, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(12, 10, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                143/8192         1716/98304    ( 1.7%) 
+brushsides            1818/65536       14544/524288   ( 2.8%) 
+planes                2338/65536       46760/1310720  ( 3.6%) 
+vertexes               916/65536       10992/786432   ( 1.4%) 
+nodes                  349/65536       11168/2097152  ( 0.5%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  428/65536       23968/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              301/65536       16856/3670016  ( 0.5%) 
+facebrushes             48/0              96/0        ( 0.0%) 
+facebrushlists         428/0            1712/0        ( 0.0%) 
+leaves                 352/65536       11264/2097152  ( 0.5%) 
+leaffaces              461/65536         922/131072   ( 0.7%) 
+leafbrushes            371/65536         742/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3419/512000      13676/2048000  ( 0.7%) 
+edges                 2052/256000       8208/1024000  ( 0.8%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             10/32768         100/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           108/65536         216/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      554340/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3397/16777216 ( 0.0%) 
+entdata               [variable]       17869/393216   ( 4.5%) 
+LDR ambient table      352/65536        1408/262144   ( 0.5%) 
+HDR ambient table      352/65536        1408/262144   ( 0.5%) 
+LDR leaf ambient       680/65536       19040/1835008  ( 1.0%) 
+HDR leaf ambient       352/65536        9856/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]       67303/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1242
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 43
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (67303 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 11
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+  99 portalclusters
+ 353 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 193 visible clusters (0.00%)
+Total clusters visible: 7620
+Average clusters visible: 76
+Building PAS...
+Average clusters audible: 99
+visdatasize:3397  compressed from 3168
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+428 faces
+34870 square feet [5021410.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+428 patches before subdivision
+2962 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 261589, max 391
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9286, 8802, 7993)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2322, 2176, 1892)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(856, 793, 658)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(362, 327, 256)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(153, 135, 99)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(65, 56, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(28, 23, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(12, 10, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                143/8192         1716/98304    ( 1.7%) 
+brushsides            1818/65536       14544/524288   ( 2.8%) 
+planes                2338/65536       46760/1310720  ( 3.6%) 
+vertexes               916/65536       10992/786432   ( 1.4%) 
+nodes                  349/65536       11168/2097152  ( 0.5%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  428/65536       23968/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              301/65536       16856/3670016  ( 0.5%) 
+facebrushes             48/0              96/0        ( 0.0%) 
+facebrushlists         428/0            1712/0        ( 0.0%) 
+leaves                 352/65536       11264/2097152  ( 0.5%) 
+leaffaces              461/65536         922/131072   ( 0.7%) 
+leafbrushes            371/65536         742/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3419/512000      13676/2048000  ( 0.7%) 
+edges                 2052/256000       8208/1024000  ( 0.8%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             10/32768         100/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           108/65536         216/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      554340/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3397/16777216 ( 0.0%) 
+entdata               [variable]       17869/393216   ( 4.5%) 
+LDR ambient table      352/65536        1408/262144   ( 0.5%) 
+HDR ambient table      352/65536        1408/262144   ( 0.5%) 
+LDR leaf ambient       680/65536       19040/1835008  ( 1.0%) 
+HDR leaf ambient       352/65536        9856/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]       67303/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1242
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 44
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (67303 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 11
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+  99 portalclusters
+ 353 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 193 visible clusters (0.00%)
+Total clusters visible: 7620
+Average clusters visible: 76
+Building PAS...
+Average clusters audible: 99
+visdatasize:3397  compressed from 3168
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+428 faces
+34870 square feet [5021410.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+428 patches before subdivision
+2962 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 261589, max 391
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9286, 8802, 7993)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2322, 2176, 1892)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(856, 793, 658)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(362, 327, 256)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(153, 135, 99)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(65, 56, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(28, 23, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(12, 10, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                143/8192         1716/98304    ( 1.7%) 
+brushsides            1818/65536       14544/524288   ( 2.8%) 
+planes                2338/65536       46760/1310720  ( 3.6%) 
+vertexes               916/65536       10992/786432   ( 1.4%) 
+nodes                  349/65536       11168/2097152  ( 0.5%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  428/65536       23968/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              301/65536       16856/3670016  ( 0.5%) 
+facebrushes             48/0              96/0        ( 0.0%) 
+facebrushlists         428/0            1712/0        ( 0.0%) 
+leaves                 352/65536       11264/2097152  ( 0.5%) 
+leaffaces              461/65536         922/131072   ( 0.7%) 
+leafbrushes            371/65536         742/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3419/512000      13676/2048000  ( 0.7%) 
+edges                 2052/256000       8208/1024000  ( 0.8%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             10/32768         100/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           108/65536         216/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      554340/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3397/16777216 ( 0.0%) 
+entdata               [variable]       18099/393216   ( 4.6%) 
+LDR ambient table      352/65536        1408/262144   ( 0.5%) 
+HDR ambient table      352/65536        1408/262144   ( 0.5%) 
+LDR leaf ambient       680/65536       19040/1835008  ( 1.0%) 
+HDR leaf ambient       352/65536        9856/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]       67303/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1242
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 46
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (80775 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 11
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+  63 portalclusters
+ 202 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3303
+Average clusters visible: 52
+Building PAS...
+Average clusters audible: 63
+visdatasize:1524  compressed from 1008
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+382 faces
+34870 square feet [5021403.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+382 patches before subdivision
+2948 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 246498, max 366
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8505, 8039, 7276)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2061, 1927, 1672)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(733, 679, 563)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(315, 285, 223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(134, 118, 87)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(57, 49, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(24, 21, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(10, 9, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(4, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                167/8192         2004/98304    ( 2.0%) 
+brushsides            2161/65536       17288/524288   ( 3.3%) 
+planes                2290/65536       45800/1310720  ( 3.5%) 
+vertexes               878/65536       10536/786432   ( 1.3%) 
+nodes                  277/65536        8864/2097152  ( 0.4%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  382/65536       21392/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              290/65536       16240/3670016  ( 0.4%) 
+facebrushes             66/0             132/0        ( 0.0%) 
+facebrushlists         382/0            1528/0        ( 0.0%) 
+leaves                 280/65536        8960/2097152  ( 0.4%) 
+leaffaces              408/65536         816/131072   ( 0.6%) 
+leafbrushes            353/65536         706/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3216/512000      12864/2048000  ( 0.6%) 
+edges                 1955/256000       7820/1024000  ( 0.8%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             14/32768         140/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           153/65536         306/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      563036/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1524/16777216 ( 0.0%) 
+entdata               [variable]       18201/393216   ( 4.6%) 
+LDR ambient table      280/65536        1120/262144   ( 0.4%) 
+HDR ambient table      280/65536        1120/262144   ( 0.4%) 
+LDR leaf ambient       593/65536       16604/1835008  ( 0.9%) 
+HDR leaf ambient       280/65536        7840/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]       80775/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1146
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 47
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (92343 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 11
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+  67 portalclusters
+ 215 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 18 visible clusters (0.00%)
+Total clusters visible: 3879
+Average clusters visible: 57
+Building PAS...
+Average clusters audible: 67
+visdatasize:1753  compressed from 2144
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+380 faces
+34870 square feet [5021408.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+380 patches before subdivision
+2948 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 246057, max 365
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8539, 8072, 7307)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2075, 1941, 1684)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(739, 684, 568)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(318, 287, 225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(134, 119, 87)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(58, 50, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(25, 21, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(11, 9, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                199/8192         2388/98304    ( 2.4%) 
+brushsides            2522/65536       20176/524288   ( 3.8%) 
+planes                2310/65536       46200/1310720  ( 3.5%) 
+vertexes               874/65536       10488/786432   ( 1.3%) 
+nodes                  281/65536        8992/2097152  ( 0.4%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  380/65536       21280/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              291/65536       16296/3670016  ( 0.4%) 
+facebrushes             66/0             132/0        ( 0.0%) 
+facebrushlists         380/0            1520/0        ( 0.0%) 
+leaves                 284/65536        9088/2097152  ( 0.4%) 
+leaffaces              414/65536         828/131072   ( 0.6%) 
+leafbrushes            381/65536         762/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3214/512000      12856/2048000  ( 0.6%) 
+edges                 1952/256000       7808/1024000  ( 0.8%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             14/32768         140/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           153/65536         306/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      563508/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1753/16777216 ( 0.0%) 
+entdata               [variable]       18201/393216   ( 4.6%) 
+LDR ambient table      284/65536        1136/262144   ( 0.4%) 
+HDR ambient table      284/65536        1136/262144   ( 0.4%) 
+LDR leaf ambient       634/65536       17752/1835008  ( 1.0%) 
+HDR leaf ambient       284/65536        7952/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]       92343/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1144
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 49
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (77647 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 11
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+  94 portalclusters
+ 335 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 121 visible clusters (0.00%)
+Total clusters visible: 7845
+Average clusters visible: 83
+Building PAS...
+Average clusters audible: 94
+visdatasize:3025  compressed from 3008
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+416 faces
+34878 square feet [5022464.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+416 patches before subdivision
+2944 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 259686, max 421
+transfer lists:   2.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8530, 8063, 7297)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2147, 2009, 1744)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(759, 702, 583)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(330, 298, 233)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(139, 123, 90)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(60, 52, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(26, 21, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(11, 9, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                166/8192         1992/98304    ( 2.0%) 
+brushsides            2112/65536       16896/524288   ( 3.2%) 
+planes                2270/65536       45400/1310720  ( 3.5%) 
+vertexes               931/65536       11172/786432   ( 1.4%) 
+nodes                  316/65536       10112/2097152  ( 0.5%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  416/65536       23296/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              312/65536       17472/3670016  ( 0.5%) 
+facebrushes             95/0             190/0        ( 0.0%) 
+facebrushlists         416/0            1664/0        ( 0.0%) 
+leaves                 319/65536       10208/2097152  ( 0.5%) 
+leaffaces              455/65536         910/131072   ( 0.7%) 
+leafbrushes            354/65536         708/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3466/512000      13864/2048000  ( 0.7%) 
+edges                 2094/256000       8376/1024000  ( 0.8%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      538696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3025/16777216 ( 0.0%) 
+entdata               [variable]       18211/393216   ( 4.6%) 
+LDR ambient table      319/65536        1276/262144   ( 0.5%) 
+HDR ambient table      319/65536        1276/262144   ( 0.5%) 
+LDR leaf ambient       673/65536       18844/1835008  ( 1.0%) 
+HDR leaf ambient       319/65536        8932/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]       77647/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1242
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 52
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (167043 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 16
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+ 448 portalclusters
+1283 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1595 visible clusters (0.00%)
+Total clusters visible: 30925
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 448
+visdatasize:42926  compressed from 50176
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+1739 faces
+60372 square feet [8693681.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1739 patches before subdivision
+4055 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 345589, max 586
+transfer lists:   2.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8221, 7800, 7093)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4427, 2698, 1716)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1670, 901, 618)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(812, 369, 247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(394, 151, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(203, 64, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(106, 27, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(58, 11, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(32, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(19, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                390/8192         4680/98304    ( 4.8%) 
+brushsides            4473/65536       35784/524288   ( 6.8%) 
+planes                5742/65536      114840/1310720  ( 8.8%) 
+vertexes              3221/65536       38652/786432   ( 4.9%) 
+nodes                 1496/65536       47872/2097152  ( 2.3%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1739/65536       97384/3670016  ( 2.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1061/65536       59416/3670016  ( 1.6%) 
+facebrushes            508/0            1016/0        ( 0.0%) 
+facebrushlists        1739/0            6956/0        ( 0.0%) 
+leaves                1500/65536       48000/2097152  ( 2.3%) 
+leaffaces             1819/65536        3638/131072   ( 2.8%) 
+leafbrushes           1933/65536        3866/131072   ( 2.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            12681/512000      50724/2048000  ( 2.5%) 
+edges                 7267/256000      29068/1024000  ( 2.8%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             64/32768         640/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           906/65536        1812/131072   ( 1.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      502064/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       42926/16777216 ( 0.3%) 
+entdata               [variable]       18389/393216   ( 4.7%) 
+LDR ambient table     1500/65536        6000/262144   ( 2.3%) 
+HDR ambient table     1500/65536        6000/262144   ( 2.3%) 
+LDR leaf ambient      2143/65536       60004/1835008  ( 3.3%) 
+HDR leaf ambient      1500/65536       42000/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      167043/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 4815
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 54
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (182437 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 13
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+  94 portalclusters
+ 335 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 121 visible clusters (0.00%)
+Total clusters visible: 7845
+Average clusters visible: 83
+Building PAS...
+Average clusters audible: 94
+visdatasize:3025  compressed from 3008
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+1347 faces
+83574 square feet [12034774.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1347 patches before subdivision
+3875 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 273849, max 421
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8556, 8087, 7319)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2175, 2033, 1763)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(759, 703, 583)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(330, 298, 233)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(139, 123, 90)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(60, 52, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(26, 21, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(11, 9, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                390/8192         4680/98304    ( 4.8%) 
+brushsides            4539/65536       36312/524288   ( 6.9%) 
+planes                7998/65536      159960/1310720  (12.2%) 
+vertexes              2221/65536       26652/786432   ( 3.4%) 
+nodes                  928/65536       29696/2097152  ( 1.4%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1347/65536       75432/3670016  ( 2.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1178/65536       65968/3670016  ( 1.8%) 
+facebrushes            402/0             804/0        ( 0.0%) 
+facebrushlists        1347/0            5388/0        ( 0.0%) 
+leaves                 937/65536       29984/2097152  ( 1.4%) 
+leaffaces             1386/65536        2772/131072   ( 2.1%) 
+leafbrushes            712/65536        1424/131072   ( 1.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            11277/512000      45108/2048000  ( 2.2%) 
+edges                 6468/256000      25872/1024000  ( 2.5%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      538696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3025/16777216 ( 0.0%) 
+entdata               [variable]       19288/393216   ( 4.9%) 
+LDR ambient table      937/65536        3748/262144   ( 1.4%) 
+HDR ambient table      937/65536        3748/262144   ( 1.4%) 
+LDR leaf ambient       866/65536       24248/1835008  ( 1.3%) 
+HDR leaf ambient       937/65536       26236/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      182437/4194304  ( 4.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 3718
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 59
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (182485 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 13
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+ 127 portalclusters
+ 494 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 301 visible clusters (0.00%)
+Total clusters visible: 13850
+Average clusters visible: 109
+Building PAS...
+Average clusters audible: 127
+visdatasize:5110  compressed from 4064
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+1393 faces
+1 degenerate faces
+81970 square feet [11803748.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1392 patches before subdivision
+3918 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 290078, max 462
+transfer lists:   2.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9487, 8996, 8175)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2501, 2343, 2037)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(907, 840, 697)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(386, 349, 273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(162, 143, 105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(69, 59, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(29, 24, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(12, 10, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                390/8192         4680/98304    ( 4.8%) 
+brushsides            4534/65536       36272/524288   ( 6.9%) 
+planes                8290/65536      165800/1310720  (12.6%) 
+vertexes              2264/65536       27168/786432   ( 3.5%) 
+nodes                  992/65536       31744/2097152  ( 1.5%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1393/65536       78008/3670016  ( 2.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1180/65536       66080/3670016  ( 1.8%) 
+facebrushes            389/0             778/0        ( 0.0%) 
+facebrushlists        1393/0            5572/0        ( 0.0%) 
+leaves                1001/65536       32032/2097152  ( 1.5%) 
+leaffaces             1448/65536        2896/131072   ( 2.2%) 
+leafbrushes            740/65536        1480/131072   ( 1.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            11480/512000      45920/2048000  ( 2.2%) 
+edges                 6557/256000      26228/1024000  ( 2.6%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/32768         180/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           252/65536         504/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      544692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        5110/16777216 ( 0.0%) 
+entdata               [variable]       19287/393216   ( 4.9%) 
+LDR ambient table     1001/65536        4004/262144   ( 1.5%) 
+HDR ambient table     1001/65536        4004/262144   ( 1.5%) 
+LDR leaf ambient       999/65536       27972/1835008  ( 1.5%) 
+HDR leaf ambient      1001/65536       28028/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      182485/4194304  ( 4.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 3822
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 64
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-416.00 1088.00 64.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (169613 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 13
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 64
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-416.00 1088.00 64.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (169613 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 13
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 67
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-416.00 1088.00 64.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-799.7 -289.1 48.3)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 35411: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-878.0 -257.4 48.3)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 35411: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-836.2 -273.0 -61.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 35411: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-867.9 -246.0 48.3)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 35411: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-789.3 -276.7 48.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 35411: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-836.2 -273.0 157.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 35411: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (185173 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 13
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 69
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-416.00 -64.00 64.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (168121 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 26 texinfos to 16
+Reduced 7 texdatas to 6 (224 bytes to 177)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 74
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (183189 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 13
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+ 106 portalclusters
+ 325 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 59 visible clusters (0.00%)
+Total clusters visible: 8503
+Average clusters visible: 80
+Building PAS...
+Average clusters audible: 106
+visdatasize:3865  compressed from 3392
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+1405 faces
+88609 square feet [12759824.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1405 patches before subdivision
+4503 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 436867, max 423
+transfer lists:   3.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(16682, 15748, 14230)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3759, 3507, 3035)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1248, 1153, 955)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(492, 444, 346)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(195, 171, 126)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(78, 67, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(31, 26, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(12, 10, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                390/8192         4680/98304    ( 4.8%) 
+brushsides            4538/65536       36304/524288   ( 6.9%) 
+planes                8570/65536      171400/1310720  (13.1%) 
+vertexes              2358/65536       28296/786432   ( 3.6%) 
+nodes                  964/65536       30848/2097152  ( 1.5%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1405/65536       78680/3670016  ( 2.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1150/65536       64400/3670016  ( 1.8%) 
+facebrushes            421/0             842/0        ( 0.0%) 
+facebrushlists        1405/0            5620/0        ( 0.0%) 
+leaves                 973/65536       31136/2097152  ( 1.5%) 
+leaffaces             1466/65536        2932/131072   ( 2.2%) 
+leafbrushes            902/65536        1804/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            11428/512000      45712/2048000  ( 2.2%) 
+edges                 6530/256000      26120/1024000  ( 2.6%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             21/32768         210/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           267/65536         534/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      601264/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3865/16777216 ( 0.0%) 
+entdata               [variable]       19288/393216   ( 4.9%) 
+LDR ambient table      973/65536        3892/262144   ( 1.5%) 
+HDR ambient table      973/65536        3892/262144   ( 1.5%) 
+LDR leaf ambient      2458/65536       68824/1835008  ( 3.8%) 
+HDR leaf ambient       973/65536       27244/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      183189/4194304  ( 4.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 3865
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 75
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (186122 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 13
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+ 145 portalclusters
+ 550 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 732 visible clusters (0.00%)
+Total clusters visible: 15529
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 145
+visdatasize:6784  compressed from 6960
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+1456 faces
+6 degenerate faces
+212833 square feet [30647970.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1450 patches before subdivision
+8166 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 690365, max 486
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(25192, 23874, 21678)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3965, 3690, 3183)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1230, 1134, 937)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(367, 330, 257)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(127, 111, 81)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(40, 35, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(14, 11, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                390/8192         4680/98304    ( 4.8%) 
+brushsides            4439/65536       35512/524288   ( 6.8%) 
+planes                8742/65536      174840/1310720  (13.3%) 
+vertexes              2472/65536       29664/786432   ( 3.8%) 
+nodes                 1078/65536       34496/2097152  ( 1.6%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1456/65536       81536/3670016  ( 2.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1165/65536       65240/3670016  ( 1.8%) 
+facebrushes            537/0            1074/0        ( 0.0%) 
+facebrushlists        1456/0            5824/0        ( 0.0%) 
+leaves                1087/65536       34784/2097152  ( 1.7%) 
+leaffaces             1491/65536        2982/131072   ( 2.3%) 
+leafbrushes            956/65536        1912/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            11933/512000      47732/2048000  ( 2.3%) 
+edges                 6781/256000      27124/1024000  ( 2.6%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           453/65536         906/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1242404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6784/16777216 ( 0.0%) 
+entdata               [variable]       20314/393216   ( 5.2%) 
+LDR ambient table     1087/65536        4348/262144   ( 1.7%) 
+HDR ambient table     1087/65536        4348/262144   ( 1.7%) 
+LDR leaf ambient      2787/65536       78036/1835008  ( 4.3%) 
+HDR leaf ambient      1087/65536       30436/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      186122/4194304  ( 4.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 4151
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 81
+Brush 58163: MAX_MAP_PLANES
+Side 5
+Texture: TOOLS/TOOLSTRIGGER
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 81
+Brush 58163: MAX_MAP_PLANES
+Side 5
+Texture: TOOLS/TOOLSTRIGGER
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 82
+Brush 58306: MAX_MAP_PLANES
+Side 5
+Texture: TOOLS/TOOLSTRIGGER
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 83
+Brush 58163: MAX_MAP_PLANES
+Side 5
+Texture: TOOLS/TOOLSTRIGGER
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 84
+Brush 58306: MAX_MAP_PLANES
+Side 5
+Texture: TOOLS/TOOLSTRIGGER
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 85
+Brush 58163: MAX_MAP_PLANES
+Side 5
+Texture: TOOLS/TOOLSTRIGGER
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 86
+Brush 58163: MAX_MAP_PLANES
+Side 5
+Texture: TOOLS/TOOLSTRIGGER
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 87
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (278302 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 26 texinfos to 16
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+ 293 portalclusters
+1100 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1560 visible clusters (0.00%)
+Total clusters visible: 31623
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 146
+visdatasize:14859  compressed from 23440
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+1962 faces
+13 degenerate faces
+321405 square feet [46282428.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1949 patches before subdivision
+15359 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1231222, max 486
+transfer lists:   9.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43846, 41691, 38015)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7432, 6928, 5988)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2305, 2126, 1757)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(677, 609, 474)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(230, 202, 147)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(72, 62, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(24, 20, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(8, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0038 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                588/8192         7056/98304    ( 7.2%) 
+brushsides            7182/65536       57456/524288   (11.0%) 
+planes               12284/65536      245680/1310720  (18.7%) 
+vertexes              3599/65536       43188/786432   ( 5.5%) 
+nodes                 1495/65536       47840/2097152  ( 2.3%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1962/65536      109872/3670016  ( 3.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1480/65536       82880/3670016  ( 2.3%) 
+facebrushes            680/0            1360/0        ( 0.0%) 
+facebrushlists        1962/0            7848/0        ( 0.0%) 
+leaves                1505/65536       48160/2097152  ( 2.3%) 
+leaffaces             2043/65536        4086/131072   ( 3.1%) 
+leafbrushes           1553/65536        3106/131072   ( 2.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            15959/512000      63836/2048000  ( 3.1%) 
+edges                 9135/256000      36540/1024000  ( 3.6%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             71/32768         710/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           924/65536        1848/131072   ( 1.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2492748/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14859/16777216 ( 0.1%) 
+entdata               [variable]       39509/393216   (10.0%) 
+LDR ambient table     1505/65536        6020/262144   ( 2.3%) 
+HDR ambient table     1505/65536        6020/262144   ( 2.3%) 
+LDR leaf ambient      3757/65536      105196/1835008  ( 5.7%) 
+HDR leaf ambient      1505/65536       42140/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      278302/4194304  ( 6.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 5734
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+4 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 88
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (186058 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 13
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+ 145 portalclusters
+ 550 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 732 visible clusters (0.00%)
+Total clusters visible: 15529
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 145
+visdatasize:6784  compressed from 6960
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+1456 faces
+6 degenerate faces
+212833 square feet [30647966.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1450 patches before subdivision
+8166 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 690373, max 486
+transfer lists:   5.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(25192, 23874, 21678)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3965, 3690, 3183)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1230, 1134, 937)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(367, 330, 257)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(127, 111, 81)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(40, 35, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(14, 11, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                390/8192         4680/98304    ( 4.8%) 
+brushsides            4438/65536       35504/524288   ( 6.8%) 
+planes                8742/65536      174840/1310720  (13.3%) 
+vertexes              2468/65536       29616/786432   ( 3.8%) 
+nodes                 1079/65536       34528/2097152  ( 1.6%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1456/65536       81536/3670016  ( 2.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1166/65536       65296/3670016  ( 1.8%) 
+facebrushes            530/0            1060/0        ( 0.0%) 
+facebrushlists        1456/0            5824/0        ( 0.0%) 
+leaves                1088/65536       34816/2097152  ( 1.7%) 
+leaffaces             1491/65536        2982/131072   ( 2.3%) 
+leafbrushes            956/65536        1912/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            11932/512000      47728/2048000  ( 2.3%) 
+edges                 6781/256000      27124/1024000  ( 2.6%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           453/65536         906/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1242404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6784/16777216 ( 0.0%) 
+entdata               [variable]       20314/393216   ( 5.2%) 
+LDR ambient table     1088/65536        4352/262144   ( 1.7%) 
+HDR ambient table     1088/65536        4352/262144   ( 1.7%) 
+LDR leaf ambient      2800/65536       78400/1835008  ( 4.3%) 
+HDR leaf ambient      1088/65536       30464/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      186058/4194304  ( 4.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 4147
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 91
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (101320 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 55 texinfos to 45
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+ 145 portalclusters
+ 550 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 732 visible clusters (0.00%)
+Total clusters visible: 15529
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 145
+visdatasize:6784  compressed from 6960
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+616 faces
+6 degenerate faces
+190677 square feet [27457580.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+610 patches before subdivision
+7326 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 574643, max 486
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20035, 19102, 17476)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3727, 3477, 3007)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1179, 1088, 900)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(353, 318, 247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(122, 107, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(39, 33, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(13, 11, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/1024          864/49152    ( 1.8%) 
+brushes                214/8192         2568/98304    ( 2.6%) 
+brushsides            2521/65536       20168/524288   ( 3.8%) 
+planes                3380/65536       67600/1310720  ( 5.2%) 
+vertexes              1264/65536       15168/786432   ( 1.9%) 
+nodes                  518/65536       16576/2097152  ( 0.8%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  616/65536       34496/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              412/65536       23072/3670016  ( 0.6%) 
+facebrushes            131/0             262/0        ( 0.0%) 
+facebrushlists         616/0            2464/0        ( 0.0%) 
+leaves                 537/65536       17184/2097152  ( 0.8%) 
+leaffaces              651/65536        1302/131072   ( 1.0%) 
+leafbrushes            597/65536        1194/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4887/512000      19548/2048000  ( 1.0%) 
+edges                 2774/256000      11096/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           453/65536         906/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1242404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6784/16777216 ( 0.0%) 
+entdata               [variable]       22121/393216   ( 5.6%) 
+LDR ambient table      537/65536        2148/262144   ( 0.8%) 
+HDR ambient table      537/65536        2148/262144   ( 0.8%) 
+LDR leaf ambient      1682/65536       47096/1835008  ( 2.6%) 
+HDR leaf ambient       537/65536       15036/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      101320/4194304  ( 2.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1811
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 92
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (101320 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 55 texinfos to 45
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+ 145 portalclusters
+ 550 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 732 visible clusters (0.00%)
+Total clusters visible: 15529
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 145
+visdatasize:6784  compressed from 6960
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+616 faces
+6 degenerate faces
+190677 square feet [27457580.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+610 patches before subdivision
+7326 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 574643, max 486
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20035, 19102, 17476)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3727, 3477, 3007)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1179, 1088, 900)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(353, 318, 247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(122, 107, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(39, 33, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(13, 11, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/1024          864/49152    ( 1.8%) 
+brushes                214/8192         2568/98304    ( 2.6%) 
+brushsides            2521/65536       20168/524288   ( 3.8%) 
+planes                3380/65536       67600/1310720  ( 5.2%) 
+vertexes              1264/65536       15168/786432   ( 1.9%) 
+nodes                  518/65536       16576/2097152  ( 0.8%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  616/65536       34496/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              412/65536       23072/3670016  ( 0.6%) 
+facebrushes            131/0             262/0        ( 0.0%) 
+facebrushlists         616/0            2464/0        ( 0.0%) 
+leaves                 537/65536       17184/2097152  ( 0.8%) 
+leaffaces              651/65536        1302/131072   ( 1.0%) 
+leafbrushes            597/65536        1194/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4887/512000      19548/2048000  ( 1.0%) 
+edges                 2774/256000      11096/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           453/65536         906/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1242404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6784/16777216 ( 0.0%) 
+entdata               [variable]       22113/393216   ( 5.6%) 
+LDR ambient table      537/65536        2148/262144   ( 0.8%) 
+HDR ambient table      537/65536        2148/262144   ( 0.8%) 
+LDR leaf ambient      1682/65536       47096/1835008  ( 2.6%) 
+HDR leaf ambient       537/65536       15036/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      101320/4194304  ( 2.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1811
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 93
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (101320 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 55 texinfos to 45
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+ 145 portalclusters
+ 550 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 732 visible clusters (0.00%)
+Total clusters visible: 15529
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 145
+visdatasize:6784  compressed from 6960
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+616 faces
+6 degenerate faces
+190677 square feet [27457580.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+610 patches before subdivision
+7326 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 574643, max 486
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20035, 19102, 17476)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3727, 3477, 3007)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1179, 1088, 900)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(353, 318, 247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(122, 107, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(39, 33, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(13, 11, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/1024          864/49152    ( 1.8%) 
+brushes                214/8192         2568/98304    ( 2.6%) 
+brushsides            2521/65536       20168/524288   ( 3.8%) 
+planes                3380/65536       67600/1310720  ( 5.2%) 
+vertexes              1264/65536       15168/786432   ( 1.9%) 
+nodes                  518/65536       16576/2097152  ( 0.8%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  616/65536       34496/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              412/65536       23072/3670016  ( 0.6%) 
+facebrushes            131/0             262/0        ( 0.0%) 
+facebrushlists         616/0            2464/0        ( 0.0%) 
+leaves                 537/65536       17184/2097152  ( 0.8%) 
+leaffaces              651/65536        1302/131072   ( 1.0%) 
+leafbrushes            597/65536        1194/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4887/512000      19548/2048000  ( 1.0%) 
+edges                 2774/256000      11096/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           453/65536         906/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1242404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6784/16777216 ( 0.0%) 
+entdata               [variable]       22465/393216   ( 5.7%) 
+LDR ambient table      537/65536        2148/262144   ( 0.8%) 
+HDR ambient table      537/65536        2148/262144   ( 0.8%) 
+LDR leaf ambient      1682/65536       47096/1835008  ( 2.6%) 
+HDR leaf ambient       537/65536       15036/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      101320/4194304  ( 2.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1811
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.vmf
+Map revision 94
+Patching WVT material: maps/frozen_bots/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (101320 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 55 texinfos to 45
+Reduced 6 texdatas to 5 (215 bytes to 168)
+Writing D:\Desktop\computing\Counter Strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+reading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.prt
+ 145 portalclusters
+ 550 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 732 visible clusters (0.00%)
+Total clusters visible: 15529
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 145
+visdatasize:6784  compressed from 6960
+writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+616 faces
+6 degenerate faces
+190677 square feet [27457580.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+610 patches before subdivision
+7326 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 574643, max 486
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20035, 19102, 17476)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3727, 3477, 3007)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1179, 1088, 900)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(353, 318, 247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(122, 107, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(39, 33, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(13, 11, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/1024          864/49152    ( 1.8%) 
+brushes                214/8192         2568/98304    ( 2.6%) 
+brushsides            2521/65536       20168/524288   ( 3.8%) 
+planes                3380/65536       67600/1310720  ( 5.2%) 
+vertexes              1264/65536       15168/786432   ( 1.9%) 
+nodes                  518/65536       16576/2097152  ( 0.8%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  616/65536       34496/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              412/65536       23072/3670016  ( 0.6%) 
+facebrushes            131/0             262/0        ( 0.0%) 
+facebrushlists         616/0            2464/0        ( 0.0%) 
+leaves                 537/65536       17184/2097152  ( 0.8%) 
+leaffaces              651/65536        1302/131072   ( 1.0%) 
+leafbrushes            597/65536        1194/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4887/512000      19548/2048000  ( 1.0%) 
+edges                 2774/256000      11096/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           453/65536         906/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1242404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6784/16777216 ( 0.0%) 
+entdata               [variable]       22347/393216   ( 5.7%) 
+LDR ambient table      537/65536        2148/262144   ( 0.8%) 
+HDR ambient table      537/65536        2148/262144   ( 0.8%) 
+LDR leaf ambient      1682/65536       47096/1835008  ( 2.6%) 
+HDR leaf ambient       537/65536       15036/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75237/0        ( 0.0%) 
+physics               [variable]      101320/4194304  ( 2.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1811
+Writing d:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\freeze bots\frozen_bots.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\USP-S aim training 1\USP-S_aim_training_1.vmf
+Map revision 94
+Patching WVT material: maps/usp-s_aim_training_1/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\USP-S aim training 1\USP-S_aim_training_1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (101320 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 55 texinfos to 45
+Reduced 6 texdatas to 5 (224 bytes to 177)
+Writing D:\Desktop\computing\Counter Strike\maps\USP-S aim training 1\USP-S_aim_training_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\usp-s aim training 1\usp-s_aim_training_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\usp-s aim training 1\USP-S_aim_training_1.bsp
+reading d:\desktop\computing\counter strike\maps\usp-s aim training 1\USP-S_aim_training_1.prt
+ 145 portalclusters
+ 550 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 732 visible clusters (0.00%)
+Total clusters visible: 15529
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 145
+visdatasize:6784  compressed from 6960
+writing d:\desktop\computing\counter strike\maps\usp-s aim training 1\USP-S_aim_training_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\usp-s aim training 1\usp-s_aim_training_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\usp-s aim training 1\USP-S_aim_training_1.bsp
+616 faces
+6 degenerate faces
+190677 square feet [27457580.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+610 patches before subdivision
+7326 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 574643, max 486
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20035, 19102, 17476)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3727, 3477, 3007)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1179, 1088, 900)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(353, 318, 247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(122, 107, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(39, 33, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(13, 11, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/1024          864/49152    ( 1.8%) 
+brushes                214/8192         2568/98304    ( 2.6%) 
+brushsides            2521/65536       20168/524288   ( 3.8%) 
+planes                3380/65536       67600/1310720  ( 5.2%) 
+vertexes              1264/65536       15168/786432   ( 1.9%) 
+nodes                  518/65536       16576/2097152  ( 0.8%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  616/65536       34496/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              412/65536       23072/3670016  ( 0.6%) 
+facebrushes            131/0             262/0        ( 0.0%) 
+facebrushlists         616/0            2464/0        ( 0.0%) 
+leaves                 537/65536       17184/2097152  ( 0.8%) 
+leaffaces              651/65536        1302/131072   ( 1.0%) 
+leafbrushes            597/65536        1194/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4887/512000      19548/2048000  ( 1.0%) 
+edges                 2774/256000      11096/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           453/65536         906/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1242404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6784/16777216 ( 0.0%) 
+entdata               [variable]       22347/393216   ( 5.7%) 
+LDR ambient table      537/65536        2148/262144   ( 0.8%) 
+HDR ambient table      537/65536        2148/262144   ( 0.8%) 
+LDR leaf ambient      1682/65536       47096/1835008  ( 2.6%) 
+HDR leaf ambient       537/65536       15036/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75291/0        ( 0.0%) 
+physics               [variable]      101320/4194304  ( 2.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1811
+Writing d:\desktop\computing\counter strike\maps\usp-s aim training 1\USP-S_aim_training_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\usp-s aim training 1\usp-s_aim_training_1.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\USP-S aim training 1\USP-S_aim_training_1.vmf
+Map revision 95
+Patching WVT material: maps/usp-s_aim_training_1/de_dust/hr_dust/hr_dust_blend_plaster_white_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\USP-S aim training 1\USP-S_aim_training_1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (101320 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 55 texinfos to 45
+Reduced 6 texdatas to 5 (224 bytes to 177)
+Writing D:\Desktop\computing\Counter Strike\maps\USP-S aim training 1\USP-S_aim_training_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\usp-s aim training 1\usp-s_aim_training_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\usp-s aim training 1\USP-S_aim_training_1.bsp
+reading d:\desktop\computing\counter strike\maps\usp-s aim training 1\USP-S_aim_training_1.prt
+ 145 portalclusters
+ 550 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 732 visible clusters (0.00%)
+Total clusters visible: 15529
+Average clusters visible: 107
+Building PAS...
+Average clusters audible: 145
+visdatasize:6784  compressed from 6960
+writing d:\desktop\computing\counter strike\maps\usp-s aim training 1\USP-S_aim_training_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\usp-s aim training 1\usp-s_aim_training_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\usp-s aim training 1\USP-S_aim_training_1.bsp
+616 faces
+6 degenerate faces
+190677 square feet [27457580.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+610 patches before subdivision
+7326 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 574643, max 486
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20035, 19102, 17476)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3727, 3477, 3007)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1179, 1088, 900)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(353, 318, 247)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(122, 107, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(39, 33, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(13, 11, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  18/1024          864/49152    ( 1.8%) 
+brushes                214/8192         2568/98304    ( 2.6%) 
+brushsides            2521/65536       20168/524288   ( 3.8%) 
+planes                3380/65536       67600/1310720  ( 5.2%) 
+vertexes              1264/65536       15168/786432   ( 1.9%) 
+nodes                  518/65536       16576/2097152  ( 0.8%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  616/65536       34496/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              412/65536       23072/3670016  ( 0.6%) 
+facebrushes            131/0             262/0        ( 0.0%) 
+facebrushlists         616/0            2464/0        ( 0.0%) 
+leaves                 537/65536       17184/2097152  ( 0.8%) 
+leaffaces              651/65536        1302/131072   ( 1.0%) 
+leafbrushes            597/65536        1194/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4887/512000      19548/2048000  ( 1.0%) 
+edges                 2774/256000      11096/1024000  ( 1.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           453/65536         906/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1242404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        6784/16777216 ( 0.0%) 
+entdata               [variable]       22441/393216   ( 5.7%) 
+LDR ambient table      537/65536        2148/262144   ( 0.8%) 
+HDR ambient table      537/65536        2148/262144   ( 0.8%) 
+LDR leaf ambient      1682/65536       47096/1835008  ( 2.6%) 
+HDR leaf ambient       537/65536       15036/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75291/0        ( 0.0%) 
+physics               [variable]      101320/4194304  ( 2.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1811
+Writing d:\desktop\computing\counter strike\maps\usp-s aim training 1\USP-S_aim_training_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\usp-s aim training 1\usp-s_aim_training_1.bsp', but we don't own that location. Allowing.
+2 seconds elapsed

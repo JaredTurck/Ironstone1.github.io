@@ -1,0 +1,2517 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 2
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+HashVec: point outside valid range
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 3
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+HashVec: point outside valid range
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 4
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+HashVec: point outside valid range
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 5
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+HashVec: point outside valid range
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 6
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+HashVec: point outside valid range
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 7
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2304 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 4
+Reduced 2 texdatas to 2 (52 bytes to 52)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+  22 portalclusters
+  31 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 484
+Average clusters visible: 22
+Building PAS...
+Average clusters audible: 22
+visdatasize:312  compressed from 352
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+142 faces
+135496 square feet [19511542.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+142 patches before subdivision
+8078 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 631708, max 329
+transfer lists:   4.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                  58/65536        1160/1310720  ( 0.1%) 
+vertexes               179/65536        2148/786432   ( 0.3%) 
+nodes                  109/65536        3488/2097152  ( 0.2%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  142/65536        7952/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         142/0             568/0        ( 0.0%) 
+leaves                 111/65536        3552/2097152  ( 0.2%) 
+leaffaces              142/65536         284/131072   ( 0.2%) 
+leafbrushes             70/65536         140/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              628/512000       2512/2048000  ( 0.1%) 
+edges                  327/256000       1308/1024000  ( 0.1%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      418768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         312/16777216 ( 0.0%) 
+entdata               [variable]         467/393216   ( 0.1%) 
+LDR ambient table      111/65536         444/262144   ( 0.2%) 
+HDR ambient table      111/65536         444/262144   ( 0.2%) 
+LDR leaf ambient        22/65536         616/1835008  ( 0.0%) 
+HDR leaf ambient       111/65536        3108/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74438/0        ( 0.0%) 
+physics               [variable]        2304/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 320
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 8
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2304 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 4
+Reduced 2 texdatas to 2 (52 bytes to 52)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+  58 portalclusters
+  85 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3364
+Average clusters visible: 58
+Building PAS...
+Average clusters audible: 58
+visdatasize:1396  compressed from 928
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+402 faces
+405998 square feet [58463792.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+402 patches before subdivision
+23346 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2595765, max 488
+transfer lists:  19.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0061 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                  98/65536        1960/1310720  ( 0.1%) 
+vertexes               477/65536        5724/786432   ( 0.7%) 
+nodes                  269/65536        8608/2097152  ( 0.4%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  402/65536       22512/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         402/0            1608/0        ( 0.0%) 
+leaves                 271/65536        8672/2097152  ( 0.4%) 
+leaffaces              402/65536         804/131072   ( 0.6%) 
+leafbrushes            190/65536         380/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1744/512000       6976/2048000  ( 0.3%) 
+edges                  885/256000       3540/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1240224/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1396/16777216 ( 0.0%) 
+entdata               [variable]         469/393216   ( 0.1%) 
+LDR ambient table      271/65536        1084/262144   ( 0.4%) 
+HDR ambient table      271/65536        1084/262144   ( 0.4%) 
+LDR leaf ambient        58/65536        1624/1835008  ( 0.1%) 
+HDR leaf ambient       271/65536        7588/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74438/0        ( 0.0%) 
+physics               [variable]        2304/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 916
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2304 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 4
+Reduced 2 texdatas to 2 (52 bytes to 52)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+  58 portalclusters
+  85 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3364
+Average clusters visible: 58
+Building PAS...
+Average clusters audible: 58
+visdatasize:1396  compressed from 928
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+402 faces
+405998 square feet [58463792.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+402 patches before subdivision
+23346 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2595765, max 488
+transfer lists:  19.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0059 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                  98/65536        1960/1310720  ( 0.1%) 
+vertexes               477/65536        5724/786432   ( 0.7%) 
+nodes                  269/65536        8608/2097152  ( 0.4%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  402/65536       22512/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         402/0            1608/0        ( 0.0%) 
+leaves                 271/65536        8672/2097152  ( 0.4%) 
+leaffaces              402/65536         804/131072   ( 0.6%) 
+leafbrushes            190/65536         380/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1744/512000       6976/2048000  ( 0.3%) 
+edges                  885/256000       3540/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1240224/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1396/16777216 ( 0.0%) 
+entdata               [variable]        1261/393216   ( 0.3%) 
+LDR ambient table      271/65536        1084/262144   ( 0.4%) 
+HDR ambient table      271/65536        1084/262144   ( 0.4%) 
+LDR leaf ambient        58/65536        1624/1835008  ( 0.1%) 
+HDR leaf ambient       271/65536        7588/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74438/0        ( 0.0%) 
+physics               [variable]        2304/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 916
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2304 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 4
+Reduced 2 texdatas to 2 (52 bytes to 52)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+  58 portalclusters
+  85 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3364
+Average clusters visible: 58
+Building PAS...
+Average clusters audible: 58
+visdatasize:1396  compressed from 928
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+402 faces
+405998 square feet [58463792.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+402 patches before subdivision
+23346 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2595765, max 488
+transfer lists:  19.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0063 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                  98/65536        1960/1310720  ( 0.1%) 
+vertexes               477/65536        5724/786432   ( 0.7%) 
+nodes                  269/65536        8608/2097152  ( 0.4%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  402/65536       22512/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         402/0            1608/0        ( 0.0%) 
+leaves                 271/65536        8672/2097152  ( 0.4%) 
+leaffaces              402/65536         804/131072   ( 0.6%) 
+leafbrushes            190/65536         380/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1744/512000       6976/2048000  ( 0.3%) 
+edges                  885/256000       3540/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1240224/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1396/16777216 ( 0.0%) 
+entdata               [variable]        1261/393216   ( 0.3%) 
+LDR ambient table      271/65536        1084/262144   ( 0.4%) 
+HDR ambient table      271/65536        1084/262144   ( 0.4%) 
+LDR leaf ambient        58/65536        1624/1835008  ( 0.1%) 
+HDR leaf ambient       271/65536        7588/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74438/0        ( 0.0%) 
+physics               [variable]        2304/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 916
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 14
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3098 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 4 texdatas to 3 (147 bytes to 100)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 171 portalclusters
+ 312 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 26207
+Average clusters visible: 153
+Building PAS...
+Average clusters audible: 171
+visdatasize:8896  compressed from 8208
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+1053 faces
+406764 square feet [58574080.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1053 patches before subdivision
+28221 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100..
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 14
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3098 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 4 texdatas to 3 (147 bytes to 100)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 171 portalclusters
+ 312 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 26207
+Average clusters visible: 153
+Building PAS...
+Average clusters audible: 171
+visdatasize:8896  compressed from 8208
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+1053 faces
+406764 square feet [58574080.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1053 patches before subdivision
+28221 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4695345, max 719
+transfer lists:  35.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0068 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  8/8192           96/98304    ( 0.1%) 
+brushsides              48/65536         384/524288   ( 0.1%) 
+planes                 110/65536        2200/1310720  ( 0.2%) 
+vertexes              1141/65536       13692/786432   ( 1.7%) 
+nodes                  437/65536       13984/2097152  ( 0.7%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1053/65536       58968/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               15/65536         840/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        1053/0            4212/0        ( 0.0%) 
+leaves                 439/65536       14048/2097152  ( 0.7%) 
+leaffaces             1280/65536        2560/131072   ( 2.0%) 
+leafbrushes            245/65536         490/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4402/512000      17608/2048000  ( 0.9%) 
+edges                 2219/256000       8876/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3427828/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        8896/16777216 ( 0.1%) 
+entdata               [variable]        1473/393216   ( 0.4%) 
+LDR ambient table      439/65536        1756/262144   ( 0.7%) 
+HDR ambient table      439/65536        1756/262144   ( 0.7%) 
+LDR leaf ambient       171/65536        4788/1835008  ( 0.3%) 
+HDR leaf ambient       439/65536       12292/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]        3098/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2236
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 14
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3098 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 4 texdatas to 3 (147 bytes to 100)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 171 portalclusters
+ 312 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 26207
+Average clusters visible: 153
+Building PAS...
+Average clusters audible: 171
+visdatasize:8896  compressed from 8208
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+1053 faces
+406764 square feet [58574080.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1053 patches before subdivision
+28221 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4695345, max 719
+transfer lists:  35.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0067 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  8/8192           96/98304    ( 0.1%) 
+brushsides              48/65536         384/524288   ( 0.1%) 
+planes                 110/65536        2200/1310720  ( 0.2%) 
+vertexes              1141/65536       13692/786432   ( 1.7%) 
+nodes                  437/65536       13984/2097152  ( 0.7%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1053/65536       58968/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               15/65536         840/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        1053/0            4212/0        ( 0.0%) 
+leaves                 439/65536       14048/2097152  ( 0.7%) 
+leaffaces             1280/65536        2560/131072   ( 2.0%) 
+leafbrushes            245/65536         490/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4402/512000      17608/2048000  ( 0.9%) 
+edges                 2219/256000       8876/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3427828/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        8896/16777216 ( 0.1%) 
+entdata               [variable]        1473/393216   ( 0.4%) 
+LDR ambient table      439/65536        1756/262144   ( 0.7%) 
+HDR ambient table      439/65536        1756/262144   ( 0.7%) 
+LDR leaf ambient       171/65536        4788/1835008  ( 0.3%) 
+HDR leaf ambient       439/65536       12292/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]        3098/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2236
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 15
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3098 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 4 texdatas to 3 (147 bytes to 100)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 171 portalclusters
+ 312 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 26207
+Average clusters visible: 153
+Building PAS...
+Average clusters audible: 171
+visdatasize:8896  compressed from 8208
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+1053 faces
+406764 square feet [58574080.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1053 patches before subdivision
+28221 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4695345, max 719
+transfer lists:  35.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0068 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  8/8192           96/98304    ( 0.1%) 
+brushsides              48/65536         384/524288   ( 0.1%) 
+planes                 110/65536        2200/1310720  ( 0.2%) 
+vertexes              1141/65536       13692/786432   ( 1.7%) 
+nodes                  437/65536       13984/2097152  ( 0.7%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1053/65536       58968/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               15/65536         840/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        1053/0            4212/0        ( 0.0%) 
+leaves                 439/65536       14048/2097152  ( 0.7%) 
+leaffaces             1280/65536        2560/131072   ( 2.0%) 
+leafbrushes            245/65536         490/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4402/512000      17608/2048000  ( 0.9%) 
+edges                 2219/256000       8876/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3427828/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        8896/16777216 ( 0.1%) 
+entdata               [variable]        1917/393216   ( 0.5%) 
+LDR ambient table      439/65536        1756/262144   ( 0.7%) 
+HDR ambient table      439/65536        1756/262144   ( 0.7%) 
+LDR leaf ambient       171/65536        4788/1835008  ( 0.3%) 
+HDR leaf ambient       439/65536       12292/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]        3098/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2236
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 20
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6186 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 10
+Reduced 5 texdatas to 4 (181 bytes to 134)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 417 portalclusters
+ 870 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 124643
+Average clusters visible: 298
+Building PAS...
+Average clusters audible: 417
+visdatasize:47542  compressed from 46704
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+3556 faces
+475250 square feet [68436032.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3556 patches before subdivision
+46644 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6208782, max 1909
+transfer lists:  47.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0092 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                 140/65536        2800/1310720  ( 0.2%) 
+vertexes              3764/65536       45168/786432   ( 5.7%) 
+nodes                  949/65536       30368/2097152  ( 1.4%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3556/65536      199136/3670016  ( 5.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               50/65536        2800/3670016  ( 0.1%) 
+facebrushes            174/0             348/0        ( 0.0%) 
+facebrushlists        3556/0           14224/0        ( 0.0%) 
+leaves                 951/65536       30432/2097152  ( 1.5%) 
+leaffaces             3802/65536        7604/131072   ( 5.8%) 
+leafbrushes            540/65536        1080/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14786/512000      59144/2048000  ( 2.9%) 
+edges                 7428/256000      29712/1024000  ( 2.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             50/32768         500/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           672/65536        1344/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4439028/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       47542/16777216 ( 0.3%) 
+entdata               [variable]        2028/393216   ( 0.5%) 
+LDR ambient table      951/65536        3804/262144   ( 1.5%) 
+HDR ambient table      951/65536        3804/262144   ( 1.5%) 
+LDR leaf ambient       417/65536       11676/1835008  ( 0.6%) 
+HDR leaf ambient       951/65536       26628/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]        6186/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 7474
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 22
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6170 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 4 texdatas to 3 (147 bytes to 100)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 446 portalclusters
+ 958 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 82 visible clusters (0.00%)
+Total clusters visible: 138152
+Average clusters visible: 309
+Building PAS...
+Average clusters audible: 446
+visdatasize:53524  compressed from 49952
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+3661 faces
+475250 square feet [68436040.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3661 patches before subdivision
+47527 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6295388, max 1987
+transfer lists:  48.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0097 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                 142/65536        2840/1310720  ( 0.2%) 
+vertexes              3772/65536       45264/786432   ( 5.8%) 
+nodes                  978/65536       31296/2097152  ( 1.5%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3661/65536      205016/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               50/65536        2800/3670016  ( 0.1%) 
+facebrushes            174/0             348/0        ( 0.0%) 
+facebrushlists        3661/0           14644/0        ( 0.0%) 
+leaves                 980/65536       31360/2097152  ( 1.5%) 
+leaffaces             3736/65536        7472/131072   ( 5.7%) 
+leafbrushes            540/65536        1080/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15012/512000      60048/2048000  ( 2.9%) 
+edges                 7541/256000      30164/1024000  ( 2.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            36/65536          72/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     6140112/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       53524/16777216 ( 0.3%) 
+entdata               [variable]        2028/393216   ( 0.5%) 
+LDR ambient table      980/65536        3920/262144   ( 1.5%) 
+HDR ambient table      980/65536        3920/262144   ( 1.5%) 
+LDR leaf ambient       446/65536       12488/1835008  ( 0.7%) 
+HDR leaf ambient       980/65536       27440/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]        6170/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 7490
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 23
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6170 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 4 texdatas to 3 (147 bytes to 100)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 446 portalclusters
+ 958 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 82 visible clusters (0.00%)
+Total clusters visible: 138152
+Average clusters visible: 309
+Building PAS...
+Average clusters audible: 446
+visdatasize:53524  compressed from 49952
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+3661 faces
+475250 square feet [68436024.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3661 patches before subdivision
+47527 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6135706, max 1949
+transfer lists:  46.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0099 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                 142/65536        2840/1310720  ( 0.2%) 
+vertexes              3772/65536       45264/786432   ( 5.8%) 
+nodes                  978/65536       31296/2097152  ( 1.5%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3661/65536      205016/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               50/65536        2800/3670016  ( 0.1%) 
+facebrushes            174/0             348/0        ( 0.0%) 
+facebrushlists        3661/0           14644/0        ( 0.0%) 
+leaves                 980/65536       31360/2097152  ( 1.5%) 
+leaffaces             3736/65536        7472/131072   ( 5.7%) 
+leafbrushes            540/65536        1080/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15012/512000      60048/2048000  ( 2.9%) 
+edges                 7541/256000      30164/1024000  ( 2.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            36/65536          72/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     6140112/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       53524/16777216 ( 0.3%) 
+entdata               [variable]        2028/393216   ( 0.5%) 
+LDR ambient table      980/65536        3920/262144   ( 1.5%) 
+HDR ambient table      980/65536        3920/262144   ( 1.5%) 
+LDR leaf ambient       446/65536       12488/1835008  ( 0.7%) 
+HDR leaf ambient       980/65536       27440/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]        6170/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 7490
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 28
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6347 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 5 texdatas to 4 (169 bytes to 122)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 177 portalclusters
+ 324 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 27965
+Average clusters visible: 157
+Building PAS...
+Average clusters audible: 177
+visdatasize:9562  compressed from 8496
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+1090 faces
+406813 square feet [58581092.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1090 patches before subdivision
+28540 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4802110, max 724
+transfer lists:  36.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0069 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes              1178/65536       14136/786432   ( 1.8%) 
+nodes                  446/65536       14272/2097152  ( 0.7%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1090/65536       61040/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               15/65536         840/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        1090/0            4360/0        ( 0.0%) 
+leaves                 448/65536       14336/2097152  ( 0.7%) 
+leaffaces             1327/65536        2654/131072   ( 2.0%) 
+leafbrushes            480/65536         960/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4550/512000      18200/2048000  ( 0.9%) 
+edges                 2293/256000       9172/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3448828/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9562/16777216 ( 0.1%) 
+entdata               [variable]        2033/393216   ( 0.5%) 
+LDR ambient table      448/65536        1792/262144   ( 0.7%) 
+HDR ambient table      448/65536        1792/262144   ( 0.7%) 
+LDR leaf ambient       177/65536        4956/1835008  ( 0.3%) 
+HDR leaf ambient       448/65536       12544/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]        6347/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2310
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 29
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6347 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 5 texdatas to 4 (169 bytes to 122)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 177 portalclusters
+ 355 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 108 visible clusters (0.00%)
+Total clusters visible: 31205
+Average clusters visible: 176
+Building PAS...
+Average clusters audible: 177
+visdatasize:9562  compressed from 8496
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+1090 faces
+473730 square feet [68217200.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1090 patches before subdivision
+40520 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8338678, max 761
+transfer lists:  63.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0087 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes              1182/65536       14184/786432   ( 1.8%) 
+nodes                  446/65536       14272/2097152  ( 0.7%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1090/65536       61040/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               15/65536         840/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        1090/0            4360/0        ( 0.0%) 
+leaves                 448/65536       14336/2097152  ( 0.7%) 
+leaffaces             1165/65536        2330/131072   ( 1.8%) 
+leafbrushes            530/65536        1060/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4550/512000      18200/2048000  ( 0.9%) 
+edges                 2293/256000       9172/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4257828/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9562/16777216 ( 0.1%) 
+entdata               [variable]        1923/393216   ( 0.5%) 
+LDR ambient table      448/65536        1792/262144   ( 0.7%) 
+HDR ambient table      448/65536        1792/262144   ( 0.7%) 
+LDR leaf ambient       177/65536        4956/1835008  ( 0.3%) 
+HDR leaf ambient       448/65536       12544/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]        6347/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2310
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 36
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11862 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 13
+Reduced 7 texdatas to 6 (231 bytes to 184)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 216 portalclusters
+ 484 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 120 visible clusters (0.00%)
+Total clusters visible: 46408
+Average clusters visible: 214
+Building PAS...
+Average clusters audible: 216
+visdatasize:13396  compressed from 13824
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+1205 faces
+475227 square feet [68432720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1205 patches before subdivision
+41033 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8697276, max 810
+transfer lists:  66.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0084 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 30/8192          360/98304    ( 0.4%) 
+brushsides             180/65536        1440/524288   ( 0.3%) 
+planes                 200/65536        4000/1310720  ( 0.3%) 
+vertexes              1342/65536       16104/786432   ( 2.0%) 
+nodes                  505/65536       16160/2097152  ( 0.8%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1205/65536       67480/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               90/65536        5040/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        1205/0            4820/0        ( 0.0%) 
+leaves                 507/65536       16224/2097152  ( 0.8%) 
+leaffaces             1312/65536        2624/131072   ( 2.0%) 
+leafbrushes            570/65536        1140/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5380/512000      21520/2048000  ( 1.1%) 
+edges                 2726/256000      10904/1024000  ( 1.1%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            57/65536         114/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4304324/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13396/16777216 ( 0.1%) 
+entdata               [variable]        1923/393216   ( 0.5%) 
+LDR ambient table      507/65536        2028/262144   ( 0.8%) 
+HDR ambient table      507/65536        2028/262144   ( 0.8%) 
+LDR leaf ambient       216/65536        6048/1835008  ( 0.3%) 
+HDR leaf ambient       507/65536       14196/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]       11862/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2610
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 37
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11470 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 13
+Reduced 7 texdatas to 6 (231 bytes to 184)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 158 portalclusters
+ 364 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 59 visible clusters (0.00%)
+Total clusters visible: 24815
+Average clusters visible: 157
+Building PAS...
+Average clusters audible: 158
+visdatasize:7588  compressed from 7584
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+861 faces
+474819 square feet [68374064.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+861 patches before subdivision
+36557 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6573278, max 681
+transfer lists:  50.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0082 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 29/8192          348/98304    ( 0.4%) 
+brushsides             174/65536        1392/524288   ( 0.3%) 
+planes                 198/65536        3960/1310720  ( 0.3%) 
+vertexes               989/65536       11868/786432   ( 1.5%) 
+nodes                  421/65536       13472/2097152  ( 0.6%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  861/65536       48216/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               86/65536        4816/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         861/0            3444/0        ( 0.0%) 
+leaves                 423/65536       13536/2097152  ( 0.6%) 
+leaffaces              937/65536        1874/131072   ( 1.4%) 
+leafbrushes            518/65536        1036/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3978/512000      15912/2048000  ( 0.8%) 
+edges                 2022/256000       8088/1024000  ( 0.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              6/32768          60/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            87/65536         174/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4132704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        7588/16777216 ( 0.0%) 
+entdata               [variable]        1923/393216   ( 0.5%) 
+LDR ambient table      423/65536        1692/262144   ( 0.6%) 
+HDR ambient table      423/65536        1692/262144   ( 0.6%) 
+LDR leaf ambient       158/65536        4424/1835008  ( 0.2%) 
+HDR leaf ambient       423/65536       11844/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]       11470/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1912
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 44
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15390 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 13
+Reduced 7 texdatas to 6 (231 bytes to 184)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 175 portalclusters
+ 437 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 70 visible clusters (0.00%)
+Total clusters visible: 30381
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 175
+visdatasize:9104  compressed from 8400
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+992 faces
+619973 square feet [89276248.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+992 patches before subdivision
+40714 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7993821, max 754
+transfer lists:  61.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0103 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 39/8192          468/98304    ( 0.5%) 
+brushsides             265/65536        2120/524288   ( 0.4%) 
+planes                 304/65536        6080/1310720  ( 0.5%) 
+vertexes              1148/65536       13776/786432   ( 1.8%) 
+nodes                  449/65536       14368/2097152  ( 0.7%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  992/65536       55552/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes             10/0              20/0        ( 0.0%) 
+facebrushlists         992/0            3968/0        ( 0.0%) 
+leaves                 451/65536       14432/2097152  ( 0.7%) 
+leaffaces             1094/65536        2188/131072   ( 1.7%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4658/512000      18632/2048000  ( 0.9%) 
+edges                 2380/256000       9520/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              9/32768          90/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           165/65536         330/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5117352/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9104/16777216 ( 0.1%) 
+entdata               [variable]        1923/393216   ( 0.5%) 
+LDR ambient table      451/65536        1804/262144   ( 0.7%) 
+HDR ambient table      451/65536        1804/262144   ( 0.7%) 
+LDR leaf ambient       175/65536        4900/1835008  ( 0.3%) 
+HDR leaf ambient       451/65536       12628/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]       15390/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2222
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 45
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15390 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 13
+Reduced 7 texdatas to 6 (231 bytes to 184)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 175 portalclusters
+ 437 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 70 visible clusters (0.00%)
+Total clusters visible: 30381
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 175
+visdatasize:9104  compressed from 8400
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+992 faces
+619973 square feet [89276248.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+992 patches before subdivision
+40714 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7993821, max 754
+transfer lists:  61.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0096 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 39/8192          468/98304    ( 0.5%) 
+brushsides             265/65536        2120/524288   ( 0.4%) 
+planes                 304/65536        6080/1310720  ( 0.5%) 
+vertexes              1148/65536       13776/786432   ( 1.8%) 
+nodes                  449/65536       14368/2097152  ( 0.7%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  992/65536       55552/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes             10/0              20/0        ( 0.0%) 
+facebrushlists         992/0            3968/0        ( 0.0%) 
+leaves                 451/65536       14432/2097152  ( 0.7%) 
+leaffaces             1094/65536        2188/131072   ( 1.7%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4658/512000      18632/2048000  ( 0.9%) 
+edges                 2380/256000       9520/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              9/32768          90/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           165/65536         330/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5117352/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9104/16777216 ( 0.1%) 
+entdata               [variable]        1919/393216   ( 0.5%) 
+LDR ambient table      451/65536        1804/262144   ( 0.7%) 
+HDR ambient table      451/65536        1804/262144   ( 0.7%) 
+LDR leaf ambient       175/65536        4900/1835008  ( 0.3%) 
+HDR leaf ambient       451/65536       12628/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]       15390/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2222
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 45
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15390 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 13
+Reduced 7 texdatas to 6 (231 bytes to 184)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 175 portalclusters
+ 437 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 70 visible clusters (0.00%)
+Total clusters visible: 30381
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 175
+visdatasize:9104  compressed from 8400
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+992 faces
+619973 square feet [89276248.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+992 patches before subdivision
+40714 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7993821, max 754
+transfer lists:  61.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0099 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 39/8192          468/98304    ( 0.5%) 
+brushsides             265/65536        2120/524288   ( 0.4%) 
+planes                 304/65536        6080/1310720  ( 0.5%) 
+vertexes              1148/65536       13776/786432   ( 1.8%) 
+nodes                  449/65536       14368/2097152  ( 0.7%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  992/65536       55552/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes             10/0              20/0        ( 0.0%) 
+facebrushlists         992/0            3968/0        ( 0.0%) 
+leaves                 451/65536       14432/2097152  ( 0.7%) 
+leaffaces             1094/65536        2188/131072   ( 1.7%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4658/512000      18632/2048000  ( 0.9%) 
+edges                 2380/256000       9520/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              9/32768          90/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           165/65536         330/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5117352/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9104/16777216 ( 0.1%) 
+entdata               [variable]        1919/393216   ( 0.5%) 
+LDR ambient table      451/65536        1804/262144   ( 0.7%) 
+HDR ambient table      451/65536        1804/262144   ( 0.7%) 
+LDR leaf ambient       175/65536        4900/1835008  ( 0.3%) 
+HDR leaf ambient       451/65536       12628/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]       15390/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2222
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 45
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15390 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 13
+Reduced 7 texdatas to 6 (231 bytes to 184)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 175 portalclusters
+ 437 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 70 visible clusters (0.00%)
+Total clusters visible: 30381
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 175
+visdatasize:9104  compressed from 8400
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+992 faces
+619973 square feet [89276248.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+992 patches before subdivision
+40714 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7993821, max 754
+transfer lists:  61.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0098 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 39/8192          468/98304    ( 0.5%) 
+brushsides             265/65536        2120/524288   ( 0.4%) 
+planes                 304/65536        6080/1310720  ( 0.5%) 
+vertexes              1148/65536       13776/786432   ( 1.8%) 
+nodes                  449/65536       14368/2097152  ( 0.7%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  992/65536       55552/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes             10/0              20/0        ( 0.0%) 
+facebrushlists         992/0            3968/0        ( 0.0%) 
+leaves                 451/65536       14432/2097152  ( 0.7%) 
+leaffaces             1094/65536        2188/131072   ( 1.7%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4658/512000      18632/2048000  ( 0.9%) 
+edges                 2380/256000       9520/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              9/32768          90/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           165/65536         330/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5117352/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9104/16777216 ( 0.1%) 
+entdata               [variable]        1919/393216   ( 0.5%) 
+LDR ambient table      451/65536        1804/262144   ( 0.7%) 
+HDR ambient table      451/65536        1804/262144   ( 0.7%) 
+LDR leaf ambient       175/65536        4900/1835008  ( 0.3%) 
+HDR leaf ambient       451/65536       12628/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]       15390/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2222
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.vmf
+Map revision 46
+Patching WVT material: maps/large_wall/de_dust/hr_dust/hr_dust_blend_plaster_white_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15390 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 13
+Reduced 7 texdatas to 6 (231 bytes to 184)
+Writing D:\Desktop\computing\Counter Strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+reading d:\desktop\computing\counter strike\maps\endless walls\large_wall.prt
+ 175 portalclusters
+ 437 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 70 visible clusters (0.00%)
+Total clusters visible: 30381
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 175
+visdatasize:9104  compressed from 8400
+writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+992 faces
+619973 square feet [89276248.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+992 patches before subdivision
+40714 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7993821, max 754
+transfer lists:  61.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0105 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 39/8192          468/98304    ( 0.5%) 
+brushsides             265/65536        2120/524288   ( 0.4%) 
+planes                 304/65536        6080/1310720  ( 0.5%) 
+vertexes              1148/65536       13776/786432   ( 1.8%) 
+nodes                  449/65536       14368/2097152  ( 0.7%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  992/65536       55552/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes             10/0              20/0        ( 0.0%) 
+facebrushlists         992/0            3968/0        ( 0.0%) 
+leaves                 451/65536       14432/2097152  ( 0.7%) 
+leaffaces             1094/65536        2188/131072   ( 1.7%) 
+leafbrushes            656/65536        1312/131072   ( 1.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4658/512000      18632/2048000  ( 0.9%) 
+edges                 2380/256000       9520/1024000  ( 0.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              9/32768          90/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           165/65536         330/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5117352/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9104/16777216 ( 0.1%) 
+entdata               [variable]        1923/393216   ( 0.5%) 
+LDR ambient table      451/65536        1804/262144   ( 0.7%) 
+HDR ambient table      451/65536        1804/262144   ( 0.7%) 
+LDR leaf ambient       175/65536        4900/1835008  ( 0.3%) 
+HDR leaf ambient       451/65536       12628/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75180/0        ( 0.0%) 
+physics               [variable]       15390/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2222
+Writing d:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\endless walls\large_wall.bsp', but we don't own that location. Allowing.
+3 seconds elapsed

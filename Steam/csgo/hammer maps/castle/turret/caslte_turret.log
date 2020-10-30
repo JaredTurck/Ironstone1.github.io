@@ -1,0 +1,1056 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.vmf
+Map revision 88
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1892 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (207460 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 16
+Reduced 6 texdatas to 6 (183 bytes to 183)
+Writing D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+3972 faces
+46 degenerate faces
+189825 square feet [27334818.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3926 patches before subdivision
+zero area child patch
+22174 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1024217, max 594
+transfer lists:   7.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0046 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                487/8192         5844/98304    ( 5.9%) 
+brushsides            8914/81920       71312/655360   (10.9%) 
+planes               13160/65536      263200/1310720  (20.1%) 
+vertexes              6661/65536       79932/786432   (10.2%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3972/65536      222432/3670016  ( 6.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2609/65536      146104/3670016  ( 4.0%) 
+facebrushes            125/0             250/0        ( 0.0%) 
+facebrushlists        3972/0           15888/0        ( 0.0%) 
+leaves                  29/65536         928/2097152  ( 0.0%) 
+leaffaces             4457/65536        8914/131072   ( 6.8%) 
+leafbrushes            605/65536        1210/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            36013/512000     144052/2048000  ( 7.0%) 
+edges                20500/256000      82000/1024000  ( 8.0%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1149/32768       11490/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23799/65536       47598/131072   (36.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2697212/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]         473/393216   ( 0.1%) 
+LDR ambient table       29/65536         116/262144   ( 0.0%) 
+HDR ambient table       29/65536         116/262144   ( 0.0%) 
+LDR leaf ambient         4/65536         112/1835008  ( 0.0%) 
+HDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74450/0        ( 0.0%) 
+physics               [variable]      207460/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 17125
+Writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+15 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.vmf
+Map revision 91
+Patching WVT material: maps/caslte_turret/de_train/blendgrassdirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 3804 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (415399 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 24 texinfos to 17
+Reduced 8 texdatas to 7 (268 bytes to 240)
+Writing D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt
+   6 portalclusters
+   7 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 36
+Average clusters visible: 6
+Building PAS...
+Average clusters audible: 6
+visdatasize:64  compressed from 96
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+8329 faces
+101 degenerate faces
+326777 square feet [47056000.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+8228 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+46682 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3509847, max 1042
+transfer lists:  26.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7046, 6898, 6267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(522, 485, 403)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(54, 46, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(7, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0096 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                968/8192        11616/98304    (11.8%) 
+brushsides           18241/81920      145928/655360   (22.3%) 
+planes               26656/65536      533120/1310720  (40.7%) 
+vertexes             13682/65536      164184/786432   (20.9%) 
+nodes                   39/65536        1248/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  7/4096          224/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 8329/65536      466424/3670016  (12.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5385/65536      301560/3670016  ( 8.2%) 
+facebrushes            166/0             332/0        ( 0.0%) 
+facebrushlists        8329/0           33316/0        ( 0.0%) 
+leaves                  41/65536        1312/2097152  ( 0.1%) 
+leaffaces             8983/65536       17966/131072   (13.7%) 
+leafbrushes           1132/65536        2264/131072   ( 1.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            75017/512000     300068/2048000  (14.7%) 
+edges                42190/256000     168760/1024000  (16.5%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2394/32768       23940/327680   ( 7.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         49512/65536       99024/131072   (75.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5569392/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]         755/393216   ( 0.2%) 
+LDR ambient table       41/65536         164/262144   ( 0.1%) 
+HDR ambient table       41/65536         164/262144   ( 0.1%) 
+LDR leaf ambient        95/65536        2660/1835008  ( 0.1%) 
+HDR leaf ambient        41/65536        1148/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74795/0        ( 0.0%) 
+physics               [variable]      415399/4194304  ( 9.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 35826
+Writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 minute, 3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.vmf
+Map revision 92
+Patching WVT material: maps/caslte_turret/de_train/blendgrassdirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 3804 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (415399 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 20
+Reduced 8 texdatas to 8 (268 bytes to 268)
+Writing D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt
+   6 portalclusters
+   7 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 36
+Average clusters visible: 6
+Building PAS...
+Average clusters audible: 6
+visdatasize:64  compressed from 96
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+8335 faces
+101 degenerate faces
+326875 square feet [47070016.00 square inches]
+6 Displacements
+50181 Square Feet [7226182.50 Square Inches]
+8234 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+47924 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2721451, max 965
+transfer lists:  20.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5940, 5862, 4979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(468, 432, 357)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(50, 42, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6, 5, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0099 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                968/8192        11616/98304    (11.8%) 
+brushsides           18241/81920      145928/655360   (22.3%) 
+planes               26658/65536      533160/1310720  (40.7%) 
+vertexes             13686/65536      164232/786432   (20.9%) 
+nodes                   39/65536        1248/2097152  ( 0.1%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  8/4096          256/131072   ( 0.2%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       67282/0           67282/0        ( 0.0%) 
+faces                 8335/65536      466760/3670016  (12.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5391/65536      301896/3670016  ( 8.2%) 
+facebrushes            166/0             332/0        ( 0.0%) 
+facebrushlists        8335/0           33340/0        ( 0.0%) 
+leaves                  41/65536        1312/2097152  ( 0.1%) 
+leaffaces             8983/65536       17966/131072   (13.7%) 
+leafbrushes           1133/65536        2266/131072   ( 1.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            75065/512000     300260/2048000  (14.7%) 
+edges                42214/256000     168856/1024000  (16.5%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2394/32768       23940/327680   ( 7.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         49512/65536       99024/131072   (75.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5689096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]         755/393216   ( 0.2%) 
+LDR ambient table       41/65536         164/262144   ( 0.1%) 
+HDR ambient table       41/65536         164/262144   ( 0.1%) 
+LDR leaf ambient        96/65536        2688/1835008  ( 0.1%) 
+HDR leaf ambient        41/65536        1148/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74795/0        ( 0.0%) 
+physics               [variable]      415399/4194304  ( 9.9%) 
+physics terrain       [variable]        2212/1048576  ( 0.2%) 
+
+Level flags = 7c
+
+Total triangle count: 35838
+Writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+56 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.vmf
+Map revision 106
+Patching WVT material: maps/caslte_turret/de_train/blendgrassdirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 3804 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (440466 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 24
+Reduced 10 texdatas to 10 (299 bytes to 299)
+Writing D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt
+  88 portalclusters
+ 232 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 6544
+Average clusters visible: 74
+Building PAS...
+Average clusters audible: 88
+visdatasize:2644  compressed from 2816
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+8839 faces
+101 degenerate faces
+354702 square feet [51077196.00 square inches]
+6 Displacements
+46595 Square Feet [6709739.00 Square Inches]
+8738 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+53434 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4249721, max 1187
+transfer lists:  32.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64759, 60801, 58212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9851, 8173, 7272)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1412, 986, 791)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(211, 126, 92)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(31, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0116 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes               1033/8192        12396/98304    (12.6%) 
+brushsides           18631/81920      149048/655360   (22.7%) 
+planes               26782/65536      535640/1310720  (40.9%) 
+vertexes             14609/65536      175308/786432   (22.3%) 
+nodes                  209/65536        6688/2097152  ( 0.3%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       62381/0           62381/0        ( 0.0%) 
+faces                 8839/65536      494984/3670016  (13.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5696/65536      318976/3670016  ( 8.7%) 
+facebrushes            166/0             332/0        ( 0.0%) 
+facebrushlists        8839/0           35356/0        ( 0.0%) 
+leaves                 211/65536        6752/2097152  ( 0.3%) 
+leaffaces            10300/65536       20600/131072   (15.7%) 
+leafbrushes           1456/65536        2912/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            78786/512000     315144/2048000  (15.4%) 
+edges                44210/256000     176840/1024000  (17.3%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2404/32768       24040/327680   ( 7.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         49785/65536       99570/131072   (76.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     6434228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2644/16777216 ( 0.0%) 
+entdata               [variable]        9008/393216   ( 2.3%) 
+LDR ambient table      211/65536         844/262144   ( 0.3%) 
+HDR ambient table      211/65536         844/262144   ( 0.3%) 
+LDR leaf ambient       742/65536       20776/1835008  ( 1.1%) 
+HDR leaf ambient       211/65536        5908/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74795/0        ( 0.0%) 
+physics               [variable]      440466/4194304  (10.5%) 
+physics terrain       [variable]        2450/1048576  ( 0.2%) 
+
+Level flags = 7c
+
+Total triangle count: 37331
+Writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 minute, 25 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.vmf
+Map revision 106
+Patching WVT material: maps/caslte_turret/de_train/blendgrassdirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 3804 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (440466 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 24
+Reduced 10 texdatas to 10 (299 bytes to 299)
+Writing D:\Desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt
+  88 portalclusters
+ 232 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 6544
+Average clusters visible: 74
+Building PAS...
+Average clusters audible: 88
+visdatasize:2644  compressed from 2816
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+8839 faces
+101 degenerate faces
+354702 square feet [51077196.00 square inches]
+6 Displacements
+46595 Square Feet [6709739.00 Square Inches]
+8738 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+53434 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4249721, max 1187
+transfer lists:  32.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(64759, 60801, 58212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9851, 8173, 7272)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1412, 986, 791)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(211, 126, 92)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(31, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0117 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes               1033/8192        12396/98304    (12.6%) 
+brushsides           18631/81920      149048/655360   (22.7%) 
+planes               26782/65536      535640/1310720  (40.9%) 
+vertexes             14609/65536      175308/786432   (22.3%) 
+nodes                  209/65536        6688/2097152  ( 0.3%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       62381/0           62381/0        ( 0.0%) 
+faces                 8839/65536      494984/3670016  (13.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5696/65536      318976/3670016  ( 8.7%) 
+facebrushes            166/0             332/0        ( 0.0%) 
+facebrushlists        8839/0           35356/0        ( 0.0%) 
+leaves                 211/65536        6752/2097152  ( 0.3%) 
+leaffaces            10300/65536       20600/131072   (15.7%) 
+leafbrushes           1456/65536        2912/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            78786/512000     315144/2048000  (15.4%) 
+edges                44210/256000     176840/1024000  (17.3%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2404/32768       24040/327680   ( 7.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         49785/65536       99570/131072   (76.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     6434228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2644/16777216 ( 0.0%) 
+entdata               [variable]        9008/393216   ( 2.3%) 
+LDR ambient table      211/65536         844/262144   ( 0.3%) 
+HDR ambient table      211/65536         844/262144   ( 0.3%) 
+LDR leaf ambient       742/65536       20776/1835008  ( 1.1%) 
+HDR leaf ambient       211/65536        5908/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74795/0        ( 0.0%) 
+physics               [variable]      440466/4194304  (10.5%) 
+physics terrain       [variable]        2450/1048576  ( 0.2%) 
+
+Level flags = 7c
+
+Total triangle count: 37331
+Writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 minute, 32 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.vmf
+Map revision 108
+Patching WVT material: maps/caslte_turret/de_train/blendgrassdirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 3804 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (440466 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 24
+Reduced 10 texdatas to 10 (299 bytes to 299)
+Writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt
+  88 portalclusters
+ 232 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 6544
+Average clusters visible: 74
+Building PAS...
+Average clusters audible: 88
+visdatasize:2644  compressed from 2816
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.vmf
+Map revision 108
+Patching WVT material: maps/caslte_turret/de_train/blendgrassdirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 3804 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (440466 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 24
+Reduced 10 texdatas to 10 (299 bytes to 299)
+Writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt
+  88 portalclusters
+ 232 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 6544
+Average clusters visible: 74
+Building PAS...
+Average clusters audible: 88
+visdatasize:2644  compressed from 2816
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+8839 faces
+101 degenerate faces
+354702 square feet [51077196.00 square inches]
+6 Displacements
+46595 Square Feet [6709739.00 Square Inches]
+8738 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+53434 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4249721, max 1187
+transfer lists:  32.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(476311, 450830, 418237)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(45767, 39871, 34290)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4728, 3681, 2946)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(563, 385, 287)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(74, 44, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 5, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0121 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes               1033/8192        12396/98304    (12.6%) 
+brushsides           18631/81920      149048/655360   (22.7%) 
+planes               26782/65536      535640/1310720  (40.9%) 
+vertexes             14609/65536      175308/786432   (22.3%) 
+nodes                  209/65536        6688/2097152  ( 0.3%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       62381/0           62381/0        ( 0.0%) 
+faces                 8839/65536      494984/3670016  (13.5%) 
+hdr faces             8839/65536      494984/3670016  (13.5%) 
+origfaces             5696/65536      318976/3670016  ( 8.7%) 
+facebrushes            166/0             332/0        ( 0.0%) 
+facebrushlists        8839/0           35356/0        ( 0.0%) 
+leaves                 211/65536        6752/2097152  ( 0.3%) 
+leaffaces            10300/65536       20600/131072   (15.7%) 
+leafbrushes           1456/65536        2912/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            78786/512000     315144/2048000  (15.4%) 
+edges                44210/256000     176840/1024000  (17.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         14/8192         1400/819200   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2404/32768       24040/327680   ( 7.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         49785/65536       99570/131072   (76.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     6434228/0        ( 0.0%) 
+visdata               [variable]        2644/16777216 ( 0.0%) 
+entdata               [variable]        9211/393216   ( 2.3%) 
+LDR ambient table      211/65536         844/262144   ( 0.3%) 
+HDR ambient table      211/65536         844/262144   ( 0.3%) 
+LDR leaf ambient       211/65536        5908/1835008  ( 0.3%) 
+HDR leaf ambient       519/65536       14532/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74795/0        ( 0.0%) 
+physics               [variable]      440466/4194304  (10.5%) 
+physics terrain       [variable]        2450/1048576  ( 0.2%) 
+
+Level flags = 7e
+
+Total triangle count: 37331
+Writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+2 minutes, 50 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.vmf
+Map revision 112
+Patching WVT material: maps/caslte_turret/de_train/blendgrassdirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 3804 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (440466 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 24
+Reduced 10 texdatas to 10 (299 bytes to 299)
+Writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+reading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.prt
+  88 portalclusters
+ 232 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 6550
+Average clusters visible: 74
+Building PAS...
+Average clusters audible: 88
+visdatasize:2644  compressed from 2816
+writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+8839 faces
+101 degenerate faces
+414418 square feet [59676224.00 square inches]
+6 Displacements
+46595 Square Feet [6709739.00 Square Inches]
+8738 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+53434 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4256381, max 1280
+transfer lists:  32.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(391739, 370700, 344225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38336, 33323, 28705)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4033, 3120, 2497)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(488, 331, 246)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(65, 38, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(9, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0219 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes               1033/8192        12396/98304    (12.6%) 
+brushsides           18631/81920      149048/655360   (22.7%) 
+planes               26782/65536      535640/1310720  (40.9%) 
+vertexes             14609/65536      175308/786432   (22.3%) 
+nodes                  209/65536        6688/2097152  ( 0.3%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       62381/0           62381/0        ( 0.0%) 
+faces                 8839/65536      494984/3670016  (13.5%) 
+hdr faces             8839/65536      494984/3670016  (13.5%) 
+origfaces             5696/65536      318976/3670016  ( 8.7%) 
+facebrushes            166/0             332/0        ( 0.0%) 
+facebrushlists        8839/0           35356/0        ( 0.0%) 
+leaves                 211/65536        6752/2097152  ( 0.3%) 
+leaffaces            10300/65536       20600/131072   (15.7%) 
+leafbrushes           1456/65536        2912/131072   ( 2.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            78786/512000     315144/2048000  (15.4%) 
+edges                44210/256000     176840/1024000  (17.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         14/8192         1400/819200   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2404/32768       24040/327680   ( 7.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         49785/65536       99570/131072   (76.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     6434228/0        ( 0.0%) 
+visdata               [variable]        2644/16777216 ( 0.0%) 
+entdata               [variable]       11451/393216   ( 2.9%) 
+LDR ambient table      211/65536         844/262144   ( 0.3%) 
+HDR ambient table      211/65536         844/262144   ( 0.3%) 
+LDR leaf ambient       211/65536        5908/1835008  ( 0.3%) 
+HDR leaf ambient       596/65536       16688/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74795/0        ( 0.0%) 
+physics               [variable]      440466/4194304  (10.5%) 
+physics terrain       [variable]        2450/1048576  ( 0.2%) 
+
+Level flags = 7e
+
+Total triangle count: 37331
+Writing d:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\turret\caslte_turret.bsp', but we don't own that location. Allowing...
+2 minutes, 36 seconds elapsed

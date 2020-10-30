@@ -1,0 +1,14 @@
+D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3
+
+nextlevel cold_pizza_achiv_2
+
+the trigger worked fine, the bot was losing health but the client was not.
+if he bot dies via suicide aka trigger_hurt, then the match will end and display scoreboard.
+- this means the bot has to die at the hands of the client.
+- but the bots moves around making it hard ot kill the bot
+  - maybe a grenade will be easier.
+
+
+whats stopping the bot from also throwing a grenade
+
+if the client dies, then the match will end

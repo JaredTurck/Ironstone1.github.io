@@ -1,0 +1,31 @@
+AN ERROR HAS OCCURED [parameter 4 has an invalid type 'string' ; expected: 'integer|float']
+
+CALLSTACK
+*FUNCTION [EntFire()] unnamed line [29]
+*FUNCTION [a()] a_knife.nut line [17]
+*FUNCTION [main()] InputRunScript line [1]
+
+LOCALS
+[caller] INSTANCE
+[activator] INSTANCE
+[delay] "classname weapon_knifegg"
+[value] "addoutput"
+[action] "weapon_knife"
+[target] "!self"
+[this] TABLE
+[this] TABLE
+[this] TABLE
+ Entity knife_run encountered an error in RunScript()
+
+---------------------
+
+LOCALS
+[caller] INSTANCE
+[activator] "jared"
+[delay] "turck"
+[value] "classname weapon_knifegg"
+[action] "addoutput"
+[target] "!self"
+[this] TABLE
+[this] TABLE
+[this] TABLE

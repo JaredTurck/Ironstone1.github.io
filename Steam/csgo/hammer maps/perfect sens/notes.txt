@@ -1,0 +1,11 @@
+make to help calculate your perfect mouse sensitivity
+
+test to make sure mouse acceleration is disabled
+- move the mouse very quickly record the pitch, yawn and roll values
+- move the mouse very slowly record the pitch, yawn and toll values
+- comapres the 2 values, if there is a large diffrence, then mouse acceleration is detected.
+
+ask user to move the mouse from very left edge of there mouse mat to very right edge of there mouse mat.
+without lifting the mouse, or moving it backwards at any point.
+
+move the mouse in one whole constant movment from one side of the mouse mat to the other without stopping.

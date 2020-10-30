@@ -1,0 +1,25 @@
+HE Grenade Expert
+Kill 100 enemies with the HE grenade
+
+Flame Expert
+Kill 100 enemies with the Molotov or Incendiary grenade
+
+give weapon_hegrenade
+give weapon_molotov;give weapon_incgrenade
+
+he_and_flame_expert_achievement
+
+
+trigger causes the command to repeat
+
+trigger
+run forward
+get grenade
+throw it
+run back
+hit trigger --> repeat
+
+
+!activator
+
+use weapon_hegrenade

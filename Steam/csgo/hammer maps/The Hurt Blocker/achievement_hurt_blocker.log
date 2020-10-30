@@ -1,0 +1,3332 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 6
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7145 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 11
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+18 faces
+7402 square feet [1065912.25 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+18 patches before subdivision
+648 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 43297, max 172
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 13/8192          156/98304    ( 0.2%) 
+brushsides              78/81920         624/655360   ( 0.1%) 
+planes                  78/65536        1560/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   22/65536         704/2097152  ( 0.0%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   18/65536        1008/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          18/0              72/0        ( 0.0%) 
+leaves                  26/65536         832/2097152  ( 0.0%) 
+leaffaces               18/65536          36/131072   ( 0.0%) 
+leafbrushes             13/65536          26/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              144/512000        576/2048000  ( 0.0%) 
+edges                   85/256000        340/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       31252/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        2115/393216   ( 0.5%) 
+LDR ambient table       26/65536         104/262144   ( 0.0%) 
+HDR ambient table       26/65536         104/262144   ( 0.0%) 
+LDR leaf ambient        13/65536         364/1835008  ( 0.0%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        7145/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 36
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4393 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 11
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+18 faces
+1784 square feet [257024.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+18 patches before subdivision
+216 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8018, max 96
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(129, 36, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(82, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(55, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(37, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(25, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                  9/8192          108/98304    ( 0.1%) 
+brushsides              54/81920         432/655360   ( 0.1%) 
+planes                  66/65536        1320/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   22/65536         704/2097152  ( 0.0%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   18/65536        1008/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          18/0              72/0        ( 0.0%) 
+leaves                  26/65536         832/2097152  ( 0.0%) 
+leaffaces               18/65536          36/131072   ( 0.0%) 
+leafbrushes              9/65536          18/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              144/512000        576/2048000  ( 0.0%) 
+edges                   85/256000        340/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6516/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        2399/393216   ( 0.6%) 
+LDR ambient table       26/65536         104/262144   ( 0.0%) 
+HDR ambient table       26/65536         104/262144   ( 0.0%) 
+LDR leaf ambient        78/65536        2184/1835008  ( 0.1%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        4393/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 36
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 15
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5575 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 11
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+18 faces
+981 square feet [141312.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+18 patches before subdivision
+120 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2644, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7260, 2041, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4461, 353, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2851, 63, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1806, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1148, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(730, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(464, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(295, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(187, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(119, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(76, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(48, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(31, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 11/8192          132/98304    ( 0.1%) 
+brushsides              68/81920         544/655360   ( 0.1%) 
+planes                  70/65536        1400/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   22/65536         704/2097152  ( 0.0%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   18/65536        1008/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          18/0              72/0        ( 0.0%) 
+leaves                  26/65536         832/2097152  ( 0.0%) 
+leaffaces               18/65536          36/131072   ( 0.0%) 
+leafbrushes             11/65536          22/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              144/512000        576/2048000  ( 0.0%) 
+edges                   85/256000        340/1024000  ( 0.0%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3516/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6898/393216   ( 1.8%) 
+LDR ambient table       26/65536         104/262144   ( 0.0%) 
+HDR ambient table       26/65536         104/262144   ( 0.0%) 
+LDR leaf ambient        28/65536         784/1835008  ( 0.0%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        5575/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 36
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 20
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6759 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 11
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+18 faces
+794 square feet [114432.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+18 patches before subdivision
+80 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1148, max 36
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4431, 1246, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2778, 220, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1800, 40, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1159, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(748, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(483, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(311, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(201, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(130, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(84, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(54, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(35, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 13/8192          156/98304    ( 0.2%) 
+brushsides              82/81920         656/655360   ( 0.1%) 
+planes                  78/65536        1560/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   22/65536         704/2097152  ( 0.0%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   18/65536        1008/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          18/0              72/0        ( 0.0%) 
+leaves                  26/65536         832/2097152  ( 0.0%) 
+leaffaces               18/65536          36/131072   ( 0.0%) 
+leafbrushes             13/65536          26/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              144/512000        576/2048000  ( 0.0%) 
+edges                   85/256000        340/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        2868/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table       26/65536         104/262144   ( 0.0%) 
+HDR ambient table       26/65536         104/262144   ( 0.0%) 
+LDR leaf ambient        28/65536         784/1835008  ( 0.0%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        6759/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 36
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 24
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1545, max 41
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3901, 1149, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2301, 195, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1356, 33, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(797, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(468, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(275, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(162, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(95, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(56, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  121/256000        484/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3636/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        5929/393216   ( 1.5%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 25
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1545, max 41
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3901, 1149, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2301, 195, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1356, 33, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(797, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(468, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(275, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(162, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(95, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(56, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  121/256000        484/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3636/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6039/393216   ( 1.5%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 25
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1545, max 41
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3901, 1149, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2301, 195, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1356, 33, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(797, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(468, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(275, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(162, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(95, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(56, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  121/256000        484/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3636/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6039/393216   ( 1.5%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 25
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1545, max 41
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3901, 1149, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2301, 195, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1356, 33, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(797, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(468, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(275, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(162, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(95, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(56, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  121/256000        484/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3636/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6039/393216   ( 1.5%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 27
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1545, max 41
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3901, 1149, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2301, 195, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1356, 33, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(797, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(468, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(275, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(162, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(95, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(56, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  121/256000        484/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3636/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6039/393216   ( 1.5%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 28
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1545, max 41
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3901, 1149, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2301, 195, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1356, 33, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(797, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(468, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(275, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(162, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(95, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(56, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  121/256000        484/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3636/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6141/393216   ( 1.6%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 31
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8413 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1545, max 41
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3901, 1149, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2301, 195, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1356, 33, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(797, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(468, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(275, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(162, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(95, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(56, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  121/256000        484/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3636/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6141/393216   ( 1.6%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8413/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 33
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1504, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3924, 1146, 70)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2359, 197, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1436, 34, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(868, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(525, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(318, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(116, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  122/256000        488/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6141/393216   ( 1.6%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 34
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1504, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3924, 1146, 70)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2359, 197, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1436, 34, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(868, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(525, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(318, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(116, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  122/256000        488/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6243/393216   ( 1.6%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 35
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1504, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3924, 1146, 70)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2359, 197, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1436, 34, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(868, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(525, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(318, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(116, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  122/256000        488/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6241/393216   ( 1.6%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 36
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1504, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3924, 1146, 70)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2359, 197, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1436, 34, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(868, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(525, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(318, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(116, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  122/256000        488/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6241/393216   ( 1.6%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 36
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1504, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3924, 1146, 70)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2359, 197, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1436, 34, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(868, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(525, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(318, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(116, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  122/256000        488/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6241/393216   ( 1.6%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 36
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8477 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 14
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+24 faces
+858 square feet [123648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+90 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1504, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3924, 1146, 70)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2359, 197, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1436, 34, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(868, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(525, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(318, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(116, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             112/81920         896/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              196/512000        784/2048000  ( 0.0%) 
+edges                  122/256000        488/1024000  ( 0.0%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6241/393216   ( 1.6%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        8477/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 52
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 37
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9028 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 24 texinfos to 17
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+30 faces
+1008 square feet [145216.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+30 patches before subdivision
+96 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1536, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4011, 1170, 71)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2422, 202, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1473, 35, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(891, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(539, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(197, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(119, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(72, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             118/81920         944/655360   ( 0.1%) 
+planes                  94/65536        1880/1310720  ( 0.1%) 
+vertexes                71/65536         852/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   30/65536        1680/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               30/65536        1680/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          30/0             120/0        ( 0.0%) 
+leaves                  38/65536        1216/2097152  ( 0.1%) 
+leaffaces               30/65536          60/131072   ( 0.0%) 
+leafbrushes             21/65536          42/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              244/512000        976/2048000  ( 0.0%) 
+edges                  146/256000        584/1024000  ( 0.1%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6561/393216   ( 1.7%) 
+LDR ambient table       38/65536         152/262144   ( 0.1%) 
+HDR ambient table       38/65536         152/262144   ( 0.1%) 
+LDR leaf ambient        63/65536        1764/1835008  ( 0.1%) 
+HDR leaf ambient        38/65536        1064/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        9028/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 64
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 38
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9028 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 24 texinfos to 17
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+30 faces
+1008 square feet [145216.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+30 patches before subdivision
+96 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1536, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4011, 1170, 71)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2422, 202, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1473, 35, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(891, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(539, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(197, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(119, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(72, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             118/81920         944/655360   ( 0.1%) 
+planes                  94/65536        1880/1310720  ( 0.1%) 
+vertexes                71/65536         852/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   30/65536        1680/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               30/65536        1680/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          30/0             120/0        ( 0.0%) 
+leaves                  38/65536        1216/2097152  ( 0.1%) 
+leaffaces               30/65536          60/131072   ( 0.0%) 
+leafbrushes             21/65536          42/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              244/512000        976/2048000  ( 0.0%) 
+edges                  146/256000        584/1024000  ( 0.1%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6559/393216   ( 1.7%) 
+LDR ambient table       38/65536         152/262144   ( 0.1%) 
+HDR ambient table       38/65536         152/262144   ( 0.1%) 
+LDR leaf ambient        63/65536        1764/1835008  ( 0.1%) 
+HDR leaf ambient        38/65536        1064/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        9028/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 64
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 39
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9028 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 24 texinfos to 17
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+30 faces
+936 square feet [134816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+30 patches before subdivision
+96 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1554, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4058, 1184, 72)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2459, 205, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1495, 36, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(905, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(547, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(331, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(200, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(121, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(73, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             118/81920         944/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                71/65536         852/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   30/65536        1680/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               30/65536        1680/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          30/0             120/0        ( 0.0%) 
+leaves                  38/65536        1216/2097152  ( 0.1%) 
+leaffaces               30/65536          60/131072   ( 0.0%) 
+leafbrushes             21/65536          42/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              244/512000        976/2048000  ( 0.0%) 
+edges                  146/256000        584/1024000  ( 0.1%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6459/393216   ( 1.6%) 
+LDR ambient table       38/65536         152/262144   ( 0.1%) 
+HDR ambient table       38/65536         152/262144   ( 0.1%) 
+LDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+HDR leaf ambient        38/65536        1064/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        9028/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 64
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 40
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9028 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 24 texinfos to 17
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+30 faces
+936 square feet [134816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+30 patches before subdivision
+96 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1554, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4058, 1184, 72)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2459, 205, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1495, 36, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(905, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(547, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(331, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(200, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(121, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(73, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             118/81920         944/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                71/65536         852/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   30/65536        1680/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               30/65536        1680/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          30/0             120/0        ( 0.0%) 
+leaves                  38/65536        1216/2097152  ( 0.1%) 
+leaffaces               30/65536          60/131072   ( 0.0%) 
+leafbrushes             21/65536          42/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              244/512000        976/2048000  ( 0.0%) 
+edges                  146/256000        584/1024000  ( 0.1%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6457/393216   ( 1.6%) 
+LDR ambient table       38/65536         152/262144   ( 0.1%) 
+HDR ambient table       38/65536         152/262144   ( 0.1%) 
+LDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+HDR leaf ambient        38/65536        1064/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        9028/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 64
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 41
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9028 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 24 texinfos to 17
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+30 faces
+936 square feet [134816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+30 patches before subdivision
+96 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1554, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4058, 1184, 72)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2459, 205, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1495, 36, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(905, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(547, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(331, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(200, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(121, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(73, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             118/81920         944/655360   ( 0.1%) 
+planes                  94/65536        1880/1310720  ( 0.1%) 
+vertexes                71/65536         852/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   30/65536        1680/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               30/65536        1680/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          30/0             120/0        ( 0.0%) 
+leaves                  38/65536        1216/2097152  ( 0.1%) 
+leaffaces               30/65536          60/131072   ( 0.0%) 
+leafbrushes             21/65536          42/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              244/512000        976/2048000  ( 0.0%) 
+edges                  146/256000        584/1024000  ( 0.1%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6457/393216   ( 1.6%) 
+LDR ambient table       38/65536         152/262144   ( 0.1%) 
+HDR ambient table       38/65536         152/262144   ( 0.1%) 
+LDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+HDR leaf ambient        38/65536        1064/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        9028/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 64
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.vmf
+Map revision 42
+Patching WVT material: maps/achievement_hurt_blocker/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9028 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 24 texinfos to 17
+Reduced 6 texdatas to 5 (160 bytes to 139)
+Writing D:\Desktop\csgo\hammer maps\The Hurt Blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+reading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+30 faces
+936 square feet [134816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+30 patches before subdivision
+96 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1554, max 40
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4058, 1184, 72)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2459, 205, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1495, 36, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(905, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(547, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(331, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(200, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(121, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(73, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             118/81920         944/655360   ( 0.1%) 
+planes                  94/65536        1880/1310720  ( 0.1%) 
+vertexes                71/65536         852/786432   ( 0.1%) 
+nodes                   33/65536        1056/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   30/65536        1680/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               30/65536        1680/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          30/0             120/0        ( 0.0%) 
+leaves                  38/65536        1216/2097152  ( 0.1%) 
+leaffaces               30/65536          60/131072   ( 0.0%) 
+leafbrushes             21/65536          42/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              244/512000        976/2048000  ( 0.0%) 
+edges                  146/256000        584/1024000  ( 0.1%) 
+LDR worldlights          9/8192          900/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3692/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        6457/393216   ( 1.6%) 
+LDR ambient table       38/65536         152/262144   ( 0.1%) 
+HDR ambient table       38/65536         152/262144   ( 0.1%) 
+LDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+HDR leaf ambient        38/65536        1064/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74859/0        ( 0.0%) 
+physics               [variable]        9028/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 64
+Writing d:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\the hurt blocker\achievement_hurt_blocker.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

@@ -1,0 +1,30 @@
+Still Alive
+Survive more than 30 seconds with less than ten health in Arms Race or Demolition mode
+
+
+30 seconds, 10 or less health
+you have to lose the health points by the bot, cant be done via !activator health
+
+20 bullets = 100% health lost
+
+check what players health is
+
+int GetHealth()
+
+
+
+AN ERROR HAS OCCURED [the index 'health' does not exist]
+
+CALLSTACK
+*FUNCTION [check_health()] check_health.nut line [9]
+*FUNCTION [main()] InputRunScript line [1]
+
+LOCALS
+[player] NULL
+[this] TABLE
+[this] TABLE
+
+not always hitting button, bullet dont go through player due to thick wall
+
+
+need to only start 30 second counter, after the player has <= 9 hp, not at start of round

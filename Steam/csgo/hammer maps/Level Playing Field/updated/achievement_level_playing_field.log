@@ -1,0 +1,447 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Level Playing Field\updated\achievement_level_playing_field.vmf
+Map revision 133
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Level Playing Field\updated\achievement_level_playing_field.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (38473 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 67 texinfos to 57
+Reduced 6 texdatas to 6 (125 bytes to 125)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Level Playing Field\updated\achievement_level_playing_field.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.prt
+  15 portalclusters
+  12 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 45
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:208  compressed from 240
+writing d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+207 faces
+12658 square feet [1822800.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+207 patches before subdivision
+1065 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 26207, max 93
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7145, 2009, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4326, 342, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2799, 62, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1795, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1159, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(749, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(484, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(314, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(204, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(132, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(86, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(56, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(36, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  25/1024         1200/49152    ( 2.4%) 
+brushes                 80/8192          960/98304    ( 1.0%) 
+brushsides             492/81920        3936/655360   ( 0.6%) 
+planes                 262/65536        5240/1310720  ( 0.4%) 
+vertexes               358/65536        4296/786432   ( 0.5%) 
+nodes                  202/65536        6464/2097152  ( 0.3%) 
+texinfos                57/12288        4104/884736   ( 0.5%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  207/65536       11592/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              182/65536       10192/3670016  ( 0.3%) 
+facebrushes             16/0              32/0        ( 0.0%) 
+facebrushlists         207/0             828/0        ( 0.0%) 
+leaves                 228/65536        7296/2097152  ( 0.3%) 
+leaffaces              219/65536         438/131072   ( 0.3%) 
+leafbrushes            123/65536         246/131072   ( 0.2%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges             1584/512000       6336/2048000  ( 0.3%) 
+edges                  865/256000       3460/1024000  ( 0.3%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       41096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         208/16777216 ( 0.0%) 
+entdata               [variable]       14107/393216   ( 3.6%) 
+LDR ambient table      228/65536         912/262144   ( 0.3%) 
+HDR ambient table      228/65536         912/262144   ( 0.3%) 
+LDR leaf ambient       329/65536        9212/1835008  ( 0.5%) 
+HDR leaf ambient       228/65536        6384/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74522/0        ( 0.0%) 
+physics               [variable]       38473/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 442
+Writing d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Level Playing Field\updated\achievement_level_playing_field.vmf
+Map revision 134
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Level Playing Field\updated\achievement_level_playing_field.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (38473 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 67 texinfos to 57
+Reduced 6 texdatas to 6 (125 bytes to 125)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Level Playing Field\updated\achievement_level_playing_field.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.prt
+  15 portalclusters
+  12 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 45
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:208  compressed from 240
+writing d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+207 faces
+12658 square feet [1822800.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+207 patches before subdivision
+1065 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 26207, max 93
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7145, 2009, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4326, 342, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2799, 62, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1795, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1159, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(749, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(484, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(314, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(204, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(132, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(86, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(56, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(36, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  25/1024         1200/49152    ( 2.4%) 
+brushes                 80/8192          960/98304    ( 1.0%) 
+brushsides             492/81920        3936/655360   ( 0.6%) 
+planes                 262/65536        5240/1310720  ( 0.4%) 
+vertexes               358/65536        4296/786432   ( 0.5%) 
+nodes                  202/65536        6464/2097152  ( 0.3%) 
+texinfos                57/12288        4104/884736   ( 0.5%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  207/65536       11592/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              182/65536       10192/3670016  ( 0.3%) 
+facebrushes             16/0              32/0        ( 0.0%) 
+facebrushlists         207/0             828/0        ( 0.0%) 
+leaves                 228/65536        7296/2097152  ( 0.3%) 
+leaffaces              219/65536         438/131072   ( 0.3%) 
+leafbrushes            123/65536         246/131072   ( 0.2%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges             1584/512000       6336/2048000  ( 0.3%) 
+edges                  865/256000       3460/1024000  ( 0.3%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       41096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         208/16777216 ( 0.0%) 
+entdata               [variable]       14107/393216   ( 3.6%) 
+LDR ambient table      228/65536         912/262144   ( 0.3%) 
+HDR ambient table      228/65536         912/262144   ( 0.3%) 
+LDR leaf ambient       329/65536        9212/1835008  ( 0.5%) 
+HDR leaf ambient       228/65536        6384/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74522/0        ( 0.0%) 
+physics               [variable]       38473/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 442
+Writing d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Level Playing Field\updated\achievement_level_playing_field.vmf
+Map revision 134
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Level Playing Field\updated\achievement_level_playing_field.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (38473 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 67 texinfos to 57
+Reduced 6 texdatas to 6 (125 bytes to 125)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Level Playing Field\updated\achievement_level_playing_field.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.prt
+  15 portalclusters
+  12 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 45
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:208  compressed from 240
+writing d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+207 faces
+12658 square feet [1822800.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+207 patches before subdivision
+1065 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 26207, max 93
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7145, 2009, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4326, 342, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2799, 62, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1795, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1159, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(749, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(484, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(314, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(204, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(132, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(86, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(56, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(36, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  25/1024         1200/49152    ( 2.4%) 
+brushes                 80/8192          960/98304    ( 1.0%) 
+brushsides             492/81920        3936/655360   ( 0.6%) 
+planes                 262/65536        5240/1310720  ( 0.4%) 
+vertexes               358/65536        4296/786432   ( 0.5%) 
+nodes                  202/65536        6464/2097152  ( 0.3%) 
+texinfos                57/12288        4104/884736   ( 0.5%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  207/65536       11592/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              182/65536       10192/3670016  ( 0.3%) 
+facebrushes             16/0              32/0        ( 0.0%) 
+facebrushlists         207/0             828/0        ( 0.0%) 
+leaves                 228/65536        7296/2097152  ( 0.3%) 
+leaffaces              219/65536         438/131072   ( 0.3%) 
+leafbrushes            123/65536         246/131072   ( 0.2%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges             1584/512000       6336/2048000  ( 0.3%) 
+edges                  865/256000       3460/1024000  ( 0.3%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       41096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         208/16777216 ( 0.0%) 
+entdata               [variable]       14107/393216   ( 3.6%) 
+LDR ambient table      228/65536         912/262144   ( 0.3%) 
+HDR ambient table      228/65536         912/262144   ( 0.3%) 
+LDR leaf ambient       329/65536        9212/1835008  ( 0.5%) 
+HDR leaf ambient       228/65536        6384/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74522/0        ( 0.0%) 
+physics               [variable]       38473/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 442
+Writing d:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\level playing field\updated\achievement_level_playing_field.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

@@ -1,0 +1,10 @@
+mp_restgame 1
+just before thr round ends
+
+so you have ot win the round for a round to be added to the round counter
+set round restart delay to 1,
+but reset the match after 0.5 seconds
+
+do not use change level commands
+
+complete 1 round then changes map.

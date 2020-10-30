@@ -1,0 +1,23 @@
+on end touch
+ - equip nothing
+
+on maps spawn, player spawns into room:
+- a wall covers a func_button:
+   - the wall can only be penetrated with an AWP (not USP-S or glock, or any other weapon)
+   - on the random weapon map, the player will lose there weapon on endtouch i.e. round end.
+     - this means that they will spawn with a USP-S or glock at the beginning of the next round.
+        - if the player can shoot through the wall and hit the button it means they have an AWP equiped:
+          so must be teleported to the AWP only map.
+        - if they cant shoot through the wall and hit the button
+           - after 1 second teleport them to the random weapon map
+
+- if the player can penetrate the wall and shoot the button,
+  it means that they have a rifle from the previous round
+
+player automaticlly get a pistol on round spawn
+
+players can get both rifles and pistols randomly
+
+on the AWP only map
+
+disable weapon drop

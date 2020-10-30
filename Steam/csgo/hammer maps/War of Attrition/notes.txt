@@ -1,0 +1,6 @@
+War of Attrition
+Be the last player alive in a round with five players on your team
+
+deactivate trigger_hurt
+teleport player
+enable hurt after 1 second

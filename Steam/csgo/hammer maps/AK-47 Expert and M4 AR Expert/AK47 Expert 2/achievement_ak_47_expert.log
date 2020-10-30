@@ -1,0 +1,3022 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 84
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11190 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 25
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   7 portalclusters
+   9 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 37
+Average clusters visible: 5
+Building PAS...
+Average clusters audible: 5
+visdatasize:74  compressed from 112
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+69 faces
+6208 square feet [894080.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+69 patches before subdivision
+381 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10352, max 108
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3009, 846, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1804, 143, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1065, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(630, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(373, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(130, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(77, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(46, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                 26/8192          312/98304    ( 0.3%) 
+brushsides             156/81920        1248/655360   ( 0.2%) 
+planes                 130/65536        2600/1310720  ( 0.2%) 
+vertexes               137/65536        1644/786432   ( 0.2%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                25/12288        1800/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   69/65536        3864/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          69/0             276/0        ( 0.0%) 
+leaves                  82/65536        2624/2097152  ( 0.1%) 
+leaffaces               71/65536         142/131072   ( 0.1%) 
+leafbrushes             44/65536          88/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              510/512000       2040/2048000  ( 0.1%) 
+edges                  283/256000       1132/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       16928/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          74/16777216 ( 0.0%) 
+entdata               [variable]        8544/393216   ( 2.2%) 
+LDR ambient table       82/65536         328/262144   ( 0.1%) 
+HDR ambient table       82/65536         328/262144   ( 0.1%) 
+LDR leaf ambient       453/65536       12684/1835008  ( 0.7%) 
+HDR leaf ambient        82/65536        2296/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       11190/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 148
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 86
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11190 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 25
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   7 portalclusters
+   9 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 37
+Average clusters visible: 5
+Building PAS...
+Average clusters audible: 5
+visdatasize:74  compressed from 112
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+69 faces
+6208 square feet [894080.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+69 patches before subdivision
+381 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10352, max 108
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3009, 846, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1804, 143, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1065, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(630, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(373, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(130, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(77, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(46, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                 26/8192          312/98304    ( 0.3%) 
+brushsides             156/81920        1248/655360   ( 0.2%) 
+planes                 130/65536        2600/1310720  ( 0.2%) 
+vertexes               137/65536        1644/786432   ( 0.2%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                25/12288        1800/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   69/65536        3864/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          69/0             276/0        ( 0.0%) 
+leaves                  82/65536        2624/2097152  ( 0.1%) 
+leaffaces               71/65536         142/131072   ( 0.1%) 
+leafbrushes             44/65536          88/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              510/512000       2040/2048000  ( 0.1%) 
+edges                  283/256000       1132/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       16928/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          74/16777216 ( 0.0%) 
+entdata               [variable]        8718/393216   ( 2.2%) 
+LDR ambient table       82/65536         328/262144   ( 0.1%) 
+HDR ambient table       82/65536         328/262144   ( 0.1%) 
+LDR leaf ambient       453/65536       12684/1835008  ( 0.7%) 
+HDR leaf ambient        82/65536        2296/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       11190/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 148
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 86
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11190 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 25
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   7 portalclusters
+   9 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 37
+Average clusters visible: 5
+Building PAS...
+Average clusters audible: 5
+visdatasize:74  compressed from 112
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+69 faces
+6208 square feet [894080.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+69 patches before subdivision
+381 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10352, max 108
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3009, 846, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1804, 143, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1065, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(630, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(373, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(130, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(77, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(46, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                 26/8192          312/98304    ( 0.3%) 
+brushsides             156/81920        1248/655360   ( 0.2%) 
+planes                 130/65536        2600/1310720  ( 0.2%) 
+vertexes               137/65536        1644/786432   ( 0.2%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                25/12288        1800/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   69/65536        3864/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          69/0             276/0        ( 0.0%) 
+leaves                  82/65536        2624/2097152  ( 0.1%) 
+leaffaces               71/65536         142/131072   ( 0.1%) 
+leafbrushes             44/65536          88/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              510/512000       2040/2048000  ( 0.1%) 
+edges                  283/256000       1132/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            15/65536          30/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       16928/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          74/16777216 ( 0.0%) 
+entdata               [variable]        8718/393216   ( 2.2%) 
+LDR ambient table       82/65536         328/262144   ( 0.1%) 
+HDR ambient table       82/65536         328/262144   ( 0.1%) 
+LDR leaf ambient       453/65536       12684/1835008  ( 0.7%) 
+HDR leaf ambient        82/65536        2296/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       11190/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 148
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 88
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7303 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 26 texinfos to 14
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+32 faces
+4192 square feet [603648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+32 patches before subdivision
+200 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6666, max 96
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2168, 609, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1271, 100, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(750, 17, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(443, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(262, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(155, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(92, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(55, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(32, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 17/8192          204/98304    ( 0.2%) 
+brushsides             102/81920         816/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                71/65536         852/786432   ( 0.1%) 
+nodes                   37/65536        1184/2097152  ( 0.1%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   32/65536        1792/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               26/65536        1456/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          32/0             128/0        ( 0.0%) 
+leaves                  42/65536        1344/2097152  ( 0.1%) 
+leaffaces               33/65536          66/131072   ( 0.1%) 
+leafbrushes             22/65536          44/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              236/512000        944/2048000  ( 0.0%) 
+edges                  134/256000        536/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        9520/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6378/393216   ( 1.6%) 
+LDR ambient table       42/65536         168/262144   ( 0.1%) 
+HDR ambient table       42/65536         168/262144   ( 0.1%) 
+LDR leaf ambient       214/65536        5992/1835008  ( 0.3%) 
+HDR leaf ambient        42/65536        1176/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        7303/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 68
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 90
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7303 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 26 texinfos to 14
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+32 faces
+4192 square feet [603648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+32 patches before subdivision
+200 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6666, max 96
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2168, 609, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1271, 100, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(750, 17, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(443, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(262, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(155, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(92, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(55, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(32, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 17/8192          204/98304    ( 0.2%) 
+brushsides             102/81920         816/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                71/65536         852/786432   ( 0.1%) 
+nodes                   37/65536        1184/2097152  ( 0.1%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   32/65536        1792/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               26/65536        1456/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          32/0             128/0        ( 0.0%) 
+leaves                  42/65536        1344/2097152  ( 0.1%) 
+leaffaces               33/65536          66/131072   ( 0.1%) 
+leafbrushes             22/65536          44/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              236/512000        944/2048000  ( 0.0%) 
+edges                  134/256000        536/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        9520/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6850/393216   ( 1.7%) 
+LDR ambient table       42/65536         168/262144   ( 0.1%) 
+HDR ambient table       42/65536         168/262144   ( 0.1%) 
+LDR leaf ambient       214/65536        5992/1835008  ( 0.3%) 
+HDR leaf ambient        42/65536        1176/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        7303/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 68
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 91
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7303 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 26 texinfos to 14
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+32 faces
+4192 square feet [603648.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+32 patches before subdivision
+200 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6666, max 96
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2168, 609, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1271, 100, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(750, 17, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(443, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(262, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(155, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(92, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(55, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(32, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 17/8192          204/98304    ( 0.2%) 
+brushsides             102/81920         816/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                71/65536         852/786432   ( 0.1%) 
+nodes                   37/65536        1184/2097152  ( 0.1%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   32/65536        1792/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               26/65536        1456/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          32/0             128/0        ( 0.0%) 
+leaves                  42/65536        1344/2097152  ( 0.1%) 
+leaffaces               33/65536          66/131072   ( 0.1%) 
+leafbrushes             22/65536          44/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              236/512000        944/2048000  ( 0.0%) 
+edges                  134/256000        536/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        9520/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6850/393216   ( 1.7%) 
+LDR ambient table       42/65536         168/262144   ( 0.1%) 
+HDR ambient table       42/65536         168/262144   ( 0.1%) 
+LDR leaf ambient       214/65536        5992/1835008  ( 0.3%) 
+HDR leaf ambient        42/65536        1176/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        7303/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 68
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 92
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7663 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 26 texinfos to 14
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+32 faces
+4213 square feet [606720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+32 patches before subdivision
+200 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7052, max 94
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2410, 677, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1333, 105, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(801, 18, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(475, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(283, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(169, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(101, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(60, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(36, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 17/8192          204/98304    ( 0.2%) 
+brushsides             102/81920         816/655360   ( 0.1%) 
+planes                  98/65536        1960/1310720  ( 0.1%) 
+vertexes                74/65536         888/786432   ( 0.1%) 
+nodes                   37/65536        1184/2097152  ( 0.1%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   32/65536        1792/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               27/65536        1512/3670016  ( 0.0%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists          32/0             128/0        ( 0.0%) 
+leaves                  42/65536        1344/2097152  ( 0.1%) 
+leaffaces               33/65536          66/131072   ( 0.1%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              240/512000        960/2048000  ( 0.0%) 
+edges                  138/256000        552/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        9680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6850/393216   ( 1.7%) 
+LDR ambient table       42/65536         168/262144   ( 0.1%) 
+HDR ambient table       42/65536         168/262144   ( 0.1%) 
+LDR leaf ambient       217/65536        6076/1835008  ( 0.3%) 
+HDR leaf ambient        42/65536        1176/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        7663/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 68
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 96
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 26 texinfos to 14
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+32 faces
+4213 square feet [606720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+32 patches before subdivision
+200 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7052, max 94
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2410, 677, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1333, 105, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(801, 18, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(475, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(283, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(169, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(101, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(60, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(36, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 17/8192          204/98304    ( 0.2%) 
+brushsides             102/81920         816/655360   ( 0.1%) 
+planes                  98/65536        1960/1310720  ( 0.1%) 
+vertexes                74/65536         888/786432   ( 0.1%) 
+nodes                   37/65536        1184/2097152  ( 0.1%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   32/65536        1792/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               27/65536        1512/3670016  ( 0.0%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists          32/0             128/0        ( 0.0%) 
+leaves                  42/65536        1344/2097152  ( 0.1%) 
+leaffaces               33/65536          66/131072   ( 0.1%) 
+leafbrushes             25/65536          50/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              240/512000        960/2048000  ( 0.0%) 
+edges                  138/256000        552/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        9680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        7130/393216   ( 1.8%) 
+LDR ambient table       42/65536         168/262144   ( 0.1%) 
+HDR ambient table       42/65536         168/262144   ( 0.1%) 
+LDR leaf ambient       217/65536        6076/1835008  ( 0.3%) 
+HDR leaf ambient        42/65536        1176/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        7631/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 68
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 97
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7631 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 26 texinfos to 14
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+32 faces
+4213 square feet [606720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+32 patches before subdivision
+200 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7052, max 94
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2410, 677, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1333, 105, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(801, 18, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(475, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(283, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(169, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(101, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(60, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(36, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 17/8192          204/98304    ( 0.2%) 
+brushsides             102/81920         816/655360   ( 0.1%) 
+planes                  98/65536        1960/1310720  ( 0.1%) 
+vertexes                74/65536         888/786432   ( 0.1%) 
+nodes                   37/65536        1184/2097152  ( 0.1%) 
+texinfos                14/12288        1008/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   32/65536        1792/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               27/65536        1512/3670016  ( 0.0%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists          32/0             128/0        ( 0.0%) 
+leaves                  42/65536        1344/2097152  ( 0.1%) 
+leaffaces               33/65536          66/131072   ( 0.1%) 
+leafbrushes             25/65536          50/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              240/512000        960/2048000  ( 0.0%) 
+edges                  138/256000        552/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        9680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        7250/393216   ( 1.8%) 
+LDR ambient table       42/65536         168/262144   ( 0.1%) 
+HDR ambient table       42/65536         168/262144   ( 0.1%) 
+LDR leaf ambient       217/65536        6076/1835008  ( 0.3%) 
+HDR leaf ambient        42/65536        1176/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        7631/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 68
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 98
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8186 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 17
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+38 faces
+4352 square feet [626816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 patches before subdivision
+206 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7218, max 94
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2481, 697, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1392, 110, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(834, 19, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(495, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(295, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(176, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(62, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(37, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             108/81920         864/655360   ( 0.1%) 
+planes                 112/65536        2240/1310720  ( 0.2%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   43/65536        1376/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   38/65536        2128/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists          38/0             152/0        ( 0.0%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               39/65536          78/131072   ( 0.1%) 
+leafbrushes             26/65536          52/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  162/256000        648/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        9680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        8056/393216   ( 2.0%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       281/65536        7868/1835008  ( 0.4%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        8186/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 80
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 99
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8186 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 17
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+38 faces
+4352 square feet [626816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 patches before subdivision
+206 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7218, max 94
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2481, 697, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1392, 110, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(834, 19, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(495, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(295, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(176, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(62, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(37, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             108/81920         864/655360   ( 0.1%) 
+planes                 112/65536        2240/1310720  ( 0.2%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   43/65536        1376/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   38/65536        2128/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists          38/0             152/0        ( 0.0%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               39/65536          78/131072   ( 0.1%) 
+leafbrushes             26/65536          52/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  162/256000        648/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        9680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        8056/393216   ( 2.0%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       281/65536        7868/1835008  ( 0.4%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        8186/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 80
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 100
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8186 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 17
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+38 faces
+4352 square feet [626816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 patches before subdivision
+206 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7218, max 94
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2481, 697, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1392, 110, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(834, 19, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(495, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(295, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(176, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(62, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(37, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             108/81920         864/655360   ( 0.1%) 
+planes                 112/65536        2240/1310720  ( 0.2%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   43/65536        1376/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   38/65536        2128/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists          38/0             152/0        ( 0.0%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               39/65536          78/131072   ( 0.1%) 
+leafbrushes             26/65536          52/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  162/256000        648/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        9680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        8057/393216   ( 2.0%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       281/65536        7868/1835008  ( 0.4%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        8186/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 80
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 100
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8186 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 17
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+38 faces
+4352 square feet [626816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 patches before subdivision
+206 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7218, max 94
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2481, 697, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1392, 110, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(834, 19, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(495, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(295, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(176, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(62, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(37, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             108/81920         864/655360   ( 0.1%) 
+planes                 112/65536        2240/1310720  ( 0.2%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   43/65536        1376/2097152  ( 0.1%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   38/65536        2128/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists          38/0             152/0        ( 0.0%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               39/65536          78/131072   ( 0.1%) 
+leafbrushes             26/65536          52/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  162/256000        648/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        9680/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        8057/393216   ( 2.0%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       281/65536        7868/1835008  ( 0.4%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]        8186/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 80
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 104
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21888 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 35
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+  17 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 119
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 7
+visdatasize:268  compressed from 272
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+147 faces
+13167 square feet [1896064.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+147 patches before subdivision
+869 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 27845, max 117
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5854, 1646, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3218, 254, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1947, 43, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1144, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(677, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(400, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(236, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(139, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(49, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             312/81920        2496/655360   ( 0.4%) 
+planes                 156/65536        3120/1310720  ( 0.2%) 
+vertexes               266/65536        3192/786432   ( 0.4%) 
+nodes                  143/65536        4576/2097152  ( 0.2%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  147/65536        8232/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         147/0             588/0        ( 0.0%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              148/65536         296/131072   ( 0.2%) 
+leafbrushes            112/65536         224/131072   ( 0.2%) 
+areas                    5/1024           40/8192     ( 0.5%) 
+surfedges             1060/512000       4240/2048000  ( 0.2%) 
+edges                  577/256000       2308/1024000  ( 0.2%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       33532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         268/16777216 ( 0.0%) 
+entdata               [variable]       15276/393216   ( 3.9%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       791/65536       22148/1835008  ( 1.2%) 
+HDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       21888/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 314
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 106
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21888 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 35
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+  17 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 119
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 7
+visdatasize:268  compressed from 272
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+147 faces
+13167 square feet [1896064.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+147 patches before subdivision
+869 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 27845, max 117
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5854, 1646, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3218, 254, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1947, 43, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1144, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(677, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(400, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(236, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(139, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(49, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             312/81920        2496/655360   ( 0.4%) 
+planes                 156/65536        3120/1310720  ( 0.2%) 
+vertexes               266/65536        3192/786432   ( 0.4%) 
+nodes                  143/65536        4576/2097152  ( 0.2%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  147/65536        8232/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         147/0             588/0        ( 0.0%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              148/65536         296/131072   ( 0.2%) 
+leafbrushes            112/65536         224/131072   ( 0.2%) 
+areas                    5/1024           40/8192     ( 0.5%) 
+surfedges             1060/512000       4240/2048000  ( 0.2%) 
+edges                  577/256000       2308/1024000  ( 0.2%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       33532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         268/16777216 ( 0.0%) 
+entdata               [variable]       15280/393216   ( 3.9%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       791/65536       22148/1835008  ( 1.2%) 
+HDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       21888/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 314
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 108
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21888 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 35
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+  17 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 119
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 7
+visdatasize:268  compressed from 272
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+147 faces
+14187 square feet [2043008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+147 patches before subdivision
+869 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 27744, max 117
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5774, 1623, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3203, 253, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1936, 43, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1138, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(673, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(397, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(235, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(139, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(48, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             312/81920        2496/655360   ( 0.4%) 
+planes                 156/65536        3120/1310720  ( 0.2%) 
+vertexes               266/65536        3192/786432   ( 0.4%) 
+nodes                  143/65536        4576/2097152  ( 0.2%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  147/65536        8232/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         147/0             588/0        ( 0.0%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              148/65536         296/131072   ( 0.2%) 
+leafbrushes            112/65536         224/131072   ( 0.2%) 
+areas                    5/1024           40/8192     ( 0.5%) 
+surfedges             1060/512000       4240/2048000  ( 0.2%) 
+edges                  577/256000       2308/1024000  ( 0.2%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       33532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         268/16777216 ( 0.0%) 
+entdata               [variable]       15284/393216   ( 3.9%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       791/65536       22148/1835008  ( 1.2%) 
+HDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       21888/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 314
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 109
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21888 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 35
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+  17 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 119
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 7
+visdatasize:268  compressed from 272
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+147 faces
+14187 square feet [2043008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+147 patches before subdivision
+869 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 27744, max 117
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5774, 1623, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3203, 253, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1936, 43, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1138, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(673, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(397, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(235, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(139, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(48, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             312/81920        2496/655360   ( 0.4%) 
+planes                 156/65536        3120/1310720  ( 0.2%) 
+vertexes               266/65536        3192/786432   ( 0.4%) 
+nodes                  143/65536        4576/2097152  ( 0.2%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  147/65536        8232/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         147/0             588/0        ( 0.0%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              148/65536         296/131072   ( 0.2%) 
+leafbrushes            112/65536         224/131072   ( 0.2%) 
+areas                    5/1024           40/8192     ( 0.5%) 
+surfedges             1060/512000       4240/2048000  ( 0.2%) 
+edges                  577/256000       2308/1024000  ( 0.2%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       33532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         268/16777216 ( 0.0%) 
+entdata               [variable]       15284/393216   ( 3.9%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       791/65536       22148/1835008  ( 1.2%) 
+HDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       21888/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 314
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 110
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21888 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 35
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+  17 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 119
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 7
+visdatasize:268  compressed from 272
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+147 faces
+14187 square feet [2043008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+147 patches before subdivision
+869 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 27744, max 117
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5774, 1623, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3203, 253, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1936, 43, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1138, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(673, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(397, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(235, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(139, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(48, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             312/81920        2496/655360   ( 0.4%) 
+planes                 156/65536        3120/1310720  ( 0.2%) 
+vertexes               266/65536        3192/786432   ( 0.4%) 
+nodes                  143/65536        4576/2097152  ( 0.2%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  147/65536        8232/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         147/0             588/0        ( 0.0%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              148/65536         296/131072   ( 0.2%) 
+leafbrushes            112/65536         224/131072   ( 0.2%) 
+areas                    5/1024           40/8192     ( 0.5%) 
+surfedges             1060/512000       4240/2048000  ( 0.2%) 
+edges                  577/256000       2308/1024000  ( 0.2%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       33532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         268/16777216 ( 0.0%) 
+entdata               [variable]       15285/393216   ( 3.9%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       791/65536       22148/1835008  ( 1.2%) 
+HDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       21888/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 314
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 111
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21888 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 35
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+  17 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 119
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 7
+visdatasize:268  compressed from 272
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+147 faces
+14187 square feet [2043008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+147 patches before subdivision
+869 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 27744, max 117
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5774, 1623, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3203, 253, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1936, 43, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1138, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(673, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(397, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(235, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(139, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(48, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             312/81920        2496/655360   ( 0.4%) 
+planes                 156/65536        3120/1310720  ( 0.2%) 
+vertexes               266/65536        3192/786432   ( 0.4%) 
+nodes                  143/65536        4576/2097152  ( 0.2%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  147/65536        8232/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         147/0             588/0        ( 0.0%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              148/65536         296/131072   ( 0.2%) 
+leafbrushes            112/65536         224/131072   ( 0.2%) 
+areas                    5/1024           40/8192     ( 0.5%) 
+surfedges             1060/512000       4240/2048000  ( 0.2%) 
+edges                  577/256000       2308/1024000  ( 0.2%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       33532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         268/16777216 ( 0.0%) 
+entdata               [variable]       15285/393216   ( 3.9%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       791/65536       22148/1835008  ( 1.2%) 
+HDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       21888/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 314
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 112
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21888 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 35
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+  17 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 119
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 7
+visdatasize:268  compressed from 272
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+147 faces
+14187 square feet [2043008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+147 patches before subdivision
+869 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 27744, max 117
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5774, 1623, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3203, 253, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1936, 43, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1138, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(673, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(397, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(235, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(139, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(48, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             312/81920        2496/655360   ( 0.4%) 
+planes                 156/65536        3120/1310720  ( 0.2%) 
+vertexes               266/65536        3192/786432   ( 0.4%) 
+nodes                  143/65536        4576/2097152  ( 0.2%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  147/65536        8232/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         147/0             588/0        ( 0.0%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              148/65536         296/131072   ( 0.2%) 
+leafbrushes            112/65536         224/131072   ( 0.2%) 
+areas                    5/1024           40/8192     ( 0.5%) 
+surfedges             1060/512000       4240/2048000  ( 0.2%) 
+edges                  577/256000       2308/1024000  ( 0.2%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       33532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         268/16777216 ( 0.0%) 
+entdata               [variable]       15285/393216   ( 3.9%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       791/65536       22148/1835008  ( 1.2%) 
+HDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       21888/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 314
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.vmf
+Map revision 113
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21888 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 35
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\AK-47 Expert and M4 AR Expert\AK47 Expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.prt
+  17 portalclusters
+  27 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 119
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 7
+visdatasize:268  compressed from 272
+writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+147 faces
+14187 square feet [2043008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+147 patches before subdivision
+869 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 27744, max 117
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5774, 1623, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3203, 253, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1936, 43, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1138, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(673, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(397, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(235, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(139, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(82, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(48, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                 52/8192          624/98304    ( 0.6%) 
+brushsides             312/81920        2496/655360   ( 0.4%) 
+planes                 156/65536        3120/1310720  ( 0.2%) 
+vertexes               266/65536        3192/786432   ( 0.4%) 
+nodes                  143/65536        4576/2097152  ( 0.2%) 
+texinfos                35/12288        2520/884736   ( 0.3%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  147/65536        8232/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+facebrushes              2/0               4/0        ( 0.0%) 
+facebrushlists         147/0             588/0        ( 0.0%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              148/65536         296/131072   ( 0.2%) 
+leafbrushes            112/65536         224/131072   ( 0.2%) 
+areas                    5/1024           40/8192     ( 0.5%) 
+surfedges             1060/512000       4240/2048000  ( 0.2%) 
+edges                  577/256000       2308/1024000  ( 0.2%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       33532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         268/16777216 ( 0.0%) 
+entdata               [variable]       15285/393216   ( 3.9%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       791/65536       22148/1835008  ( 1.2%) 
+HDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       21888/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 314
+Writing d:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\ak-47 expert and m4 ar expert\ak47 expert 2\achievement_ak_47_expert.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

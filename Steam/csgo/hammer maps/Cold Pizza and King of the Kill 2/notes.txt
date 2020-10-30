@@ -1,0 +1,9 @@
+automatic map using vscript select team
+
+spectate
+jointeam
+
+the VScript part works
+
+just need to find a way to execute the script code before the player has spawned.
+when player connects to server, run command

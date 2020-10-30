@@ -1,0 +1,164 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\maps\c1m4_atrium\try 3\c1m4_atrium_d.vmf
+Map revision 3
+Material not found!: BRICK/BRICK_EXT_08
+Material not found!: PLASTER/PLASTER_EXT_02
+Material not found!: CONCRETE/CONCRETE_EXT_13B
+Material not found!: CONCRETE/CONCRETE_EXT_13
+Material not found!: PLASTER/PLASTER_CEILING_01
+Material not found!: PLASTER/URBAN_PLASTERWALL_05C
+Material not found!: TILE/TILE_MALL_FLOORTRIM00
+Material not found!: TILE/TILE_MALL_STEPS00
+Material not found!: BUILDINGS/COMPOSITE007
+Material not found!: PLASTER/PLASTER_CEILING_04
+Material not found!: TILE/TILE_MALL_INCLINE00
+Material not found!: PLASTER/PLASTER_INT_17
+Material not found!: WOOD/WOODWALL003A
+Material not found!: PLASTIC/PLASTIC_CEDA_01
+Material not found!: TILE/TILE_CEILING_01
+Material not found!: TILE/TILE_MALL_WALLTRIM00_CHEAP
+Material not found!: CONCRETE/BLACKTOP_EXT_04
+Material not found!: PLASTER/PLASTER_EXT_18D
+Material not found!: TILE/TILE_INT_04
+Material not found!: METAL/METAL_EXT_TRIM01
+Material not found!: METAL/DRTRIMA
+Material not found!: WOOD/MALL_WOODTRIM00
+Material not found!: METAL/METAL_DOOR_01
+Material not found!: PROPS/METALLOCKERS003B
+Material not found!: METAL/METAL_DOOR_02
+Material not found!: METAL/VENT01
+Material not found!: PLASTER/CEILINGTILES01_CHEAP
+Material not found!: EFFECTS/SCAVENGE_BOUNDARY
+Material not found!: SIGNS/SIGN_MALLSTORES_01
+Material not found!: WOOD/CABINETS03
+Material not found!: TILE/COUNTERTOP05
+Material not found!: GLASS/URBAN_GLASS_02
+Material not found!: TILE/TILE_MALL_INCLINE00_CHEAP
+Material not found!: SIGNS/SIGN_MALL_SALE06
+Material not found!: SIGNS/SIGN_TRAFFICMESSAGE00
+Material not found!: SIGNS/SIGN_MALL_SALE07
+Patching WVT material: maps/c1m4_atrium_d/de_train/blendgraveldirt001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 516 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\maps\c1m4_atrium\try 3\c1m4_atrium_d.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (706575 bytes)
+Error loading studio model "models/props_mall/bay_guardrail_left.mdl"!
+Error loading studio model "models/props_mall/bay_guardrail_right.mdl"!
+Error loading studio model "models/props_mall/bay_railing_left.mdl"!
+Error loading studio model "models/props_mall/bay_railing_right.mdl"!
+Error loading studio model "models/props_mall/elevator_structure.mdl"!
+Error loading studio model "models/props_mall/elevator_glazing.mdl"!
+Error loading studio model "models/props_mall/bay_railing_short.mdl"!
+Error loading studio model "models/props_mall/bay_guardrail_short.mdl"!
+Error loading studio model "models/props_mall/glass_support_left.mdl"!
+Error loading studio model "models/props_mall/glass_support_center.mdl"!
+Error loading studio model "models/props_mall/glass_support_right.mdl"!
+Error loading studio model "models/props_mall/temp_structure_corner.mdl"!
+Error loading studio model "models/props_mall/temp_structure_256.mdl"!
+Error loading studio model "models/props_highway/scaffolding_320.mdl"!
+Error loading studio model "models/props_highway/plywood_03.mdl"!
+Error loading studio model "models/props_highway/scaffolding_320_base.mdl"!
+Error loading studio model "models/props_interiors/toiletpaperdispenser_commercial.mdl"!
+Error loading studio model "models/props_interiors/urinal01.mdl"!
+Error loading studio model "models/props_unique/spawn_apartment/lantern.mdl"!
+Error loading studio model "models/props_doors/checkpoint_door_-02_static.mdl"!
+Error loading studio model "models/props_mall/mall_kioskb.mdl"!
+Error loading studio model "models/props_mall/mall_kioskc.mdl"!
+Error loading studio model "models/props_mall/mall_display_12.mdl"!
+Error loading studio model "models/props_mall/mall_directory.mdl"!
+Error loading studio model "models/props_equipment/elevator_buttons.mdl"!
+Error loading studio model "models/props_mall/lower_stair_railing.mdl"!
+Error loading studio model "models/props_mall/lower_stair_guardrail.mdl"!
+Error loading studio model "models/props_mall/main_stair_railing.mdl"!
+Error loading studio model "models/props_mall/main_stair_guardrail.mdl"!
+Error loading studio model "models/props_buildings/storefront_window_right.mdl"!
+Error loading studio model "models/props_mall/atrium_skylight.mdl"!
+Error loading studio model "models/props_mall/mall_kiosk.mdl"!
+Error loading studio model "models/props_vehicles/mall_banner.mdl"!
+Error loading studio model "models/props_mall/clothing_tshirts.mdl"!
+Error loading studio model "models/props_mall/clothing_dress_shirts.mdl"!
+Error loading studio model "models/props_mall/clothing_pile02.mdl"!
+Error loading studio model "models/props_mall/column_05.mdl"!
+Error loading studio model "models/props_vents/vent_cluster007.mdl"!
+Error loading studio model "models/deadbodies/default/oval_128_c.mdl"!
+Error loading studio model "models/props_equipment/phone_booth_indoor.mdl"!
+Error loading studio model "models/props_furniture/conduit_128.mdl"!
+Error loading studio model "models/props_vehicles/racecar_stage.mdl"!
+Error loading studio model "models/props_urban/ceiling_bubble001.mdl"!
+Error loading studio model "models/props_signs/taco_bucket.mdl"!
+Error loading studio model "models/deadbodies/default/pose_a.mdl"!
+Error loading studio model "models/deadbodies/milltownrain/oval_192_a.mdl"!
+Error loading studio model "models/props_highway/bridge_rail_tall_128.mdl"!
+Error loading studio model "models/c1_chargerexit/mall_rampbundle.mdl"!
+Error loading studio model "models/props_signs/georgia_pork_barrell.mdl"!
+Error loading studio model "models/props_signs/wok_on_the_wild_side.mdl"!
+Error loading studio model "models/props_furniture/conduit_bend_64.mdl"!
+Error loading studio model "models/props_signs/liberty_mall_interior_128.mdl"!
+Error loading studio model "models/c1_chargerexit/door_frames_static.mdl"!
+Error loading studio model "models/props_foliage/mall_pot_large02.mdl"!
+Error loading studio model "models/props_fortifications/concrete_post001_48.mdl"!
+Error loading studio model "models/props_signs/beef_boy_stew.mdl"!
+Error loading studio model "models/props_signs/potato_safari.mdl"!
+Error loading studio model "models/props_urban/hotel_ceiling_vent001.mdl"!
+Error loading studio model "models/props_interiors/bathroomsink01.mdl"!
+Error loading studio model "models/deadbodies/default/fence_b.mdl"!
+Error loading studio model "models/deadbodies/default/oval_192_b.mdl"!
+Error loading studio model "models/deadbodies/default/barricade_c.mdl"!
+Error loading studio model "models/deadbodies/cemetary/corner_b.mdl"!
+Error loading studio model "models/deadbodies/default/oval_192_a.mdl"!
+Error loading studio model "models/deadbodies/default/oval_128_a.mdl"!
+Error loading studio model "models/deadbodies/default/oval_128_b.mdl"!
+Error loading studio model "models/deadbodies/default/barricade_b.mdl"!
+Error loading studio model "models/props_mall/atrium_stairs.mdl"!
+Error loading studio model "models/props_vehicles/racecar_stage_floor.mdl"!
+Error loading studio model "models/props_doors/checkpoint_doorframe_02.mdl"!
+Error loading studio model "models/props_doors/checkpoint_frame_reinforcement_01.mdl"!
+Error loading studio model "models/props_mall/mall_display_06.mdl"!
+Error loading studio model "models/deadbodies/cemetary/barricade_a.mdl"!
+Error loading studio model "models/deadbodies/cemetary/fence_b.mdl"!
+Error loading studio model "models/props_mall/soffit_01.mdl"!
+Error loading studio model "models/props_mall/info_desk_signage.mdl"!
+Error loading studio model "models/props_mall/information_desk.mdl"!
+Error loading studio model "models/props_signs/ladyshoes.mdl"!
+Error loading studio model "models/props_signs/big_fashion_girl.mdl"!
+Error loading studio model "models/props_signs/fancy_tramp.mdl"!
+Error loading studio model "models/props_mall/soffit_03.mdl"!
+Error loading studio model "models/props_skybox/skybox_bottom.mdl"!
+Error loading studio model "models/props_foliage/mall_palmplant02.mdl"!
+Error loading studio model "models/props_urban/planter001_256.mdl"!
+Error loading studio model "models/props_foliage/mall_pot_squarexl01.mdl"!
+Error loading studio model "models/props_foliage/mall_bigleaves_plant02.mdl"!
+Error loading studio model "models/props_foliage/mall_bigleaves_plant03_medium.mdl"!
+Error loading studio model "models/props_foliage/mall_bigleaves_plant03.mdl"!
+Error loading studio model "models/deadbodies/human/pose_b.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3286 texinfos to 1931
+Reduced 185 texdatas to 179 (7184 bytes to 6965)
+Writing D:\Desktop\csgo\maps\c1m4_atrium\try 3\c1m4_atrium_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\maps\c1m4_atrium\try 3\c1m4_atrium_d.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\maps\c1m4_atrium\try 3\c1m4_atrium_d.bsp
+ParseEpar: key token too long [clip_3D_skybox_near_to_world_far]

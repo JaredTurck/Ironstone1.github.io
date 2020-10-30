@@ -1,0 +1,1404 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 45
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2857 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+12 faces
+645 square feet [92928.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+42 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 350, max 20
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(342, 96, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(208, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(121, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(71, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(41, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                  7/8192           84/98304    ( 0.1%) 
+brushsides              42/81920         336/655360   ( 0.1%) 
+planes                  58/65536        1160/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes              7/65536          14/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        2316/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6715/393216   ( 1.7%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        71/65536        1988/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        2857/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 46
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2858 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+12 faces
+1015 square feet [146176.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+66 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 842, max 32
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(667, 188, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(383, 30, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(210, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(116, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(64, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                  7/8192           84/98304    ( 0.1%) 
+brushsides              42/81920         336/655360   ( 0.1%) 
+planes                  58/65536        1160/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes              7/65536          14/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3052/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]       13837/393216   ( 3.5%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        78/65536        2184/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        2858/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 48
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2857 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+12 faces
+645 square feet [92928.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+42 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 350, max 20
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(342, 96, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(208, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(121, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(71, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(41, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                  7/8192           84/98304    ( 0.1%) 
+brushsides              42/81920         336/655360   ( 0.1%) 
+planes                  58/65536        1160/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes              7/65536          14/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        2316/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7203/393216   ( 1.8%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        71/65536        1988/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        2857/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 49
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2857 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+12 faces
+645 square feet [92928.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+42 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 350, max 20
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(342, 96, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(208, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(121, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(71, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(41, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                  7/8192           84/98304    ( 0.1%) 
+brushsides              42/81920         336/655360   ( 0.1%) 
+planes                  58/65536        1160/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes              7/65536          14/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        2316/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7203/393216   ( 1.8%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        71/65536        1988/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        2857/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 50
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2857 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 7
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+12 faces
+645 square feet [92928.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+42 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 350, max 20
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(342, 96, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(208, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(121, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(71, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(41, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                  7/8192           84/98304    ( 0.1%) 
+brushsides              42/81920         336/655360   ( 0.1%) 
+planes                  58/65536        1160/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 7/12288         504/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes              7/65536          14/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        2316/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7203/393216   ( 1.8%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        71/65536        1988/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        2857/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 54
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5507 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 10
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+   4 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 10
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:44  compressed from 64
+writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+29 faces
+1715 square feet [247040.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+29 patches before subdivision
+125 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1811, max 42
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1107, 311, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(680, 54, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(373, 8, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(211, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(118, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(66, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(37, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 14/8192          168/98304    ( 0.2%) 
+brushsides              84/81920         672/655360   ( 0.1%) 
+planes                  86/65536        1720/1310720  ( 0.1%) 
+vertexes                71/65536         852/786432   ( 0.1%) 
+nodes                   36/65536        1152/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   29/65536        1624/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          29/0             116/0        ( 0.0%) 
+leaves                  40/65536        1280/2097152  ( 0.1%) 
+leaffaces               31/65536          62/131072   ( 0.0%) 
+leafbrushes             22/65536          44/131072   ( 0.0%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              214/512000        856/2048000  ( 0.0%) 
+edges                  132/256000        528/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5992/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8435/393216   ( 2.1%) 
+LDR ambient table       40/65536         160/262144   ( 0.1%) 
+HDR ambient table       40/65536         160/262144   ( 0.1%) 
+LDR leaf ambient       165/65536        4620/1835008  ( 0.3%) 
+HDR leaf ambient        40/65536        1120/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        5507/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 60
+Writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 58
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity trigger_hurt (-36.00 240.00 -280.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5572 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 10
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+LoadPortals: couldn't read d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 59
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5540 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 10
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+   4 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 10
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:44  compressed from 64
+writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+33 faces
+2256 square feet [324961.53 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+33 patches before subdivision
+137 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1993, max 44
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1294, 364, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(809, 64, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(431, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(243, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(133, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(41, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 14/8192          168/98304    ( 0.2%) 
+brushsides              84/81920         672/655360   ( 0.1%) 
+planes                  88/65536        1760/1310720  ( 0.1%) 
+vertexes                77/65536         924/786432   ( 0.1%) 
+nodes                   36/65536        1152/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   33/65536        1848/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               27/65536        1512/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          33/0             132/0        ( 0.0%) 
+leaves                  40/65536        1280/2097152  ( 0.1%) 
+leaffaces               34/65536          68/131072   ( 0.1%) 
+leafbrushes             18/65536          36/131072   ( 0.0%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              246/512000        984/2048000  ( 0.0%) 
+edges                  152/256000        608/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7632/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        9222/393216   ( 2.3%) 
+LDR ambient table       40/65536         160/262144   ( 0.1%) 
+HDR ambient table       40/65536         160/262144   ( 0.1%) 
+LDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+HDR leaf ambient        40/65536        1120/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        5540/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 59
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5540 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 10
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+   4 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 10
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:44  compressed from 64
+writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+33 faces
+2256 square feet [324961.53 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+33 patches before subdivision
+137 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1993, max 44
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1294, 364, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(809, 64, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(431, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(243, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(133, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(41, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 14/8192          168/98304    ( 0.2%) 
+brushsides              84/81920         672/655360   ( 0.1%) 
+planes                  88/65536        1760/1310720  ( 0.1%) 
+vertexes                77/65536         924/786432   ( 0.1%) 
+nodes                   36/65536        1152/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   33/65536        1848/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               27/65536        1512/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          33/0             132/0        ( 0.0%) 
+leaves                  40/65536        1280/2097152  ( 0.1%) 
+leaffaces               34/65536          68/131072   ( 0.1%) 
+leafbrushes             18/65536          36/131072   ( 0.0%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              246/512000        984/2048000  ( 0.0%) 
+edges                  152/256000        608/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7632/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        9222/393216   ( 2.3%) 
+LDR ambient table       40/65536         160/262144   ( 0.1%) 
+HDR ambient table       40/65536         160/262144   ( 0.1%) 
+LDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+HDR leaf ambient        40/65536        1120/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        5540/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 63
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5572 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 10
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+   4 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 10
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:44  compressed from 64
+writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+33 faces
+2029 square feet [292193.53 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+33 patches before subdivision
+137 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1948, max 42
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1200, 337, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(757, 60, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(407, 9, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(232, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(128, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(72, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(40, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 14/8192          168/98304    ( 0.2%) 
+brushsides              84/81920         672/655360   ( 0.1%) 
+planes                  90/65536        1800/1310720  ( 0.1%) 
+vertexes                79/65536         948/786432   ( 0.1%) 
+nodes                   36/65536        1152/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   33/65536        1848/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               27/65536        1512/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          33/0             132/0        ( 0.0%) 
+leaves                  40/65536        1280/2097152  ( 0.1%) 
+leaffaces               34/65536          68/131072   ( 0.1%) 
+leafbrushes             18/65536          36/131072   ( 0.0%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              246/512000        984/2048000  ( 0.0%) 
+edges                  152/256000        608/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        8774/393216   ( 2.2%) 
+LDR ambient table       40/65536         160/262144   ( 0.1%) 
+HDR ambient table       40/65536         160/262144   ( 0.1%) 
+LDR leaf ambient       156/65536        4368/1835008  ( 0.2%) 
+HDR leaf ambient        40/65536        1120/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        5572/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.vmf
+Map revision 66
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5411 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 10
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Blood Money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.prt
+   2 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:24  compressed from 32
+writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+24 faces
+1719 square feet [247552.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+108 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1194, max 32
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(956, 269, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(601, 47, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(346, 8, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(203, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(119, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(69, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(40, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 14/8192          168/98304    ( 0.2%) 
+brushsides              84/81920         672/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                63/65536         756/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             19/65536          38/131072   ( 0.0%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  120/256000        480/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5624/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        8322/393216   ( 2.1%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient       154/65536        4312/1835008  ( 0.2%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        5411/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 48
+Writing d:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\blood money\achievement_blood_money.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

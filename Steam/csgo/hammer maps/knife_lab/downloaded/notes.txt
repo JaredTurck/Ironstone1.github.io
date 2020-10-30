@@ -1,0 +1,21 @@
+nohud
+cl_drawhud 0
+
+these are console commands being executed by func_button
+sv_skyname mpa115
+sv_skyname realsky3
+
+
+env_fog_controller
+env_tonemap_controller
+water_lod_control
+
+env_cubemap
+
+
+
+commands.manager = point_client
+
+lots of diffrent skybox's on func_button hit, hide other skybox's
+
+build the whole thing on a pyrimid

@@ -1,0 +1,11 @@
+Shot With Their Pants Down
+Kill an enemy while they are reloading
+
+negev with 1 bullet drops onto enemy T
+
+if the bot stops firing the wall, after a second knife
+
+
+adds 1 to math_counter every second
+func_button, set math_counter to 0
+if math_counter hits 2 (max) then player +attacks

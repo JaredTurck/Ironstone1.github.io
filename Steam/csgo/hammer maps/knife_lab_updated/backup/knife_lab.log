@@ -1,0 +1,1536 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 271
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48945 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 30 texdatas to 30 (453 bytes to 453)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 121 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1740
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+516 faces
+208044 square feet [29958452.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+516 patches before subdivision
+2084 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 64569, max 146
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1245, 1221, 1222)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 11 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               920/65536       11040/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 30/4096          960/131072   ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  516/65536       28896/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              399/65536       22344/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         516/0            2064/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              537/65536        1074/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3838/512000      15352/2048000  ( 0.7%) 
+edges                 2061/256000       8244/1024000  ( 0.8%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       88508/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51619/393216   (13.1%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       837/65536       23436/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48945/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1154
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 273
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48945 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 30 texdatas to 30 (453 bytes to 453)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 121 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1740
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+516 faces
+208044 square feet [29958452.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+516 patches before subdivision
+2084 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 64569, max 146
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1245, 1221, 1222)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 11 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               920/65536       11040/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 30/4096          960/131072   ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  516/65536       28896/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              399/65536       22344/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         516/0            2064/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              537/65536        1074/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3838/512000      15352/2048000  ( 0.7%) 
+edges                 2061/256000       8244/1024000  ( 0.8%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       88508/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51619/393216   (13.1%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       837/65536       23436/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48945/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1154
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 278
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48913 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 32 texdatas to 32 (464 bytes to 464)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 117 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1722
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+514 faces
+208045 square feet [29958568.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+514 patches before subdivision
+2086 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 63894, max 144
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1242, 1217, 1218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               918/65536       11016/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 32/4096         1024/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  514/65536       28784/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              398/65536       22288/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         514/0            2056/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              536/65536        1072/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3826/512000      15304/2048000  ( 0.7%) 
+edges                 2056/256000       8224/1024000  ( 0.8%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       89336/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51620/393216   (13.1%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       833/65536       23324/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48913/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1150
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 280
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48913 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 32 texdatas to 32 (469 bytes to 469)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 117 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1722
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+514 faces
+208045 square feet [29958568.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+514 patches before subdivision
+2088 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 63949, max 144
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1242, 1217, 1218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               918/65536       11016/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 32/4096         1024/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  514/65536       28784/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              398/65536       22288/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         514/0            2056/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              536/65536        1072/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3826/512000      15304/2048000  ( 0.7%) 
+edges                 2056/256000       8224/1024000  ( 0.8%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       89540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51620/393216   (13.1%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       833/65536       23324/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48913/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1150
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 281
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48913 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 32 texdatas to 32 (469 bytes to 469)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 117 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1722
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+514 faces
+208045 square feet [29958568.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+514 patches before subdivision
+2088 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 63949, max 144
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1242, 1217, 1218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               918/65536       11016/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 32/4096         1024/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  514/65536       28784/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              398/65536       22288/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         514/0            2056/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              536/65536        1072/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3826/512000      15304/2048000  ( 0.7%) 
+edges                 2056/256000       8224/1024000  ( 0.8%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       89540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51773/393216   (13.2%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       833/65536       23324/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48913/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1150
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 282
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48913 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 32 texdatas to 32 (469 bytes to 469)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 117 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1722
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+514 faces
+208045 square feet [29958568.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+514 patches before subdivision
+2088 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 63949, max 144
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1242, 1217, 1218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               918/65536       11016/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 32/4096         1024/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  514/65536       28784/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              398/65536       22288/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         514/0            2056/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              536/65536        1072/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3826/512000      15304/2048000  ( 0.7%) 
+edges                 2056/256000       8224/1024000  ( 0.8%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       89540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51647/393216   (13.1%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       833/65536       23324/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48913/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1150
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 283
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48913 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 32 texdatas to 32 (469 bytes to 469)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 117 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1722
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+514 faces
+208045 square feet [29958568.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+514 patches before subdivision
+2088 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 63949, max 144
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1242, 1217, 1218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               918/65536       11016/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 32/4096         1024/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  514/65536       28784/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              398/65536       22288/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         514/0            2056/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              536/65536        1072/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3826/512000      15304/2048000  ( 0.7%) 
+edges                 2056/256000       8224/1024000  ( 0.8%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       89540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51471/393216   (13.1%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       833/65536       23324/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48913/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1150
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 284
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48913 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 32 texdatas to 32 (469 bytes to 469)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 117 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1722
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+514 faces
+208045 square feet [29958568.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+514 patches before subdivision
+2088 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 63949, max 144
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1242, 1217, 1218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               918/65536       11016/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 32/4096         1024/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  514/65536       28784/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              398/65536       22288/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         514/0            2056/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              536/65536        1072/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3826/512000      15304/2048000  ( 0.7%) 
+edges                 2056/256000       8224/1024000  ( 0.8%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       89540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51355/393216   (13.1%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       833/65536       23324/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48913/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1150
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 285
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48913 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 32 texdatas to 32 (469 bytes to 469)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 117 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1722
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+514 faces
+208045 square feet [29958568.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+514 patches before subdivision
+2088 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 63949, max 144
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1242, 1217, 1218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               918/65536       11016/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 32/4096         1024/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  514/65536       28784/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              398/65536       22288/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         514/0            2056/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              536/65536        1072/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3826/512000      15304/2048000  ( 0.7%) 
+edges                 2056/256000       8224/1024000  ( 0.8%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       89540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51685/393216   (13.1%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       833/65536       23324/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48913/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1150
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 286
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48913 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 32 texdatas to 32 (469 bytes to 469)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 117 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1722
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+514 faces
+208045 square feet [29958568.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+514 patches before subdivision
+2088 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 63949, max 144
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1242, 1217, 1218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               918/65536       11016/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 32/4096         1024/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  514/65536       28784/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              398/65536       22288/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         514/0            2056/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              536/65536        1072/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3826/512000      15304/2048000  ( 0.7%) 
+edges                 2056/256000       8224/1024000  ( 0.8%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       89540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51471/393216   (13.1%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       833/65536       23324/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48913/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1150
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 287
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48913 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 32 texdatas to 32 (469 bytes to 469)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  44 portalclusters
+ 117 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1722
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 42
+visdatasize:878  compressed from 704
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+514 faces
+208045 square feet [29958568.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+514 patches before subdivision
+2088 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 63949, max 144
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1242, 1217, 1218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1852/65536       37040/1310720  ( 2.8%) 
+vertexes               918/65536       11016/786432   ( 1.4%) 
+nodes                  514/65536       16448/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 32/4096         1024/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  514/65536       28784/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              398/65536       22288/3670016  ( 0.6%) 
+facebrushes              9/0              18/0        ( 0.0%) 
+facebrushlists         514/0            2056/0        ( 0.0%) 
+leaves                 568/65536       18176/2097152  ( 0.9%) 
+leaffaces              536/65536        1072/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3826/512000      15304/2048000  ( 0.7%) 
+edges                 2056/256000       8224/1024000  ( 0.8%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            27/65536          54/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       89540/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         878/16777216 ( 0.0%) 
+entdata               [variable]       51773/393216   (13.2%) 
+LDR ambient table      568/65536        2272/262144   ( 0.9%) 
+HDR ambient table      568/65536        2272/262144   ( 0.9%) 
+LDR leaf ambient       833/65536       23324/1835008  ( 1.3%) 
+HDR leaf ambient       568/65536       15904/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48913/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1150
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.vmf
+Map revision 289
+"/1" - "materials/error.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48913 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 140
+Reduced 32 texdatas to 32 (469 bytes to 469)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.prt
+  45 portalclusters
+ 128 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.00%)
+Total clusters visible: 1845
+Average clusters visible: 41
+Building PAS...
+Average clusters audible: 43
+visdatasize:898  compressed from 720
+writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+515 faces
+208208 square feet [29982088.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+515 patches before subdivision
+2123 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 64791, max 145
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1279, 1253, 1255)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7, 7, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/1024         2544/49152    ( 5.2%) 
+brushes                107/8192         1284/98304    ( 1.3%) 
+brushsides            1281/81920       10248/655360   ( 1.6%) 
+planes                1856/65536       37120/1310720  ( 2.8%) 
+vertexes               921/65536       11052/786432   ( 1.4%) 
+nodes                  515/65536       16480/2097152  ( 0.8%) 
+texinfos               140/12288       10080/884736   ( 1.1%) 
+texdata                 32/4096         1024/131072   ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  515/65536       28840/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              399/65536       22344/3670016  ( 0.6%) 
+facebrushes             12/0              24/0        ( 0.0%) 
+facebrushlists         515/0            2060/0        ( 0.0%) 
+leaves                 569/65536       18208/2097152  ( 0.9%) 
+leaffaces              538/65536        1076/131072   ( 0.8%) 
+leafbrushes            291/65536         582/131072   ( 0.4%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3832/512000      15328/2048000  ( 0.7%) 
+edges                 2059/256000       8236/1024000  ( 0.8%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       90712/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         898/16777216 ( 0.0%) 
+entdata               [variable]       51775/393216   (13.2%) 
+LDR ambient table      569/65536        2276/262144   ( 0.9%) 
+HDR ambient table      569/65536        2276/262144   ( 0.9%) 
+LDR leaf ambient       851/65536       23828/1835008  ( 1.3%) 
+HDR leaf ambient       569/65536       15932/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74434/0        ( 0.0%) 
+physics               [variable]       48913/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1150
+Writing d:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\knife_lab_updated\knife_lab.bsp', but we don't own that location. Allowing...
+1 second elapsed

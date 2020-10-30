@@ -1,0 +1,2314 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 9
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3839 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+12 faces
+1336 square feet [192409.59 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+114 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2572, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6417, 1804, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3765, 298, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2198, 49, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1283, 8, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(748, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(436, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(255, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(148, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(87, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                  8/8192           96/98304    ( 0.1%) 
+brushsides              48/81920         384/655360   ( 0.1%) 
+planes                  68/65536        1360/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes              8/65536          16/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8689/393216   ( 2.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        82/65536        2296/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        3839/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3839 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+12 faces
+1336 square feet [192409.59 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+114 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2572, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6417, 1804, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3765, 298, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2198, 49, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1283, 8, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(748, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(436, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(255, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(148, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(87, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                  8/8192           96/98304    ( 0.1%) 
+brushsides              48/81920         384/655360   ( 0.1%) 
+planes                  68/65536        1360/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes              8/65536          16/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8894/393216   ( 2.3%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        82/65536        2296/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        3839/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 12
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3839 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+12 faces
+1336 square feet [192409.59 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+114 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2572, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4956, 1393, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2926, 231, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1704, 38, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(995, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(580, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(338, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(197, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(115, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(67, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(39, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                  8/8192           96/98304    ( 0.1%) 
+brushsides              48/81920         384/655360   ( 0.1%) 
+planes                  68/65536        1360/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes              8/65536          16/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7706/393216   ( 2.0%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        82/65536        2296/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        3839/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 15
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4959 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+12 faces
+1330 square feet [191576.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+114 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2580, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4758, 1338, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2819, 223, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1642, 36, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(960, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(560, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(327, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(191, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(112, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(65, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(38, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              62/81920         496/655360   ( 0.1%) 
+planes                  78/65536        1560/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             10/65536          20/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7883/393216   ( 2.0%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        82/65536        2296/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        4959/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 16
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5512 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 10
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+18 faces
+1469 square feet [211544.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+18 patches before subdivision
+120 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2682, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4960, 1394, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2952, 233, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1718, 38, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1006, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(587, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(343, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(200, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(117, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(68, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 11/8192          132/98304    ( 0.1%) 
+brushsides              68/81920         544/655360   ( 0.1%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   22/65536         704/2097152  ( 0.0%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   18/65536        1008/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          18/0              72/0        ( 0.0%) 
+leaves                  26/65536         832/2097152  ( 0.0%) 
+leaffaces               18/65536          36/131072   ( 0.0%) 
+leafbrushes             11/65536          22/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              144/512000        576/2048000  ( 0.0%) 
+edges                   85/256000        340/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8215/393216   ( 2.1%) 
+LDR ambient table       26/65536         104/262144   ( 0.0%) 
+HDR ambient table       26/65536         104/262144   ( 0.0%) 
+LDR leaf ambient       115/65536        3220/1835008  ( 0.2%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        5512/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 36
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 17
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5512 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 10
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+18 faces
+1469 square feet [211544.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+18 patches before subdivision
+120 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2682, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4960, 1394, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2952, 233, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1718, 38, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1006, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(587, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(343, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(200, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(117, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(68, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 11/8192          132/98304    ( 0.1%) 
+brushsides              68/81920         544/655360   ( 0.1%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   22/65536         704/2097152  ( 0.0%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   18/65536        1008/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          18/0              72/0        ( 0.0%) 
+leaves                  26/65536         832/2097152  ( 0.0%) 
+leaffaces               18/65536          36/131072   ( 0.0%) 
+leafbrushes             11/65536          22/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              144/512000        576/2048000  ( 0.0%) 
+edges                   85/256000        340/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8174/393216   ( 2.1%) 
+LDR ambient table       26/65536         104/262144   ( 0.0%) 
+HDR ambient table       26/65536         104/262144   ( 0.0%) 
+LDR leaf ambient       115/65536        3220/1835008  ( 0.2%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        5512/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 36
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 18
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5512 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 10
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+18 faces
+1469 square feet [211544.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+18 patches before subdivision
+120 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2682, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4960, 1394, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2952, 233, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1718, 38, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1006, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(587, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(343, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(200, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(117, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(68, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 11/8192          132/98304    ( 0.1%) 
+brushsides              68/81920         544/655360   ( 0.1%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   22/65536         704/2097152  ( 0.0%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   18/65536        1008/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          18/0              72/0        ( 0.0%) 
+leaves                  26/65536         832/2097152  ( 0.0%) 
+leaffaces               18/65536          36/131072   ( 0.0%) 
+leafbrushes             11/65536          22/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              144/512000        576/2048000  ( 0.0%) 
+edges                   85/256000        340/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8174/393216   ( 2.1%) 
+LDR ambient table       26/65536         104/262144   ( 0.0%) 
+HDR ambient table       26/65536         104/262144   ( 0.0%) 
+LDR leaf ambient       115/65536        3220/1835008  ( 0.2%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        5512/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 36
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 19
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5512 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 10
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+18 faces
+1469 square feet [211544.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+18 patches before subdivision
+120 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2682, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4960, 1394, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2952, 233, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1718, 38, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1006, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(587, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(343, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(200, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(117, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(68, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(40, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 11/8192          132/98304    ( 0.1%) 
+brushsides              68/81920         544/655360   ( 0.1%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   22/65536         704/2097152  ( 0.0%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   18/65536        1008/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          18/0              72/0        ( 0.0%) 
+leaves                  26/65536         832/2097152  ( 0.0%) 
+leaffaces               18/65536          36/131072   ( 0.0%) 
+leafbrushes             11/65536          22/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              144/512000        576/2048000  ( 0.0%) 
+edges                   85/256000        340/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8182/393216   ( 2.1%) 
+LDR ambient table       26/65536         104/262144   ( 0.0%) 
+HDR ambient table       26/65536         104/262144   ( 0.0%) 
+LDR leaf ambient       115/65536        3220/1835008  ( 0.2%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        5512/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 36
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 20
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6065 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+24 faces
+1693 square feet [243800.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+126 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2778, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5511, 1549, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3243, 256, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1891, 42, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1105, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(644, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(376, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(128, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              74/81920         592/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                49/65536         588/786432   ( 0.1%) 
+nodes                   28/65536         896/2097152  ( 0.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  33/65536        1056/2097152  ( 0.1%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  109/256000        436/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8303/393216   ( 2.1%) 
+LDR ambient table       33/65536         132/262144   ( 0.1%) 
+HDR ambient table       33/65536         132/262144   ( 0.1%) 
+LDR leaf ambient       181/65536        5068/1835008  ( 0.3%) 
+HDR leaf ambient        33/65536         924/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        6065/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 48
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 21
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6065 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+24 faces
+1693 square feet [243800.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+126 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2778, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5511, 1549, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3243, 256, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1891, 42, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1105, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(644, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(376, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(128, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              74/81920         592/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                49/65536         588/786432   ( 0.1%) 
+nodes                   28/65536         896/2097152  ( 0.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  33/65536        1056/2097152  ( 0.1%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  109/256000        436/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8303/393216   ( 2.1%) 
+LDR ambient table       33/65536         132/262144   ( 0.1%) 
+HDR ambient table       33/65536         132/262144   ( 0.1%) 
+LDR leaf ambient       181/65536        5068/1835008  ( 0.3%) 
+HDR leaf ambient        33/65536         924/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        6065/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 48
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 22
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6065 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+24 faces
+1693 square feet [243800.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+126 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2778, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5511, 1549, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3243, 256, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1891, 42, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1105, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(644, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(376, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(128, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              74/81920         592/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                49/65536         588/786432   ( 0.1%) 
+nodes                   28/65536         896/2097152  ( 0.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  33/65536        1056/2097152  ( 0.1%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  109/256000        436/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8305/393216   ( 2.1%) 
+LDR ambient table       33/65536         132/262144   ( 0.1%) 
+HDR ambient table       33/65536         132/262144   ( 0.1%) 
+LDR leaf ambient       181/65536        5068/1835008  ( 0.3%) 
+HDR leaf ambient        33/65536         924/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        6065/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 48
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 23
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6065 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+24 faces
+1693 square feet [243800.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+126 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2778, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5511, 1549, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3243, 256, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1891, 42, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1105, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(644, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(376, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(128, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              74/81920         592/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                49/65536         588/786432   ( 0.1%) 
+nodes                   28/65536         896/2097152  ( 0.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  33/65536        1056/2097152  ( 0.1%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  109/256000        436/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8310/393216   ( 2.1%) 
+LDR ambient table       33/65536         132/262144   ( 0.1%) 
+HDR ambient table       33/65536         132/262144   ( 0.1%) 
+LDR leaf ambient       181/65536        5068/1835008  ( 0.3%) 
+HDR leaf ambient        33/65536         924/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        6065/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 48
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 24
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6065 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+24 faces
+1693 square feet [243800.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+126 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2778, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5511, 1549, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3243, 256, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1891, 42, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1105, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(644, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(376, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(128, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              74/81920         592/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                49/65536         588/786432   ( 0.1%) 
+nodes                   28/65536         896/2097152  ( 0.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  33/65536        1056/2097152  ( 0.1%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  109/256000        436/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8310/393216   ( 2.1%) 
+LDR ambient table       33/65536         132/262144   ( 0.1%) 
+HDR ambient table       33/65536         132/262144   ( 0.1%) 
+LDR leaf ambient       181/65536        5068/1835008  ( 0.3%) 
+HDR leaf ambient        33/65536         924/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        6065/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 48
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 25
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6065 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+24 faces
+1693 square feet [243800.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+126 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2778, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5511, 1549, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3243, 256, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1891, 42, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1105, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(644, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(376, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(128, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              74/81920         592/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                49/65536         588/786432   ( 0.1%) 
+nodes                   28/65536         896/2097152  ( 0.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  33/65536        1056/2097152  ( 0.1%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  109/256000        436/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8310/393216   ( 2.1%) 
+LDR ambient table       33/65536         132/262144   ( 0.1%) 
+HDR ambient table       33/65536         132/262144   ( 0.1%) 
+LDR leaf ambient       181/65536        5068/1835008  ( 0.3%) 
+HDR leaf ambient        33/65536         924/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        6065/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 48
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 26
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6065 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+24 faces
+1693 square feet [243800.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+126 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2778, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5511, 1549, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3243, 256, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1891, 42, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1105, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(644, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(376, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(128, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              74/81920         592/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                49/65536         588/786432   ( 0.1%) 
+nodes                   28/65536         896/2097152  ( 0.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  33/65536        1056/2097152  ( 0.1%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  109/256000        436/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8310/393216   ( 2.1%) 
+LDR ambient table       33/65536         132/262144   ( 0.1%) 
+HDR ambient table       33/65536         132/262144   ( 0.1%) 
+LDR leaf ambient       181/65536        5068/1835008  ( 0.3%) 
+HDR leaf ambient        33/65536         924/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        6065/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 48
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.vmf
+Map revision 27
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6065 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+reading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+24 faces
+1693 square feet [243800.42 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+24 patches before subdivision
+126 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2778, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5511, 1549, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3243, 256, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1891, 42, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1105, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(644, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(376, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(220, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(128, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              74/81920         592/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                49/65536         588/786432   ( 0.1%) 
+nodes                   28/65536         896/2097152  ( 0.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   24/65536        1344/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          24/0              96/0        ( 0.0%) 
+leaves                  33/65536        1056/2097152  ( 0.1%) 
+leaffaces               24/65536          48/131072   ( 0.0%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              192/512000        768/2048000  ( 0.0%) 
+edges                  109/256000        436/1024000  ( 0.0%) 
+LDR worldlights         14/8192         1400/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        8310/393216   ( 2.1%) 
+LDR ambient table       33/65536         132/262144   ( 0.1%) 
+HDR ambient table       33/65536         132/262144   ( 0.1%) 
+LDR leaf ambient       181/65536        5068/1835008  ( 0.3%) 
+HDR leaf ambient        33/65536         924/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74502/0        ( 0.0%) 
+physics               [variable]        6065/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 48
+Writing d:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\killanthropist\achievement_killanthropist.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

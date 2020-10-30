@@ -1,0 +1,12 @@
+detect evertime a player has a kill
+- round ends
+
+keep shooting until the player has got the kill
+
+once the player has got x kills (e.g. 100) for weapon switch to next weapon
+math_counter
+
+can play on either team CT or T
+
+
+once the enemy player dies and are no longer touching the trigger, increase the math_counter by one

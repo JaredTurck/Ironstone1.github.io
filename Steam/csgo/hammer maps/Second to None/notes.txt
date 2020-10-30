@@ -1,0 +1,22 @@
+Second to None
+Successfully defuse a bomb with less than one second remaining
+
+T plants bomb
+wait 39.5 seconds
+defuse
+
+44.5
+50
+
+bot_defer_to_human_goals 0
+bot_defer_to_human_items 0
+
+3 seconds to plant the bomb
+lets say 5 in total as you also got to equip bomb
+40 seconds till detonate
+
+45
+-5
+
+40
+39.9

@@ -1,0 +1,35 @@
+stop bots from spawnning weapons			done
+
+enemy player, stop respawn protection			done
+give new weapon as soon as you kill the enemy player
+
+give commands dont work, will have to use game_player_equip
+
+
+
+game_player_equip for each csgo wep
+math_counter for each wep
+
+
+constantly fire for CT
+
+disable triggers after last weapon is fired
+
+dont strip weapons after killing a bot
+
+wait between switching weapons
+- previous weapon kills counting for new weapons
+
+increase tazer one
+
+famas
+
+skipped:
+gs3sg1 - Terrorist weapon
+Glock - Terrorist weapon
+Tec-9 - Terrorist weapon
+Mac-10 - Terrorist weapon
+SG553 - Terrorist weapon
+
+
+famas

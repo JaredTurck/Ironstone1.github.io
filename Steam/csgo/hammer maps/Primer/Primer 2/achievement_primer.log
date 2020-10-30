@@ -1,0 +1,2932 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 48
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15684 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 36 texinfos to 26
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+84 faces
+3527 square feet [507904.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+84 patches before subdivision
+488 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2506, 705, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1690, 134, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1084, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(704, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(455, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(295, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(191, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(123, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(80, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(52, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/81920        1664/655360   ( 0.3%) 
+planes                 136/65536        2720/1310720  ( 0.2%) 
+vertexes               169/65536        2028/786432   ( 0.3%) 
+nodes                   84/65536        2688/2097152  ( 0.1%) 
+texinfos                26/12288        1872/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   84/65536        4704/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               75/65536        4200/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          84/0             336/0        ( 0.0%) 
+leaves                  95/65536        3040/2097152  ( 0.1%) 
+leaffaces               86/65536         172/131072   ( 0.1%) 
+leafbrushes             42/65536          84/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              644/512000       2576/2048000  ( 0.1%) 
+edges                  359/256000       1436/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       12424/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        7374/393216   ( 1.9%) 
+LDR ambient table       95/65536         380/262144   ( 0.1%) 
+HDR ambient table       95/65536         380/262144   ( 0.1%) 
+LDR leaf ambient       258/65536        7224/1835008  ( 0.4%) 
+HDR leaf ambient        95/65536        2660/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       15684/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 176
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 51
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15684 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 36 texinfos to 26
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+84 faces
+3527 square feet [507904.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+84 patches before subdivision
+488 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2506, 704, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1687, 133, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1083, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(704, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(455, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(295, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(191, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(123, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(80, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(52, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/81920        1664/655360   ( 0.3%) 
+planes                 136/65536        2720/1310720  ( 0.2%) 
+vertexes               169/65536        2028/786432   ( 0.3%) 
+nodes                   84/65536        2688/2097152  ( 0.1%) 
+texinfos                26/12288        1872/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   84/65536        4704/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               75/65536        4200/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          84/0             336/0        ( 0.0%) 
+leaves                  95/65536        3040/2097152  ( 0.1%) 
+leaffaces               86/65536         172/131072   ( 0.1%) 
+leafbrushes             42/65536          84/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              644/512000       2576/2048000  ( 0.1%) 
+edges                  359/256000       1436/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       12424/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        7382/393216   ( 1.9%) 
+LDR ambient table       95/65536         380/262144   ( 0.1%) 
+HDR ambient table       95/65536         380/262144   ( 0.1%) 
+LDR leaf ambient       258/65536        7224/1835008  ( 0.4%) 
+HDR leaf ambient        95/65536        2660/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       15684/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 176
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 58
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+90 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+90 patches before subdivision
+494 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2489, 700, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1075, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(699, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(189, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(122, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             214/81920        1712/655360   ( 0.3%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes               177/65536        2124/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               81/65536        4536/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          90/0             360/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               92/65536         184/131072   ( 0.1%) 
+leafbrushes             43/65536          86/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  383/256000       1532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       13240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        7722/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       383/65536       10724/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       16239/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 188
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 59
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+90 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+90 patches before subdivision
+494 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2489, 700, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1075, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(699, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(189, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(122, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             214/81920        1712/655360   ( 0.3%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes               177/65536        2124/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               81/65536        4536/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          90/0             360/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               92/65536         184/131072   ( 0.1%) 
+leafbrushes             43/65536          86/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  383/256000       1532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       13240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        7722/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       383/65536       10724/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       16239/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 188
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 62
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+90 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+90 patches before subdivision
+494 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2489, 700, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1075, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(699, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(189, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(122, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             214/81920        1712/655360   ( 0.3%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes               177/65536        2124/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               81/65536        4536/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          90/0             360/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               92/65536         184/131072   ( 0.1%) 
+leafbrushes             43/65536          86/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  383/256000       1532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       13240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        7688/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       383/65536       10724/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       16239/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 188
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 63
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+90 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+90 patches before subdivision
+494 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2489, 700, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1075, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(699, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(189, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(122, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             214/81920        1712/655360   ( 0.3%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes               177/65536        2124/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               81/65536        4536/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          90/0             360/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               92/65536         184/131072   ( 0.1%) 
+leafbrushes             43/65536          86/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  383/256000       1532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       13240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        7688/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       383/65536       10724/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       16239/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 188
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 68
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+90 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+90 patches before subdivision
+494 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2489, 700, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1075, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(699, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(189, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(122, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             214/81920        1712/655360   ( 0.3%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes               177/65536        2124/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               81/65536        4536/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          90/0             360/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               92/65536         184/131072   ( 0.1%) 
+leafbrushes             43/65536          86/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  383/256000       1532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       13240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        8077/393216   ( 2.1%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       383/65536       10724/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       16239/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 188
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 69
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+90 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+90 patches before subdivision
+494 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2489, 700, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1075, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(699, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(189, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(122, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             214/81920        1712/655360   ( 0.3%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes               177/65536        2124/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               81/65536        4536/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          90/0             360/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               92/65536         184/131072   ( 0.1%) 
+leafbrushes             43/65536          86/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  383/256000       1532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       13240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        8077/393216   ( 2.1%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       383/65536       10724/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       16239/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 188
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 69
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+90 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+90 patches before subdivision
+494 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2489, 700, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1075, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(699, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(189, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(122, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             214/81920        1712/655360   ( 0.3%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes               177/65536        2124/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               81/65536        4536/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          90/0             360/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               92/65536         184/131072   ( 0.1%) 
+leafbrushes             43/65536          86/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  383/256000       1532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       13240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        8077/393216   ( 2.1%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       383/65536       10724/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       16239/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 188
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 71
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+90 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+90 patches before subdivision
+494 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2489, 700, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1075, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(699, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(189, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(122, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             214/81920        1712/655360   ( 0.3%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes               177/65536        2124/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               81/65536        4536/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          90/0             360/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               92/65536         184/131072   ( 0.1%) 
+leafbrushes             43/65536          86/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  383/256000       1532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       13240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        8069/393216   ( 2.1%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       383/65536       10724/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       16239/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 188
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 73
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+90 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+90 patches before subdivision
+494 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2489, 700, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1075, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(699, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(189, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(122, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             214/81920        1712/655360   ( 0.3%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes               177/65536        2124/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               81/65536        4536/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          90/0             360/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               92/65536         184/131072   ( 0.1%) 
+leafbrushes             43/65536          86/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  383/256000       1532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       13240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        7864/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       383/65536       10724/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       16239/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 188
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 75
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16239 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   6 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 18
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+90 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+90 patches before subdivision
+494 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9090, max 67
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2489, 700, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1075, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(699, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(189, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(122, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(21, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             214/81920        1712/655360   ( 0.3%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes               177/65536        2124/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   90/65536        5040/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               81/65536        4536/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          90/0             360/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               92/65536         184/131072   ( 0.1%) 
+leafbrushes             43/65536          86/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  383/256000       1532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       13240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        7873/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       383/65536       10724/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       16239/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 188
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 79
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15655 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   5 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 11
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+85 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+85 patches before subdivision
+467 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8443, max 56
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2369, 666, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1588, 125, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1010, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(650, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(417, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(267, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(171, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(45, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/81920        1664/655360   ( 0.3%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               169/65536        2028/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   85/65536        4760/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               78/65536        4368/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          85/0             340/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               85/65536         170/131072   ( 0.1%) 
+leafbrushes             50/65536         100/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  360/256000       1440/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       12964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        7750/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       15655/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 172
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 86
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15655 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   5 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 11
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+85 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+85 patches before subdivision
+467 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8443, max 56
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2369, 666, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1588, 125, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1010, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(650, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(417, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(267, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(171, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(45, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/81920        1664/655360   ( 0.3%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               169/65536        2028/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   85/65536        4760/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               78/65536        4368/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          85/0             340/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               85/65536         170/131072   ( 0.1%) 
+leafbrushes             50/65536         100/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  360/256000       1440/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       12964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        7891/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       15655/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 172
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 88
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15655 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   5 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 11
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+85 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+85 patches before subdivision
+467 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8443, max 56
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2369, 666, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1588, 125, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1010, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(650, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(417, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(267, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(171, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(45, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/81920        1664/655360   ( 0.3%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               169/65536        2028/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   85/65536        4760/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               78/65536        4368/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          85/0             340/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               85/65536         170/131072   ( 0.1%) 
+leafbrushes             50/65536         100/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  360/256000       1440/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       12964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        7946/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       15655/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 172
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 88
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15655 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   5 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 11
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+85 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+85 patches before subdivision
+467 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8443, max 56
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2369, 666, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1588, 125, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1010, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(650, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(417, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(267, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(171, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(45, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/81920        1664/655360   ( 0.3%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               169/65536        2028/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   85/65536        4760/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               78/65536        4368/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          85/0             340/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               85/65536         170/131072   ( 0.1%) 
+leafbrushes             50/65536         100/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  360/256000       1440/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       12964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        7946/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       15655/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 172
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 89
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15655 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 38 texinfos to 28
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   5 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 11
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+85 faces
+4165 square feet [599808.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+85 patches before subdivision
+467 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8443, max 56
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2369, 666, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1588, 125, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1010, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(650, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(417, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(267, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(171, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(45, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/81920        1664/655360   ( 0.3%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               169/65536        2028/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   85/65536        4760/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               78/65536        4368/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          85/0             340/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               85/65536         170/131072   ( 0.1%) 
+leafbrushes             50/65536         100/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  360/256000       1440/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       12964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        7742/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       402/65536       11256/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       15655/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 172
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 92
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15657 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 37 texinfos to 27
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   5 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 11
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+85 faces
+4307 square feet [620288.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+85 patches before subdivision
+467 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8415, max 56
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2342, 658, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1582, 125, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1005, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(648, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(415, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(266, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(171, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(45, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/81920        1664/655360   ( 0.3%) 
+planes                 142/65536        2840/1310720  ( 0.2%) 
+vertexes               169/65536        2028/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   85/65536        4760/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               78/65536        4368/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          85/0             340/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               85/65536         170/131072   ( 0.1%) 
+leafbrushes             50/65536         100/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  360/256000       1440/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       12964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        7702/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       400/65536       11200/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       15657/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 172
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 93
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15657 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 37 texinfos to 27
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   5 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 11
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+85 faces
+4307 square feet [620288.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+85 patches before subdivision
+467 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8415, max 56
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2342, 658, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1582, 125, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1005, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(648, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(415, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(266, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(171, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(45, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/81920        1664/655360   ( 0.3%) 
+planes                 142/65536        2840/1310720  ( 0.2%) 
+vertexes               169/65536        2028/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   85/65536        4760/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               78/65536        4368/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          85/0             340/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               85/65536         170/131072   ( 0.1%) 
+leafbrushes             50/65536         100/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  360/256000       1440/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       12964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        7702/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       400/65536       11200/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       15657/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 172
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.vmf
+Map revision 97
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15657 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 37 texinfos to 27
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Primer\Primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.prt
+   5 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 11
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+85 faces
+4307 square feet [620288.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+85 patches before subdivision
+467 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8415, max 56
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2342, 658, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1582, 125, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1005, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(648, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(415, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(266, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(171, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(45, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/81920        1664/655360   ( 0.3%) 
+planes                 142/65536        2840/1310720  ( 0.2%) 
+vertexes               169/65536        2028/786432   ( 0.3%) 
+nodes                   94/65536        3008/2097152  ( 0.1%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   85/65536        4760/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               78/65536        4368/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          85/0             340/0        ( 0.0%) 
+leaves                 106/65536        3392/2097152  ( 0.2%) 
+leaffaces               85/65536         170/131072   ( 0.1%) 
+leafbrushes             50/65536         100/131072   ( 0.1%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges              654/512000       2616/2048000  ( 0.1%) 
+edges                  360/256000       1440/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       12964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        7702/393216   ( 2.0%) 
+LDR ambient table      106/65536         424/262144   ( 0.2%) 
+HDR ambient table      106/65536         424/262144   ( 0.2%) 
+LDR leaf ambient       400/65536       11200/1835008  ( 0.6%) 
+HDR leaf ambient       106/65536        2968/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       15657/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 172
+Writing d:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\primer\primer 2\achievement_primer.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

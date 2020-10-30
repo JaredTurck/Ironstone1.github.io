@@ -1,0 +1,11 @@
+knife lab
+
+weapon_knife
+weapon_knife_t
+
+256
+
+drop;
+give weapon_fists;
+ent_fire weapon_fists addoutput "classname weapon_knifegg";
+slot3

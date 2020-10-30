@@ -1,0 +1,1418 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\castle_map.vmf
+Map revision 22
+Patching WVT material: maps/castle_map/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (1664.86 1280.00 3008.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1036.1 1415.7 2924.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 8329: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1179.9 359.9 3014.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 1139789: Brush 1139788: Brush 1139787: Brush 1139782: Brush 1139781: Brush 1139779: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (879.9 1476.4 3125.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (887.2 1469.8 3148.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (914.7 1445.5 3231.2)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (898.6 1459.7 3179.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (873.3 1418.9 3210.9)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (899.3 1421.1 3248.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (2)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (705192 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 55 texinfos to 32
+Reduced 11 texdatas to 10 (366 bytes to 306)
+Writing D:\Desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+10 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\castle_map.bsp
+reading d:\desktop\csgo\hammer maps\castle\castle_map.prt
+LoadPortals: couldn't read d:\desktop\csgo\hammer maps\castle\castle_map.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\castle_map.vmf
+Map revision 23
+Patching WVT material: maps/castle_map/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1036.1 1415.7 2924.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 8329: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1179.9 359.9 3014.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 1139791: Brush 1139790: Brush 1139789: Brush 1139784: Brush 1139783: Brush 1139781: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (879.9 1476.4 3125.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (887.2 1469.8 3148.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (914.7 1445.5 3231.2)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (898.6 1459.7 3179.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (873.3 1418.9 3210.9)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (899.3 1421.1 3248.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (1)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Desktop\csgo\hammer maps\castle\castle_map.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (1)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (705532 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 55 texinfos to 33
+Reduced 11 texdatas to 11 (366 bytes to 366)
+Writing D:\Desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+14 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\castle_map.bsp
+reading d:\desktop\csgo\hammer maps\castle\castle_map.prt
+11212 portalclusters
+43284 numportals
+The map overflows the max portal count (43284 of max 32768)!
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\castle_map.vmf
+Map revision 23
+Patching WVT material: maps/castle_map/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1036.1 1415.7 2924.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 8329: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1179.9 359.9 3014.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 1139791: Brush 1139790: Brush 1139789: Brush 1139784: Brush 1139783: Brush 1139781: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (879.9 1476.4 3125.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (887.2 1469.8 3148.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (914.7 1445.5 3231.2)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (898.6 1459.7 3179.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (873.3 1418.9 3210.9)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (899.3 1421.1 3248.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (2)
+writing D:\Desktop\csgo\hammer maps\castle\castle_map.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (1)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (705532 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 55 texinfos to 33
+Reduced 11 texdatas to 11 (366 bytes to 366)
+Writing D:\Desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+14 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\castle_map.bsp
+reading d:\desktop\csgo\hammer maps\castle\castle_map.prt
+11212 portalclusters
+43284 numportals
+The map overflows the max portal count (43284 of max 32768)!
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\castle_map.vmf
+Map revision 24
+Patching WVT material: maps/castle_map/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1036.1 1415.7 2924.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 8329: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1179.9 359.9 3014.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 1139791: Brush 1139790: Brush 1139789: Brush 1139784: Brush 1139783: Brush 1139781: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (879.9 1476.4 3125.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (887.2 1469.8 3148.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (914.7 1445.5 3231.2)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (898.6 1459.7 3179.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (873.3 1418.9 3210.9)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (899.3 1421.1 3248.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (2)
+writing D:\Desktop\csgo\hammer maps\castle\castle_map.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (705532 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 52 texinfos to 30
+Reduced 11 texdatas to 10 (366 bytes to 332)
+Writing D:\Desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+14 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\castle_map.bsp
+reading d:\desktop\csgo\hammer maps\castle\castle_map.prt
+11212 portalclusters
+43284 numportals
+The map overflows the max portal count (43284 of max 32768)!
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\castle_map.vmf
+Map revision 26
+Patching WVT material: maps/castle_map/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1036.1 1415.7 2924.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 8329: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (879.9 1476.4 3125.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (887.2 1469.8 3148.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (914.7 1445.5 3231.2)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (898.6 1459.7 3179.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (873.3 1418.9 3210.9)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (899.3 1421.1 3248.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (874.7 1457.2 3149.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Desktop\csgo\hammer maps\castle\castle_map.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (1)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (501841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 18
+Reduced 7 texdatas to 7 (246 bytes to 246)
+Writing D:\Desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+9 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\castle_map.bsp
+reading d:\desktop\csgo\hammer maps\castle\castle_map.prt
+8137 portalclusters
+32186 numportals
+0...1...2...3..
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\castle_map.vmf
+Map revision 28
+Patching WVT material: maps/castle_map/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1036.1 1415.7 2924.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 8329: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (879.9 1476.4 3125.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (887.2 1469.8 3148.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (914.7 1445.5 3231.2)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (898.6 1459.7 3179.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (873.3 1418.9 3210.9)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (899.3 1421.1 3248.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (874.7 1457.2 3149.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Desktop\csgo\hammer maps\castle\castle_map.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (1)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (500775 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 5 texdatas to 5 (166 bytes to 166)
+Writing D:\Desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+9 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\castle_map.bsp
+reading d:\desktop\csgo\hammer maps\castle\castle_map.prt
+8037 portalclusters
+31737 numportals
+0...1...2...3...4...5...6...7...8...9...100.
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\castle\castle_map.vmf
+Map revision 30
+Patching WVT material: maps/castle_map/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (375.5 1024.0 3268.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (289.3 1103.8 2888.9)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (509.3 1130.9 3196.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (887.4 1337.3 3404.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (295.2 1093.7 2958.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (334.0 1193.0 2760.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (537.3 1123.7 3330.1)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (598.5 1266.4 3055.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 5916 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Desktop\csgo\hammer maps\castle\castle_map.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (499087 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 5 texdatas to 5 (166 bytes to 166)
+Writing D:\Desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\castle\castle_map.bsp
+reading d:\desktop\csgo\hammer maps\castle\castle_map.prt
+ 819 portalclusters
+3061 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3595 visible clusters (0.00%)
+Total clusters visible: 471286
+Average clusters visible: 575
+Building PAS...
+Average clusters audible: 818
+visdatasize:174651  compressed from 170352
+writing d:\desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+13 minutes, 14 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\castle\castle_map.bsp
+11562 faces
+35 degenerate faces
+497360 square feet [71619840.00 square inches]
+14 Displacements
+90089 Square Feet [12972875.00 Square Inches]
+11527 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+60555 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6718462, max 1716
+transfer lists:  51.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0154 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes               1232/8192        14784/98304    (15.0%) 
+brushsides           20242/81920      161936/655360   (24.7%) 
+planes               34900/65536      698000/1310720  (53.3%) 
+vertexes             20732/65536      248784/786432   (31.6%) 
+nodes                 1331/65536       42592/2097152  ( 2.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      224684/0          224684/0        ( 0.0%) 
+faces                11562/65536      647472/3670016  (17.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6657/65536      372792/3670016  (10.2%) 
+facebrushes             26/0              52/0        ( 0.0%) 
+facebrushlists       11562/0           46248/0        ( 0.0%) 
+leaves                1333/65536       42656/2097152  ( 2.0%) 
+leaffaces            22760/65536       45520/131072   (34.7%) 
+leafbrushes           4743/65536        9486/131072   ( 7.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            95093/512000     380372/2048000  (18.6%) 
+edges                54692/256000     218768/1024000  (21.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2834/32768       28340/327680   ( 8.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         57786/65536      115572/131072   (88.2%) VERY FULL!
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5145736/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      174651/16777216 ( 1.0%) 
+entdata               [variable]         415/393216   ( 0.1%) 
+LDR ambient table     1333/65536        5332/262144   ( 2.0%) 
+HDR ambient table     1333/65536        5332/262144   ( 2.0%) 
+LDR leaf ambient       819/65536       22932/1835008  ( 1.2%) 
+HDR leaf ambient      1333/65536       37324/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74922/0        ( 0.0%) 
+physics               [variable]      499087/4194304  (11.9%) 
+physics terrain       [variable]        8458/1048576  ( 0.8%) 
+
+Level flags = 7c
+
+Total triangle count: 45005
+Writing d:\desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+1 minute, 24 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.vmf
+Map revision 31
+Patching WVT material: maps/castle_map/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (375.5 1024.0 3268.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (289.3 1103.8 2888.9)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (509.3 1130.9 3196.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (887.4 1337.3 3404.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (295.2 1093.7 2958.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (334.0 1193.0 2760.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (537.3 1123.7 3330.1)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (598.5 1266.4 3055.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 5916 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (499087 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 5 texdatas to 5 (166 bytes to 166)
+Writing d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.prt
+ 819 portalclusters
+3061 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3600 visible clusters (0.00%)
+Total clusters visible: 471297
+Average clusters visible: 575
+Building PAS...
+Average clusters audible: 818
+visdatasize:174654  compressed from 170352
+writing d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+3 minutes, 1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+11562 faces
+35 degenerate faces
+497360 square feet [71619840.00 square inches]
+14 Displacements
+89840 Square Feet [12937085.00 Square Inches]
+11527 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+60549 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6718490, max 1716
+transfer lists:  51.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0128 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes               1232/8192        14784/98304    (15.0%) 
+brushsides           20242/81920      161936/655360   (24.7%) 
+planes               34900/65536      698000/1310720  (53.3%) 
+vertexes             20732/65536      248784/786432   (31.6%) 
+nodes                 1331/65536       42592/2097152  ( 2.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      224684/0          224684/0        ( 0.0%) 
+faces                11562/65536      647472/3670016  (17.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6657/65536      372792/3670016  (10.2%) 
+facebrushes             26/0              52/0        ( 0.0%) 
+facebrushlists       11562/0           46248/0        ( 0.0%) 
+leaves                1333/65536       42656/2097152  ( 2.0%) 
+leaffaces            22760/65536       45520/131072   (34.7%) 
+leafbrushes           4743/65536        9486/131072   ( 7.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            95093/512000     380372/2048000  (18.6%) 
+edges                54692/256000     218768/1024000  (21.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2834/32768       28340/327680   ( 8.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         57786/65536      115572/131072   (88.2%) VERY FULL!
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5145736/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      174654/16777216 ( 1.0%) 
+entdata               [variable]         415/393216   ( 0.1%) 
+LDR ambient table     1333/65536        5332/262144   ( 2.0%) 
+HDR ambient table     1333/65536        5332/262144   ( 2.0%) 
+LDR leaf ambient       819/65536       22932/1835008  ( 1.2%) 
+HDR leaf ambient      1333/65536       37324/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74922/0        ( 0.0%) 
+physics               [variable]      499087/4194304  (11.9%) 
+physics terrain       [variable]        8472/1048576  ( 0.8%) 
+
+Level flags = 7d
+
+Total triangle count: 45005
+Writing d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+25 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+11562 faces
+35 degenerate faces
+497360 square feet [71619840.00 square inches]
+14 Displacements
+89840 Square Feet [12937085.00 Square Inches]
+11527 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+60549 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6718490, max 1716
+transfer lists:  51.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0131 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes               1232/8192        14784/98304    (15.0%) 
+brushsides           20242/81920      161936/655360   (24.7%) 
+planes               34900/65536      698000/1310720  (53.3%) 
+vertexes             20732/65536      248784/786432   (31.6%) 
+nodes                 1331/65536       42592/2097152  ( 2.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      224684/0          224684/0        ( 0.0%) 
+faces                11562/65536      647472/3670016  (17.6%) 
+hdr faces            11562/65536      647472/3670016  (17.6%) 
+origfaces             6657/65536      372792/3670016  (10.2%) 
+facebrushes             26/0              52/0        ( 0.0%) 
+facebrushlists       11562/0           46248/0        ( 0.0%) 
+leaves                1333/65536       42656/2097152  ( 2.0%) 
+leaffaces            22760/65536       45520/131072   (34.7%) 
+leafbrushes           4743/65536        9486/131072   ( 7.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            95093/512000     380372/2048000  (18.6%) 
+edges                54692/256000     218768/1024000  (21.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2834/32768       28340/327680   ( 8.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         57786/65536      115572/131072   (88.2%) VERY FULL!
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5145736/0        ( 0.0%) 
+HDR lightdata         [variable]     5145736/0        ( 0.0%) 
+visdata               [variable]      174654/16777216 ( 1.0%) 
+entdata               [variable]         415/393216   ( 0.1%) 
+LDR ambient table     1333/65536        5332/262144   ( 2.0%) 
+HDR ambient table     1333/65536        5332/262144   ( 2.0%) 
+LDR leaf ambient       819/65536       22932/1835008  ( 1.2%) 
+HDR leaf ambient       819/65536       22932/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74922/0        ( 0.0%) 
+physics               [variable]      499087/4194304  (11.9%) 
+physics terrain       [variable]        8472/1048576  ( 0.8%) 
+
+Level flags = 7f
+
+Total triangle count: 45005
+Writing d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+25 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\castle\castle_map.vmf
+Map revision 31
+Patching WVT material: maps/castle_map/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (375.5 1024.0 3268.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (289.3 1103.8 2888.9)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (509.3 1130.9 3196.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (887.4 1337.3 3404.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (295.2 1093.7 2958.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (334.0 1193.0 2760.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (537.3 1123.7 3330.1)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (598.5 1266.4 3055.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 912: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 5916 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\castle\castle_map.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (499087 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 12
+Reduced 5 texdatas to 5 (166 bytes to 166)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.prt
+ 819 portalclusters
+3061 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 2778 visible clusters (0.00%)
+Total clusters visible: 646429
+Average clusters visible: 789
+Building PAS...
+Average clusters audible: 819
+visdatasize:175010  compressed from 170352
+writing d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+11562 faces
+35 degenerate faces
+497360 square feet [71619840.00 square inches]
+14 Displacements
+89840 Square Feet [12937085.00 Square Inches]
+11527 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+60549 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6827963, max 1716
+transfer lists:  52.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0130 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes               1232/8192        14784/98304    (15.0%) 
+brushsides           20242/81920      161936/655360   (24.7%) 
+planes               34900/65536      698000/1310720  (53.3%) 
+vertexes             20732/65536      248784/786432   (31.6%) 
+nodes                 1331/65536       42592/2097152  ( 2.0%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      224684/0          224684/0        ( 0.0%) 
+faces                11562/65536      647472/3670016  (17.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6657/65536      372792/3670016  (10.2%) 
+facebrushes             26/0              52/0        ( 0.0%) 
+facebrushlists       11562/0           46248/0        ( 0.0%) 
+leaves                1333/65536       42656/2097152  ( 2.0%) 
+leaffaces            22760/65536       45520/131072   (34.7%) 
+leafbrushes           4743/65536        9486/131072   ( 7.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            95093/512000     380372/2048000  (18.6%) 
+edges                54692/256000     218768/1024000  (21.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           2834/32768       28340/327680   ( 8.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         57786/65536      115572/131072   (88.2%) VERY FULL!
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5145736/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      175010/16777216 ( 1.0%) 
+entdata               [variable]         415/393216   ( 0.1%) 
+LDR ambient table     1333/65536        5332/262144   ( 2.0%) 
+HDR ambient table     1333/65536        5332/262144   ( 2.0%) 
+LDR leaf ambient       819/65536       22932/1835008  ( 1.2%) 
+HDR leaf ambient      1333/65536       37324/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74922/0        ( 0.0%) 
+physics               [variable]      499087/4194304  (11.9%) 
+physics terrain       [variable]        8472/1048576  ( 0.8%) 
+
+Level flags = 7c
+
+Total triangle count: 45005
+Writing d:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\castle\castle_map.bsp', but we don't own that location. Allowing...
+27 seconds elapsed

@@ -1,0 +1,2901 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8456"
+	"mapversion" "222"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "222"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_dust"
+	solid
+	{
+		"id" "6120"
+		side
+		{
+			"id" "200"
+			"plane" "(-832 176 33) (-720 176 33) (-720 80 33)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "201"
+			"plane" "(-832 80 32) (-720 80 32) (-720 176 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "202"
+			"plane" "(-832 176 33) (-832 80 33) (-832 80 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "203"
+			"plane" "(-720 176 32) (-720 80 32) (-720 80 33)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "204"
+			"plane" "(-720 176 33) (-832 176 33) (-832 176 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "205"
+			"plane" "(-720 80 32) (-832 80 32) (-832 80 33)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 100 149"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "442"
+		side
+		{
+			"id" "116"
+			"plane" "(-840 128 256) (-840 176 256) (-776 176 256)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "115"
+			"plane" "(-776 176 32) (-840 176 32) (-840 128 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "114"
+			"plane" "(-840 176 256) (-840 128 256) (-840 128 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "113"
+			"plane" "(-776 176 256) (-840 176 256) (-840 176 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "112"
+			"plane" "(-840 128 256) (-776 176 256) (-776 176 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 219 204"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "443"
+		side
+		{
+			"id" "121"
+			"plane" "(-776 80 256) (-840 80 256) (-840 128 256)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "120"
+			"plane" "(-840 128 32) (-840 80 32) (-776 80 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "119"
+			"plane" "(-840 128 256) (-840 80 256) (-840 80 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "118"
+			"plane" "(-840 80 256) (-776 80 256) (-776 80 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "117"
+			"plane" "(-776 80 256) (-840 128 256) (-840 128 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 169 162"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "6"
+		side
+		{
+			"id" "12"
+			"plane" "(-848 64 272) (-848 192 272) (-576 192 272)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(-848 192 256) (-848 192 272) (-848 64 272)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(-576 64 256) (-576 64 272) (-576 192 272)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-576 192 256) (-576 192 272) (-848 192 272)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-848 64 256) (-848 64 272) (-576 64 272)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7"
+			"plane" "(-848 192 256) (-848 64 256) (-576 64 256)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 213 106"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "8"
+		side
+		{
+			"id" "18"
+			"plane" "(-848 192 16) (-848 64 16) (-576 64 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(-848 64 32) (-848 64 16) (-848 192 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(-576 192 32) (-576 192 16) (-576 64 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(-848 192 32) (-848 192 16) (-576 192 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(-576 64 32) (-576 64 16) (-848 64 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(-848 64 32) (-848 192 32) (-576 192 32)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 203 168"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "10"
+		side
+		{
+			"id" "24"
+			"plane" "(-848 64 258.398) (-848 64 16) (-848 192 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(-848 192 258.398) (-848 192 16) (-840.001 192 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(-840 64 16) (-848 64 16) (-848 64 258.398)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(-840 64 258.4) (-848 64 258.4) (-848 192 258.4)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(-840 192 16) (-848 192 16) (-848 64 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19"
+			"plane" "(-840.001 192 258.398) (-840.001 192 16) (-840.001 64 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 205 202"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "12"
+		side
+		{
+			"id" "30"
+			"plane" "(-576 192 258.398) (-576 192 16) (-576 64 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-584 192 16) (-576 192 16) (-576 192 258.398)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-576 64 258.398) (-576 64 16) (-583.999 64 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(-584 192 258.4) (-576 192 258.4) (-576 64 258.4)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(-584 64 16) (-576 64 16) (-576 192 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(-583.999 64 258.398) (-583.999 64 16) (-583.999 192 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 243 160"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "14"
+		side
+		{
+			"id" "36"
+			"plane" "(-839.999 192 16) (-584 192 16) (-584.001 192 258.398)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(-839.999 176 258.4) (-839.999 192 258.4) (-584 192 258.4)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(-584.001 192 16) (-839.999 192 16) (-839.999 176 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(-840 176 16) (-840 192 16) (-840 192 258.398)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(-584 192 258.398) (-584 192 16) (-584 176 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "31"
+			"plane" "(-584.001 176 16) (-839.999 176 16) (-839.999 176 258.398)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 197 198"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "16"
+		side
+		{
+			"id" "42"
+			"plane" "(-584.001 64 16) (-839.999 64 16) (-839.999 64 258.398)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(-584.001 64 258.4) (-839.999 64 258.4) (-839.999 80 258.4)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(-839.999 80 16) (-839.999 64 16) (-584 64 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39"
+			"plane" "(-840 64 258.398) (-840 64 16) (-840 80 16)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "38"
+			"plane" "(-584 80 16) (-584 64 16) (-584 64 258.398)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "37"
+			"plane" "(-839.999 80 16) (-584 80 16) (-584.001 80 258.398)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 143 148"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "75"
+		side
+		{
+			"id" "43"
+			"plane" "(-720 176 256) (-704 176 256) (-704 80 256)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(-720 80 32) (-704 80 32) (-704 176 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(-720 176 256) (-720 80 256) (-720 80 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(-704 176 32) (-704 80 32) (-704 80 256)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(-704 176 256) (-720 176 256) (-720 176 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "48"
+			"plane" "(-704 80 32) (-720 80 32) (-720 80 256)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 171 248"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "206"
+		side
+		{
+			"id" "59"
+			"plane" "(-840 176 256) (-720 176 256) (-720 128 256)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58"
+			"plane" "(-840 176 32) (-720 128 32) (-720 176 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(-720 176 32) (-720 128 32) (-720 128 256)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56"
+			"plane" "(-840 176 32) (-720 176 32) (-720 176 256)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55"
+			"plane" "(-720 128 32) (-840 176 32) (-840 176 256)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 229 202"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "208"
+		side
+		{
+			"id" "69"
+			"plane" "(-720 128 256) (-720 80 256) (-840 80 256)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "68"
+			"plane" "(-720 80 32) (-720 128 32) (-840 80 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "67"
+			"plane" "(-720 80 256) (-720 128 256) (-720 128 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "66"
+			"plane" "(-840 80 256) (-720 80 256) (-720 80 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "65"
+			"plane" "(-720 128 256) (-840 80 256) (-840 80 32)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 123 184"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "6138"
+	"classname" "math_counter"
+	"max" "102"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_mp9"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_novaEnable0.02-1"
+		"OnHitMax" "math_weapon_novaSetValue00.01-1"
+		"OnHitMax" "math_weapon_mp9Disable0-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers2-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers4-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers6-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers8-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers10-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers12-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers14-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers16-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers18-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers20-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers22-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers24-1"
+		"OnChangedFromMin" "equip_weapon_mp9TriggerForAllPlayers26-1"
+	}
+	"origin" "-648 152 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "6140"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_mp9"
+	"weapon_mp9" "1"
+	"origin" "-632 152 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "6468"
+	"classname" "point_give_ammo"
+	"targetname" "give_ammo"
+	"origin" "-624 88 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "6625"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_nova"
+	"weapon_nova" "1"
+	"origin" "-632 168 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "6627"
+	"classname" "math_counter"
+	"max" "102"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_nova"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_novaTriggerForAllPlayers0-1"
+		"OnChangedFromMin" "equip_weapon_novaTriggerForAllPlayers8-1"
+		"OnChangedFromMin" "equip_weapon_novaTriggerForAllPlayers16-1"
+		"OnHitMax" "math_weapon_negevEnable0.02-1"
+		"OnHitMax" "math_weapon_negevSetValue00.01-1"
+		"OnHitMax" "math_weapon_novaDisable0-1"
+		"OnChangedFromMin" "equip_weapon_novaTriggerForAllPlayers20-1"
+	}
+	"origin" "-648 168 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "6829"
+	"classname" "math_counter"
+	"max" "102"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_negev"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers0-1"
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers16-1"
+		"OnHitMax" "math_weapon_deagleEnable0.02-1"
+		"OnHitMax" "math_weapon_deagleSetValue00.01-1"
+		"OnHitMax" "math_weapon_negevDisable0-1"
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers4-1"
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers8-1"
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers12-1"
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers20-1"
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers2-1"
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers6-1"
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers10-1"
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers14-1"
+		"OnChangedFromMin" "equip_weapon_negevTriggerForAllPlayers18-1"
+	}
+	"origin" "-688 88 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "6831"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_negev"
+	"weapon_negev" "1"
+	"origin" "-672 88 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "6990"
+	"classname" "math_counter"
+	"max" "202"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_deagle"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_xm1014Enable0.02-1"
+		"OnHitMax" "math_weapon_xm1014SetValue00.01-1"
+		"OnHitMax" "math_weapon_deagleDisable0-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers3-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers6-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers9-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers12-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers15-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers18-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers21-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers24-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers27-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers30-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers33-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers36-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers39-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers42-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers45-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers48-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers51-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers64-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers67-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers70-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers73-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers76-1"
+		"OnChangedFromMin" "equip_weapon_deagleTriggerForAllPlayers79-1"
+	}
+	"origin" "-688 104 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "6992"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_deagle"
+	"weapon_deagle" "1"
+	"origin" "-672 104 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "7146"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_xm1014"
+	"weapon_xm1014" "1"
+	"origin" "-672 120 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "7148"
+	"classname" "math_counter"
+	"max" "202"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_xm1014"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_xm1014TriggerForAllPlayers0-1"
+		"OnChangedFromMin" "equip_weapon_xm1014TriggerForAllPlayers5-1"
+		"OnHitMax" "math_weapon_augEnable0.02-1"
+		"OnHitMax" "math_weapon_augSetValue00.01-1"
+		"OnHitMax" "math_weapon_xm1014Disable0-1"
+		"OnChangedFromMin" "equip_weapon_xm1014TriggerForAllPlayers10-1"
+		"OnChangedFromMin" "equip_weapon_xm1014TriggerForAllPlayers15-1"
+		"OnChangedFromMin" "equip_weapon_xm1014TriggerForAllPlayers20-1"
+		"OnChangedFromMin" "equip_weapon_xm1014TriggerForAllPlayers25-1"
+		"OnChangedFromMin" "equip_weapon_xm1014TriggerForAllPlayers30-1"
+		"OnChangedFromMin" "equip_weapon_xm1014TriggerForAllPlayers34-1"
+		"OnChangedFromMin" "equip_weapon_xm1014TriggerForAllPlayers36-1"
+	}
+	"origin" "-688 120 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "7417"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_aug"
+	"weapon_aug" "1"
+	"origin" "-672 136 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "7419"
+	"classname" "math_counter"
+	"max" "252"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_aug"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers0-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers5-1"
+		"OnHitMax" "math_weapon_ump45Enable0.02-1"
+		"OnHitMax" "math_weapon_ump45SetValue00.01-1"
+		"OnHitMax" "math_weapon_augDisable0-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers10-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers15-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers20-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers25-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers30-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers35-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers40-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers45-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers50-1"
+		"OnChangedFromMin" "equip_weapon_augTriggerForAllPlayers54-1"
+	}
+	"origin" "-688 136 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "7525"
+	"classname" "math_counter"
+	"max" "256"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_ump45"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers0-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers5-1"
+		"OnHitMax" "math_weapon_bizonEnable0.02-1"
+		"OnHitMax" "math_weapon_bizonSetValue00.01-1"
+		"OnHitMax" "math_weapon_ump45Disable0-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers10-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers15-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers20-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers25-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers30-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers35-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers40-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers45-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers50-1"
+		"OnChangedFromMin" "equip_weapon_ump45TriggerForAllPlayers54-1"
+	}
+	"origin" "-688 152 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "7527"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_ump45"
+	"weapon_ump45" "1"
+	"origin" "-672 152 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "7681"
+	"classname" "math_counter"
+	"max" "256"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_bizon"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_bizonTriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_mp7Enable0.02-1"
+		"OnHitMax" "math_weapon_mp7SetValue00.01-1"
+		"OnHitMax" "math_weapon_bizonDisable0-1"
+		"OnChangedFromMin" "equip_weapon_bizonTriggerForAllPlayers10-1"
+		"OnChangedFromMin" "equip_weapon_bizonTriggerForAllPlayers20-1"
+		"OnChangedFromMin" "equip_weapon_bizonTriggerForAllPlayers30-1"
+		"OnChangedFromMin" "equip_weapon_bizonTriggerForAllPlayers40-1"
+		"OnChangedFromMin" "equip_weapon_bizonTriggerForAllPlayers50-1"
+	}
+	"origin" "-688 168 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "7683"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_bizon"
+	"weapon_bizon" "1"
+	"origin" "-672 168 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "8441"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_mp7"
+	"weapon_mp7" "1"
+	"origin" "-592 88 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "8443"
+	"classname" "math_counter"
+	"max" "285"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_mp7"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers0-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers5-1"
+		"OnHitMax" "math_weapon_awpEnable0.02-1"
+		"OnHitMax" "math_weapon_awpSetValue00.01-1"
+		"OnHitMax" "math_weapon_mp7Disable0-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers10-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers15-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers20-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers25-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers30-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers35-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers40-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers45-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers50-1"
+		"OnChangedFromMin" "equip_weapon_mp7TriggerForAllPlayers55-1"
+	}
+	"origin" "-608 88 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "8593"
+	"classname" "math_counter"
+	"max" "502"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_awp"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_p90Enable0.02-1"
+		"OnHitMax" "math_weapon_p90SetValue00.01-1"
+		"OnHitMax" "math_weapon_awpDisable0-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers10-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers20-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers30-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers40-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers50-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers60-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers70-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers80-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers90-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers100-1"
+		"OnChangedFromMin" "clientCommand+attack21.2-1"
+		"OnChangedFromMin" "serverCommand+attack21.2-1"
+		"OnChangedFromMin" "clientCommand-attack29.9-1"
+		"OnChangedFromMin" "serverCommand-attack29.9-1"
+		"OnChangedFromMin" "serverCommand-attack219.9-1"
+		"OnChangedFromMin" "clientCommand-attack219.9-1"
+		"OnChangedFromMin" "serverCommand+attack211.2-1"
+		"OnChangedFromMin" "clientCommand+attack211.2-1"
+		"OnChangedFromMin" "clientCommand-attack229.9-1"
+		"OnChangedFromMin" "serverCommand-attack229.9-1"
+		"OnChangedFromMin" "clientCommand+attack221.2-1"
+		"OnChangedFromMin" "serverCommand+attack221.2-1"
+		"OnChangedFromMin" "serverCommand-attack239.9-1"
+		"OnChangedFromMin" "clientCommand-attack239.9-1"
+		"OnChangedFromMin" "serverCommand+attack231.2-1"
+		"OnChangedFromMin" "clientCommand+attack231.2-1"
+		"OnChangedFromMin" "clientCommand-attack249.9-1"
+		"OnChangedFromMin" "serverCommand-attack249.9-1"
+		"OnChangedFromMin" "clientCommand+attack241.2-1"
+		"OnChangedFromMin" "serverCommand+attack241.2-1"
+		"OnChangedFromMin" "serverCommand-attack259.9-1"
+		"OnChangedFromMin" "clientCommand-attack259.9-1"
+		"OnChangedFromMin" "serverCommand+attack251.2-1"
+		"OnChangedFromMin" "clientCommand+attack251.2-1"
+		"OnChangedFromMin" "clientCommand-attack269.9-1"
+		"OnChangedFromMin" "serverCommand-attack269.9-1"
+		"OnChangedFromMin" "clientCommand+attack261.2-1"
+		"OnChangedFromMin" "serverCommand+attack261.2-1"
+		"OnChangedFromMin" "serverCommand-attack279.9-1"
+		"OnChangedFromMin" "clientCommand-attack279.9-1"
+		"OnChangedFromMin" "serverCommand+attack271.2-1"
+		"OnChangedFromMin" "clientCommand+attack271.2-1"
+		"OnChangedFromMin" "clientCommand-attack289.9-1"
+		"OnChangedFromMin" "serverCommand-attack289.9-1"
+		"OnChangedFromMin" "clientCommand+attack281.2-1"
+		"OnChangedFromMin" "serverCommand+attack281.2-1"
+		"OnChangedFromMin" "serverCommand-attack299.9-1"
+		"OnChangedFromMin" "clientCommand-attack299.9-1"
+		"OnChangedFromMin" "serverCommand+attack291.2-1"
+		"OnChangedFromMin" "clientCommand+attack291.2-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers110-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers120-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers130-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers140-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers150-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers160-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers170-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers180-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers190-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers200-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers210-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers220-1"
+		"OnChangedFromMin" "clientCommand-attack2109.9-1"
+		"OnChangedFromMin" "serverCommand-attack2109.9-1"
+		"OnChangedFromMin" "clientCommand+attack2101.2-1"
+		"OnChangedFromMin" "serverCommand+attack2101.2-1"
+		"OnChangedFromMin" "serverCommand-attack2119.9-1"
+		"OnChangedFromMin" "clientCommand-attack2119.9-1"
+		"OnChangedFromMin" "serverCommand+attack2111.2-1"
+		"OnChangedFromMin" "clientCommand+attack2111.2-1"
+		"OnChangedFromMin" "clientCommand-attack2129.9-1"
+		"OnChangedFromMin" "serverCommand-attack2129.9-1"
+		"OnChangedFromMin" "clientCommand+attack2121.2-1"
+		"OnChangedFromMin" "serverCommand+attack2121.2-1"
+		"OnChangedFromMin" "serverCommand-attack2139.9-1"
+		"OnChangedFromMin" "clientCommand-attack2139.9-1"
+		"OnChangedFromMin" "serverCommand+attack2131.2-1"
+		"OnChangedFromMin" "clientCommand+attack2131.2-1"
+		"OnChangedFromMin" "clientCommand-attack2149.9-1"
+		"OnChangedFromMin" "serverCommand-attack2149.9-1"
+		"OnChangedFromMin" "clientCommand+attack2141.2-1"
+		"OnChangedFromMin" "serverCommand+attack2141.2-1"
+		"OnChangedFromMin" "serverCommand-attack2159.9-1"
+		"OnChangedFromMin" "clientCommand-attack2159.9-1"
+		"OnChangedFromMin" "serverCommand+attack2151.2-1"
+		"OnChangedFromMin" "clientCommand+attack2151.2-1"
+		"OnChangedFromMin" "clientCommand-attack2169.9-1"
+		"OnChangedFromMin" "serverCommand-attack2169.9-1"
+		"OnChangedFromMin" "clientCommand+attack2161.2-1"
+		"OnChangedFromMin" "serverCommand+attack2161.2-1"
+		"OnChangedFromMin" "serverCommand-attack2179.9-1"
+		"OnChangedFromMin" "clientCommand-attack2179.9-1"
+		"OnChangedFromMin" "serverCommand+attack2171.2-1"
+		"OnChangedFromMin" "clientCommand+attack2171.2-1"
+		"OnChangedFromMin" "clientCommand-attack2189.9-1"
+		"OnChangedFromMin" "serverCommand-attack2189.9-1"
+		"OnChangedFromMin" "clientCommand+attack2181.2-1"
+		"OnChangedFromMin" "serverCommand+attack2181.2-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers240-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers230-1"
+		"OnChangedFromMin" "serverCommand-attack2199.9-1"
+		"OnChangedFromMin" "clientCommand-attack2199.9-1"
+		"OnChangedFromMin" "serverCommand+attack2191.2-1"
+		"OnChangedFromMin" "clientCommand+attack2191.2-1"
+		"OnChangedFromMin" "clientCommand-attack2209.9-1"
+		"OnChangedFromMin" "serverCommand-attack2209.9-1"
+		"OnChangedFromMin" "clientCommand+attack2201.2-1"
+		"OnChangedFromMin" "serverCommand+attack2201.2-1"
+		"OnChangedFromMin" "serverCommand-attack2219.9-1"
+		"OnChangedFromMin" "clientCommand-attack2219.9-1"
+		"OnChangedFromMin" "serverCommand+attack2211.2-1"
+		"OnChangedFromMin" "clientCommand+attack2211.2-1"
+		"OnChangedFromMin" "clientCommand-attack2229.9-1"
+		"OnChangedFromMin" "serverCommand-attack2229.9-1"
+		"OnChangedFromMin" "clientCommand+attack2221.2-1"
+		"OnChangedFromMin" "serverCommand+attack2221.2-1"
+		"OnChangedFromMin" "serverCommand-attack2239.9-1"
+		"OnChangedFromMin" "clientCommand-attack2239.9-1"
+		"OnChangedFromMin" "serverCommand+attack2231.2-1"
+		"OnChangedFromMin" "clientCommand+attack2231.2-1"
+		"OnChangedFromMin" "clientCommand+attack2-1"
+		"OnChangedFromMin" "serverCommand+attack2-1"
+		"OnChangedFromMin" "serverCommand+attack12-1"
+		"OnChangedFromMin" "clientCommand+attack12-1"
+		"OnChangedFromMin" "clientCommand+attack22-1"
+		"OnChangedFromMin" "serverCommand+attack22-1"
+		"OnChangedFromMin" "serverCommand+attack32-1"
+		"OnChangedFromMin" "clientCommand+attack32-1"
+		"OnChangedFromMin" "clientCommand+attack42-1"
+		"OnChangedFromMin" "serverCommand+attack42-1"
+		"OnChangedFromMin" "serverCommand+attack52-1"
+		"OnChangedFromMin" "clientCommand+attack52-1"
+		"OnChangedFromMin" "clientCommand+attack62-1"
+		"OnChangedFromMin" "serverCommand+attack62-1"
+		"OnChangedFromMin" "serverCommand+attack72-1"
+		"OnChangedFromMin" "clientCommand+attack72-1"
+		"OnChangedFromMin" "clientCommand+attack82-1"
+		"OnChangedFromMin" "serverCommand+attack82-1"
+		"OnChangedFromMin" "serverCommand+attack92-1"
+		"OnChangedFromMin" "clientCommand+attack92-1"
+		"OnChangedFromMin" "clientCommand+attack102-1"
+		"OnChangedFromMin" "serverCommand+attack102-1"
+		"OnChangedFromMin" "serverCommand+attack112-1"
+		"OnChangedFromMin" "clientCommand+attack112-1"
+		"OnChangedFromMin" "clientCommand+attack122-1"
+		"OnChangedFromMin" "serverCommand+attack122-1"
+		"OnChangedFromMin" "serverCommand+attack132-1"
+		"OnChangedFromMin" "clientCommand+attack132-1"
+		"OnChangedFromMin" "clientCommand+attack142-1"
+		"OnChangedFromMin" "serverCommand+attack142-1"
+		"OnChangedFromMin" "serverCommand+attack152-1"
+		"OnChangedFromMin" "clientCommand+attack152-1"
+		"OnChangedFromMin" "clientCommand+attack162-1"
+		"OnChangedFromMin" "serverCommand+attack162-1"
+		"OnChangedFromMin" "serverCommand+attack172-1"
+		"OnChangedFromMin" "clientCommand+attack172-1"
+		"OnChangedFromMin" "clientCommand+attack182-1"
+		"OnChangedFromMin" "serverCommand+attack182-1"
+		"OnChangedFromMin" "serverCommand+attack192-1"
+		"OnChangedFromMin" "clientCommand+attack192-1"
+		"OnChangedFromMin" "clientCommand+attack202-1"
+		"OnChangedFromMin" "serverCommand+attack202-1"
+		"OnChangedFromMin" "serverCommand+attack212-1"
+		"OnChangedFromMin" "clientCommand+attack212-1"
+		"OnChangedFromMin" "clientCommand+attack222-1"
+		"OnChangedFromMin" "serverCommand+attack222-1"
+		"OnChangedFromMin" "serverCommand+attack232-1"
+		"OnChangedFromMin" "clientCommand+attack232-1"
+		"OnChangedFromMin" "serverCommand-attack9.9-1"
+		"OnChangedFromMin" "clientCommand-attack9.9-1"
+		"OnChangedFromMin" "clientCommand-attack19.9-1"
+		"OnChangedFromMin" "serverCommand-attack19.9-1"
+		"OnChangedFromMin" "serverCommand-attack29.9-1"
+		"OnChangedFromMin" "clientCommand-attack29.9-1"
+		"OnChangedFromMin" "clientCommand-attack39.9-1"
+		"OnChangedFromMin" "serverCommand-attack39.9-1"
+		"OnChangedFromMin" "serverCommand-attack49.9-1"
+		"OnChangedFromMin" "clientCommand-attack49.9-1"
+		"OnChangedFromMin" "clientCommand-attack59.9-1"
+		"OnChangedFromMin" "serverCommand-attack59.9-1"
+		"OnChangedFromMin" "serverCommand-attack69.9-1"
+		"OnChangedFromMin" "clientCommand-attack69.9-1"
+		"OnChangedFromMin" "clientCommand-attack79.9-1"
+		"OnChangedFromMin" "serverCommand-attack79.9-1"
+		"OnChangedFromMin" "serverCommand-attack89.9-1"
+		"OnChangedFromMin" "clientCommand-attack89.9-1"
+		"OnChangedFromMin" "clientCommand-attack99.9-1"
+		"OnChangedFromMin" "serverCommand-attack99.9-1"
+		"OnChangedFromMin" "serverCommand-attack109.9-1"
+		"OnChangedFromMin" "clientCommand-attack109.9-1"
+		"OnChangedFromMin" "clientCommand-attack119.9-1"
+		"OnChangedFromMin" "serverCommand-attack119.9-1"
+		"OnChangedFromMin" "serverCommand-attack129.9-1"
+		"OnChangedFromMin" "clientCommand-attack129.9-1"
+		"OnChangedFromMin" "clientCommand-attack139.9-1"
+		"OnChangedFromMin" "serverCommand-attack139.9-1"
+		"OnChangedFromMin" "serverCommand-attack149.9-1"
+		"OnChangedFromMin" "clientCommand-attack149.9-1"
+		"OnChangedFromMin" "clientCommand-attack159.9-1"
+		"OnChangedFromMin" "serverCommand-attack159.9-1"
+		"OnChangedFromMin" "serverCommand-attack169.9-1"
+		"OnChangedFromMin" "clientCommand-attack169.9-1"
+		"OnChangedFromMin" "clientCommand-attack179.9-1"
+		"OnChangedFromMin" "serverCommand-attack179.9-1"
+		"OnChangedFromMin" "serverCommand-attack189.9-1"
+		"OnChangedFromMin" "clientCommand-attack189.9-1"
+		"OnChangedFromMin" "clientCommand-attack199.9-1"
+		"OnChangedFromMin" "serverCommand-attack199.9-1"
+		"OnChangedFromMin" "serverCommand-attack209.9-1"
+		"OnChangedFromMin" "clientCommand-attack209.9-1"
+		"OnChangedFromMin" "clientCommand-attack219.9-1"
+		"OnChangedFromMin" "serverCommand-attack219.9-1"
+		"OnChangedFromMin" "serverCommand-attack229.9-1"
+		"OnChangedFromMin" "clientCommand-attack229.9-1"
+		"OnChangedFromMin" "clientCommand-attack239.9-1"
+		"OnChangedFromMin" "serverCommand-attack239.9-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers245-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers250-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers255-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers260-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers265-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers270-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers275-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers280-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers285-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers290-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers295-1"
+		"OnChangedFromMin" "equip_weapon_awpTriggerForAllPlayers300-1"
+	}
+	"origin" "-608 104 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "8595"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_awp"
+	"weapon_awp" "1"
+	"origin" "-592 104 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "9050"
+	"classname" "math_counter"
+	"max" "502"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_p90"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_m4a1Enable0.02-1"
+		"OnHitMax" "math_weapon_m4a1SetValue00.01-1"
+		"OnHitMax" "math_weapon_p90Disable0-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers10-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers20-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers30-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers40-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers50-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers60-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers70-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers80-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers90-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers100-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers110-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers120-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers130-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers140-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers150-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers160-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers170-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers180-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers190-1"
+		"OnChangedFromMin" "equip_weapon_p90TriggerForAllPlayers200-1"
+	}
+	"origin" "-608 120 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "9052"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_p90"
+	"weapon_p90" "1"
+	"origin" "-592 120 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "9200"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_m4a1"
+	"weapon_m4a1" "1"
+	"origin" "-592 136 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "9202"
+	"classname" "math_counter"
+	"max" "1002"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_m4a1"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers0-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers10-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers20-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers30-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers40-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers50-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers60-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers70-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers80-1"
+		"OnHitMax" "equip_nothingTriggerForAllPlayers0-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers90-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers100-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers110-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers120-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers130-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers140-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers150-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers160-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers170-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers180-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers190-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers200-1"
+		"OnHitMax" "math_weapon_m4a1Disable0-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers210-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers220-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers230-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers240-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers250-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers260-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers270-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers280-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers290-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers300-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers310-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers320-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers330-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers340-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers350-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers360-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers370-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers380-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers390-1"
+		"OnChangedFromMin" "equip_weapon_m4a1TriggerForAllPlayers400-1"
+	}
+	"origin" "-608 136 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "9904"
+	"classname" "math_counter"
+	"max" "100"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_usp_silencer"
+	connections
+	{
+		"OnHitMax" "math_weapon_taserSetValue00.01-1"
+		"OnHitMax" "math_weapon_taserEnable0.02-1"
+		"OnHitMax" "math_weapon_usp_silencerDisable0-1"
+		"OnChangedFromMin" "equip_weapon_usp_silencerTriggerForAllPlayers3-1"
+		"OnChangedFromMin" "equip_weapon_usp_silencerTriggerForAllPlayers0-1"
+		"OnChangedFromMin" "equip_weapon_usp_silencerTriggerForAllPlayers6-1"
+		"OnChangedFromMin" "equip_weapon_usp_silencerTriggerForAllPlayers9-1"
+		"OnChangedFromMin" "equip_weapon_usp_silencerTriggerForAllPlayers12-1"
+		"OnChangedFromMin" "equip_weapon_usp_silencerTriggerForAllPlayers15-1"
+		"OnChangedFromMin" "equip_weapon_usp_silencerTriggerForAllPlayers18-1"
+		"OnChangedFromMin" "equip_weapon_usp_silencerTriggerForAllPlayers21-1"
+		"OnChangedFromMin" "equip_weapon_usp_silencerTriggerForAllPlayers24-1"
+		"OnChangedFromMin" "equip_weapon_usp_silencerTriggerForAllPlayers26-1"
+	}
+	"origin" "-608 120 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "9906"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_usp_silencer"
+	"weapon_usp_silencer" "1"
+	"origin" "-592 120 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "633"
+	"classname" "info_map_parameters"
+	"angles" "0 0 0"
+	"bombradius" "500"
+	"botmaxvisiondistance" "-1"
+	"buying" "0"
+	"disableautogenerateddmspawns" "1"
+	"petpopulation" "0"
+	"usenormalspawnsfordm" "1"
+	"origin" "-592 88 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "799"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_taser"
+	"weapon_taser" "1"
+	"origin" "-592 88 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "814"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_elite"
+	"weapon_elite" "1"
+	"origin" "-592 104 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "822"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_fiveseven"
+	"weapon_fiveseven" "1"
+	"origin" "-592 120 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "826"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_p250"
+	"weapon_p250" "1"
+	"origin" "-592 136 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "840"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_mag7"
+	"weapon_mag7" "1"
+	"origin" "-592 152 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "842"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_sawedoff"
+	"weapon_sawedoff" "1"
+	"origin" "-592 168 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "952"
+	"classname" "math_counter"
+	"max" "12"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_taser"
+	connections
+	{
+		"OutValue" "equip_weapon_taserTriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_taserDisable0-1"
+		"OnHitMax" "math_weapon_eliteSetValue00.01-1"
+		"OnHitMax" "math_weapon_eliteEnable0.02-1"
+	}
+	"origin" "-608 88 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "1586"
+	"classname" "math_counter"
+	"max" "2"
+	"min" "0"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "CT_trigger_attack_counter"
+	connections
+	{
+		"OnHitMax" "CT_trigger_attack_counterSetValue00-1"
+		"OutValue" "CT_trigger_attackDisable0-1"
+		"OutValue" "CT_trigger_attackEnable0.01-1"
+	}
+	"origin" "-623.261 144 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "1749"
+	"classname" "trigger_once"
+	"origin" "-644 128 36"
+	"spawnflags" "4097"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnStartTouch" "serverCommand-attack3.2-1"
+		"OnStartTouch" "clientCommand-attack3.2-1"
+		"OnStartTouch" "clientCommand+attack3.1-1"
+		"OnStartTouch" "serverCommand+attack3.1-1"
+		"OnStartTouch" "clientCommand-attack2.2-1"
+		"OnStartTouch" "serverCommand-attack2.2-1"
+		"OnStartTouch" "serverCommand+attack2.1-1"
+		"OnStartTouch" "clientCommand+attack2.1-1"
+		"OnStartTouch" "serverCommand-attack1.2-1"
+		"OnStartTouch" "clientCommand-attack1.2-1"
+		"OnStartTouch" "clientCommand+attack1.1-1"
+		"OnStartTouch" "serverCommand+attack1.1-1"
+		"OnStartTouch" "clientCommand-attack0.2-1"
+		"OnStartTouch" "serverCommand-attack0.2-1"
+		"OnStartTouch" "serverCommand+attack0.1-1"
+		"OnStartTouch" "clientCommand+attack0.1-1"
+		"OnStartTouch" "!activatorAddOutputhealth 9990-1"
+		"OnStartTouch" "clientCommand-attack20-1"
+		"OnStartTouch" "serverCommand-attack20-1"
+		"OnStartTouch" "serverCommand-attack0-1"
+		"OnStartTouch" "clientCommand-attack0-1"
+		"OnStartTouch" "clientCommand-attack4.2-1"
+		"OnStartTouch" "serverCommand-attack4.2-1"
+		"OnStartTouch" "serverCommand+attack4.1-1"
+		"OnStartTouch" "clientCommand+attack4.1-1"
+		"OnStartTouch" "serverCommand-attack5.2-1"
+		"OnStartTouch" "clientCommand-attack5.2-1"
+		"OnStartTouch" "clientCommand+attack5.1-1"
+		"OnStartTouch" "serverCommand+attack5.1-1"
+		"OnStartTouch" "math_weapon_usp_silencerSetValue05-1"
+		"OnStartTouch" "math_weapon_usp_silencerEnable5.01-1"
+	}
+	solid
+	{
+		"id" "1745"
+		side
+		{
+			"id" "199"
+			"plane" "(-704 176 40) (-584 176 40) (-584 80 40)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "198"
+			"plane" "(-704 80 32) (-584 80 32) (-584 176 32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "197"
+			"plane" "(-704 176 40) (-704 80 40) (-704 80 32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "196"
+			"plane" "(-584 176 32) (-584 80 32) (-584 80 40)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "195"
+			"plane" "(-584 176 40) (-704 176 40) (-704 176 32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "194"
+			"plane" "(-584 80 32) (-704 80 32) (-704 80 40)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "1867"
+	"classname" "math_counter"
+	"max" "26"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_elite"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_eliteTriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_eliteDisable0-1"
+		"OnHitMax" "math_weapon_fivesevenSetValue00.01-1"
+		"OnHitMax" "math_weapon_fivesevenEnable0.02-1"
+		"OnChangedFromMin" "equip_weapon_eliteTriggerForAllPlayers4-1"
+	}
+	"origin" "-608 104 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "2412"
+	"classname" "math_counter"
+	"max" "26"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_fiveseven"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_fivesevenTriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_fivesevenDisable0-1"
+		"OnHitMax" "math_weapon_p250SetValue00.01-1"
+		"OnHitMax" "math_weapon_p250Enable0.02-1"
+		"OnChangedFromMin" "equip_weapon_fivesevenTriggerForAllPlayers4-1"
+	}
+	"origin" "-608 120 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "2502"
+	"classname" "math_counter"
+	"max" "26"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_p250"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_p250TriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_p250Disable0-1"
+		"OnHitMax" "math_weapon_mag7SetValue00.01-1"
+		"OnHitMax" "math_weapon_mag7Enable0.02-1"
+		"OnChangedFromMin" "equip_weapon_p250TriggerForAllPlayers4-1"
+		"OnChangedFromMin" "equip_weapon_p250TriggerForAllPlayers6-1"
+	}
+	"origin" "-608 136 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "2550"
+	"classname" "math_counter"
+	"max" "52"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_mag7"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_mag7TriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_mag7Disable0-1"
+		"OnHitMax" "math_weapon_sawedoffSetValue00.01-1"
+		"OnHitMax" "math_weapon_sawedoffEnable0.02-1"
+		"OnChangedFromMin" "equip_weapon_mag7TriggerForAllPlayers4-1"
+		"OnChangedFromMin" "equip_weapon_mag7TriggerForAllPlayers6-1"
+	}
+	"origin" "-608 152 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "2658"
+	"classname" "math_counter"
+	"max" "52"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_sawedoff"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_sawedoffTriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_sawedoffDisable0-1"
+		"OnHitMax" "math_weapon_famasEnable0.02-1"
+		"OnHitMax" "math_weapon_famasSetValue00.01-1"
+		"OnChangedFromMin" "equip_weapon_sawedoffTriggerForAllPlayers4-1"
+		"OnChangedFromMin" "equip_weapon_sawedoffTriggerForAllPlayers8-1"
+	}
+	"origin" "-608 168 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "3688"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_famas"
+	"weapon_famas" "1"
+	"origin" "-632 88 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "3690"
+	"classname" "math_counter"
+	"max" "105"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_famas"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_famasTriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_famasDisable0-1"
+		"OnHitMax" "math_weapon_m249SetValue00.01-1"
+		"OnHitMax" "math_weapon_m249Enable0.02-1"
+		"OnChangedFromMin" "equip_weapon_famasTriggerForAllPlayers4-1"
+		"OnChangedFromMin" "equip_weapon_famasTriggerForAllPlayers8-1"
+		"OnChangedFromMin" "equip_weapon_famasTriggerForAllPlayers12-1"
+		"OnChangedFromMin" "equip_weapon_famasTriggerForAllPlayers16-1"
+		"OnChangedFromMin" "equip_weapon_famasTriggerForAllPlayers20-1"
+	}
+	"origin" "-648 88 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "5271"
+	"classname" "math_counter"
+	"max" "102"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_m249"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_m249TriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_m249Disable0-1"
+		"OnChangedFromMin" "equip_weapon_m249TriggerForAllPlayers16-1"
+		"OnHitMax" "math_weapon_scar20Enable0.02-1"
+		"OnHitMax" "math_weapon_scar20SetValue00.01-1"
+		"OnChangedFromMin" "equip_weapon_m249TriggerForAllPlayers24-1"
+	}
+	"origin" "-648 104 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "5273"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_m249"
+	"weapon_m249" "1"
+	"origin" "-632 104 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5441"
+	"classname" "math_counter"
+	"max" "102"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_scar20"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_scar20TriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_scar20Disable0-1"
+		"OnChangedFromMin" "equip_weapon_scar20TriggerForAllPlayers8-1"
+		"OnChangedFromMin" "equip_weapon_scar20TriggerForAllPlayers16-1"
+		"OnHitMax" "math_weapon_ssg08Enable0.02-1"
+		"OnHitMax" "math_weapon_ssg08SetValue00.01-1"
+		"OnChangedFromMin" "clientCommand+attack21.2-1"
+		"OnChangedFromMin" "serverCommand+attack21.2-1"
+		"OnChangedFromMin" "serverCommand-attack27.9-1"
+		"OnChangedFromMin" "clientCommand-attack27.9-1"
+		"OnChangedFromMin" "clientCommand-attack215.9-1"
+		"OnChangedFromMin" "serverCommand-attack215.9-1"
+		"OnChangedFromMin" "serverCommand+attack29.2-1"
+		"OnChangedFromMin" "clientCommand+attack29.2-1"
+		"OnChangedFromMin" "equip_weapon_scar20TriggerForAllPlayers18-1"
+	}
+	"origin" "-648 120 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "5443"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_scar20"
+	"weapon_scar20" "1"
+	"origin" "-632 120 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5685"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_weapon_ssg08"
+	"weapon_ssg08" "1"
+	"origin" "-632 136 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5687"
+	"classname" "math_counter"
+	"max" "102"
+	"min" "0"
+	"StartDisabled" "1"
+	"startvalue" "0"
+	"targetname" "math_weapon_ssg08"
+	connections
+	{
+		"OnChangedFromMin" "equip_weapon_ssg08TriggerForAllPlayers0-1"
+		"OnHitMax" "math_weapon_ssg08Disable0-1"
+		"OnChangedFromMin" "clientCommand+attack21.2-1"
+		"OnChangedFromMin" "serverCommand+attack21.2-1"
+		"OnChangedFromMin" "serverCommand-attack214.9-1"
+		"OnChangedFromMin" "clientCommand-attack214.9-1"
+		"OnHitMax" "math_weapon_mp9Enable0.02-1"
+		"OnHitMax" "math_weapon_mp9SetValue00.01-1"
+		"OnChangedFromMin" "equip_weapon_ssg08TriggerForAllPlayers15-1"
+		"OnChangedFromMin" "clientCommand-attack229.9-1"
+		"OnChangedFromMin" "serverCommand-attack229.9-1"
+		"OnChangedFromMin" "serverCommand+attack216.2-1"
+		"OnChangedFromMin" "clientCommand+attack216.2-1"
+		"OnChangedFromMin" "equip_weapon_ssg08TriggerForAllPlayers30-1"
+		"OnChangedFromMin" "serverCommand-attack244.9-1"
+		"OnChangedFromMin" "clientCommand-attack244.9-1"
+		"OnChangedFromMin" "clientCommand+attack231.2-1"
+		"OnChangedFromMin" "serverCommand+attack231.2-1"
+		"OnChangedFromMin" "equip_weapon_ssg08TriggerForAllPlayers45-1"
+		"OnChangedFromMin" "clientCommand-attack259.9-1"
+		"OnChangedFromMin" "serverCommand-attack259.9-1"
+		"OnChangedFromMin" "serverCommand+attack246.2-1"
+		"OnChangedFromMin" "clientCommand+attack246.2-1"
+		"OnChangedFromMin" "clientCommand+attack30-1"
+		"OnChangedFromMin" "clientCommand-attack31-1"
+	}
+	"origin" "-648 136 152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "539"
+	"classname" "game_player_equip"
+	"spawnflags" "3"
+	"targetname" "equip_nothing"
+	"origin" "-680 96 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "595"
+	"classname" "trigger_multiple"
+	"origin" "-776 128 90"
+	"spawnflags" "4097"
+	"StartDisabled" "0"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "equip_nothingUse10.01-1"
+		"OnEndTouch" "math_weapon_taserAdd10-1"
+		"OnEndTouch" "CT_trigger_attack_counterAdd10.01-1"
+		"OnEndTouch" "math_weapon_eliteAdd10-1"
+		"OnEndTouch" "math_weapon_fivesevenAdd10-1"
+		"OnEndTouch" "math_weapon_p250Add10-1"
+		"OnEndTouch" "math_weapon_mag7Add10-1"
+		"OnEndTouch" "math_weapon_sawedoffAdd10-1"
+		"OnEndTouch" "math_weapon_famasAdd10-1"
+		"OnEndTouch" "math_weapon_m249Add10-1"
+		"OnEndTouch" "math_weapon_scar20Add10-1"
+		"OnEndTouch" "math_weapon_ssg08Add10-1"
+		"OnEndTouch" "math_weapon_mp9Add10-1"
+		"OnEndTouch" "math_weapon_novaAdd10-1"
+		"OnEndTouch" "math_weapon_negevAdd10-1"
+		"OnEndTouch" "math_weapon_deagleAdd10-1"
+		"OnEndTouch" "math_weapon_xm1014Add10-1"
+		"OnEndTouch" "math_weapon_augAdd10-1"
+		"OnEndTouch" "math_weapon_ump45Add10-1"
+		"OnEndTouch" "math_weapon_bizonAdd10-1"
+		"OnEndTouch" "math_weapon_mp7Add10-1"
+		"OnEndTouch" "math_weapon_awpAdd10-1"
+		"OnEndTouch" "math_weapon_p90Add10-1"
+		"OnEndTouch" "math_weapon_m4a1Add10-1"
+		"OnEndTouch" "math_weapon_usp_silencerAdd10-1"
+	}
+	solid
+	{
+		"id" "590"
+		side
+		{
+			"id" "133"
+			"plane" "(-832 80 144) (-832 176 144) (-720 176 144)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "132"
+			"plane" "(-832 176 36) (-832 80 36) (-720 80 36)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "131"
+			"plane" "(-832 80 36) (-832 176 36) (-832 176 144)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "130"
+			"plane" "(-720 176 36) (-720 80 36) (-720 80 144)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "129"
+			"plane" "(-832 176 36) (-720 176 36) (-720 176 144)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "128"
+			"plane" "(-720 80 36) (-832 80 36) (-832 80 144)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "226"
+	"classname" "point_clientcommand"
+	"targetname" "client"
+	"origin" "-680 120 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "239"
+	"classname" "point_servercommand"
+	"targetname" "server"
+	"origin" "-680 136 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "266"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "clientCommandsv_cheats 00-1"
+		"OnMapSpawn" "serverCommandsv_cheats 00-1"
+		"OnMapSpawn" "serverCommandmp_autokick 00-1"
+		"OnMapSpawn" "clientCommandmp_autokick 00-1"
+		"OnMapSpawn" "clientCommandmp_roundtime 9999990-1"
+		"OnMapSpawn" "serverCommandmp_roundtime 9999990-1"
+		"OnMapSpawn" "serverCommandmp_autoteambalance 00-1"
+		"OnMapSpawn" "clientCommandmp_autoteambalance 00-1"
+		"OnMapSpawn" "clientCommandmp_limitteams 200-1"
+		"OnMapSpawn" "serverCommandmp_limitteams 200-1"
+		"OnMapSpawn" "serverCommandbot_difficulty 10-1"
+		"OnMapSpawn" "clientCommandbot_difficulty 10-1"
+		"OnMapSpawn" "clientCommandmp_warmup_end1-1"
+		"OnMapSpawn" "serverCommandmp_warmup_end1-1"
+		"OnMapSpawn" "clientCommandmp_freezetime 00-1"
+		"OnMapSpawn" "serverCommandmp_freezetime 00-1"
+		"OnMapSpawn" "serverCommandmp_maxrounds 99990-1"
+		"OnMapSpawn" "clientCommandmp_maxrounds 99990-1"
+		"OnMapSpawn" "clientCommandmp_round_restart_delay 00-1"
+		"OnMapSpawn" "serverCommandmp_round_restart_delay 00-1"
+		"OnMapSpawn" "serverCommandmp_match_restart_delay 00-1"
+		"OnMapSpawn" "clientCommandmp_match_restart_delay 00-1"
+		"OnMapSpawn" "clientCommandmp_randomspawn 10-1"
+		"OnMapSpawn" "serverCommandmp_randomspawn 10-1"
+		"OnMapSpawn" "clientCommandspec_freeze_time 00-1"
+		"OnMapSpawn" "serverCommandspec_freeze_time 00-1"
+		"OnMapSpawn" "serverCommandspec_freeze_time_lock 00-1"
+		"OnMapSpawn" "clientCommandspec_freeze_time_lock 00-1"
+		"OnMapSpawn" "clientCommandspec_freeze_deathanim_time 00-1"
+		"OnMapSpawn" "serverCommandspec_freeze_deathanim_time 00-1"
+		"OnMapSpawn" "serverCommandspec_freeze_panel_extended_time 00-1"
+		"OnMapSpawn" "clientCommandspec_freeze_panel_extended_time 00-1"
+		"OnMapSpawn" "clientCommandmp_maxmoney 10-1"
+		"OnMapSpawn" "serverCommandmp_maxmoney 10-1"
+		"OnMapSpawn" "serverCommandmp_startmoney 10-1"
+		"OnMapSpawn" "clientCommandmp_startmoney 10-1"
+		"OnMapSpawn" "clientCommandmp_afterroundmoney 10-1"
+		"OnMapSpawn" "serverCommandmp_afterroundmoney 10-1"
+		"OnMapSpawn" "serverCommandmp_buytime 00-1"
+		"OnMapSpawn" "clientCommandmp_buytime 00-1"
+		"OnMapSpawn" "clientCommandmp_buy_anywhere 00-1"
+		"OnMapSpawn" "serverCommandmp_buy_anywhere 00-1"
+		"OnMapSpawn" "serverCommandmp_respawn_immunitytime 00-1"
+		"OnMapSpawn" "clientCommandmp_respawn_immunitytime 00-1"
+		"OnMapSpawn" "clientCommandbot_kick ct1-1"
+		"OnMapSpawn" "serverCommandbot_kick ct1-1"
+		"OnMapSpawn" "serverCommandbot_kick ct2-1"
+		"OnMapSpawn" "clientCommandbot_kick ct2-1"
+		"OnMapSpawn" "clientCommandbot_kick ct3-1"
+		"OnMapSpawn" "serverCommandbot_kick ct3-1"
+		"OnMapSpawn" "serverCommandbot_kick ct4-1"
+		"OnMapSpawn" "clientCommandbot_kick ct4-1"
+		"OnMapSpawn" "clientCommandbot_kick ct5-1"
+		"OnMapSpawn" "serverCommandbot_kick ct5-1"
+	}
+	"origin" "-680 152 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "364"
+	"classname" "light_environment"
+	"_ambient" "255 255 255 20"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_AmbientScaleHDR" "1"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"angles" "-90 0 0"
+	"pitch" "-90"
+	"SunSpreadAngle" "0"
+	"origin" "-740 128 244"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "405"
+	"classname" "trigger_multiple"
+	"origin" "-644 128 86"
+	"spawnflags" "4097"
+	"StartDisabled" "0"
+	"targetname" "CT_trigger_attack"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "clientCommand-attack5.2-1"
+		"OnStartTouch" "serverCommand-attack5.2-1"
+		"OnStartTouch" "serverCommand+attack5.1-1"
+		"OnStartTouch" "clientCommand+attack5.1-1"
+		"OnStartTouch" "serverCommand-attack4.2-1"
+		"OnStartTouch" "clientCommand-attack4.2-1"
+		"OnStartTouch" "clientCommand+attack4.1-1"
+		"OnStartTouch" "serverCommand+attack4.1-1"
+		"OnStartTouch" "clientCommand-attack3.2-1"
+		"OnStartTouch" "serverCommand-attack3.2-1"
+		"OnStartTouch" "serverCommand+attack3.1-1"
+		"OnStartTouch" "clientCommand+attack3.1-1"
+		"OnStartTouch" "serverCommand-attack2.2-1"
+		"OnStartTouch" "clientCommand-attack2.2-1"
+		"OnStartTouch" "clientCommand+attack2.1-1"
+		"OnStartTouch" "serverCommand+attack2.1-1"
+		"OnStartTouch" "clientCommand-attack1.2-1"
+		"OnStartTouch" "serverCommand-attack1.2-1"
+		"OnStartTouch" "serverCommand+attack1.1-1"
+		"OnStartTouch" "clientCommand+attack1.1-1"
+		"OnStartTouch" "serverCommand-attack0.2-1"
+		"OnStartTouch" "clientCommand-attack0.2-1"
+		"OnStartTouch" "clientCommand+attack0.1-1"
+		"OnStartTouch" "serverCommand+attack0.1-1"
+		"OnStartTouch" "clientCommand-attack0-1"
+		"OnStartTouch" "serverCommand-attack0-1"
+		"OnStartTouch" "serverCommand-attack20-1"
+		"OnStartTouch" "clientCommand-attack20-1"
+		"OnStartTouch" "!activatorAddOutputhealth 9990-1"
+		"OnStartTouch" "serverCommand-attack6.2-1"
+		"OnStartTouch" "clientCommand-attack6.2-1"
+		"OnStartTouch" "clientCommand+attack6.1-1"
+		"OnStartTouch" "serverCommand+attack6.1-1"
+		"OnStartTouch" "clientCommand-attack7.2-1"
+		"OnStartTouch" "serverCommand-attack7.2-1"
+		"OnStartTouch" "serverCommand+attack7.1-1"
+		"OnStartTouch" "clientCommand+attack7.1-1"
+		"OnStartTouch" "give_ammoUse11-1"
+		"OnStartTouch" "serverCommand-attack15.2-1"
+		"OnStartTouch" "clientCommand-attack15.2-1"
+		"OnStartTouch" "clientCommand+attack15.1-1"
+		"OnStartTouch" "serverCommand+attack15.1-1"
+		"OnStartTouch" "clientCommand-attack21.2-1"
+		"OnStartTouch" "serverCommand-attack21.2-1"
+		"OnStartTouch" "serverCommand+attack20.1-1"
+		"OnStartTouch" "clientCommand+attack20.1-1"
+		"OnStartTouch" "serverCommand-attack31.2-1"
+		"OnStartTouch" "clientCommand-attack31.2-1"
+		"OnStartTouch" "clientCommand+attack30.1-1"
+		"OnStartTouch" "serverCommand+attack30.1-1"
+	}
+	solid
+	{
+		"id" "361"
+		side
+		{
+			"id" "81"
+			"plane" "(-704 176 140) (-584 176 140) (-584 80 140)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "80"
+			"plane" "(-704 80 32) (-584 80 32) (-584 176 32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "79"
+			"plane" "(-704 176 140) (-704 80 140) (-704 80 32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "78"
+			"plane" "(-584 176 32) (-584 80 32) (-584 80 140)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(-584 176 140) (-704 176 140) (-704 176 32)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "76"
+			"plane" "(-584 80 32) (-704 80 32) (-704 80 140)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "39"
+	"classname" "info_player_terrorist"
+	"angles" "0 0.499997 0"
+	"enabled" "1"
+	"origin" "-784 128 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "52"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 178 0"
+	"enabled" "1"
+	"origin" "-668 126 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

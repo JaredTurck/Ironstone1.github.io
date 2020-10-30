@@ -1,0 +1,29 @@
+moving canvas
+
+bots run from one side to the other
+you can be teleport closer or further away
+
+set position,
+increase and decrease on math_counter
+
+0 is full closed
+1 is fully open
+0.00 to 1.00
+
+change how much the gap size is
+
+wall_1		wall_2
+0		1-0=	1
+0.01		1-0.01=	0.99
+0.1		1-0.1=	0.9
+0.2		1-0.2=	0.8
+0.3		1-0.3=	0.7
+0.4		1-0.4=	0.6
+0.5		1-0.5=	0.5
+0.6		1-0.6=	0.4
+0.7		1-0.7=	0.3
+0.8		1-0.8=	0.2
+0.9		1-0.9=	0.1
+1		1-1=	0
+
+need random respawn

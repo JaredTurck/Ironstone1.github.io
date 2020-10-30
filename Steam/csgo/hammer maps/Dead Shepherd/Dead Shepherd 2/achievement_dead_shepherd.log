@@ -1,0 +1,434 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Dead Shepherd\Dead Shepherd 2\achievement_dead_shepherd.vmf
+Map revision 93
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Dead Shepherd\Dead Shepherd 2\achievement_dead_shepherd.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3840 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 9
+Reduced 5 texdatas to 5 (99 bytes to 99)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Dead Shepherd\Dead Shepherd 2\achievement_dead_shepherd.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+17 faces
+1175 square feet [169216.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+17 patches before subdivision
+147 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3615, max 67
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1148, 323, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(691, 55, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(450, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(286, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(183, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(117, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(48, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(20, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                  9/8192          108/98304    ( 0.1%) 
+brushsides              54/81920         432/655360   ( 0.1%) 
+planes                  66/65536        1320/1310720  ( 0.1%) 
+vertexes                45/65536         540/786432   ( 0.1%) 
+nodes                   23/65536         736/2097152  ( 0.0%) 
+texinfos                 9/12288         648/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   17/65536         952/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               13/65536         728/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          17/0              68/0        ( 0.0%) 
+leaves                  26/65536         832/2097152  ( 0.0%) 
+leaffaces               17/65536          34/131072   ( 0.0%) 
+leafbrushes             13/65536          26/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              136/512000        544/2048000  ( 0.0%) 
+edges                   85/256000        340/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            72/65536         144/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        4735/393216   ( 1.2%) 
+LDR ambient table       26/65536         104/262144   ( 0.0%) 
+HDR ambient table       26/65536         104/262144   ( 0.0%) 
+LDR leaf ambient        23/65536         644/1835008  ( 0.0%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74498/0        ( 0.0%) 
+physics               [variable]        3840/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 50
+Writing d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Dead Shepherd\Dead Shepherd 2\achievement_dead_shepherd.vmf
+Map revision 93
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Dead Shepherd\Dead Shepherd 2\achievement_dead_shepherd.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3840 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 9
+Reduced 5 texdatas to 5 (99 bytes to 99)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Dead Shepherd\Dead Shepherd 2\achievement_dead_shepherd.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+17 faces
+1175 square feet [169216.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+17 patches before subdivision
+147 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3615, max 67
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1148, 323, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(691, 55, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(450, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(286, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(183, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(117, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(48, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(20, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                  9/8192          108/98304    ( 0.1%) 
+brushsides              54/81920         432/655360   ( 0.1%) 
+planes                  66/65536        1320/1310720  ( 0.1%) 
+vertexes                45/65536         540/786432   ( 0.1%) 
+nodes                   23/65536         736/2097152  ( 0.0%) 
+texinfos                 9/12288         648/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   17/65536         952/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               13/65536         728/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          17/0              68/0        ( 0.0%) 
+leaves                  26/65536         832/2097152  ( 0.0%) 
+leaffaces               17/65536          34/131072   ( 0.0%) 
+leafbrushes             13/65536          26/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              136/512000        544/2048000  ( 0.0%) 
+edges                   85/256000        340/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            72/65536         144/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        4735/393216   ( 1.2%) 
+LDR ambient table       26/65536         104/262144   ( 0.0%) 
+HDR ambient table       26/65536         104/262144   ( 0.0%) 
+LDR leaf ambient        23/65536         644/1835008  ( 0.0%) 
+HDR leaf ambient        26/65536         728/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74498/0        ( 0.0%) 
+physics               [variable]        3840/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 50
+Writing d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Dead Shepherd\Dead Shepherd 2\achievement_dead_shepherd.vmf
+Map revision 101
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Dead Shepherd\Dead Shepherd 2\achievement_dead_shepherd.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6264 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 9
+Reduced 5 texdatas to 5 (99 bytes to 99)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Dead Shepherd\Dead Shepherd 2\achievement_dead_shepherd.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.prt
+  10 portalclusters
+  11 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 74
+Average clusters visible: 7
+Building PAS...
+Average clusters audible: 9
+visdatasize:126  compressed from 160
+writing d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+49 faces
+1945 square feet [280192.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+49 patches before subdivision
+333 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9630, max 106
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2645, 744, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1676, 132, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1074, 24, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(689, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(441, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(282, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(180, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(115, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(47, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(30, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/81920         768/655360   ( 0.1%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes                89/65536        1068/786432   ( 0.1%) 
+nodes                   49/65536        1568/2097152  ( 0.1%) 
+texinfos                 9/12288         648/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   49/65536        2744/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               26/65536        1456/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          49/0             196/0        ( 0.0%) 
+leaves                  52/65536        1664/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              328/512000       1312/2048000  ( 0.1%) 
+edges                  199/256000        796/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              7/32768          70/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           102/65536         204/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       10700/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         126/16777216 ( 0.0%) 
+entdata               [variable]        4730/393216   ( 1.2%) 
+LDR ambient table       52/65536         208/262144   ( 0.1%) 
+HDR ambient table       52/65536         208/262144   ( 0.1%) 
+LDR leaf ambient        95/65536        2660/1835008  ( 0.1%) 
+HDR leaf ambient        52/65536        1456/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74498/0        ( 0.0%) 
+physics               [variable]        6264/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 126
+Writing d:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\dead shepherd\dead shepherd 2\achievement_dead_shepherd.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

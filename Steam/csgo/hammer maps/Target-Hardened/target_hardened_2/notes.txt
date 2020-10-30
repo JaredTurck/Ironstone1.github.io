@@ -1,0 +1,30 @@
+GetHealth
+
+Target-Hardened
+Survive damage from five different enemies within a round
+
+func_movelinear
+ent_fire windows_98 open
+
+ent_fire {classname}
+
+ent_fire tp_1 Enable
+ent_fire tp_1 Disable
+
+ent_fire is a cheat command
+give command is a cheat
+cant kill bots, but can kick them
+
+enable a teleport
+
+bot_kill bot_1
+
+dont need to add the bots, becuase they will spanw in automaticlly when you first run the map
+
+
+trigger_once - add bots to the game
+
+vscript - when the player is damaged kick the bot, call vscript function by trigger_multiple
+
+to do:
+- disable cheats

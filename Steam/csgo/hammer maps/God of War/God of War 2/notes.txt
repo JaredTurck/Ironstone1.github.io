@@ -1,0 +1,20 @@
+God of War
+Kill 10,000 enemies
+
+deathmatch 16 enemies spawn into an active molotov with 1hp
+ - instant death
+
+10k / 2,000 kills per min = 5 mins
+
+max T bots is 8
+
+could increase the bot count to 15 by adding in 7 CT bots
+func_button shoot test would be needed to check which "client" is human
+
+the bots do have 1hp
+friendly fire could be turned off 
+
+mp_friendlyfire 1
+mp_teammates_are_enemies 1
+
+time 4 mins, 29 seconds to get 10,000 kills

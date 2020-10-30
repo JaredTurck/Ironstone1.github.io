@@ -1,0 +1,47 @@
+kill all bots, after changing move direction
+
+random, strafing (enable and disabling move triggers)
+
+trigger_push_left_2_right
+trigger_push_right_2_left
+
+pick a move direction
+wait a random amount of time, then move the other direction
+
+logic_case with random delays
+
+
+logic_case_1
+0.0-2.0 sec, enable right_2_left
+
+logic_case_2
+0.0-2.0 sec, enable left_2_right
+
+logic_case_main
+case1 logic_case_1
+case2 logic_case_2
+
+math_counter
+pick random logic_case_main
+wait 0-1 sec
+repeat
+
+use diffrent spawn point
+
+increase counter anotherway
+
+move random off, move direction set to direction of func_button move direction
+
+button onpress, move direction
+
+
+buttons for each size of the wall
+
+1	2	3	4
+5	6	7	8
+9	10	11	12
+
+say the wall gap size
+
+
+tp to destinations

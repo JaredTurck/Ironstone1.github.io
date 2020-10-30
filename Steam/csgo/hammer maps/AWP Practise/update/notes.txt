@@ -1,0 +1,17 @@
+head glitching on/off		done
+count to 10			done
+
+adds a shot for hitting the wall
+- shot if player still in trigger
+
+wall moves up or down, so enemy is head glitching
+
+wall_up_1 SetPosition [0.0-1.0]
+
+kick chickens
+tp to 1-7
+rotate bot (left/right)
+
+OnStartTouch chicken Kill
+
+put the move direction, and face left/right buttons next to each other

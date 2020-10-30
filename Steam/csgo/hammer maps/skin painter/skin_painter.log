@@ -1,0 +1,266 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.vmf
+Map revision 272
+Material not found!: /1
+Material not found!: AKAMI/WEAPONS/RUBYAXE/T002
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (66024 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 204 texinfos to 114
+Reduced 12 texdatas to 12 (259 bytes to 259)
+Writing d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.prt
+  43 portalclusters
+ 118 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1625
+Average clusters visible: 37
+Building PAS...
+Average clusters audible: 41
+visdatasize:858  compressed from 688
+writing d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp
+443 faces
+207692 square feet [29907668.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+443 patches before subdivision
+1859 patches after subdivision
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 60123, max 149
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(65, 163, 273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1, 3, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  77/1024         3696/49152    ( 7.5%) 
+brushes                137/8192         1644/98304    ( 1.7%) 
+brushsides            1461/81920       11688/655360   ( 1.8%) 
+planes                1880/65536       37600/1310720  ( 2.9%) 
+vertexes              1153/65536       13836/786432   ( 1.8%) 
+nodes                  665/65536       21280/2097152  ( 1.0%) 
+texinfos               114/12288        8208/884736   ( 0.9%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  443/65536       24808/3670016  ( 0.7%) 
+hdr faces              443/65536       24808/3670016  ( 0.7%) 
+origfaces              326/65536       18256/3670016  ( 0.5%) 
+facebrushes             14/0              28/0        ( 0.0%) 
+facebrushlists         443/0            1772/0        ( 0.0%) 
+leaves                 743/65536       23776/2097152  ( 1.1%) 
+leaffaces              462/65536         924/131072   ( 0.7%) 
+leafbrushes            325/65536         650/131072   ( 0.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3300/512000      13200/2048000  ( 0.6%) 
+edges                 2018/256000       8072/1024000  ( 0.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         50/8192         5000/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           228/65536         456/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       70260/0        ( 0.0%) 
+visdata               [variable]         858/16777216 ( 0.0%) 
+entdata               [variable]      112260/393216   (28.5%) 
+LDR ambient table      743/65536        2972/262144   ( 1.1%) 
+HDR ambient table      743/65536        2972/262144   ( 1.1%) 
+LDR leaf ambient       743/65536       20804/1835008  ( 1.1%) 
+HDR leaf ambient       728/65536       20384/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]       66024/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 1054
+Writing d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\skin painter\skin_painter.vmf
+Map revision 272
+Material not found!: /1
+Material not found!: AKAMI/WEAPONS/RUBYAXE/T002
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\skin painter\skin_painter.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (66024 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 204 texinfos to 114
+Reduced 12 texdatas to 12 (259 bytes to 259)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\skin painter\skin_painter.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.prt
+  43 portalclusters
+ 118 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1681
+Average clusters visible: 39
+Building PAS...
+Average clusters audible: 41
+visdatasize:858  compressed from 688
+writing d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp
+443 faces
+207692 square feet [29907668.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+443 patches before subdivision
+1859 patches after subdivision
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 60123, max 149
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1750, 1933, 2176)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(29, 62, 104)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3, 6, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 9 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  77/1024         3696/49152    ( 7.5%) 
+brushes                137/8192         1644/98304    ( 1.7%) 
+brushsides            1461/81920       11688/655360   ( 1.8%) 
+planes                1880/65536       37600/1310720  ( 2.9%) 
+vertexes              1153/65536       13836/786432   ( 1.8%) 
+nodes                  665/65536       21280/2097152  ( 1.0%) 
+texinfos               114/12288        8208/884736   ( 0.9%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  443/65536       24808/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              326/65536       18256/3670016  ( 0.5%) 
+facebrushes             14/0              28/0        ( 0.0%) 
+facebrushlists         443/0            1772/0        ( 0.0%) 
+leaves                 743/65536       23776/2097152  ( 1.1%) 
+leaffaces              462/65536         924/131072   ( 0.7%) 
+leafbrushes            325/65536         650/131072   ( 0.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3300/512000      13200/2048000  ( 0.6%) 
+edges                 2018/256000       8072/1024000  ( 0.8%) 
+LDR worldlights         50/8192         5000/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           228/65536         456/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       70260/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         858/16777216 ( 0.0%) 
+entdata               [variable]      112260/393216   (28.5%) 
+LDR ambient table      743/65536        2972/262144   ( 1.1%) 
+HDR ambient table      743/65536        2972/262144   ( 1.1%) 
+LDR leaf ambient      1038/65536       29064/1835008  ( 1.6%) 
+HDR leaf ambient       743/65536       20804/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]       66024/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 1054
+Writing d:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\skin painter\skin_painter.bsp', but we don't own that location. Allowing...
+1 second elapsed

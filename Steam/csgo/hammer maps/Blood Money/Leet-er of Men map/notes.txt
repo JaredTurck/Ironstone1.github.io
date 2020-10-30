@@ -1,0 +1,15 @@
+1. go to your 'C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1814140726' folder
+2. copy the file 'win_5000_rounds.bsp'
+3. then paste the file in the 'C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps' folder
+4. rename the file to one of the following names, depending on the achievement you want to get
+
+Italy Map Veteran	cs_italy.bsp
+Office Map Veteran	cs_office.bsp
+Aztec Map Veteran	de_aztec.bsp
+Dust Map Veteran	de_dust.bsp
+Dust2 Map Veteran	de_dust2.bsp
+Inferno Map Veteran	de_inferno.bsp
+Nuke Map Veteran	de_nuke.bsp
+Train Map Veteran	de_train.bsp
+
+once you have renamed the file, open CSGO and type "map " followed by the name of the map file. e.g. "map cs_italy"

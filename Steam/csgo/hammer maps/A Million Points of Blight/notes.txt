@@ -1,0 +1,74 @@
+A Million Points of Blight
+Inflict 1,000,000 total points of damage to enemies
+
+change health to 1
+
+round 1
+Damage Given to "BOT Greg" - 1046 in 2 hits
+Damage Given to "BOT Grant" - 344 in 1 hit
+Damage Given to "BOT Henry" - 1067 in 3 hits
+Damage Given to "BOT Chris" - 1044 in 2 hits
+Damage Given to "BOT Perry" - 999 in 2 hits
+Damage Given to "BOT Will" - 935 in 3 hits
+Damage Given to "BOT Tom" - 306 in 1 hit
+total = 5741
+
+round 2
+Damage Given to "BOT Grant" - 1000 in 2 hits
+Damage Given to "BOT Tom" - 1094 in 3 hits
+Damage Given to "BOT Will" - 86 in 1 hit
+Damage Given to "BOT Andy" - 1041 in 3 hits
+Damage Given to "BOT Chris" - 1095 in 3 hits
+Damage Given to "BOT Shawn" - 1027 in 3 hits
+Damage Given to "BOT Perry" - 220 in 1 hit
+Damage Given to "BOT Harold" - 273 in 1 hit
+total = 5836
+
+round 3
+Damage Given to "BOT Andy" - 1047 in 2 hits
+Damage Given to "BOT Perry" - 1046 in 2 hits
+Damage Given to "BOT Shawn" - 1080 in 3 hits
+Damage Given to "BOT Chris" - 1074 in 3 hits
+Damage Given to "BOT Henry" - 1050 in 3 hits
+Damage Given to "BOT Harold" - 873 in 2 hits
+Damage Given to "BOT Tom" - 260 in 1 hit
+total = 6430
+
+avg = 6,000
+target = 1,000,000
+
+1000000 / 6000 = 166.6 rounds
+1 round is 6 seconds (5.87)
+(166 * 5) / 60 = 13.8 mins
+
+
+
+fire:
+Damage Given to "BOT Martin" - 46 in 2 hits
+Damage Given to "BOT Ethan" - 40 in 1 hit
+Damage Given to "BOT Norm" - 40 in 1 hit
+Damage Given to "BOT Perry" - 40 in 1 hit
+Damage Given to "BOT Steve" - 40 in 1 hit
+Damage Given to "BOT Nick" - 40 in 1 hit
+Damage Given to "BOT Doug" - 40 in 1 hit
+Damage Given to "BOT Brandon" - 40 in 1 hit
+Damage Given to "BOT Paul" - 40 in 1 hit
+Damage Given to "BOT Jon" - 40 in 1 hit
+Damage Given to "Jared" - 40 in 1 hit
+total = 440 damage with fire
+
+grenade:
+Damage Given to "BOT Grant" - 57 in 2 hits
+Damage Given to "BOT Keith" - 55 in 1 hit
+Damage Given to "BOT Ethan" - 55 in 1 hit
+Damage Given to "BOT Doug" - 56 in 1 hit
+Damage Given to "BOT Shawn" - 55 in 1 hit
+Damage Given to "BOT Jenssen" - 55 in 1 hit
+Damage Given to "BOT Mike" - 56 in 1 hit
+Damage Given to "BOT Brandon" - 56 in 1 hit
+Damage Given to "BOT Bill" - 53 in 1 hit
+Damage Given to "BOT Yahn" - 56 in 1 hit
+total = 550 damage with he
+
+damage per second from mag7?
+6430 / 6 = 1071 damage per second

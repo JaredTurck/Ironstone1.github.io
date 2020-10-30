@@ -1,0 +1,19 @@
+AWP Expert
+Kill 500 enemies with the AWP
+
+max bots you can headshot with an AWP is 5
+most bots you can kill with a body shot is 5
+
+for testing:
+sv_cheats 1;bot_mimic 1
+
+AWP takes:
+0.8 seconds to scope
+about 1 second to equip
+= 1.8 seconds min to fire a shot per round
+
+(50/2)*5 = 125 shots per min
+500 / 125 = 4 mins
+
+
+3 mins, 17 seconds to get 500 kills (noscope)

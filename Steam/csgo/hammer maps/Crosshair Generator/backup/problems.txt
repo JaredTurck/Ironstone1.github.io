@@ -1,0 +1,25 @@
+AN ERROR HAS OCCURED [the index 'bar' does not exist]
+
+CALLSTACK
+*FUNCTION [foo()] run.nut line [4]
+*FUNCTION [main()] InputRunScript line [1]
+
+LOCALS
+[this] TABLE
+[this] TABLE
+ Entity script_entity encountered an error in RunScript()
+
+AN ERROR HAS OCCURED [the index 'bar' does not exist]
+
+CALLSTACK
+*FUNCTION [foo()] run.nut line [4]
+*FUNCTION [main()] InputRunScript line [1]
+
+LOCALS
+[this] TABLE
+[this] TABLE
+ Entity script_entity encountered an error in RunScript()
+
+
+
+dir=D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\scripts\vscripts\crosshair_generator

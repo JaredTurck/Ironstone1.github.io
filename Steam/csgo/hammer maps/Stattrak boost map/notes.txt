@@ -1,0 +1,70 @@
+small room
+
+filter to make sure 2 players have connected
+- trigger that tests that both player fire there weapons
+
+deathmatch
+- kick all bots
+- instant respawn
+
+math_counter can be used to keep track of stattrak kills
+- you can set the map to stop firing after hitting a specific number of kills
+   - e.g. 99, 100, 999, 1000, 9999, 10k
+
+1 kill per second:
+60*60 = 3,600 kills per hour
+100k/3.6k = 27.7 hours
+1m/3.6 = 277 hours (11.5 days)
+
+if map can do 1 kill per 0.5 second:
+60*2*60 = 7,200 kills per hour
+100k/7.2k = 13.8 hours
+1m/7.2k = 138 hours (5.7 days)
+
+if map can do 1 kill per 0.2 second:
+60*5*60 = 18,000 kills per hour
+100k/18k = 5.5 hours
+1m/18k = 55 hours (2.3 days)
+
+1 kill per 0.1 seconds:
+60*10*60 = 36,000 kills per hour
+
+2 human players how do you make only 1 shoot
+
+casual could be faster then deathmatch
+
+player chooses weapon on round 1
+player then spawns with same weapon each round (becuase it's casual)
+remove player_equip
+
+very first round players choose weapon
+how to test if it's first round?
+
+if terrorist fires weapon:
+ - equip_nothing all players
+ - teleport CT to room where they can choose a weapon
+
+wont work for bots, only players
+
+kick bots
+
+player with stattrak weapon must join CT
+
+if T hits func_button equip nothing, and teleport CT to room where they can pick weapon
+
+you always spawn with a USP-S/glock at the beginning of a round
+
+move to the side to stop shooting enemy
+- trigger on sides of player can allow them to select a weapon
+
+to do:
+bot_kick all
+
+to stop
+shooting move 
+left/right
+
+prop_dynamic
+prop_dynamic_override
+
+teleport player back button

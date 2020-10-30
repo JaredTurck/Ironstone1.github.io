@@ -1,0 +1,1433 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 1
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (0.00 0.00 64.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (147167 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3 texinfos to 3
+Reduced 1 texdatas to 1 (9 bytes to 9)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 1
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (0.00 0.00 64.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (147167 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3 texinfos to 3
+Reduced 1 texdatas to 1 (9 bytes to 9)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+No vis information, direct lighting only.
+1949 faces
+28 degenerate faces
+78735 square feet [11337947.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                358/8192         4296/98304    ( 4.4%) 
+brushsides            4115/81920       32920/655360   ( 5.0%) 
+planes                3944/65536       78880/1310720  ( 6.0%) 
+vertexes              3341/65536       40092/786432   ( 5.1%) 
+nodes                 1699/65536       54368/2097152  ( 2.6%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  1/4096           32/131072   ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1949/65536      109144/3670016  ( 3.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1136/65536       63616/3670016  ( 1.7%) 
+facebrushes            108/0             216/0        ( 0.0%) 
+facebrushlists        1949/0            7796/0        ( 0.0%) 
+leaves                1701/65536       54432/2097152  ( 2.6%) 
+leaffaces             2193/65536        4386/131072   ( 3.3%) 
+leafbrushes           1094/65536        2188/131072   ( 1.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15015/512000      60060/2048000  ( 2.9%) 
+edges                 8629/256000      34516/1024000  ( 3.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            193/32768        1930/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3111/65536        6222/131072   ( 4.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      793572/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         341/393216   ( 0.1%) 
+LDR ambient table     1701/65536        6804/262144   ( 2.6%) 
+HDR ambient table     1701/65536        6804/262144   ( 2.6%) 
+LDR leaf ambient       920/65536       25760/1835008  ( 1.4%) 
+HDR leaf ambient      1701/65536       47628/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74430/0        ( 0.0%) 
+physics               [variable]      147167/4194304  ( 3.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 6053
+Writing d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 3
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (0.00 0.00 64.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (173167 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 3
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (0.00 0.00 64.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (173167 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 4
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (0.00 0.00 64.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (173343 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 5
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (0.00 0.00 64.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (173503 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 6
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (0.00 0.00 64.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (175511 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 8
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (0.00 0.00 64.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (767.5 -670.0 231.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 738: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (628.5 -906.3 231.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 738: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (715.3 -788.5 231.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 738: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (177351 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 9
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (177351 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+ 394 portalclusters
+1089 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 11150 visible clusters (0.00%)
+Total clusters visible: 98414
+Average clusters visible: 249
+Building PAS...
+Average clusters audible: 384
+visdatasize:41482  compressed from 44128
+writing d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+1188 faces
+5 degenerate faces
+50990 square feet [7342573.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1183 patches before subdivision
+8155 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 897539, max 407
+transfer lists:   6.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                407/8192         4884/98304    ( 5.0%) 
+brushsides            4795/81920       38360/655360   ( 5.9%) 
+planes                4774/65536       95480/1310720  ( 7.3%) 
+vertexes              2745/65536       32940/786432   ( 4.2%) 
+nodes                 1002/65536       32064/2097152  ( 1.5%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  1/4096           32/131072   ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1188/65536       66528/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              628/65536       35168/3670016  ( 1.0%) 
+facebrushes             58/0             116/0        ( 0.0%) 
+facebrushlists        1188/0            4752/0        ( 0.0%) 
+leaves                1004/65536       32128/2097152  ( 1.5%) 
+leaffaces             1341/65536        2682/131072   ( 2.0%) 
+leafbrushes           1163/65536        2326/131072   ( 1.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8785/512000      35140/2048000  ( 1.7%) 
+edges                 5365/256000      21460/1024000  ( 2.1%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             81/32768         810/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1179/65536        2358/131072   ( 1.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1270432/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       41482/16777216 ( 0.2%) 
+entdata               [variable]         340/393216   ( 0.1%) 
+LDR ambient table     1004/65536        4016/262144   ( 1.5%) 
+HDR ambient table     1004/65536        4016/262144   ( 1.5%) 
+LDR leaf ambient       394/65536       11032/1835008  ( 0.6%) 
+HDR leaf ambient      1004/65536       28112/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74908/0        ( 0.0%) 
+physics               [variable]      177351/4194304  ( 4.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 3473
+Writing d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 15
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (178895 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+ 431 portalclusters
+1236 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 15957 visible clusters (0.00%)
+Total clusters visible: 116518
+Average clusters visible: 270
+Building PAS...
+Average clusters audible: 421
+visdatasize:47840  compressed from 48272
+writing d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+1272 faces
+5 degenerate faces
+50928 square feet [7333634.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1267 patches before subdivision
+8355 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 966487, max 415
+transfer lists:   7.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                404/8192         4848/98304    ( 4.9%) 
+brushsides            4793/81920       38344/655360   ( 5.9%) 
+planes                4796/65536       95920/1310720  ( 7.3%) 
+vertexes              2895/65536       34740/786432   ( 4.4%) 
+nodes                 1100/65536       35200/2097152  ( 1.7%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  1/4096           32/131072   ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1272/65536       71232/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              636/65536       35616/3670016  ( 1.0%) 
+facebrushes             63/0             126/0        ( 0.0%) 
+facebrushlists        1272/0            5088/0        ( 0.0%) 
+leaves                1102/65536       35264/2097152  ( 1.7%) 
+leaffaces             1419/65536        2838/131072   ( 2.2%) 
+leafbrushes           1258/65536        2516/131072   ( 1.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9247/512000      36988/2048000  ( 1.8%) 
+edges                 5603/256000      22412/1024000  ( 2.2%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             82/32768         820/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1155/65536        2310/131072   ( 1.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1312608/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       47840/16777216 ( 0.3%) 
+entdata               [variable]        1385/393216   ( 0.4%) 
+LDR ambient table     1102/65536        4408/262144   ( 1.7%) 
+HDR ambient table     1102/65536        4408/262144   ( 1.7%) 
+LDR leaf ambient       431/65536       12068/1835008  ( 0.7%) 
+HDR leaf ambient      1102/65536       30856/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74908/0        ( 0.0%) 
+physics               [variable]      178895/4194304  ( 4.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 3707
+Writing d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 17
+Brush 3507: bounds out of range
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (0.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 1033.897095, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (477.514160, 1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1053.436279, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1053.435425, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (1024.000000, 299.884033, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1024.000000, 299.893005, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (512.000000, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 299.884186, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (-1024.000000, 2048.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-60.732201, 1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 0.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 512.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (2048.000000, 0.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1035.219604, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, -235.878632, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1024.000000, -235.878632, 0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (962.526001, -383.748901, 8.727280))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1005.050232, -311.678162, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -994.687317, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (192.000488, -1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -1024.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (192.000488, -1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1024.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-669.435547, 0.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 0.000000, -65551.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1024.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-434.999878, -1024.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1024.000000, -158.753906, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-915.001221, -863.999390, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-435.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -158.753906, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-915.001953, -864.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-980.999939, -826.000061, -65551.992188))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (-1024.000000, -171.899841, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.847900, 0.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.843811, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, -394.546265, 8.727280))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.843811, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-494.847900, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.843811, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-435.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-531.005859, -804.852661, 16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-435.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-981.000000, -825.996094, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-943.031250, -417.695313, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-99.719246, -957.702454, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-15.125854, -1024.000000, -0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-943.031250, -417.695313, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, -994.687195, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -994.688721, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-396.157471, -737.736206, 0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, -512.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-384.557129, -473.546875, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-384.557129, -473.546875, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-384.554688, -473.546875, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-569.931396, -455.006744, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -217.616745, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -171.898254, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-2048.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1065.128174, -740.317505, 16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -171.898270, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2048.000000, -1024.000000, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -1024.000000, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -1024.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -1024.000000, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, -2048.000000, 304.000000))
+**** leaked ****
+Entity info_player_counterterrorist (-896.00 -512.00 60.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (172911 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 18
+Brush 3507: bounds out of range
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (0.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 1033.897095, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (477.514160, 1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1053.436279, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1053.435425, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (1024.000000, 299.884033, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1024.000000, 299.893005, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (512.000000, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 299.884186, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (-1024.000000, 2048.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-60.732201, 1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 0.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 512.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (2048.000000, 0.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1035.219604, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, -235.878632, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1024.000000, -235.878632, 0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (962.526001, -383.748901, 8.727280))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1005.050232, -311.678162, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -994.687317, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (192.000488, -1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -1024.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (192.000488, -1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1024.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-669.435547, 0.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 0.000000, -65551.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1024.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-434.999878, -1024.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1024.000000, -158.753906, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-915.001221, -863.999390, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-435.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -158.753906, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-915.001953, -864.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-980.999939, -826.000061, -65551.992188))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (-1024.000000, -171.899841, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.847900, 0.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.843811, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, -394.546265, 8.727280))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.843811, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-494.847900, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.843811, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-435.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-531.005859, -804.852661, 16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-435.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-981.000000, -825.996094, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-943.031250, -417.695313, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-99.719246, -957.702454, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-15.125854, -1024.000000, -0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-943.031250, -417.695313, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-437.365784, -687.731567, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-138.743256, -943.226807, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -994.688721, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-396.157684, -737.735962, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-349.830841, -731.119080, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-469.909882, -465.008911, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -217.616745, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -171.898254, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-2048.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1065.128174, -740.317505, 16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -171.898270, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2048.000000, -1024.000000, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -1024.000000, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -1024.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -1024.000000, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, -2048.000000, 304.000000))
+**** leaked ****
+Entity info_player_counterterrorist (-896.00 -512.00 60.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (172911 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 19
+Brush 3507: bounds out of range
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (0.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 1033.897095, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (477.514160, 1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1053.436279, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1053.435425, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (1024.000000, 299.884033, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1024.000000, 299.893005, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (512.000000, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 299.884186, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (-1024.000000, 2048.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-60.732201, 1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 0.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 512.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (2048.000000, 0.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1035.219604, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, -235.878632, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1024.000000, -235.878632, 0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (962.526001, -383.748901, 8.727280))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1005.050232, -311.678162, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -994.687317, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (192.000488, -1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -1024.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (192.000488, -1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1024.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-669.435547, 0.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, 0.000000, -65551.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1024.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-434.999878, -1024.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1024.000000, -158.753906, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-915.001221, -863.999390, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-435.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -158.753906, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-915.001953, -864.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-980.999939, -826.000061, -65551.992188))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (-1024.000000, -171.899841, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.847900, 0.000000, 256.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.843811, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, -394.546265, 8.727280))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.843811, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-494.847900, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-494.843811, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-435.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-531.005859, -804.852661, 16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-435.000000, -1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-981.000000, -825.996094, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-943.031250, -417.695313, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-99.719246, -957.702454, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-15.125854, -1024.000000, -0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-943.031250, -417.695313, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-437.365784, -687.731567, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-287.998047, -845.701904, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-138.743256, -943.226807, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-486.299316, -647.754150, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-287.993652, -845.704773, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-138.743256, -943.226807, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -672.031921, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, -672.031921, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-562.070007, -455.792969, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-562.068909, -455.793121, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-562.068909, -455.793121, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-480.000275, -560.003418, -32.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-569.931335, -455.006775, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -217.616745, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -171.898254, -16.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-2048.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (-1065.128174, -740.317505, 16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -171.898270, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2048.000000, -1024.000000, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -1024.000000, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -1024.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -1024.000000, -16.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2048.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-1024.000000, -2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, -2048.000000, 304.000000))
+**** leaked ****
+Entity info_player_counterterrorist (-896.00 -512.00 60.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (172911 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+LoadPortals: couldn't read d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 19
+Brush 3507: bounds out of range
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (0.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 1033.897095, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (477.514160, 1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1053.436279, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1053.435425, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (1024.000000, 299.884033, -32.000000))
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 20
+Brush 3507: bounds out of range
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (-2056.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2056.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 0.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 2048.000000, 304.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 2048.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1024.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (0.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (0.000000, 1033.897095, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (0.000000, 1024.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (477.514160, 1024.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (2048.000000, 1024.000000, -65535.992188))
+WARNING: BSP node with unbounded volume (material: BRICK/HR_BRICK/INFERNO/BRICK_M_BLEND, near (1053.436279, 0.000000, 0.000000))
+WARNING: BSP node with unbounded volume (material: <NO BRUSH>, near (1053.435425, 0.000000, -32.000000))
+WARNING: BSP node with unbounded volume (material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch, near (1024.000000, 299.884033, -32.000000))
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 21
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (172943 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+ 859 portalclusters
+2689 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 74094 visible clusters (0.00%)
+Total clusters visible: 384719
+Average clusters visible: 447
+Building PAS...
+Average clusters audible: 837
+visdatasize:176662  compressed from 192416
+writing d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+2324 faces
+22 degenerate faces
+93183 square feet [13418484.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2302 patches before subdivision
+15470 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1957375, max 538
+transfer lists:  14.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                366/8192         4392/98304    ( 4.5%) 
+brushsides            4417/81920       35336/655360   ( 5.4%) 
+planes                4614/65536       92280/1310720  ( 7.0%) 
+vertexes              4345/65536       52140/786432   ( 6.6%) 
+nodes                 1856/65536       59392/2097152  ( 2.8%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  1/4096           32/131072   ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2324/65536      130144/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1060/65536       59360/3670016  ( 1.6%) 
+facebrushes            133/0             266/0        ( 0.0%) 
+facebrushlists        2324/0            9296/0        ( 0.0%) 
+leaves                1858/65536       59456/2097152  ( 2.8%) 
+leaffaces             2598/65536        5196/131072   ( 4.0%) 
+leafbrushes           1633/65536        3266/131072   ( 2.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            16606/512000      66424/2048000  ( 3.2%) 
+edges                 9431/256000      37724/1024000  ( 3.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            236/32768        2360/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3516/65536        7032/131072   ( 5.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2461948/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      176662/16777216 ( 1.1%) 
+entdata               [variable]        1385/393216   ( 0.4%) 
+LDR ambient table     1858/65536        7432/262144   ( 2.8%) 
+HDR ambient table     1858/65536        7432/262144   ( 2.8%) 
+LDR leaf ambient       859/65536       24052/1835008  ( 1.3%) 
+HDR leaf ambient      1858/65536       52024/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74908/0        ( 0.0%) 
+physics               [variable]      172943/4194304  ( 4.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 7043
+Writing d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.vmf
+Map revision 21
+Patching WVT material: maps/circles1/brick/hr_brick/inferno/brick_m_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (172943 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 3
+Reduced 2 texdatas to 1 (98 bytes to 61)
+Writing D:\Desktop\computing\Counter Strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+reading d:\desktop\computing\counter strike\maps\circles 1\circles1.prt
+ 859 portalclusters
+2689 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 74094 visible clusters (0.00%)
+Total clusters visible: 384719
+Average clusters visible: 447
+Building PAS...
+Average clusters audible: 837
+visdatasize:176662  compressed from 192416
+writing d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+2324 faces
+22 degenerate faces
+93183 square feet [13418484.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2302 patches before subdivision
+15470 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1957375, max 538
+transfer lists:  14.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                366/8192         4392/98304    ( 4.5%) 
+brushsides            4417/81920       35336/655360   ( 5.4%) 
+planes                4614/65536       92280/1310720  ( 7.0%) 
+vertexes              4345/65536       52140/786432   ( 6.6%) 
+nodes                 1856/65536       59392/2097152  ( 2.8%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  1/4096           32/131072   ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2324/65536      130144/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1060/65536       59360/3670016  ( 1.6%) 
+facebrushes            133/0             266/0        ( 0.0%) 
+facebrushlists        2324/0            9296/0        ( 0.0%) 
+leaves                1858/65536       59456/2097152  ( 2.8%) 
+leaffaces             2598/65536        5196/131072   ( 4.0%) 
+leafbrushes           1633/65536        3266/131072   ( 2.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            16606/512000      66424/2048000  ( 3.2%) 
+edges                 9431/256000      37724/1024000  ( 3.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            236/32768        2360/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3516/65536        7032/131072   ( 5.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2461948/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      176662/16777216 ( 1.1%) 
+entdata               [variable]        1385/393216   ( 0.4%) 
+LDR ambient table     1858/65536        7432/262144   ( 2.8%) 
+HDR ambient table     1858/65536        7432/262144   ( 2.8%) 
+LDR leaf ambient       859/65536       24052/1835008  ( 1.3%) 
+HDR leaf ambient      1858/65536       52024/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74908/0        ( 0.0%) 
+physics               [variable]      172943/4194304  ( 4.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 7043
+Writing d:\desktop\computing\counter strike\maps\circles 1\circles1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\circles 1\circles1.bsp', but we don't own that location. Allowing.
+6 seconds elapsed

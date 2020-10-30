@@ -1,0 +1,1568 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 33
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21378 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 44
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  11 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 17
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:158  compressed from 176
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+192 faces
+18581 square feet [2675712.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+192 patches before subdivision
+1642 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 45056, max 128
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                 46/8192          552/98304    ( 0.6%) 
+brushsides             276/81920        2208/655360   ( 0.3%) 
+planes                 128/65536        2560/1310720  ( 0.2%) 
+vertexes               315/65536        3780/786432   ( 0.5%) 
+nodes                  167/65536        5344/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  192/65536       10752/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              160/65536        8960/3670016  ( 0.2%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         192/0             768/0        ( 0.0%) 
+leaves                 191/65536        6112/2097152  ( 0.3%) 
+leaffaces              192/65536         384/131072   ( 0.3%) 
+leafbrushes             59/65536         118/131072   ( 0.1%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges             1408/512000       5632/2048000  ( 0.3%) 
+edges                  755/256000       3020/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       57356/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         158/16777216 ( 0.0%) 
+entdata               [variable]       11126/393216   ( 2.8%) 
+LDR ambient table      191/65536         764/262144   ( 0.3%) 
+HDR ambient table      191/65536         764/262144   ( 0.3%) 
+LDR leaf ambient       143/65536        4004/1835008  ( 0.2%) 
+HDR leaf ambient       191/65536        5348/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       21378/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 384
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 33
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21378 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 44
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  11 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 17
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:158  compressed from 176
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+192 faces
+18581 square feet [2675712.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+192 patches before subdivision
+1642 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 45056, max 128
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                 46/8192          552/98304    ( 0.6%) 
+brushsides             276/81920        2208/655360   ( 0.3%) 
+planes                 128/65536        2560/1310720  ( 0.2%) 
+vertexes               315/65536        3780/786432   ( 0.5%) 
+nodes                  167/65536        5344/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  192/65536       10752/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              160/65536        8960/3670016  ( 0.2%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         192/0             768/0        ( 0.0%) 
+leaves                 191/65536        6112/2097152  ( 0.3%) 
+leaffaces              192/65536         384/131072   ( 0.3%) 
+leafbrushes             59/65536         118/131072   ( 0.1%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges             1408/512000       5632/2048000  ( 0.3%) 
+edges                  755/256000       3020/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       57356/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         158/16777216 ( 0.0%) 
+entdata               [variable]       11126/393216   ( 2.8%) 
+LDR ambient table      191/65536         764/262144   ( 0.3%) 
+HDR ambient table      191/65536         764/262144   ( 0.3%) 
+LDR leaf ambient       143/65536        4004/1835008  ( 0.2%) 
+HDR leaf ambient       191/65536        5348/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       21378/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 384
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 35
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21378 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 44
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  11 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 17
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:158  compressed from 176
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+192 faces
+18581 square feet [2675712.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+192 patches before subdivision
+1642 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 45056, max 128
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                 46/8192          552/98304    ( 0.6%) 
+brushsides             276/81920        2208/655360   ( 0.3%) 
+planes                 128/65536        2560/1310720  ( 0.2%) 
+vertexes               315/65536        3780/786432   ( 0.5%) 
+nodes                  167/65536        5344/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  192/65536       10752/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              160/65536        8960/3670016  ( 0.2%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         192/0             768/0        ( 0.0%) 
+leaves                 191/65536        6112/2097152  ( 0.3%) 
+leaffaces              192/65536         384/131072   ( 0.3%) 
+leafbrushes             59/65536         118/131072   ( 0.1%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges             1408/512000       5632/2048000  ( 0.3%) 
+edges                  755/256000       3020/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       57356/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         158/16777216 ( 0.0%) 
+entdata               [variable]       12418/393216   ( 3.2%) 
+LDR ambient table      191/65536         764/262144   ( 0.3%) 
+HDR ambient table      191/65536         764/262144   ( 0.3%) 
+LDR leaf ambient       143/65536        4004/1835008  ( 0.2%) 
+HDR leaf ambient       191/65536        5348/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       21378/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 384
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 36
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21378 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 44
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  11 portalclusters
+   3 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 17
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:158  compressed from 176
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+192 faces
+18581 square feet [2675712.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+192 patches before subdivision
+1642 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 45056, max 128
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12015, 3378, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6873, 543, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3949, 88, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2301, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1354, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(804, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(482, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(292, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(178, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(109, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(68, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(42, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                 46/8192          552/98304    ( 0.6%) 
+brushsides             276/81920        2208/655360   ( 0.3%) 
+planes                 128/65536        2560/1310720  ( 0.2%) 
+vertexes               315/65536        3780/786432   ( 0.5%) 
+nodes                  167/65536        5344/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  192/65536       10752/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              160/65536        8960/3670016  ( 0.2%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         192/0             768/0        ( 0.0%) 
+leaves                 191/65536        6112/2097152  ( 0.3%) 
+leaffaces              192/65536         384/131072   ( 0.3%) 
+leafbrushes             59/65536         118/131072   ( 0.1%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges             1408/512000       5632/2048000  ( 0.3%) 
+edges                  755/256000       3020/1024000  ( 0.3%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       57356/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         158/16777216 ( 0.0%) 
+entdata               [variable]       12705/393216   ( 3.2%) 
+LDR ambient table      191/65536         764/262144   ( 0.3%) 
+HDR ambient table      191/65536         764/262144   ( 0.3%) 
+LDR leaf ambient      1526/65536       42728/1835008  ( 2.3%) 
+HDR leaf ambient       191/65536        5348/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       21378/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 384
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 39
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21394 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 44
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  10 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 14
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:140  compressed from 160
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+188 faces
+18581 square feet [2675712.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+188 patches before subdivision
+1644 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 45057, max 128
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12144, 3414, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6903, 545, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3961, 88, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2304, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1354, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(804, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(482, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(291, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(178, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(109, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(68, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(42, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                 46/8192          552/98304    ( 0.6%) 
+brushsides             276/81920        2208/655360   ( 0.3%) 
+planes                 126/65536        2520/1310720  ( 0.2%) 
+vertexes               311/65536        3732/786432   ( 0.5%) 
+nodes                  166/65536        5312/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  188/65536       10528/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              160/65536        8960/3670016  ( 0.2%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         188/0             752/0        ( 0.0%) 
+leaves                 190/65536        6080/2097152  ( 0.3%) 
+leaffaces              188/65536         376/131072   ( 0.3%) 
+leafbrushes             58/65536         116/131072   ( 0.1%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges             1392/512000       5568/2048000  ( 0.3%) 
+edges                  747/256000       2988/1024000  ( 0.3%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       57040/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         140/16777216 ( 0.0%) 
+entdata               [variable]       12768/393216   ( 3.2%) 
+LDR ambient table      190/65536         760/262144   ( 0.3%) 
+HDR ambient table      190/65536         760/262144   ( 0.3%) 
+LDR leaf ambient      1442/65536       40376/1835008  ( 2.2%) 
+HDR leaf ambient       190/65536        5320/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       21394/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 376
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 41
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22504 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 58 texinfos to 48
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  10 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 14
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:140  compressed from 160
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+200 faces
+20892 square feet [3008512.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+200 patches before subdivision
+1656 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 45203, max 128
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12246, 3442, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6958, 550, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3987, 89, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2319, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1362, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(809, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(484, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(293, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(178, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(68, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(42, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(26, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  25/1024         1200/49152    ( 2.4%) 
+brushes                 48/8192          576/98304    ( 0.6%) 
+brushsides             288/81920        2304/655360   ( 0.4%) 
+planes                 136/65536        2720/1310720  ( 0.2%) 
+vertexes               327/65536        3924/786432   ( 0.5%) 
+nodes                  178/65536        5696/2097152  ( 0.3%) 
+texinfos                48/12288        3456/884736   ( 0.4%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  200/65536       11200/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              172/65536        9632/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         200/0             800/0        ( 0.0%) 
+leaves                 204/65536        6528/2097152  ( 0.3%) 
+leaffaces              200/65536         400/131072   ( 0.3%) 
+leafbrushes             60/65536         120/131072   ( 0.1%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges             1488/512000       5952/2048000  ( 0.3%) 
+edges                  795/256000       3180/1024000  ( 0.3%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       57040/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         140/16777216 ( 0.0%) 
+entdata               [variable]       13318/393216   ( 3.4%) 
+LDR ambient table      204/65536         816/262144   ( 0.3%) 
+HDR ambient table      204/65536         816/262144   ( 0.3%) 
+LDR leaf ambient      1570/65536       43960/1835008  ( 2.4%) 
+HDR leaf ambient       204/65536        5712/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       22504/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 400
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 48
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (24151 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 62 texinfos to 52
+Reduced 6 texdatas to 6 (125 bytes to 125)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  14 portalclusters
+  10 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 70
+Average clusters visible: 5
+Building PAS...
+Average clusters audible: 5
+visdatasize:184  compressed from 224
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+225 faces
+22876 square feet [3294208.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+225 patches before subdivision
+1767 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 59315, max 178
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15126, 4276, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8251, 703, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4907, 123, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2875, 21, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1714, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1024, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(617, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(373, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(227, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(139, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(85, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(53, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(20, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             318/81920        2544/655360   ( 0.4%) 
+planes                 150/65536        3000/1310720  ( 0.2%) 
+vertexes               357/65536        4284/786432   ( 0.5%) 
+nodes                  192/65536        6144/2097152  ( 0.3%) 
+texinfos                52/12288        3744/884736   ( 0.4%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  225/65536       12600/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              187/65536       10472/3670016  ( 0.3%) 
+facebrushes              8/0              16/0        ( 0.0%) 
+facebrushlists         225/0             900/0        ( 0.0%) 
+leaves                 219/65536        7008/2097152  ( 0.3%) 
+leaffaces              225/65536         450/131072   ( 0.3%) 
+leafbrushes             65/65536         130/131072   ( 0.1%) 
+areas                    7/1024           56/8192     ( 0.7%) 
+surfedges             1666/512000       6664/2048000  ( 0.3%) 
+edges                  905/256000       3620/1024000  ( 0.4%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       61652/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         184/16777216 ( 0.0%) 
+entdata               [variable]       13627/393216   ( 3.5%) 
+LDR ambient table      219/65536         876/262144   ( 0.3%) 
+HDR ambient table      219/65536         876/262144   ( 0.3%) 
+LDR leaf ambient      1717/65536       48076/1835008  ( 2.6%) 
+HDR leaf ambient       219/65536        6132/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       24151/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 468
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 49
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (24153 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 62 texinfos to 52
+Reduced 6 texdatas to 6 (125 bytes to 125)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  12 portalclusters
+   5 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 26
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:164  compressed from 192
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+216 faces
+22444 square feet [3231936.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+216 patches before subdivision
+1668 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 44113, max 128
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12170, 3421, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6373, 504, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3562, 79, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2026, 13, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1179, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(698, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(419, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(255, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(157, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(97, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(61, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(38, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             318/81920        2544/655360   ( 0.4%) 
+planes                 150/65536        3000/1310720  ( 0.2%) 
+vertexes               353/65536        4236/786432   ( 0.5%) 
+nodes                  192/65536        6144/2097152  ( 0.3%) 
+texinfos                52/12288        3744/884736   ( 0.4%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  216/65536       12096/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              185/65536       10360/3670016  ( 0.3%) 
+facebrushes              8/0              16/0        ( 0.0%) 
+facebrushlists         216/0             864/0        ( 0.0%) 
+leaves                 219/65536        7008/2097152  ( 0.3%) 
+leaffaces              216/65536         432/131072   ( 0.3%) 
+leafbrushes             65/65536         130/131072   ( 0.1%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges             1612/512000       6448/2048000  ( 0.3%) 
+edges                  870/256000       3480/1024000  ( 0.3%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       58144/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         164/16777216 ( 0.0%) 
+entdata               [variable]       13627/393216   ( 3.5%) 
+LDR ambient table      219/65536         876/262144   ( 0.3%) 
+HDR ambient table      219/65536         876/262144   ( 0.3%) 
+LDR leaf ambient      1660/65536       46480/1835008  ( 2.5%) 
+HDR leaf ambient       219/65536        6132/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       24153/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 440
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 50
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (23811 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 65 texinfos to 52
+Reduced 6 texdatas to 6 (125 bytes to 125)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  12 portalclusters
+   7 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 42
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:160  compressed from 192
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+221 faces
+22270 square feet [3206912.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+221 patches before subdivision
+1627 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 47470, max 156
+transfer lists:   0.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12541, 3525, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6816, 539, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3820, 85, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2179, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1263, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(743, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(442, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(267, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(163, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(100, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(62, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(39, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(24, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             318/81920        2544/655360   ( 0.4%) 
+planes                 150/65536        3000/1310720  ( 0.2%) 
+vertexes               355/65536        4260/786432   ( 0.5%) 
+nodes                  190/65536        6080/2097152  ( 0.3%) 
+texinfos                52/12288        3744/884736   ( 0.4%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  221/65536       12376/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              189/65536       10584/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         221/0             884/0        ( 0.0%) 
+leaves                 217/65536        6944/2097152  ( 0.3%) 
+leaffaces              221/65536         442/131072   ( 0.3%) 
+leafbrushes             65/65536         130/131072   ( 0.1%) 
+areas                    7/1024           56/8192     ( 0.7%) 
+surfedges             1670/512000       6680/2048000  ( 0.3%) 
+edges                  898/256000       3592/1024000  ( 0.4%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            42/65536          84/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       57620/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         160/16777216 ( 0.0%) 
+entdata               [variable]       13627/393216   ( 3.5%) 
+LDR ambient table      217/65536         868/262144   ( 0.3%) 
+HDR ambient table      217/65536         868/262144   ( 0.3%) 
+LDR leaf ambient      1690/65536       47320/1835008  ( 2.6%) 
+HDR leaf ambient       217/65536        6076/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       23811/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 472
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 51
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (23811 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 64 texinfos to 52
+Reduced 6 texdatas to 6 (125 bytes to 125)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  12 portalclusters
+   7 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 42
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:160  compressed from 192
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+222 faces
+22583 square feet [3251968.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+222 patches before subdivision
+1690 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 51242, max 164
+transfer lists:   0.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13576, 3816, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7535, 595, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4395, 98, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2564, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1519, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(905, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(544, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(329, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(200, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(123, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(76, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(47, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             318/81920        2544/655360   ( 0.4%) 
+planes                 150/65536        3000/1310720  ( 0.2%) 
+vertexes               355/65536        4260/786432   ( 0.5%) 
+nodes                  190/65536        6080/2097152  ( 0.3%) 
+texinfos                52/12288        3744/884736   ( 0.4%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  222/65536       12432/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              190/65536       10640/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         222/0             888/0        ( 0.0%) 
+leaves                 217/65536        6944/2097152  ( 0.3%) 
+leaffaces              223/65536         446/131072   ( 0.3%) 
+leafbrushes             65/65536         130/131072   ( 0.1%) 
+areas                    7/1024           56/8192     ( 0.7%) 
+surfedges             1682/512000       6728/2048000  ( 0.3%) 
+edges                  910/256000       3640/1024000  ( 0.4%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            42/65536          84/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       59528/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         160/16777216 ( 0.0%) 
+entdata               [variable]       13627/393216   ( 3.5%) 
+LDR ambient table      217/65536         868/262144   ( 0.3%) 
+HDR ambient table      217/65536         868/262144   ( 0.3%) 
+LDR leaf ambient      1680/65536       47040/1835008  ( 2.6%) 
+HDR leaf ambient       217/65536        6076/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       23811/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 478
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.vmf
+Map revision 53
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (24596 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 64 texinfos to 52
+Reduced 6 texdatas to 6 (125 bytes to 125)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\War of Attrition\War of Attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.prt
+  12 portalclusters
+   7 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 42
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:160  compressed from 192
+writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+222 faces
+23628 square feet [3402496.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+222 patches before subdivision
+1690 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 51282, max 164
+transfer lists:   0.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13606, 3825, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7537, 596, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4401, 98, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2567, 16, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1521, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(906, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(544, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(329, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(201, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(123, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(76, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(47, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 54/8192          648/98304    ( 0.7%) 
+brushsides             324/81920        2592/655360   ( 0.4%) 
+planes                 148/65536        2960/1310720  ( 0.2%) 
+vertexes               355/65536        4260/786432   ( 0.5%) 
+nodes                  190/65536        6080/2097152  ( 0.3%) 
+texinfos                52/12288        3744/884736   ( 0.4%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  222/65536       12432/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              190/65536       10640/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         222/0             888/0        ( 0.0%) 
+leaves                 217/65536        6944/2097152  ( 0.3%) 
+leaffaces              223/65536         446/131072   ( 0.3%) 
+leafbrushes             67/65536         134/131072   ( 0.1%) 
+areas                    7/1024           56/8192     ( 0.7%) 
+surfedges             1682/512000       6728/2048000  ( 0.3%) 
+edges                  910/256000       3640/1024000  ( 0.4%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            42/65536          84/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       59528/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         160/16777216 ( 0.0%) 
+entdata               [variable]       13626/393216   ( 3.5%) 
+LDR ambient table      217/65536         868/262144   ( 0.3%) 
+HDR ambient table      217/65536         868/262144   ( 0.3%) 
+LDR leaf ambient      1683/65536       47124/1835008  ( 2.6%) 
+HDR leaf ambient       217/65536        6076/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74510/0        ( 0.0%) 
+physics               [variable]       24596/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 478
+Writing d:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\war of attrition\war of attrition 2\achievement_war_of_attrition.bsp', but we don't own that location. Allowing...
+1 second elapsed

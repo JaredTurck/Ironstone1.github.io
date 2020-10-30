@@ -1,0 +1,11 @@
+mp_buytime 0
+bot_add t;bot_add ct
+changeteam;menuselect 1
+sv_cheats 0
+mp_freezetime 0
+
+mp_autokick 0
+mp_autoteambalance 0
+mp_maxrounds 999999
+mp_limitteams 0
+mp_roundtime 999999

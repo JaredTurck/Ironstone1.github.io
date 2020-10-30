@@ -1,0 +1,21 @@
+hurt trigger that only effects bots
+
+
+
+the player joins the game, and doesnt take control of a bot
+
+seems to work:
+- player alwasy joins the CT team
+
+dodesnt work:
+- if you kick the bot, the game just ends and displays the scoreboard
+- if the enemy bot dies to a trigger_hurt the game ends
+- if the bot dies to fall damage the game ends
+
+ways to kill a player in hammer:
+- +attack/-attack firing weapon			this works
+- trigger_hurt					doesn't work
+- fall damage					doesn't work
+- drown the player				
+
+quickest weapon to switch and fire to is the knife. 1 second

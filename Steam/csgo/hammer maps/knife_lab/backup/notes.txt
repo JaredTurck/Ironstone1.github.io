@@ -1,0 +1,41 @@
+mp_drop_knife_enable 1
+
+
+function1 --> give weapon_knife_butterfly
+second function 10 ticks latter --> ent fire
+
+'ButtonPressed'
+
+512 - 128
+4 pixel per unit
+
+64 * 4 = 256
+
+ghost knife
+
+equip nothing not working
+
+not picking the knife up
+
+skybox:
+sv_skyname cs_baggage_skybox_
+sv_skyname cs_tibet
+sv_skyname embassy
+sv_skyname italy
+sv_skyname jungle
+sv_skyname office
+sv_skyname sky_cs15_daylight01_hdr
+sv_skyname sky_cs15_daylight02_hdr
+sv_skyname sky_day02_05
+sv_skyname nukeblank
+sv_skyname dustblank
+sv_skyname sky_venice
+sv_skyname sky_cs15_daylight03_hdr
+sv_skyname sky_cs15_daylight04_hdr
+sv_skyname sky_csgo_cloudy01
+sv_skyname sky_csgo_night02
+sv_skyname sky_csgo_night02b
+sv_skyname vertigo
+sv_skyname vertigoblue_hdr
+sv_skyname sky_dust
+sv_skyname vietnam

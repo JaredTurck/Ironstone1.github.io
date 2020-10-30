@@ -1,0 +1,147 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7847 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 4
+Reduced 2 texdatas to 2 (43 bytes to 43)
+Writing D:\Desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.bsp
+reading d:\desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.prt
+   5 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 25
+Average clusters visible: 5
+Building PAS...
+Average clusters audible: 5
+visdatasize:54  compressed from 80
+writing d:\desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.bsp
+39 faces
+21034 square feet [3028992.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+39 patches before subdivision
+1579 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 117919, max 209
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(19886, 5590, 55)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12142, 959, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(7451, 166, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4576, 29, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2829, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1754, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1093, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(684, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(430, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(271, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(172, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(109, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             132/81920        1056/655360   ( 0.2%) 
+planes                  60/65536        1200/1310720  ( 0.1%) 
+vertexes               132/65536        1584/786432   ( 0.2%) 
+nodes                   31/65536         992/2097152  ( 0.0%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  2/4096           64/131072   ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   39/65536        2184/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               21/65536        1176/3670016  ( 0.0%) 
+facebrushes             18/0              36/0        ( 0.0%) 
+facebrushlists          39/0             156/0        ( 0.0%) 
+leaves                  33/65536        1056/2097152  ( 0.1%) 
+leaffaces               39/65536          78/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              264/512000       1056/2048000  ( 0.1%) 
+edges                  174/256000        696/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       88376/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        1669/393216   ( 0.4%) 
+LDR ambient table       33/65536         132/262144   ( 0.1%) 
+HDR ambient table       33/65536         132/262144   ( 0.1%) 
+LDR leaf ambient        50/65536        1400/1835008  ( 0.1%) 
+HDR leaf ambient        33/65536         924/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74466/0        ( 0.0%) 
+physics               [variable]        7847/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 102
+Writing d:\desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\zombie map 1\cod_zombies_map_1.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

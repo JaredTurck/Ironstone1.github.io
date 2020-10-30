@@ -1,0 +1,15 @@
+Win 1,000 matches in Arms Race or Demolition mode
+
+mp_force_pick_time
+nextlevel
+
+mp_match_end_restart
+mp_halftime_duration 0;
+
+shoot enemy player regardless of the team your on
+map reloads it's self
+
+player could join either team
+
+give health:
+- add output health, activated by client

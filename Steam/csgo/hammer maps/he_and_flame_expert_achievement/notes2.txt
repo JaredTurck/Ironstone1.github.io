@@ -1,0 +1,15 @@
+on round start
+
+trigger - on touch:
+
+switch to inc
+throw inc
+switch to grenade
+throw grenade
+switch to grenade
+throw grenade
+
+use weapon_incgrenade
+use weapon_hegrenade
+
+add light

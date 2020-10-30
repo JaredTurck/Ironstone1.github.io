@@ -1,0 +1,3015 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 7
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8127 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+12 faces
+938 square feet [135168.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+114 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2524, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides             104/81920         832/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             16/65536          32/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        3228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4716/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient         7/65536         196/1835008  ( 0.0%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        8127/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8191 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+12 faces
+784 square feet [112896.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+114 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2524, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(772, 217, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(503, 40, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(326, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(209, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(134, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(86, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(55, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(35, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(23, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(15, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides             104/81920         832/655360   ( 0.1%) 
+planes                  84/65536        1680/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             16/65536          32/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        2996/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4998/393216   ( 1.3%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        38/65536        1064/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        8191/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 13
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1704 square feet [245504.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+226 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3388, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1094, 307, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(709, 56, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(447, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(282, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(178, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(28, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             128/81920        1024/655360   ( 0.2%) 
+planes                 106/65536        2120/1310720  ( 0.2%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6471/393216   ( 1.6%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       135/65536        3780/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       10405/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 17
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1552 square feet [223488.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+226 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3408, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1100, 309, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(710, 56, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(448, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(283, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(178, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(71, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(28, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             128/81920        1024/655360   ( 0.2%) 
+planes                 110/65536        2200/1310720  ( 0.2%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6542/393216   ( 1.7%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       133/65536        3724/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       10405/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 19
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1552 square feet [223488.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+226 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3408, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1100, 309, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(710, 56, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(448, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(283, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(178, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(71, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(28, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             128/81920        1024/655360   ( 0.2%) 
+planes                 110/65536        2200/1310720  ( 0.2%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6493/393216   ( 1.7%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       133/65536        3724/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       10405/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 20
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10405 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1552 square feet [223488.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+226 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3408, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1100, 309, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(710, 56, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(448, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(283, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(178, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(112, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(71, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(28, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             128/81920        1024/655360   ( 0.2%) 
+planes                 110/65536        2200/1310720  ( 0.2%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6495/393216   ( 1.7%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       133/65536        3724/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       10405/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 22
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6049 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1320 square feet [190080.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+226 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3456, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1135, 319, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(735, 58, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(457, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(289, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(182, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(114, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(72, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(45, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(28, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides             100/81920         800/655360   ( 0.1%) 
+planes                 106/65536        2120/1310720  ( 0.2%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6424/393216   ( 1.6%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       143/65536        4004/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        6049/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 27
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6049 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1283 square feet [184768.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+226 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3472, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1277, 359, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(736, 58, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(473, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(296, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(187, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(117, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(46, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides             100/81920         800/655360   ( 0.1%) 
+planes                 106/65536        2120/1310720  ( 0.2%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6517/393216   ( 1.7%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        6049/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 30
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5498 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 15
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+30 faces
+1125 square feet [162112.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+30 patches before subdivision
+220 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3404, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1116, 314, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(691, 55, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(438, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(276, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(174, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(109, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(69, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              94/81920         752/655360   ( 0.1%) 
+planes                 100/65536        2000/1310720  ( 0.2%) 
+vertexes                57/65536         684/786432   ( 0.1%) 
+nodes                   34/65536        1088/2097152  ( 0.1%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   30/65536        1680/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               30/65536        1680/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          30/0             120/0        ( 0.0%) 
+leaves                  40/65536        1280/2097152  ( 0.1%) 
+leaffaces               30/65536          60/131072   ( 0.0%) 
+leafbrushes             11/65536          22/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              240/512000        960/2048000  ( 0.0%) 
+edges                  133/256000        532/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6207/393216   ( 1.6%) 
+LDR ambient table       40/65536         160/262144   ( 0.1%) 
+HDR ambient table       40/65536         160/262144   ( 0.1%) 
+LDR leaf ambient       112/65536        3136/1835008  ( 0.2%) 
+HDR leaf ambient        40/65536        1120/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        5498/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 60
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 44
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5951 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+12 faces
+599 square feet [86272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+74 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1084, max 36
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(408, 115, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(258, 20, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(168, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(108, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(45, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides             104/81920         832/655360   ( 0.1%) 
+planes                  90/65536        1800/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        2612/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4858/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        36/65536        1008/1835008  ( 0.1%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        5951/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 48
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8163 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1146 square feet [165120.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+186 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1656, max 36
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(787, 221, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(448, 35, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(281, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(176, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(69, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             128/81920        1024/655360   ( 0.2%) 
+planes                 108/65536        2160/1310720  ( 0.2%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             16/65536          32/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6751/393216   ( 1.7%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       142/65536        3976/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        8163/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 49
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8163 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1146 square feet [165120.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+186 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1656, max 36
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(787, 221, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(448, 35, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(281, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(176, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(69, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             128/81920        1024/655360   ( 0.2%) 
+planes                 112/65536        2240/1310720  ( 0.2%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             16/65536          32/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6751/393216   ( 1.7%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       142/65536        3976/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        8163/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 51
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7379 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1146 square feet [165120.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+186 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1656, max 36
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(787, 221, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(448, 35, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(281, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(176, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(69, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             122/81920         976/655360   ( 0.1%) 
+planes                 110/65536        2200/1310720  ( 0.2%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             15/65536          30/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6751/393216   ( 1.7%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       142/65536        3976/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        7379/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 52
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5068 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1146 square feet [165120.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+186 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1656, max 36
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(787, 221, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(448, 35, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(281, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(176, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(69, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              94/81920         752/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             11/65536          22/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6721/393216   ( 1.7%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       142/65536        3976/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        5068/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 56
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6051 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 18
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+36 faces
+1237 square feet [178176.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+36 patches before subdivision
+226 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3468, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1162, 327, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(743, 59, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(499, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(328, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(216, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(143, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(94, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(62, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(41, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              72/81920         576/655360   ( 0.1%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes                65/65536         780/786432   ( 0.1%) 
+nodes                   40/65536        1280/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   36/65536        2016/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               36/65536        2016/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          36/0             144/0        ( 0.0%) 
+leaves                  47/65536        1504/2097152  ( 0.1%) 
+leaffaces               36/65536          72/131072   ( 0.1%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              288/512000       1152/2048000  ( 0.1%) 
+edges                  157/256000        628/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6212/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        6724/393216   ( 1.7%) 
+LDR ambient table       47/65536         188/262144   ( 0.1%) 
+HDR ambient table       47/65536         188/262144   ( 0.1%) 
+LDR leaf ambient       153/65536        4284/1835008  ( 0.2%) 
+HDR leaf ambient        47/65536        1316/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        6051/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 72
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 60
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7157 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 31 texinfos to 21
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+48 faces
+1491 square feet [214784.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+48 patches before subdivision
+238 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3628, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1253, 352, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(799, 63, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(539, 12, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(355, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(234, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(154, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(102, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(67, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                 14/8192          168/98304    ( 0.2%) 
+brushsides              84/81920         672/655360   ( 0.1%) 
+planes                  88/65536        1760/1310720  ( 0.1%) 
+vertexes                81/65536         972/786432   ( 0.1%) 
+nodes                   52/65536        1664/2097152  ( 0.1%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   48/65536        2688/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               48/65536        2688/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          48/0             192/0        ( 0.0%) 
+leaves                  61/65536        1952/2097152  ( 0.1%) 
+leaffaces               48/65536          96/131072   ( 0.1%) 
+leafbrushes             14/65536          28/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              384/512000       1536/2048000  ( 0.1%) 
+edges                  205/256000        820/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6212/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7351/393216   ( 1.9%) 
+LDR ambient table       61/65536         244/262144   ( 0.1%) 
+HDR ambient table       61/65536         244/262144   ( 0.1%) 
+LDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+HDR leaf ambient        61/65536        1708/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]        7157/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 96
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 62
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10293 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 31 texinfos to 21
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+48 faces
+1491 square feet [214784.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+48 patches before subdivision
+238 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3628, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1253, 352, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(799, 63, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(539, 12, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(355, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(234, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(154, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(102, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(67, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             108/81920         864/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                81/65536         972/786432   ( 0.1%) 
+nodes                   52/65536        1664/2097152  ( 0.1%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   48/65536        2688/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               48/65536        2688/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          48/0             192/0        ( 0.0%) 
+leaves                  61/65536        1952/2097152  ( 0.1%) 
+leaffaces               48/65536          96/131072   ( 0.1%) 
+leafbrushes             18/65536          36/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              384/512000       1536/2048000  ( 0.1%) 
+edges                  205/256000        820/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6212/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7351/393216   ( 1.9%) 
+LDR ambient table       61/65536         244/262144   ( 0.1%) 
+HDR ambient table       61/65536         244/262144   ( 0.1%) 
+LDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+HDR leaf ambient        61/65536        1708/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       10293/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 96
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 63
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10293 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 31 texinfos to 21
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+48 faces
+1491 square feet [214784.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+48 patches before subdivision
+238 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3628, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1253, 352, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(799, 63, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(539, 12, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(355, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(234, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(154, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(102, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(67, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             108/81920         864/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                81/65536         972/786432   ( 0.1%) 
+nodes                   52/65536        1664/2097152  ( 0.1%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   48/65536        2688/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               48/65536        2688/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          48/0             192/0        ( 0.0%) 
+leaves                  61/65536        1952/2097152  ( 0.1%) 
+leaffaces               48/65536          96/131072   ( 0.1%) 
+leafbrushes             18/65536          36/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              384/512000       1536/2048000  ( 0.1%) 
+edges                  205/256000        820/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6212/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7363/393216   ( 1.9%) 
+LDR ambient table       61/65536         244/262144   ( 0.1%) 
+HDR ambient table       61/65536         244/262144   ( 0.1%) 
+LDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+HDR leaf ambient        61/65536        1708/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       10293/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 96
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 66
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10293 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 31 texinfos to 21
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+48 faces
+1491 square feet [214784.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+48 patches before subdivision
+238 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3628, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1253, 352, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(799, 63, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(539, 12, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(355, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(234, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(154, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(102, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(67, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             108/81920         864/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                81/65536         972/786432   ( 0.1%) 
+nodes                   52/65536        1664/2097152  ( 0.1%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   48/65536        2688/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               48/65536        2688/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          48/0             192/0        ( 0.0%) 
+leaves                  61/65536        1952/2097152  ( 0.1%) 
+leaffaces               48/65536          96/131072   ( 0.1%) 
+leafbrushes             18/65536          36/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              384/512000       1536/2048000  ( 0.1%) 
+edges                  205/256000        820/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6212/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7653/393216   ( 1.9%) 
+LDR ambient table       61/65536         244/262144   ( 0.1%) 
+HDR ambient table       61/65536         244/262144   ( 0.1%) 
+LDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+HDR leaf ambient        61/65536        1708/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       10293/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 96
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 66
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10293 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 31 texinfos to 21
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+48 faces
+1491 square feet [214784.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+48 patches before subdivision
+238 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3628, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1253, 352, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(799, 63, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(539, 12, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(355, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(234, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(154, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(102, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(67, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             108/81920         864/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                81/65536         972/786432   ( 0.1%) 
+nodes                   52/65536        1664/2097152  ( 0.1%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   48/65536        2688/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               48/65536        2688/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          48/0             192/0        ( 0.0%) 
+leaves                  61/65536        1952/2097152  ( 0.1%) 
+leaffaces               48/65536          96/131072   ( 0.1%) 
+leafbrushes             18/65536          36/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              384/512000       1536/2048000  ( 0.1%) 
+edges                  205/256000        820/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6212/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7653/393216   ( 1.9%) 
+LDR ambient table       61/65536         244/262144   ( 0.1%) 
+HDR ambient table       61/65536         244/262144   ( 0.1%) 
+LDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+HDR leaf ambient        61/65536        1708/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       10293/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 96
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.vmf
+Map revision 68
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10293 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 31 texinfos to 21
+Reduced 5 texdatas to 5 (104 bytes to 104)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\Cold Pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+48 faces
+1491 square feet [214784.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+48 patches before subdivision
+238 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3628, max 56
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1253, 352, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(799, 63, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(539, 12, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(355, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(234, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(154, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(102, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(67, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             108/81920         864/655360   ( 0.1%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes                81/65536         972/786432   ( 0.1%) 
+nodes                   52/65536        1664/2097152  ( 0.1%) 
+texinfos                21/12288        1512/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   48/65536        2688/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               48/65536        2688/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          48/0             192/0        ( 0.0%) 
+leaves                  61/65536        1952/2097152  ( 0.1%) 
+leaffaces               48/65536          96/131072   ( 0.1%) 
+leafbrushes             18/65536          36/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              384/512000       1536/2048000  ( 0.1%) 
+edges                  205/256000        820/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        6212/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        7363/393216   ( 1.9%) 
+LDR ambient table       61/65536         244/262144   ( 0.1%) 
+HDR ambient table       61/65536         244/262144   ( 0.1%) 
+LDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+HDR leaf ambient        61/65536        1708/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74470/0        ( 0.0%) 
+physics               [variable]       10293/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 96
+Writing d:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\cold pizza 3\cold_pizza_achiv_2.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

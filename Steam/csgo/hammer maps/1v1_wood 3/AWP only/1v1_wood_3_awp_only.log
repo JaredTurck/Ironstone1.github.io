@@ -1,0 +1,1619 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.vmf
+Map revision 417
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (269415 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 131 texinfos to 94
+Reduced 10 texdatas to 10 (239 bytes to 239)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt
+ 162 portalclusters
+ 522 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 151 visible clusters (0.00%)
+Total clusters visible: 21141
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 161
+visdatasize:8072  compressed from 7776
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3520 faces
+131589 square feet [18948896.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3520 patches before subdivision
+13046 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2489815, max 1524
+transfer lists:  19.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(62616, 48772, 43058)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8343, 5134, 3998)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1056, 515, 356)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(143, 55, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                740/8192         8880/98304    ( 9.0%) 
+brushsides            6566/81920       52528/655360   ( 8.0%) 
+planes                5482/65536      109640/1310720  ( 8.4%) 
+vertexes              5803/65536       69636/786432   ( 8.9%) 
+nodes                  396/65536       12672/2097152  ( 0.6%) 
+texinfos                94/12288        6768/884736   ( 0.8%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3520/65536      197120/3670016  ( 5.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3117/65536      174552/3670016  ( 4.8%) 
+facebrushes            142/0             284/0        ( 0.0%) 
+facebrushlists        3520/0           14080/0        ( 0.0%) 
+leaves                 401/65536       12832/2097152  ( 0.6%) 
+leaffaces             4409/65536        8818/131072   ( 6.7%) 
+leafbrushes           1325/65536        2650/131072   ( 2.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            28918/512000     115672/2048000  ( 5.6%) 
+edges                17153/256000      68612/1024000  ( 6.7%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4560/65536        9120/131072   ( 7.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1312088/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        8072/16777216 ( 0.0%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      401/65536        1604/262144   ( 0.6%) 
+HDR ambient table      401/65536        1604/262144   ( 0.6%) 
+LDR leaf ambient       897/65536       25116/1835008  ( 1.4%) 
+HDR leaf ambient       401/65536       11228/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2930     ( 0.0%) 
+pakfile               [variable]       74474/0        ( 0.0%) 
+physics               [variable]      269415/4194304  ( 6.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 9420
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.vmf
+Map revision 418
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (269415 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 131 texinfos to 94
+Reduced 10 texdatas to 10 (239 bytes to 239)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt
+ 232 portalclusters
+ 724 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 172 visible clusters (0.00%)
+Total clusters visible: 46824
+Average clusters visible: 201
+Building PAS...
+Average clusters audible: 232
+visdatasize:15276  compressed from 14848
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130740 square feet [18826564.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2748244, max 1651
+transfer lists:  21.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(65752, 51320, 45355)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8380, 5160, 4017)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1094, 536, 371)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(145, 56, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(20, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                740/8192         8880/98304    ( 9.0%) 
+brushsides            6566/81920       52528/655360   ( 8.0%) 
+planes                5488/65536      109760/1310720  ( 8.4%) 
+vertexes              5947/65536       71364/786432   ( 9.1%) 
+nodes                  565/65536       18080/2097152  ( 0.9%) 
+texinfos                94/12288        6768/884736   ( 0.8%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3121/65536      174776/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 570/65536       18240/2097152  ( 0.9%) 
+leaffaces             4753/65536        9506/131072   ( 7.3%) 
+leafbrushes           1486/65536        2972/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29387/512000     117548/2048000  ( 5.7%) 
+edges                17302/256000      69208/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4317/65536        8634/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1307660/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      570/65536        2280/262144   ( 0.9%) 
+HDR ambient table      570/65536        2280/262144   ( 0.9%) 
+LDR leaf ambient       992/65536       27776/1835008  ( 1.5%) 
+HDR leaf ambient       570/65536       15960/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]       74474/0        ( 0.0%) 
+physics               [variable]      269415/4194304  ( 6.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 9627
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.vmf
+Map revision 420
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (269415 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 131 texinfos to 94
+Reduced 10 texdatas to 10 (239 bytes to 239)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt
+ 232 portalclusters
+ 724 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 172 visible clusters (0.00%)
+Total clusters visible: 46828
+Average clusters visible: 201
+Building PAS...
+Average clusters audible: 232
+visdatasize:15276  compressed from 14848
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816756.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2797673, max 1652
+transfer lists:  21.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(65865, 51412, 45438)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8382, 5161, 4018)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1094, 536, 371)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(145, 56, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(20, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                740/8192         8880/98304    ( 9.0%) 
+brushsides            6568/81920       52544/655360   ( 8.0%) 
+planes                5488/65536      109760/1310720  ( 8.4%) 
+vertexes              5947/65536       71364/786432   ( 9.1%) 
+nodes                  565/65536       18080/2097152  ( 0.9%) 
+texinfos                94/12288        6768/884736   ( 0.8%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3121/65536      174776/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 570/65536       18240/2097152  ( 0.9%) 
+leaffaces             4753/65536        9506/131072   ( 7.3%) 
+leafbrushes           1486/65536        2972/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29387/512000     117548/2048000  ( 5.7%) 
+edges                17302/256000      69208/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4317/65536        8634/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1305328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      570/65536        2280/262144   ( 0.9%) 
+HDR ambient table      570/65536        2280/262144   ( 0.9%) 
+LDR leaf ambient       994/65536       27832/1835008  ( 1.5%) 
+HDR leaf ambient       570/65536       15960/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]       74474/0        ( 0.0%) 
+physics               [variable]      269415/4194304  ( 6.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 9627
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.vmf
+Map revision 422
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (271083 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 135 texinfos to 96
+Reduced 12 texdatas to 12 (282 bytes to 282)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt
+ 232 portalclusters
+ 724 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 171 visible clusters (0.00%)
+Total clusters visible: 46827
+Average clusters visible: 201
+Building PAS...
+Average clusters audible: 232
+visdatasize:15276  compressed from 14848
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816756.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2797673, max 1652
+transfer lists:  21.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(55263, 44677, 30383)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6895, 4404, 2518)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(798, 413, 179)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(100, 41, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                742/8192         8904/98304    ( 9.1%) 
+brushsides            6580/81920       52640/655360   ( 8.0%) 
+planes                5494/65536      109880/1310720  ( 8.4%) 
+vertexes              5947/65536       71364/786432   ( 9.1%) 
+nodes                  565/65536       18080/2097152  ( 0.9%) 
+texinfos                96/12288        6912/884736   ( 0.8%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3121/65536      174776/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 570/65536       18240/2097152  ( 0.9%) 
+leaffaces             4753/65536        9506/131072   ( 7.3%) 
+leafbrushes           1494/65536        2988/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29387/512000     117548/2048000  ( 5.7%) 
+edges                17302/256000      69208/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4317/65536        8634/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1403608/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      570/65536        2280/262144   ( 0.9%) 
+HDR ambient table      570/65536        2280/262144   ( 0.9%) 
+LDR leaf ambient       989/65536       27692/1835008  ( 1.5%) 
+HDR leaf ambient       570/65536       15960/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]       74474/0        ( 0.0%) 
+physics               [variable]      271083/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 9627
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.vmf
+Map revision 426
+Patching WVT material: maps/1v1_wood_3_awp_only/de_nuke/nukblenddirtgrass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (271094 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 140 texinfos to 96
+Reduced 13 texdatas to 12 (342 bytes to 316)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt
+ 232 portalclusters
+ 736 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 171 visible clusters (0.00%)
+Total clusters visible: 46853
+Average clusters visible: 201
+Building PAS...
+Average clusters audible: 232
+visdatasize:15276  compressed from 14848
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816748.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2798163, max 1653
+transfer lists:  21.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37012, 27976, 22693)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4336, 2526, 1752)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(421, 190, 113)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(48, 16, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                742/8192         8904/98304    ( 9.1%) 
+brushsides            6580/81920       52640/655360   ( 8.0%) 
+planes                5490/65536      109800/1310720  ( 8.4%) 
+vertexes              5945/65536       71340/786432   ( 9.1%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                96/12288        6912/884736   ( 0.8%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3119/65536      174664/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 571/65536       18272/2097152  ( 0.9%) 
+leaffaces             4743/65536        9486/131072   ( 7.2%) 
+leafbrushes           1490/65536        2980/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29375/512000     117500/2048000  ( 5.7%) 
+edges                17294/256000      69176/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4308/65536        8616/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1305328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      571/65536        2284/262144   ( 0.9%) 
+HDR ambient table      571/65536        2284/262144   ( 0.9%) 
+LDR leaf ambient       981/65536       27468/1835008  ( 1.5%) 
+HDR leaf ambient       571/65536       15988/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]       74792/0        ( 0.0%) 
+physics               [variable]      271094/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 9623
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.vmf
+Map revision 427
+Patching WVT material: maps/1v1_wood_3_awp_only/nature/blend_grass_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (271094 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 140 texinfos to 96
+Reduced 13 texdatas to 12 (346 bytes to 318)
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt
+ 232 portalclusters
+ 736 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 171 visible clusters (0.00%)
+Total clusters visible: 46853
+Average clusters visible: 201
+Building PAS...
+Average clusters audible: 232
+visdatasize:15276  compressed from 14848
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816748.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2803776, max 1654
+transfer lists:  21.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(56772, 46098, 37364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7120, 4557, 3203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(819, 427, 250)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(102, 42, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                742/8192         8904/98304    ( 9.1%) 
+brushsides            6580/81920       52640/655360   ( 8.0%) 
+planes                5490/65536      109800/1310720  ( 8.4%) 
+vertexes              5945/65536       71340/786432   ( 9.1%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                96/12288        6912/884736   ( 0.8%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3119/65536      174664/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 571/65536       18272/2097152  ( 0.9%) 
+leaffaces             4743/65536        9486/131072   ( 7.2%) 
+leafbrushes           1490/65536        2980/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29375/512000     117500/2048000  ( 5.7%) 
+edges                17294/256000      69176/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4308/65536        8616/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1305328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      571/65536        2284/262144   ( 0.9%) 
+HDR ambient table      571/65536        2284/262144   ( 0.9%) 
+LDR leaf ambient       986/65536       27608/1835008  ( 1.5%) 
+HDR leaf ambient       571/65536       15988/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]      495411/0        ( 0.0%) 
+physics               [variable]      271094/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 9623
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816748.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2803776, max 1654
+transfer lists:  21.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(56782, 46108, 37371)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7122, 4558, 3204)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(819, 427, 250)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(103, 43, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                742/8192         8904/98304    ( 9.1%) 
+brushsides            6580/81920       52640/655360   ( 8.0%) 
+planes                5490/65536      109800/1310720  ( 8.4%) 
+vertexes              5945/65536       71340/786432   ( 9.1%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                96/12288        6912/884736   ( 0.8%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces             3643/65536      204008/3670016  ( 5.6%) 
+origfaces             3119/65536      174664/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 571/65536       18272/2097152  ( 0.9%) 
+leaffaces             4743/65536        9486/131072   ( 7.2%) 
+leafbrushes           1490/65536        2980/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29375/512000     117500/2048000  ( 5.7%) 
+edges                17294/256000      69176/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights         18/8192         1800/819200   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4308/65536        8616/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1305328/0        ( 0.0%) 
+HDR lightdata         [variable]     1305328/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      571/65536        2284/262144   ( 0.9%) 
+HDR ambient table      571/65536        2284/262144   ( 0.9%) 
+LDR leaf ambient       986/65536       27608/1835008  ( 1.5%) 
+HDR leaf ambient       986/65536       27608/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]      916243/0        ( 0.0%) 
+physics               [variable]      271094/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 9623
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+21 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.vmf
+Map revision 427
+Patching WVT material: maps/1v1_wood_3_awp_only/nature/blend_grass_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (271094 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 140 texinfos to 96
+Reduced 13 texdatas to 12 (346 bytes to 318)
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt
+ 232 portalclusters
+ 736 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 171 visible clusters (0.00%)
+Total clusters visible: 46853
+Average clusters visible: 201
+Building PAS...
+Average clusters audible: 232
+visdatasize:15276  compressed from 14848
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816748.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2803776, max 1654
+transfer lists:  21.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(56776, 46102, 37367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7121, 4558, 3204)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(819, 427, 250)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(102, 43, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                742/8192         8904/98304    ( 9.1%) 
+brushsides            6580/81920       52640/655360   ( 8.0%) 
+planes                5490/65536      109800/1310720  ( 8.4%) 
+vertexes              5945/65536       71340/786432   ( 9.1%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                96/12288        6912/884736   ( 0.8%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3119/65536      174664/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 571/65536       18272/2097152  ( 0.9%) 
+leaffaces             4743/65536        9486/131072   ( 7.2%) 
+leafbrushes           1490/65536        2980/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29375/512000     117500/2048000  ( 5.7%) 
+edges                17294/256000      69176/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4308/65536        8616/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1305328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      571/65536        2284/262144   ( 0.9%) 
+HDR ambient table      571/65536        2284/262144   ( 0.9%) 
+LDR leaf ambient       986/65536       27608/1835008  ( 1.5%) 
+HDR leaf ambient       571/65536       15988/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]      495411/0        ( 0.0%) 
+physics               [variable]      271094/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 9623
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816748.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2803776, max 1654
+transfer lists:  21.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(56772, 46098, 37364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7120, 4557, 3203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(819, 427, 250)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(102, 42, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                742/8192         8904/98304    ( 9.1%) 
+brushsides            6580/81920       52640/655360   ( 8.0%) 
+planes                5490/65536      109800/1310720  ( 8.4%) 
+vertexes              5945/65536       71340/786432   ( 9.1%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                96/12288        6912/884736   ( 0.8%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces             3643/65536      204008/3670016  ( 5.6%) 
+origfaces             3119/65536      174664/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 571/65536       18272/2097152  ( 0.9%) 
+leaffaces             4743/65536        9486/131072   ( 7.2%) 
+leafbrushes           1490/65536        2980/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29375/512000     117500/2048000  ( 5.7%) 
+edges                17294/256000      69176/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights         18/8192         1800/819200   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4308/65536        8616/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1305328/0        ( 0.0%) 
+HDR lightdata         [variable]     1305328/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      571/65536        2284/262144   ( 0.9%) 
+HDR ambient table      571/65536        2284/262144   ( 0.9%) 
+LDR leaf ambient       986/65536       27608/1835008  ( 1.5%) 
+HDR leaf ambient       986/65536       27608/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]      916243/0        ( 0.0%) 
+physics               [variable]      271094/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 9623
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+21 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.vmf
+Map revision 428
+Patching WVT material: maps/1v1_wood_3_awp_only/nature/blend_grass_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (271094 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 140 texinfos to 96
+Reduced 13 texdatas to 12 (346 bytes to 318)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt
+ 232 portalclusters
+ 736 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 171 visible clusters (0.00%)
+Total clusters visible: 46853
+Average clusters visible: 201
+Building PAS...
+Average clusters audible: 232
+visdatasize:15276  compressed from 14848
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816748.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2798163, max 1653
+transfer lists:  21.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(54473, 44892, 36265)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6786, 4429, 3105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(778, 417, 244)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(97, 42, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                742/8192         8904/98304    ( 9.1%) 
+brushsides            6580/81920       52640/655360   ( 8.0%) 
+planes                5490/65536      109800/1310720  ( 8.4%) 
+vertexes              5945/65536       71340/786432   ( 9.1%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                96/12288        6912/884736   ( 0.8%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3119/65536      174664/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 571/65536       18272/2097152  ( 0.9%) 
+leaffaces             4743/65536        9486/131072   ( 7.2%) 
+leafbrushes           1490/65536        2980/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29375/512000     117500/2048000  ( 5.7%) 
+edges                17294/256000      69176/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4308/65536        8616/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1305328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      571/65536        2284/262144   ( 0.9%) 
+HDR ambient table      571/65536        2284/262144   ( 0.9%) 
+LDR leaf ambient       991/65536       27748/1835008  ( 1.5%) 
+HDR leaf ambient       571/65536       15988/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]       74819/0        ( 0.0%) 
+physics               [variable]      271094/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 9623
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.vmf
+Map revision 428
+Patching WVT material: maps/1v1_wood_3_awp_only/nature/blend_grass_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (271094 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 140 texinfos to 96
+Reduced 13 texdatas to 12 (346 bytes to 318)
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt
+ 232 portalclusters
+ 736 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 171 visible clusters (0.00%)
+Total clusters visible: 46853
+Average clusters visible: 201
+Building PAS...
+Average clusters audible: 232
+visdatasize:15276  compressed from 14848
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816748.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2803776, max 1654
+transfer lists:  21.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(56779, 46105, 37369)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7121, 4558, 3204)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(819, 427, 250)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(102, 43, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                742/8192         8904/98304    ( 9.1%) 
+brushsides            6580/81920       52640/655360   ( 8.0%) 
+planes                5490/65536      109800/1310720  ( 8.4%) 
+vertexes              5945/65536       71340/786432   ( 9.1%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                96/12288        6912/884736   ( 0.8%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3119/65536      174664/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 571/65536       18272/2097152  ( 0.9%) 
+leaffaces             4743/65536        9486/131072   ( 7.2%) 
+leafbrushes           1490/65536        2980/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29375/512000     117500/2048000  ( 5.7%) 
+edges                17294/256000      69176/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4308/65536        8616/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1305328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      571/65536        2284/262144   ( 0.9%) 
+HDR ambient table      571/65536        2284/262144   ( 0.9%) 
+LDR leaf ambient       986/65536       27608/1835008  ( 1.5%) 
+HDR leaf ambient       571/65536       15988/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]      495411/0        ( 0.0%) 
+physics               [variable]      271094/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 9623
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816748.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2803776, max 1654
+transfer lists:  21.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(56776, 46102, 37367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7121, 4558, 3204)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(819, 427, 250)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(102, 43, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                742/8192         8904/98304    ( 9.1%) 
+brushsides            6580/81920       52640/655360   ( 8.0%) 
+planes                5490/65536      109800/1310720  ( 8.4%) 
+vertexes              5945/65536       71340/786432   ( 9.1%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                96/12288        6912/884736   ( 0.8%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces             3643/65536      204008/3670016  ( 5.6%) 
+origfaces             3119/65536      174664/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 571/65536       18272/2097152  ( 0.9%) 
+leaffaces             4743/65536        9486/131072   ( 7.2%) 
+leafbrushes           1490/65536        2980/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29375/512000     117500/2048000  ( 5.7%) 
+edges                17294/256000      69176/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights         18/8192         1800/819200   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4308/65536        8616/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1305328/0        ( 0.0%) 
+HDR lightdata         [variable]     1305328/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      571/65536        2284/262144   ( 0.9%) 
+HDR ambient table      571/65536        2284/262144   ( 0.9%) 
+LDR leaf ambient       986/65536       27608/1835008  ( 1.5%) 
+HDR leaf ambient       986/65536       27608/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]      916243/0        ( 0.0%) 
+physics               [variable]      271094/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 9623
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+21 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.vmf
+Map revision 428
+Patching WVT material: maps/1v1_wood_3_awp_only/nature/blend_grass_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (271094 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 140 texinfos to 96
+Reduced 13 texdatas to 12 (346 bytes to 318)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\1v1_wood 3\AWP only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.prt
+ 232 portalclusters
+ 736 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 168 visible clusters (0.00%)
+Total clusters visible: 46850
+Average clusters visible: 201
+Building PAS...
+Average clusters audible: 232
+visdatasize:15276  compressed from 14848
+writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+3643 faces
+130671 square feet [18816748.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3643 patches before subdivision
+13001 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2798163, max 1653
+transfer lists:  21.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(54473, 44892, 36265)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6786, 4429, 3105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(778, 417, 244)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(97, 42, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                742/8192         8904/98304    ( 9.1%) 
+brushsides            6580/81920       52640/655360   ( 8.0%) 
+planes                5490/65536      109800/1310720  ( 8.4%) 
+vertexes              5945/65536       71340/786432   ( 9.1%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                96/12288        6912/884736   ( 0.8%) 
+texdata                 12/4096          384/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3643/65536      204008/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3119/65536      174664/3670016  ( 4.8%) 
+facebrushes            148/0             296/0        ( 0.0%) 
+facebrushlists        3643/0           14572/0        ( 0.0%) 
+leaves                 571/65536       18272/2097152  ( 0.9%) 
+leaffaces             4743/65536        9486/131072   ( 7.2%) 
+leafbrushes           1490/65536        2980/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            29375/512000     117500/2048000  ( 5.7%) 
+edges                17294/256000      69176/1024000  ( 6.8%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4308/65536        8616/131072   ( 6.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1305328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15276/16777216 ( 0.1%) 
+entdata               [variable]        9173/393216   ( 2.3%) 
+LDR ambient table      571/65536        2284/262144   ( 0.9%) 
+HDR ambient table      571/65536        2284/262144   ( 0.9%) 
+LDR leaf ambient       991/65536       27748/1835008  ( 1.5%) 
+HDR leaf ambient       571/65536       15988/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2898     ( 0.0%) 
+pakfile               [variable]       74819/0        ( 0.0%) 
+physics               [variable]      271094/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 9623
+Writing d:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\1v1_wood 3\awp only\1v1_wood_3_awp_only.bsp', but we don't own that location. Allowing...
+3 seconds elapsed

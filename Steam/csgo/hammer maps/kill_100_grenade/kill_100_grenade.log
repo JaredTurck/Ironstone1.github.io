@@ -1,0 +1,133 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.vmf
+Map revision 81
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8588 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 13
+Reduced 4 texdatas to 4 (91 bytes to 91)
+Writing D:\Desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.bsp
+reading d:\desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.prt
+  50 portalclusters
+ 122 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1794
+Average clusters visible: 35
+Building PAS...
+Average clusters audible: 45
+visdatasize:1110  compressed from 800
+writing d:\desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.bsp
+154 faces
+18527 square feet [2667941.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+154 patches before subdivision
+1874 patches after subdivision
+21 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 124332, max 196
+transfer lists:   0.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(16011, 14722, 12852)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1737, 1469, 1119)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(189, 147, 98)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(21, 15, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             132/81920        1056/655360   ( 0.2%) 
+planes                 116/65536        2320/1310720  ( 0.2%) 
+vertexes               227/65536        2724/786432   ( 0.3%) 
+nodes                  129/65536        4128/2097152  ( 0.2%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  154/65536        8624/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               73/65536        4088/3670016  ( 0.1%) 
+facebrushes             16/0              32/0        ( 0.0%) 
+facebrushlists         154/0             616/0        ( 0.0%) 
+leaves                 133/65536        4256/2097152  ( 0.2%) 
+leaffaces              208/65536         416/131072   ( 0.3%) 
+leafbrushes             62/65536         124/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1010/512000       4040/2048000  ( 0.2%) 
+edges                  552/256000       2208/1024000  ( 0.2%) 
+LDR worldlights         21/8192         2100/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             11/32768         110/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           198/65536         396/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      189508/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1110/16777216 ( 0.0%) 
+entdata               [variable]       13088/393216   ( 3.3%) 
+LDR ambient table      133/65536         532/262144   ( 0.2%) 
+HDR ambient table      133/65536         532/262144   ( 0.2%) 
+LDR leaf ambient       459/65536       12852/1835008  ( 0.7%) 
+HDR leaf ambient       133/65536        3724/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74462/0        ( 0.0%) 
+physics               [variable]        8588/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 410
+Writing d:\desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\kill_100_grenade\kill_100_grenade.bsp', but we don't own that location. Allowing...
+1 second elapsed

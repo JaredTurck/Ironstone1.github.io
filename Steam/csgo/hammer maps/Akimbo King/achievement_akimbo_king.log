@@ -1,0 +1,1250 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Akimbo King\achievement_akimbo_king.vmf
+Map revision 2
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Akimbo King\achievement_akimbo_king.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3350 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 4
+Reduced 2 texdatas to 2 (41 bytes to 41)
+Writing D:\Desktop\csgo\hammer maps\Akimbo King\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+6 faces
+1454 square feet [209519.34 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6 patches before subdivision
+218 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9104, max 96
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  7/8192           84/98304    ( 0.1%) 
+brushsides              42/81920         336/655360   ( 0.1%) 
+planes                  42/65536         840/1310720  ( 0.1%) 
+vertexes                33/65536         396/786432   ( 0.1%) 
+nodes                   10/65536         320/2097152  ( 0.0%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  2/4096           64/131072   ( 0.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                    6/65536         336/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists           6/0              24/0        ( 0.0%) 
+leaves                  12/65536         384/2097152  ( 0.0%) 
+leaffaces                6/65536          12/131072   ( 0.0%) 
+leafbrushes              7/65536          14/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               48/512000        192/2048000  ( 0.0%) 
+edges                   37/256000        148/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        8040/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]         570/393216   ( 0.1%) 
+LDR ambient table       12/65536          48/262144   ( 0.0%) 
+HDR ambient table       12/65536          48/262144   ( 0.0%) 
+LDR leaf ambient         1/65536          28/1835008  ( 0.0%) 
+HDR leaf ambient        12/65536         336/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        3350/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 12
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\csgo\hammer maps\Akimbo King\achievement_akimbo_king.vmf
+Map revision 10
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\csgo\hammer maps\Akimbo King\achievement_akimbo_king.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4961 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\Desktop\csgo\hammer maps\Akimbo King\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+12 faces
+1938 square feet [279215.34 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+194 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6648, max 88
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1383, 389, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1013, 80, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(647, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(429, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(280, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(183, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(120, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              62/81920         496/655360   ( 0.1%) 
+planes                  74/65536        1480/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             10/65536          20/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7028/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4545/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        4961/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.vmf
+Map revision 11
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4961 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+12 faces
+1938 square feet [279215.34 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+194 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6648, max 88
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1385, 389, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1014, 80, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(648, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(430, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(281, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(184, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(120, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              62/81920         496/655360   ( 0.1%) 
+planes                  74/65536        1480/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             10/65536          20/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7028/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4548/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        4961/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+12 faces
+1938 square feet [279215.34 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+194 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6648, max 88
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1384, 389, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1014, 80, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(648, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(429, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(280, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(184, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(120, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              62/81920         496/655360   ( 0.1%) 
+planes                  74/65536        1480/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces               12/65536         672/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             10/65536          20/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7028/0        ( 0.0%) 
+HDR lightdata         [variable]        7028/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4548/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        4961/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.vmf
+Map revision 12
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4961 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+12 faces
+1938 square feet [279215.34 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+194 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6648, max 88
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1385, 389, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1014, 80, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(648, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(430, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(281, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(184, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(120, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              62/81920         496/655360   ( 0.1%) 
+planes                  74/65536        1480/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             10/65536          20/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7028/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4788/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        4961/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+12 faces
+1938 square feet [279215.34 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+194 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6648, max 88
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1385, 389, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1014, 80, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(648, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(430, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(281, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(184, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(120, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              62/81920         496/655360   ( 0.1%) 
+planes                  74/65536        1480/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces               12/65536         672/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             10/65536          20/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7028/0        ( 0.0%) 
+HDR lightdata         [variable]        7028/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4788/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        4961/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.vmf
+Map revision 13
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4961 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+12 faces
+1938 square feet [279215.34 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+194 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6648, max 88
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1385, 389, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1014, 80, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(648, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(430, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(281, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(184, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(120, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              62/81920         496/655360   ( 0.1%) 
+planes                  74/65536        1480/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             10/65536          20/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7028/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4788/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        4961/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+12 faces
+1938 square feet [279215.34 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+194 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6648, max 88
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1384, 389, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1014, 80, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(648, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(429, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(280, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(184, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(120, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              62/81920         496/655360   ( 0.1%) 
+planes                  74/65536        1480/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces               12/65536         672/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             10/65536          20/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7028/0        ( 0.0%) 
+HDR lightdata         [variable]        7028/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4788/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        4961/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.vmf
+Map revision 18
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4961 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+reading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.prt
+   1 portalclusters
+   0 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1
+Average clusters visible: 1
+Building PAS...
+Average clusters audible: 1
+visdatasize:14  compressed from 16
+writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+12 faces
+1938 square feet [279215.34 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+194 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6648, max 88
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1385, 389, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1014, 80, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(648, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(430, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(281, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(184, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(120, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              62/81920         496/655360   ( 0.1%) 
+planes                  74/65536        1480/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             10/65536          20/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7028/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4788/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        19/65536         532/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        4961/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+12 faces
+1938 square feet [279215.34 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 patches before subdivision
+194 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6648, max 88
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1384, 389, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1014, 80, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(648, 14, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(429, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(280, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(184, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(120, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+brushsides              62/81920         496/655360   ( 0.1%) 
+planes                  74/65536        1480/1310720  ( 0.1%) 
+vertexes                41/65536         492/786432   ( 0.1%) 
+nodes                   16/65536         512/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   12/65536         672/3670016  ( 0.0%) 
+hdr faces               12/65536         672/3670016  ( 0.0%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          12/0              48/0        ( 0.0%) 
+leaves                  19/65536         608/2097152  ( 0.0%) 
+leaffaces               12/65536          24/131072   ( 0.0%) 
+leafbrushes             10/65536          20/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges               96/512000        384/2048000  ( 0.0%) 
+edges                   61/256000        244/1024000  ( 0.0%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7028/0        ( 0.0%) 
+HDR lightdata         [variable]        7028/0        ( 0.0%) 
+visdata               [variable]          14/16777216 ( 0.0%) 
+entdata               [variable]        4788/393216   ( 1.2%) 
+LDR ambient table       19/65536          76/262144   ( 0.0%) 
+HDR ambient table       19/65536          76/262144   ( 0.0%) 
+LDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+HDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        4961/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 24
+Writing d:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\csgo\hammer maps\akimbo king\achievement_akimbo_king.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

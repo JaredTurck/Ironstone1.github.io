@@ -1,0 +1,529 @@
+/*
+function ProCSGOPlayers() {
+	// Team Liquid
+	local Team_Liquid = {
+		"Stewie2k" : "cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshaircolor_b 0; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0;",
+		"EliGE" : "cl_crosshairalpha 255; cl_crosshaircolor 5; cl_crosshaircolor_b 200; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairsize 1.5; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 0.5;",
+		"nitr0" : "cl_crosshairstyle 1; cl_fixedcrosshairgap -4.5; cl_crosshaircolor 4; cl_crosshairsize 3; cl_crosshairthickness 1; hud_showtargetid 1;",
+		"NAF" : "cl_crosshairsize 1; cl_crosshairgap -1; cl_crosshairthickness 0; cl_crosshaircolor 5; cl_crosshaircolor_b 144; cl_crosshaircolor_g 195; cl_crosshaircolor_r 27; cl_crosshairdot 1; cl_crosshairstyle 5; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshairscale 120; cl_crosshair_dynamic_maxdist_splitratio 0.35; cl_crosshair_dynamic_splitalpha_innermod 1; cl_crosshair_dynamic_splitalpha_outermod 0.5; cl_crosshair_dynamic_splitdist 7;",
+		"Twistzz" : "cl_crosshairalpha 200; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Astralis
+	Astralis = {
+		"Magisk" : "cl_crosshairalpha 200; cl_crosshaircolor 2; cl_crosshairdot 1; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Xyp9x" : "cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"dev1ce" : "cl_crosshairalpha 800; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+		"dupreeh" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 1.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"gla1ve" : "cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshaircolor_b 0; cl_crosshaircolor_r 0; cl_crosshaircolor_g 255; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// ENCE
+	ENCE = {
+		"allu" : "cl_crosshairalpha 200; cl_crosshaircolor 2; cl_crosshaircolor_b 250; cl_crosshaircolor_r 250; cl_crosshaircolor_g 250; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+		"suNny" : "cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshairdot 0; cl_crosshairsize 2.5; cl_crosshairgap -3; cl_crosshaircolor 1; cl_crosshairalpha 200;",
+		"sergej" : "cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"Aerial" : "cl_crosshairsize 4; cl_crosshairgap 1; cl_crosshairthickness 2; cl_crosshairdot 0; cl_crosshaircolor 1; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 1; cl_crosshairstyle 4;",
+		"xseveN" : "cl_crosshairsize 2; cl_crosshairgap -2; cl_crosshairthickness 0; cl_crosshairstyle 4; cl_crosshaircolor 1;",
+	}
+	
+	// Vitality
+	Vitality = {
+		"NBK" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"apEX" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"RpK" : "cl_crosshairalpha 999; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"ALEX" : "cl_crosshairalpha 255;  cl_crosshaircolor 1;  cl_crosshaircolor_b 255;  cl_crosshaircolor_g 0; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"ZywOo" : "cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+	}
+	
+	// FURIA
+	FURIA = {
+		"HEN1" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 1; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+		"kscerato" : "cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"arT" : "cl_crosshaircolor 1; cl_crosshairsize 3; cl_crosshairdot 0; cl_crosshairthickness 1; cl_crosshairgap -1; cl_crosshairstyle 6;",
+		"yuurih" : "cl_crosshairalpha 250; cl_crosshaircolor 2; cl_crosshairdot 1; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 0.4; cl_crosshair_drawoutline 0;",
+		"VINI" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 1;",
+	}
+	
+	// FaZe Clan
+	FaZe_Clan = {
+		"olofmeister" : "cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 1;",
+		"rain" : "cl_crosshairsize 2; cl_crosshairgap -2; cl_crosshairthickness 1; cl_crosshaircolor 5; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0;",
+		"NiKo" : "cl_crosshairsize 1.5; cl_crosshairgap -3; cl_crosshairthickness 0; cl_crosshaircolor 5; cl_crosshaircolor_b 144; cl_crosshaircolor_g 195; cl_crosshaircolor_r 27; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+	}
+	
+	// Fnaric
+	Fnaric = {
+		"twist" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"JW" : "cl_crosshairsize 3; cl_crosshairgap -2; cl_crosshairthickness 1; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+		"flusha" : "cl_crosshairalpha 999; cl_crosshaircolor 0; cl_crosshairdot 1; cl_crosshairgap -4; cl_crosshairsize 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 1; cl_crosshair_sniper_width 1;",
+		"KRiMZ" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 1.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_outlinethickness 0; cl_crosshair_drawoutline 0",
+		"Xizt" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"Golden" : "cl_crosshair_drawoutline 0; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2.5; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairthickness 0;",
+		"Brollan" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+	}
+	
+	// MIBR
+	MIBR = {
+		"FalleN" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 2;",
+		"coldzera" : "cl_crosshairalpha 200; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshaircolor_b 50; cl_crosshaircolor_r 250; cl_crosshaircolor_g 250;",
+		"fer" : "cl_crosshairsize 1; cl_crosshairgap -2; cl_crosshairthickness 0; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 0.5;",
+		"TACO" : "cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshair_drawoutline 0; cl_crosshairalpha 255; cl_crosshairdot 0; cl_crosshaircolor 1; cl_crosshairthickness 1.15; cl_crosshairgap -3;",
+		"LUCAS1" : "cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 0.5;",
+		"kNg" : "cl_crosshairalpha 200; cl_crosshaircolor 0; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Natus Vincere
+	Natus_Vincere = {
+		"electronic" : "cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 1.5; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshairalpha 200; cl_crosshaircolor_b 250; cl_crosshaircolor_g 250; cl_crosshaircolor_r 250;",
+		"s1mple" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 1; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1; cl_crosshaircolor_b 250; cl_crosshaircolor_g 250; cl_crosshaircolor_r 250;",
+		"flamie" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshair_outlinethickness 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; ",
+		"GuardiaN" : "cl_crosshairsize 2; cl_crosshaircolor 1; cl_crosshairstyle 6; cl_crosshairgap 0; cl_crosshairgap_useweaponvalue 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+		"Edward" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 4; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Boombl4" : "cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// NRG Esports
+	NRG_Esports = {
+		"tarik" : "cl_fixedcrosshairgap -4.5; cl_crosshaircolor 4; cl_crosshairstyle 1; cl_crosshair_sniper_width 1;",
+		"stanislaw" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Brehze" : "cl_crosshairstyle 1; cl_crosshaircolor 1; cl_fixedcrosshairgap -5; cl_crosshairalpha 255;",
+		"Ethan" : "cl_crosshairsize 1; cl_crosshairgap -2; cl_crosshairthickness 1; cl_crosshairstyle 4; cl_crosshair_drawoutline 1; cl_crosshaircolor 5; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairalpha 250;",
+		"CeRq" : "cl_crosshairalpha 999; cl_crosshaircolor 0; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshaircolor 0; cl_crosshaircolor_b 0; cl_crosshaircolor_g 0; cl_crosshaircolor_r 0; cl_crosshair_sniper_width 2;",
+	}
+	
+	// Ninjas in Pyjamas
+	Ninjas_in_Pyjamas = {
+		"Lekr0" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"f0rest" : "cl_crosshairsize 1; cl_crosshairgap 1; cl_crosshairthickness 0; cl_crosshaircolor 1; cl_crosshaircolor_b 250; cl_crosshaircolor_g 250; cl_crosshaircolor_r 250; cl_crosshairdot 1; cl_crosshairstyle 5; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+		"GeT_RiGhT" : "cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1; cl_crosshair_t 0; cl_crosshairalpha 5000; cl_crosshaircolor 2; cl_crosshaircolor_b 0; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairgap_useweaponvalue 0; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshairusealpha 1;",
+		"REZ" : "cl_crosshairsize 1; cl_crosshairgap -3; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshaircolor 1; cl_crosshair_outlinethickness 0; cl_crosshairstyle 4; cl_crosshairdot 0; cl_crosshairalpha 255;",
+		"Plopski" : "cl_crosshairsize 2; cl_crosshairgap -2; cl_crosshairthickness 0; cl_crosshairstyle 4; cl_crosshaircolor 1;",
+	}
+	
+	// North
+	North = {
+		"aizy" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2.4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"Kjaerbye" : "cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"JUGi" : "cl_crosshairstyle 4; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairdot 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 255; cl_crosshaircolor_b 255;",
+		"valde" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"gade" : "cl_crosshairstyle 4; cl_crosshairsize 3; cl_crosshairgap -2 ; cl_crosshairdot 0; cl_crosshaircolor 1; cl_crosshair_drawoutline 0; cl_crosshairthickness 1;",
+	}
+	
+	// G2 Esports
+	G2_Esports = {
+		"kennyS" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 1; cl_crosshair_sniper_width 1;",
+		"shox" : "cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1; cl_crosshair_t 0; cl_crosshairalpha 5000; cl_crosshaircolor 2; cl_crosshaircolor_b 0; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairgap_useweaponvalue 0; cl_crosshairsize 2; cl_crosshairstyle 2; cl_crosshairthickness 1; cl_crosshairusealpha 1; cl_crosshair_dynamic_maxdist_splitratio 0.2; cl_crosshair_dynamic_splitalpha_innermod 1; cl_crosshair_dynamic_splitalpha_outermod 0.5; cl_crosshair_dynamic_splitdist 5;",
+		"AmaNEk" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshaircolor_b 1; cl_crosshaircolor_r 0; cl_crosshaircolor_g 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 1;",
+		"Lucky" : "cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshairdot 1; cl_crosshairgap -3; cl_crosshairsize 1; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+		"JACKZ" : "cl_crosshairsize 3; cl_crosshairgap -1; cl_crosshairthickness 1; cl_crosshaircolor 2; cl_crosshair_drawoutline 1;",
+	}
+	
+	// Mousesports
+	Mousesports = {
+		"karrigan" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"chrisJ" : "cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 1; cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshaircolor_b 0; cl_crosshaircolor_g 0; cl_crosshaircolor_r 0; cl_crosshairdot 0; cl_crosshairgap 1; cl_crosshairscale 2000; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshairusealpha 1;",
+		"ropz" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"woxic" : "cl_crosshairalpha 200; cl_crosshaircolor 5; cl_crosshaircolor_b 129; cl_crosshaircolor_r 250; cl_crosshaircolor_g 50; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.1; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0;",
+		"Frozen" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Renegrades
+	Renegrades = {
+		"AZR" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 1;",
+		"jks" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"jkaem" : "cl_crosshairalpha 250; cl_crosshaircolor 0; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"liazz" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 210; cl_crosshaircolor_r 50; cl_crosshairdot 1; cl_crosshairgap -3; cl_crosshairsize 4.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"Gratisfaction" : "cl_crosshairstyle 4; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 0.5; cl_crosshairusealpha 1; cl_crosshairsize 5; cl_crosshairgap 5; cl_crosshaircolor 5; cl_crosshaircolor_r 250; cl_crosshaircolor_g 250; cl_crosshaircolor_b 250; cl_crosshairthickness 0; cl_crosshairdot 1;",
+	}
+	
+	// Avangar
+	Avangar = {
+		"AdreN" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Buster" : "cl_crosshairsize 2; cl_crosshairgap -2; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshaircolor 0;",
+		"Jame" : "cl_crosshairstyle 4; cl_crosshairsize 2; cl_crosshairgap -2; cl_crosshairthickness 0; cl_crosshairusealpha 1; cl_crosshairdot 0; cl_crosshaircolor 2;",
+		"qikert" : "cl_crosshairsize 2.5; cl_crosshairgap -3; cl_crosshairstyle 4; cl_crosshair_drawoutline 0; cl_crosshaircolor 1; cl_crosshairthickness 1; cl_crosshairdot 0;",
+		"krizzen" : "cl_crosshairsize 1.5; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshairgap -2.2; cl_crosshair_drawoutline 1; cl_crosshairalpha 120; cl_crosshaircolor 4;",
+		"SANJI" : "cl_crosshairsize 2; cl_crosshairgap -2; cl_crosshairstyle 4; cl_crosshair_drawoutline 0; cl_crosshaircolor 1; cl_crosshaircolor_b 250; cl_crosshaircolor_g 250; cl_crosshaircolor_r 250; cl_crosshairthickness 1; cl_crosshairdot 0; cl_crosshairalpha 999;",
+	}
+	
+	// CR4ZY
+	CR4ZY = {
+		"nexa" : "cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"EspiranTo" : "cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 1; cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshaircolor_b 0; cl_crosshaircolor_g 0; cl_crosshaircolor_r 0; cl_crosshairdot 0; cl_crosshairgap 1; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshairusealpha 1;",
+		"huNter" : "cl_crosshairalpha 500; cl_crosshaircolor 4; cl_crosshaircolor_b 44; cl_crosshaircolor_g 95; cl_crosshaircolor_r 27; cl_crosshairdot 1; cl_crosshairsize 1; cl_crosshairthickness 0.9; cl_crosshairusealpha 1; cl_crosshairgap -1; cl_crosshairstyle 4;",
+		"ottoNd" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairgap -1; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+		"LETN1" : "cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairsize 1; cl_crosshairthickness 0.8; cl_crosshairusealpha 1; cl_crosshairgap -1.2; cl_crosshairtstyle 4;",
+	}
+	
+	// Grayhound
+	Grayhound = {
+		"DickStacy" : "cl_crosshairsize 1; cl_crosshairgap -1; cl_crosshairthickness 0.4; cl_crosshaircolor 5; cl_crosshaircolor_b 144; cl_crosshaircolor_g 195; cl_crosshaircolor_r 27; cl_crosshairdot 1; cl_crosshairstyle 5; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_dynamic_maxdist_splitratio 0.35; cl_crosshair_dynamic_splitalpha_innermod 1; cl_crosshair_dynamic_splitalpha_outermod 0.5; cl_crosshair_dynamic_splitdist 7; cl_crosshair_sniper_width 1;",
+		"dexter" : "cl_crosshairsize 2.5; cl_crosshairstyle 2; cl_crosshair_drawoutline 0; cl_crosshaircolor 4; cl_crosshaircolor_b 255; cl_crosshaircolor_g 0; cl_crosshaircolor_r 255; cl_crosshairdot 1; cl_crosshairgap -2; cl_crosshairthickness 1;",
+		"malta" : "cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshair_drawoutline 0; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 0; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairthickness 0;",
+	}
+	
+	// Windigo
+	Windigo = {
+		"bubble" : "cl_crosshaircolor 3; cl_crosshairstyle 4; cl_crosshairsize 1.8; cl_crosshair_sniper_width 2; cl_crosshair_drawoutline 1; cl_crosshairgap -3; cl_crosshairthickness 1; cl_crosshairdot 0;",
+		"Calyx" : "cl_crosshairsize 2.5; cl_crosshairgap -3; cl_crosshairthickness 0; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_dynamic_maxdist_splitratio 0.35; cl_crosshair_dynamic_splitalpha_innermod 1; cl_crosshair_dynamic_splitalpha_outermod 0.5; cl_crosshair_dynamic_splitdist 7;",
+		"hAdji" : "cl_crosshairstyle 5; cl_crosshairsize 1; cl_crosshairgap -1; cl_crosshairthickness 0; cl_crosshaircolor 4; cl_crosshairdot 1;",
+		"poizon" : "cl_crosshaircolor 1; cl_crosshairstyle 4; cl_crosshairsize 2.5; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0; cl_crosshairgap -3; cl_crosshairthickness 0; cl_crosshairdot 0;",
+	}
+	
+	// OpTic Gaming
+	OpTic_Gaming = {
+		"MSL" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"cajunb" : "cl_crosshairalpha 800; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 4; cl_crosshairstyle 2; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"k0nfig" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"niko" : "cl_crosshair_drawoutline 0; cl_crosshair_outlinethickness 1; cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairthickness 1.15;",
+		"teses" : "cl_crosshairsize 1; cl_crosshairgap -3; cl_crosshair_drawoutline 1; cl_crosshairthickness 1; cl_crosshairstyle 4; cl_crosshaircolor 5",
+	}
+	
+	// BIG
+	BIG = {
+		"XANTARES" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.05; cl_crosshair_drawoutline 0;",
+		"tabseN" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 1; ",
+		"nex" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 1;",
+		"smooya" : "cl_crosshairstyle 4; cl_crosshairgap -2; cl_crosshaircolor 1; cl_crosshairsize 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"tizian" : "cl_crosshairalpha 200;cl_crosshaircolor 1; cl_crosshaircolor_b 50; cl_crosshaircolor_r 250; cl_crosshaircolor_g 250; cl_crosshairdot 0; cl_crosshair_t 0; cl_crosshairgap 0; cl_crosshairsize 5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_fixedcrosshairgap 0; cl_crosshair_outlinethickness 0; cl_crosshair_drawoutline 0;",
+	}
+	
+	// HR
+	HR = {
+		"loWel" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"oskar" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+		"ANGE1" : "cl_crosshairalpha 200; cl_crosshaircolor red; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 1;",
+		"ISSAA" : "cl_crosshaircolor 0; cl_crosshairdot 1; cl_crosshairgap 0; cl_crosshairsize 3; cl_crosshairstyle 5; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshairalpha 255; cl_crosshairusealpha 1;",
+		"nukkye" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 1; cl_crosshair_sniper_width 1;",
+	}
+	
+	// Heroic
+	Heroic = {
+		"Snappi" : "cl_crosshaircolor 1; cl_crosshairstyle 4; cl_crosshairsize 2; cl_crosshairthickness 1; cl_crosshairgap -2;",
+		"es3tag" : "cl_crosshaircolor "1"; cl_crosshaircolor_b 50; cl_crosshaircolor_g 250; cl_crosshaircolor_r 50; cl_crosshairdot 1; cl_crosshairgap 0; cl_crosshairsize 2; cl_crosshairstyle 5; cl_crosshairthickness 1;",
+		"b0RUP" : "cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap 1; cl_crosshairsize 1.5; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshairusealpha 1; cl_crosshairalpha 250; cl_crosshair_sniper_width 1; cl_crosshaircolor_b 250; cl_crosshaircolor_g 250; cl_crosshaircolor_r 250;",
+		"mertz" : "cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshairusealpha 1; cl_crosshairalpha 255;",
+		"blameF" : "cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshairusealpha 1; cl_crosshairalpha 255;",
+		"stavn" : "cl_crosshaircolor 1; cl_crosshairdot 1; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshairusealpha 1; cl_crosshairalpha 200; cl_crosshair_sniper_width 2; cl_crosshaircolor_b 50; cl_crosshaircolor_g 250; cl_crosshaircolor_r 50;",
+	}
+	
+	// Cloud9
+	Cloud9 = {
+		"Skadoodle" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+		"autimatic" : "cl_crosshairsize 3; cl_crosshairgap -1; cl_crosshairthickness 1; cl_crosshaircolor 2; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0;",
+		"RUSH" : "cl_crosshairalpha 355; cl_crosshaircolor 1; cl_crosshairdot 1; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"mixwell" : "cl_crosshairalpha 255; cl_crosshaircolor 0; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 0;",
+		"daps" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"koosta" : "cl_crosshairalpha 200; cl_crosshaircolor 5; cl_crosshaircolor_b 255; cl_crosshaircolor_r 255; cl_crosshaircolor_g 255;cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"TenZ" : "cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+	}
+	
+	// Team Spirit
+	Team_Spirit = {
+		"chopper" : "cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0;",
+		"COLDYY1" : "cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairalpha 250; cl_crosshaircolor 5; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0;",
+		"S0TF1k" : "cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0;",
+		"somedieyoung" : "cl_crosshairsize 0.5; cl_crosshairgap -2; cl_crosshaircolor 1; cl_crosshairthickness 1; cl_crosshairdot 0; cl_crosshairalpha 255;",
+	}
+	
+	// CompLexity Gaming
+	CompLexity_Gaming = {
+		"ShahZaM" : "cl_crosshairstyle 6; cl_crosshairsize 2; cl_crosshairgap 0; cl_crosshairthickness 0; cl_crosshairgap_useweaponvalue 1; cl_crosshaircolor 1;",
+		"SicK" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 1;",
+		"oBo" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshaircolor_b 50; cl_crosshaircolor_r 250; cl_crosshaircolor_g 250;",
+		"dephh" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2.5; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Tyloo
+	Tyloo = {
+		"somebody" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_r 255; cl_crosshaircolor_g 255; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3.5; cl_crosshairstyle 1; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_fixedcrosshairgap -4;",
+		"BnTeT" : "cl_crosshairalpha 200; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+		"Attacker" : "cl_crosshairsize 3; cl_crosshairgap -3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0;",
+		"Summer" : "cl_crosshairsize 2; cl_crosshairgap -3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; ",
+		"Freeman" : "cl_crosshairsize 2; cl_crosshairgap -3; cl_crosshairthickness 0.5; cl_crosshaircolor 1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// GamerLegion
+	GamerLegion = {
+		"dennis" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"ScreaM" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshair_outlinethickness 1; cl_crosshair_sniper_width 1; cl_crosshairgap_useweaponvalue 0; cl_crosshaircolor_b 250; cl_crosshaircolor_r 250; cl_crosshaircolor_g 250;",
+		"Ex6TenZ" : "cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+		"HS" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 1.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Hampus" : "cl_crosshairalpha 167; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairsize 3; cl_crosshairstyle 6; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 1;",
+		"nawwk" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Sprout
+	Sprout = {
+		"Spiidi" : "cl_crosshairsize 4.4; cl_crosshairthickness 0; cl_crosshairgap -1; cl_crosshairstyle 4; cl_Crosshair_drawoutline 1; cl_crosshair_outlinethickness 0.1; cl_crosshaircolor 5; cl_crosshaircolor_b 174; cl_crosshaircolor_g 180; cl_crosshaircolor_r 8; cl_crosshairalpha 200;",
+		"denis" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1.5; cl_crosshair_drawoutline 0;",
+	}
+	
+	// DreamEaters
+	DreamEaters = {
+		"speed4k" : "cl_crosshairalpha 355; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_outlinethickness 1; cl_crosshair_sniper_width 1;",
+		"Forester" : "cl_crosshairsize 3; cl_crosshairstyle 2; cl_crosshairthickness 0; cl_crosshairusealpha 1; cl_crosshairgap -1; cl_crosshair_drawoutline 0; cl_crosshairalpha 200; cl_crosshaircolor 5; cl_crosshaircolor_b 0; cl_crosshaircolor_g 255; cl_crosshaircolor_r 0; cl_crosshairdot 0;",
+		"svyat" : "?",
+		"kinqie" : "cl_crosshairalpha 355; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 5; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_outlinethickness 1; cl_crosshair_sniper_width 1;",
+		"Krad" : "cl_crosshairsize 5; cl_crosshairthickness 1; cl_crosshairgap -2; cl_crosshair_drawoutline 0; cl_crosshairdot 0; cl_crosshaircolor 1;",
+	}
+	
+	// INTZ Esports
+	INTZ_Esports = {
+		"destinyy" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 1; cl_crosshairgap -3; cl_crosshairsize 5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"yeL" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 4; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"chelo" : "cl_crosshair_sniper_width 1.6; cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 200; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairscale 3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshairusealpha 1;",
+		"xand" : "cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4;",
+	}
+	
+	// VS
+	VS = {
+		"jR" : "cl_crossairsize 3; cl_crosshairgap -2; cl_crosshairthickness 0; cl_crossairdot 0; cl_crosshair_drawoutline 0; cl_crosshaircolor 1;",
+		"hutji" : "cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairthickness 1.15; cl_crosshairgap -2; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshair_drawoutline 0;",
+		"crush" : "?",
+		"Dima" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairthickness 0.05; cl_crosshairusealpha 1; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 0.1;",
+	}
+	
+	// Ex-Luminosity
+	Ex_Luminosity = {
+		"steel" : "cl_crosshairdot 0; cl_crosshairgap 1; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshaircolor 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"felps" : "cl_crosshairalpha 255; cl_crosshaircolor 0; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairsize 3.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 2;",
+		"boltz" : "cl_crosshairsize 1; cl_crosshairgap 0; cl_crosshairthickness 0; cl_crosshaircolor 4; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0;",
+		"NEKIZ" : "cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshairsize 3; cl_crosshairdot 1; cl_crosshairgap -1; cl_crosshairthickness 1; cl_crosshairstyle 4; cl_crosshaircolor 4;",
+	}
+	
+	// SMASH
+	SMASH = {
+		"STYKO" : "cl_crosshairalpha 300; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Maikelele" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 1; cl_crosshairgap -1; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness -1; cl_crosshair_drawoutline 0;",
+		"kRYSTAL" : "cl_crosshairstyle 5; cl_crosshairsize 3; cl_crosshairgap -3; cl_crosshairthickness 0; cl_crosshairdot 0; cl_crosshaircolor 5;",
+		"zehN" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 1; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Winstrike
+	Winstrike = {
+		"bondik" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"n0rb3r7" : "cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"El1an" : "cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Swole Patrol
+	Swole_Patrol = {
+		"swag" : "cl_fixedcrosshairgap -3; cl_crosshaircolor 2; cl_crosshairstyle 1; cl_crosshair_sniper_width 1;",
+		"Zellsis" : "cl_crosshairalpha 1000; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 1.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 1;",
+		"yay" : "cl_crosshairalpha 200; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshaircolor_b 50; cl_crosshaircolor_r 250; cl_crosshaircolor_g 250;",
+		"Subroza" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Gambit Esports / Gambit Youngsters
+	Gambit_Esports = {
+		"Dosia" : "cl_crosshairalpha 999; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 1.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"mou" : "cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 2; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"mir" : "cl_crosshairsize 1; cl_crosshairgap -1; cl_crosshairthickness 0.4; cl_crosshairdot 0; cl_crosshaircolor 1",
+		"Ax1Le" : "cl_crosshair_drawoutline 0; cl_crosshair_dynamic_maxdist_splitratio 0.35; cl_crosshair_dynamic_splitalpha_innermod 1; cl_crosshair_dynamic_splitalpha_outermod 0.5; cl_crosshair_dynamic_splitdist 7; cl_crosshair_outlinethickness 1; cl_crosshair_sniper_show_normal_inaccuracy 0; cl_crosshair_sniper_width 1; cl_crosshairalpha 255; cl_crosshaircolor 5; cl_crosshaircolor_b 192; cl_crosshaircolor_g 255; cl_crosshaircolor_r 0; cl_crosshairdot 0; cl_crosshairgap -0.500000; cl_crosshairgap_useweaponvalue 0; cl_crosshairscale 0; cl_crosshairsize 3.000000; cl_crosshairstyle 5; cl_crosshairthickness 0.500000; cl_crosshairusealpha 1; cl_fixedcrosshairgap -2;",
+		"sh1ro" : "cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -4; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 2;",
+	}
+	
+	// AGO Gaming
+	AGO_Gaming = {
+		"pashaBiceps" : "cl_crosshairsize 3; cl_crosshairgap -3; cl_crosshairthickness 0; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 1; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0;",
+		"Furlan" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 1; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Gruby" : "cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairthickness 1; cl_crosshairstyle 4;",
+	}
+	
+	// forZe
+	forZe = {
+		"facecrack" : "cl_crosshairstyle 4; cl_crosshairsize 3; cl_crosshairgap -3; cl_crosshairthickness 1; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshair_drawoutline 0;",
+		"Jerry" : "cl_crosshairalpha 999; cl_crosshaircolor 0; cl_crosshaircolor_b 0; cl_crosshaircolor_g 0; cl_crosshaircolor_r 0; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_outlinethickness 1; cl_crosshair_sniper_width 1;",
+		"almazer" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_outlinethickness 1; cl_crosshair_sniper_width 1;",
+		"xsepower" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_outlinethickness 1; cl_crosshair_sniper_width 1;",
+		"FL1T" : "?",
+	}
+	
+	// eUnited
+	eUnited = {
+		"MarkE" : "cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 0;",
+		"Cooper" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairgap -2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairsize 2; cl_crosshairthickness 1;",
+		"vanity" : "cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshairgap -2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairsize 2.2; cl_crosshairthickness 1;",
+	}
+	
+	// Team EnYyUs
+	Team_EnYyUs = {
+		"Nifty" : "cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 0;",
+		"FugLy" : "cl_crosshairalpha 300; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 3.5; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 1.5; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 1;",
+		"s0m" : "cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshaircolor_b 255; cl_crosshaircolor_r 255; cl_crosshaircolor_g 255;",
+		"ANDROID" : "cl_crosshairsize 3; cl_crosshairgap -3; cl_crosshairthickness 1; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 1; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Syman
+	Syman = {
+		"Perfecto" : "cl_crosshairsize 2; cl_crosshairthickness 0; cl_crosshairgap -1; cl_crosshair_drawoutline 0; cl_crosshairdot 1; cl_crosshaircolor 5; cl_crosshairstyle 5;",
+		"nealan" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairsize 2; cl_crosshairthickness 0; cl_crosshairgap -3; cl_crosshair_drawoutline 0;",
+		"t0rick" : "?",
+		"Keoz" : "cl_crosshairsize 1; cl_crosshairthickness 0; cl_crosshairgap -2; cl_crosshairdot 1; cl_crosshairstyle 4;",
+		"Ramz1k" : "?",
+	}
+	
+	// Aristocracy
+	Aristocracy = {
+		"TaZ" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"mouz" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2,5; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"rallen" : "cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1.1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Virus.pro
+	Virus.pro = {
+		"Snax" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2.6; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"MICHU" : "cl_crosshair_drawoutline 0; cl_crosshair_dynamic_maxdist_splitratio 0.35; cl_crosshair_dynamic_splitalpha_innermod 1; cl_crosshair_dynamic_splitalpha_outermod 0.5; cl_crosshair_dynamic_splitdist 7; cl_crosshair_outlinethickness 0.100000; cl_crosshairalpha 9999; cl_crosshaircolor 5; cl_crosshaircolor_b 0; cl_crosshaircolor_g 0; cl_crosshaircolor_r 0; cl_crosshairdot 1; cl_crosshairgap 0; cl_crosshairgap_useweaponvalue 0; cl_crosshairscale 1000; cl_crosshairsize 5; cl_crosshairstyle 6; cl_crosshairthickness 0; cl_crosshairusealpha 1;",
+		"phr" : "?",
+		"snatchie" : "cl_crosshairsize 2; cl_crosshairgap 0; cl_crosshairthickness 1; cl_crosshaircolor 1; cl_crosshairdot 1; cl_crosshairstyle 5; cl_crosshairalpha 250;",
+	}
+	
+	// Team LDLC
+	Team_LDLC = {
+		"Happy" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 1; cl_crosshairgap -1; cl_crosshairsize 1.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"SIXER" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"MAJ3R" : "cl_crosshairalpha 200; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"xms" : "cl_crosshairsize 2; cl_crosshairgap -2; cl_crosshairstyle 6; cl_crosshairthickness 0; cl_crosshaircolor 1;",
+	}
+	
+	// Nordavind
+	Nordavind = {
+		"tenzki" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 2; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"cromen" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 1;",
+		"RUBINO" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"Radifaction" : "cl_crosshairsize 1; cl_crosshairgap -1; cl_crosshairthickness 0.5; cl_crosshaircolor 2; cl_crosshair_drawoutline 0; cl_crosshairstyle 4; cl_crosshairdot 0; cl_crosshair_t 1;",
+		"hallzerk" : "cl_crosshairsize 1; cl_crosshairgap -1; cl_crosshairthickness 0; cl_crosshaircolor 1; cl_crosshaircolor_b -1000; cl_crosshaircolor_g 0; cl_crosshaircolor_r -1000; cl_crosshair_drawoutline 0; cl_crosshairstyle 5; cl_crosshairdot 1; cl_crosshairalpha 999;",
+	}
+	
+	// Mythic
+	Mythic = {
+		"fl0m" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"hazed" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairstyle 4; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairdot 0; cl_crosshairthickness 0;",
+		"anger" : "cl_crosshairstyle 4; cl_crosshairsize 3; cl_crosshairgap 0; cl_crosshairthickness 0.5; cl_crosshaircolor 5; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshaircolor_b 0; cl_crosshair_drawoutline 1;",
+	}
+	
+	// pro100
+	pro100 = {
+		"WorldEdit" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"wayLander" : "cl_crosshairalpha 500; cl_crosshaircolor 5; cl_crosshaircolor_b 0; cl_crosshaircolor_r 0; cl_crosshaircolor_g 0;cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2.4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Demise
+	Demise = {
+		"ngiN" : "cl_crosshair_drawoutline 0; cl_crosshairalpha 99999; cl_crosshaircolor 4; cl_crosshaircolor_b 0; cl_crosshaircolor_g 0; cl_crosshaircolor_r 0; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshairusealpha 1;",
+		"paz" : "cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"imor" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+	}
+	
+	// OneThree
+	OneThree = {
+		"Mo" : "cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairgap_useweaponvalue 0; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshairusealpha 1; cl_crosshair_sniper_width 2; cl_crosshair_drawoutline 0;",
+		"DD" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Extremum
+	Extremum = {
+		"waterfallz" : "cl_crosshairsize 3.5; cl_crosshairthickness 0; cl_crosshairgap 0; cl_crosshairstyle 4;",
+		"balblna" : "cl_crosshairgap -1; cl_crosshairsize 5; cl_crosshairalpha 200; cl_crosshaircolor 1; cl_crosshairdot 1; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 0.7;",
+	}
+	
+	// Riot Squad Esports
+	Riot_Squad_Esports = {
+		"ptr" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"FNS" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 1;",
+	}
+	
+	// Streamer
+	Streamer = {
+		"shroud" : "cl_crosshaircolor 3; cl_fixedcrosshairgap -2.5; cl_crosshairstyle 1; hud_showtargetid 1;",
+		"Pimp" : "cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 1; cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairthickness 0.5;",
+		"seangares" : "cl_crosshairalpha 200; cl_crosshaircolor 5; cl_crosshaircolor_b 0; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 2; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_fixedcrosshairgap -1; cl_crosshair_outline 0; cl_crosshair_outline_draw 0;",
+		"jasonR" : "cl_crosshairstyle 4; cl_crosshaircolor 4; cl_crosshairsize 1; cl_crosshairthickness 0.5; cl_crosshairgap -2; cl_crosshair_drawoutline 0;",
+		"summit1g" : "cl_crosshairstyle 0; cl_crosshaircolor 4;",
+		"D0cC" : "cl_crosshairalpha 999; cl_crosshaircolor 2; cl_crosshairdot 1; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1; cl_crosshaircolor_b 0; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255;",
+		"NisaY" : "cl_crosshair_drawoutline 0; cl_crosshair_t 0; cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshaircolor_b 0; cl_crosshaircolor_g 0; cl_crosshaircolor_r 0; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairgap_useweaponvalue 0; cl_crosshairscale 600; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshairusealpha 1;",
+	}
+	
+	// Free Agent
+	Free_Agent = {
+		"n0thing" : "cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairthickness 0.5; cl_crosshairgap -1; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 1; cl_crosshaircolor 1; cl_crosshairalpha 255;",
+		"markeloff" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"znajder" : "cl_crosshairalpha 250; cl_crosshaircolor 5; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairsize 3; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+		"kioShiMa" : "cl_crosshair_drawoutline 0; cl_crosshairgap -2; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairthickness 1; cl_crosshaircolor 1; cl_crosshairalpha 250; cl_crosshairdot 0;",
+		"seized" : "cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"friberg" : "cl_crosshairalpha 99999; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2.3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0;",
+		"Hiko" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 0.5;",
+		"jdm64" : "cl_crosshairalpha 300; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2.75; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"bodyy" : "cl_crosshairalpha 500; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_r 0; cl_crosshaircolor_g 255;cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 1;",
+		"NEO" : "cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -0.5; cl_crosshairsize 4; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"byali" : "cl_crosshairalpha 200; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshair_t 0; cl_crosshair_outlinethickness 0;",
+		"HObbit" : "cl_crosshairsize 3; cl_crosshairgap -2; cl_crosshairthickness 0.4; cl_crosshaircolor 5; cl_crosshaircolor_b 144; cl_crosshaircolor_g 195; cl_crosshaircolor_r 27; cl_crosshairdot 1; cl_crosshairstyle 4; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0; cl_crosshair_dynamic_maxdist_splitratio 0.35; cl_crosshair_dynamic_splitalpha_innermod 1; cl_crosshair_dynamic_splitalpha_outermod 0.5; cl_crosshair_dynamic_splitdist 7;",
+		"MODDII" : "cl_crosshairalpha 999; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -4; cl_crosshairsize 2; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Zero" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairsize 4.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1.5; cl_crosshair_drawoutline 0;",
+		"DeadFox" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"yam" : "cl_crosshairalpha 255; cl_crosshaircolor 5; cl_crosshaircolor_b 0; cl_crosshaircolor_r 0; cl_crosshaircolor_g 255;cl_crosshairdot 1; cl_crosshairgap -3; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"SZPERO" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"disco doplan" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1.5; cl_crosshair_drawoutline 0;",
+		"freddieb" : "cl_crosshairsize 3; cl_crosshairgap -2; cl_crosshairthickness 0; cl_crosshaircolor 1;",
+		"draken" : "cl_crosshairsize 1; cl_crosshairgap 0; cl_crosshairthickness 0; cl_crosshaircolor 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 1; cl_crosshairstyle 5; cl_crosshairalpha 250; cl_crosshairgap_useweaponvalue 0; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0;",
+		"DESPE" : "cl_crosshairstyle 4; cl_crosshairsize_3; cl_crosshairgap -1; cl_crosshairthickness 0",
+		"keev" : "cl_crosshairalpha 999; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"to1nou" : "cl_crosshairstyle 4; cl_crosshairsize 2; cl_crosshairgap -2;cl crosshaircolor 1;",
+		"mistou" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 1; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+		"glace" : "cl_crosshairalpha 255; cl_crosshaircolor 5; cl_crosshaircolor_b 0; cl_crosshaircolor_r 0; cl_crosshaircolor_g 0;cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"cadiaN" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshaircolor_b 50; cl_crosshaircolor_r 250; cl_crosshaircolor_g 250; cl_crosshairdot 0; cl_crosshair_t 0; cl_crosshairgap -1; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_fixedcrosshairgap -1; cl_crosshair_outlinethickness 0; cl_crosshair_drawoutline 0;",
+		"v1c7oR" : "cl_crosshairsize 2; cl_crosshaircolor 1; cl_crosshairthickness 1; cl_crosshairgap -3",
+		"PlesseN" : "cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Karus" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 4; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+		"Baaten" : "cl_crosshairsize 3; cl_crosshairthickness 1; cl_crosshaircolor 1; cl_crosshairgap -3; cl_crosshair_drawoutline 1;",
+		"Jayzwalkingz" : "?",
+		"reltuC" : "cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 3.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Rickeh" : "cl_crosshairalpha 255; cl_crosshaircolor 5; cl_crosshaircolor_b 0; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0;cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2.9; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"devoduvek" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 4; cl_crosshairstyle 6; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_drawoutline 0;",
+		"AcilioN" : "cl_crosshairsize 2; cl_crosshairgap -2; cl_crosshairdot 0; cl_crosshair_drawoutline 1; cl_crosshaircolor 4; cl_crosshairthickness 0.5;",
+		"AZK" : "cl_crosshairsize 2; cl_crosshairgap 0; cl_crosshairthickness 1; cl_crosshair_drawoutline 1; ",
+		"steel" : "cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshairdot 1; cl_crosshairgap -1; cl_crosshairsize 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Freakazoid" : "cl_crosshairstyle 4; cl_crosshaircolor 4; cl_crosshairthickness 1; cl_crosshairsize 1.5; cl_crosshairgap -2; cl_crosshairdot 0; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 1;",
+		"fitch" : "cl_crosshairsize 1; cl_crosshairgap -1; cl_crosshaircolor 1; cl_crosshair_drawoutline 1; cl_crosshairthickness 1; cl_crosshairdot 0;",
+		"pyth" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshaircolor_b -0; cl_crosshaircolor_g -0; cl_crosshaircolor_r -0; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshair_sniper_width 1;",
+		"TOAO" : "cl_crosshair_drawoutline 1 ; cl_crosshair_outlinethickness 0.5; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairthickness 0;",
+		"dimasick" : "cl_crosshairgap -3; cl_crosshairthickness 1; cl_crosshairsize 2.5; cl_crosshaircolor 1;",
+		"jmqa" : "cl_crosshairgap -3; cl_crosshairsize 2; cl_crosshairalpha 255; cl_crosshaircolor 0; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0;",
+		"Kvik" : "cl_crosshairgap -1; cl_crosshairsize 3; cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0;",
+		"LOGAN" : "cl_crosshairstyle 4; cl_crosshairsize 4; cl_crosshairgap -1; cl crosshaircolor 1; cl_crosshairthickness 0",
+		"NaToSaphiX" : "cl_crosshair_drawoutline 1; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairgap 1; cl_crosshairsize 4; cl_crosshairthickness 1; cl_crosshairalpha 255; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshaircolor 5; cl_crosshair_drawoutline 1;",
+		"benny" : "?",
+		"sycrone" : "cl_crosshair_drawoutline 0; cl_crosshaircolor_b 255; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairthickness 1; cl_crosshairalpha 200; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshaircolor 1",
+		"Aleksib" : "cl_crosshairsize 3; cl_crosshairgap -2; cl_crosshairalpha 225; cl_crosshair_drawoutline 0; cl_crosshairthickness 1; cl_crosshaircolor 1;",
+		"vice" : "cl_crosshairalpha 255; cl_crosshaircolor 0; cl_crosshairdot 0; cl_crosshairgap -4; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 0;",
+		"tonyblack" : "cl_crosshairsize 3; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0; cl_crosshairalpha 255;",
+		"DavCost" : "cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.1; cl_crosshair_sniper_width 1; cl_crosshair_drawoutline 0;",
+		"morelz" : "cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_drawoutline 0;",
+		"refrezh" : "cl_crosshair_drawoutline 0; cl_crosshairalpha 2525; cl_crosshaircolor 1; cl_crosshairdot 1; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshair_outlinethickness 0;",
+		"Drone" : "cl_crosshairalpha 255; cl_crosshaircolor 5; cl_crosshaircolor_b 155; cl_crosshaircolor_g 0; cl_crosshaircolor_r 255; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 1;",
+		"ableJ" : "cl_crosshairalpha 999; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0; cl_crosshair_sniperwidth 0;",
+		"sterling" : "cl_crosshair_drawoutline 0; cl_crosshair_dynamic_maxdist_splitratio 0; cl_crosshair_dynamic_splitalpha_innermod 1; cl_crosshair_dynamic_splitalpha_outermod 1; cl_crosshair_dynamic_splitdist 4; cl_crosshair_outlinethickness 0; cl_crosshairalpha 800; cl_crosshaircolor 2; cl_crosshaircolor_b 0; cl_crosshaircolor_g 0; cl_crosshaircolor_r 255; cl_crosshairdot 1; cl_crosshairgap -2; cl_crosshairsize 2; cl_crosshairstyle 5; cl_crosshairthickness 0; cl_crosshairusealpha 1; cl_crosshair_sniper_width 1;",
+		"SHiPZ" : "cl_crosshairsize 1; cl_crosshaircolor 2; cl_crosshairthickness 1; cl_crosshairgap -3; cl_crosshairstyle 4; cl_crosshair_drawoutline 0; cl_crosshairdot 0; cl_crosshairalpha 255;",
+		"stark" : "cl_crosshairsize 2; cl_crosshairgap -1; cl_crosshairthickness 1; cl_crosshairdot 1; cl_crosshairstyle 4; cl_crosshaircolor 4; cl-crosshairalpha 255;",
+		"blocker" : "cl_crosshairsize 6; cl_crosshaircolor 0; cl_crosshairthickness 1; cl_crosshairgap -1; cl_crosshairstyle 4; cl_crosshair_drawoutline 0; cl_crosshairdot 0; cl_crosshairalpha 255;",
+		"pronax" : "cl_crosshairalpha 250; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_drawoutline 0;",
+		"Zeus" : "cl_crosshairalpha 255; cl_crosshaircolor 1; cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 3; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 1;",
+		"gob b" : "cl_crosshairalpha 255; cl_crosshaircolor 2; cl_crosshairdot 0; cl_crosshairgap 0; cl_crosshairsize 2; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 1; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 1;",
+		"Maniac" : "cl_crosshairalpha 255; cl_crosshaircolor 5; cl_crosshaircolor_b 214; cl_crosshaircolor_r 204; cl_crosshaircolor_g 80;cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 4; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness -1; cl_crosshair_drawoutline 0;",
+	}
+	
+	// Esports Director
+	Esports_Director = {
+		"B1ad3" : "cl_crosshairalpha 255; cl_crosshaircolor 5; cl_crosshaircolor_b 230; cl_crosshaircolor_r 100; cl_crosshaircolor_g 170;cl_crosshairdot 0; cl_crosshairgap -2; cl_crosshairsize 5; cl_crosshairstyle 5; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 1;",
+	}
+	
+	 Coach = {
+		"LEGIJA" : "cl_crosshairalpha 255; cl_crosshaircolor 5; cl_crosshaircolor_b 255; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0;cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0.5; cl_crosshair_outlinethickness 1; cl_crosshair_drawoutline 1;",
+		"adreN" : "cl_crosshairsize 3; cl_crosshairthickness 0; cl_crosshairstyle 4; cl_crosshairgap -2; cl_crosshaircolor 5; cl_crosshairalpha 220; cl_crosshair_drawoutline 1; cl_crosshair_outlinethickness 1;",
+		"SmithZz" : "cl_crosshairalpha 200; cl_crosshaircolor 4; cl_crosshaircolor_b 200; cl_crosshaircolor_g 0; cl_crosshaircolor_r 152; cl_crosshairdot 0; cl_crosshairgap -1; cl_crosshairgap_useweaponvalue 0; cl_crosshairscale 0; cl_crosshairsize 2.5; cl_crosshairstyle 4; cl_crosshairthickness 1.15; cl_crosshairusealpha 1; cl_crosshair_drawoutline 0;",
+	}
+	
+}
+*/

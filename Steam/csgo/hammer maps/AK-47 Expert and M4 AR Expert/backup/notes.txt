@@ -1,0 +1,32 @@
+AK-47 Expert and M4 AR Expert
+
+achievement_AK_47_and_M4_AR_Expert
+
+get 1,000 kills
+
+match would be a lot faster if it was death match
+- and 1 client vs 20+ bots
+
+teleport client to teleport_destination
+teleport 5 bots on the opposite team to teleport_destination
+
+Teleport trigger 'teleport_to_fight_client_CT_4' cannot find destination named ''!
+
+on client shoot:
+	teleport all the bots
+	teleport the client
+
+
+mp_respawn_on_death_ct
+mp_respawn_on_death_t
+
+math_counter 
+- on hit max 5, give player wep
+
+can the map go any faster?
+the fastest method would be to shoot directly into the chest (with health 1)
+
+if you hit the wall it adds to the counter as well (so even if you miss a shot it adds one)
+- shots go through players, so then it would register a hit twice
+
+on kill all, the trigger -attacks

@@ -1,0 +1,23 @@
+win 5 matchs on x
+
+rename the map file
+copy map file to your csgo maps folder
+
+win 5 matchs on:
+- will need to reload the map via changelevel command
+
+win 100 rounds on:
+- just need the round to end
+
+status command, can show name of map
+- you can send commands to the console, but cant read the console output
+
+de_shorttrain
+
+win 5 matchs
+
+the game does end, but it switchs to another map. need changelevel to be used
+- in order to set changelevel you need to be able to know what the map is called
+- Vscript, no function that allows you to read map name
+
+player could manunally click button with name of map?

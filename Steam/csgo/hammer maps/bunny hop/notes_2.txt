@@ -1,0 +1,19 @@
+shoot ceiling to teleport back
+
+logic_auto
+
+if the trigger works,
+remove box around the map
+- place individual triggers for each slope
+
+kick all bots
+
+sv_enablebunnyhopping 1
+sv_autobunnyhopping 1
+
+thirdperson
+firstperson
+
+fix autobunnyhop
+
+add lines to put crosshair up against when bunnyhopping

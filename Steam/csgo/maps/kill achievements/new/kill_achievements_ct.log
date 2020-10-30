@@ -1,0 +1,161 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Desktop\computing\Counter Strike\maps\kill achievements\new\kill_achievements_ct.vmf
+Map revision 127
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Desktop\computing\Counter Strike\maps\kill achievements\new\kill_achievements_ct.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7498 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 15
+Reduced 5 texdatas to 5 (100 bytes to 100)
+Writing D:\Desktop\computing\Counter Strike\maps\kill achievements\new\kill_achievements_ct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\kill achievements\new\kill_achievements_ct.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\desktop\computing\counter strike\maps\kill achievements\new\kill_achievements_ct.bsp
+reading d:\desktop\computing\counter strike\maps\kill achievements\new\kill_achievements_ct.prt
+   8 portalclusters
+  17 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 64
+Average clusters visible: 8
+Building PAS...
+Average clusters audible: 8
+visdatasize:84  compressed from 128
+writing d:\desktop\computing\counter strike\maps\kill achievements\new\kill_achievements_ct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\kill achievements\new\kill_achievements_ct.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\desktop\computing\counter strike\maps\kill achievements\new\kill_achievements_ct.bsp
+50 faces
+5220 square feet [751755.38 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+350 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10643, max 99
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(61982, 17424, 172)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(44610, 3525, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(31616, 702, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(22392, 140, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(15818, 28, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(11169, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7882, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5563, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3926, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2772, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1958, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1383, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(978, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(692, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(489, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(346, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(245, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(174, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(123, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(87, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(62, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(31, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(22, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                 17/8192          204/98304    ( 0.2%) 
+brushsides             102/81920         816/655360   ( 0.1%) 
+planes                 114/65536        2280/1310720  ( 0.2%) 
+vertexes               117/65536        1404/786432   ( 0.2%) 
+nodes                   48/65536        1536/2097152  ( 0.1%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               37/65536        2072/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  53/65536        1696/2097152  ( 0.1%) 
+leaffaces               54/65536         108/131072   ( 0.1%) 
+leafbrushes             26/65536          52/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              370/512000       1480/2048000  ( 0.1%) 
+edges                  216/256000        864/1024000  ( 0.1%) 
+LDR worldlights         11/8192         1100/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            48/65536          96/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       19168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          84/16777216 ( 0.0%) 
+entdata               [variable]        8110/393216   ( 2.1%) 
+LDR ambient table       53/65536         212/262144   ( 0.1%) 
+HDR ambient table       53/65536         212/262144   ( 0.1%) 
+LDR leaf ambient       113/65536        3164/1835008  ( 0.2%) 
+HDR leaf ambient        53/65536        1484/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74478/0        ( 0.0%) 
+physics               [variable]        7498/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 122
+Writing d:\desktop\computing\counter strike\maps\kill achievements\new\kill_achievements_ct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\desktop\computing\counter strike\maps\kill achievements\new\kill_achievements_ct.bsp', but we don't own that location. Allowing...
+0 seconds elapsed

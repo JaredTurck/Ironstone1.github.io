@@ -1,0 +1,2162 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 135
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11711 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 18
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+44 faces
+2862 square feet [412160.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+44 patches before subdivision
+162 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3356, max 68
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1158, 326, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(741, 59, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(459, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(286, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(178, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(111, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(69, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             140/81920        1120/655360   ( 0.2%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes                85/65536        1020/786432   ( 0.1%) 
+nodes                   43/65536        1376/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   44/65536        2464/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               39/65536        2184/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          44/0             176/0        ( 0.0%) 
+leaves                  50/65536        1600/2097152  ( 0.1%) 
+leaffaces               46/65536          92/131072   ( 0.1%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              340/512000       1360/2048000  ( 0.1%) 
+edges                  187/256000        748/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6245/393216   ( 1.6%) 
+LDR ambient table       50/65536         200/262144   ( 0.1%) 
+HDR ambient table       50/65536         200/262144   ( 0.1%) 
+LDR leaf ambient       173/65536        4844/1835008  ( 0.3%) 
+HDR leaf ambient        50/65536        1400/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       11711/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 96
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 136
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11711 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 18
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+44 faces
+2862 square feet [412160.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+44 patches before subdivision
+162 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3356, max 68
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1158, 326, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(741, 59, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(459, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(286, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(178, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(111, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(69, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(43, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             140/81920        1120/655360   ( 0.2%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes                85/65536        1020/786432   ( 0.1%) 
+nodes                   43/65536        1376/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   44/65536        2464/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               39/65536        2184/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          44/0             176/0        ( 0.0%) 
+leaves                  50/65536        1600/2097152  ( 0.1%) 
+leaffaces               46/65536          92/131072   ( 0.1%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              340/512000       1360/2048000  ( 0.1%) 
+edges                  187/256000        748/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6245/393216   ( 1.6%) 
+LDR ambient table       50/65536         200/262144   ( 0.1%) 
+HDR ambient table       50/65536         200/262144   ( 0.1%) 
+LDR leaf ambient       173/65536        4844/1835008  ( 0.3%) 
+HDR leaf ambient        50/65536        1400/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       11711/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 96
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 137
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11673 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 27 texinfos to 20
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+50 faces
+3092 square feet [445312.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+168 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3424, max 68
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1271, 357, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(758, 60, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(477, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(296, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(185, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(115, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(71, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(28, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             139/81920        1112/655360   ( 0.2%) 
+planes                 124/65536        2480/1310720  ( 0.2%) 
+vertexes                93/65536        1116/786432   ( 0.1%) 
+nodes                   49/65536        1568/2097152  ( 0.1%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               45/65536        2520/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              388/512000       1552/2048000  ( 0.1%) 
+edges                  211/256000        844/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6482/393216   ( 1.6%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient       201/65536        5628/1835008  ( 0.3%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       11673/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 108
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 138
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11673 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 27 texinfos to 20
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+50 faces
+3193 square feet [459904.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+168 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3400, max 68
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1256, 353, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(754, 60, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(474, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(294, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(183, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(114, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(71, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(28, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             139/81920        1112/655360   ( 0.2%) 
+planes                 122/65536        2440/1310720  ( 0.2%) 
+vertexes                93/65536        1116/786432   ( 0.1%) 
+nodes                   49/65536        1568/2097152  ( 0.1%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               45/65536        2520/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              388/512000       1552/2048000  ( 0.1%) 
+edges                  211/256000        844/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6480/393216   ( 1.6%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient       196/65536        5488/1835008  ( 0.3%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       11673/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 108
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 140
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12265 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 20
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+50 faces
+3109 square feet [447744.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+168 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3420, max 68
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1198, 337, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(756, 60, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(469, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(292, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(182, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(113, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 126/65536        2520/1310720  ( 0.2%) 
+vertexes                93/65536        1116/786432   ( 0.1%) 
+nodes                   49/65536        1568/2097152  ( 0.1%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               45/65536        2520/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             24/65536          48/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              388/512000       1552/2048000  ( 0.1%) 
+edges                  211/256000        844/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6482/393216   ( 1.6%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient       197/65536        5516/1835008  ( 0.3%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       12265/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 108
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 141
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12265 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 20
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+50 faces
+3109 square feet [447744.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+168 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3420, max 68
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1198, 337, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(756, 60, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(469, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(292, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(182, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(113, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 126/65536        2520/1310720  ( 0.2%) 
+vertexes                93/65536        1116/786432   ( 0.1%) 
+nodes                   49/65536        1568/2097152  ( 0.1%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               45/65536        2520/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             24/65536          48/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              388/512000       1552/2048000  ( 0.1%) 
+edges                  211/256000        844/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6483/393216   ( 1.6%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient       197/65536        5516/1835008  ( 0.3%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       12265/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 108
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 142
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12265 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 20
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+50 faces
+3109 square feet [447744.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+168 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3420, max 68
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1198, 337, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(756, 60, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(469, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(292, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(182, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(113, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 126/65536        2520/1310720  ( 0.2%) 
+vertexes                93/65536        1116/786432   ( 0.1%) 
+nodes                   49/65536        1568/2097152  ( 0.1%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               45/65536        2520/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             24/65536          48/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              388/512000       1552/2048000  ( 0.1%) 
+edges                  211/256000        844/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6483/393216   ( 1.6%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient       197/65536        5516/1835008  ( 0.3%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       12265/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 108
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 143
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12265 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 20
+Reduced 4 texdatas to 4 (78 bytes to 78)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+50 faces
+3109 square feet [447744.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+168 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3420, max 68
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1198, 337, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(756, 60, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(469, 10, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(292, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(182, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(113, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(70, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(44, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 126/65536        2520/1310720  ( 0.2%) 
+vertexes                93/65536        1116/786432   ( 0.1%) 
+nodes                   49/65536        1568/2097152  ( 0.1%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  4/4096          128/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               45/65536        2520/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  57/65536        1824/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             24/65536          48/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              388/512000       1552/2048000  ( 0.1%) 
+edges                  211/256000        844/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6481/393216   ( 1.6%) 
+LDR ambient table       57/65536         228/262144   ( 0.1%) 
+HDR ambient table       57/65536         228/262144   ( 0.1%) 
+LDR leaf ambient       197/65536        5516/1835008  ( 0.3%) 
+HDR leaf ambient        57/65536        1596/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       12265/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 108
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 144
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11711 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 30 texinfos to 19
+Reduced 5 texdatas to 5 (115 bytes to 115)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   3 portalclusters
+   2 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 9
+Average clusters visible: 3
+Building PAS...
+Average clusters audible: 3
+visdatasize:34  compressed from 48
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+45 faces
+2945 square feet [424128.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+45 patches before subdivision
+177 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3902, max 76
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1244, 356, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(795, 68, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(490, 12, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(305, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(190, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(118, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(46, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(28, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 120/65536        2400/1310720  ( 0.2%) 
+vertexes                89/65536        1068/786432   ( 0.1%) 
+nodes                   43/65536        1376/2097152  ( 0.1%) 
+texinfos                19/12288        1368/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   45/65536        2520/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               40/65536        2240/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          45/0             180/0        ( 0.0%) 
+leaves                  50/65536        1600/2097152  ( 0.1%) 
+leaffaces               47/65536          94/131072   ( 0.1%) 
+leafbrushes             24/65536          48/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              356/512000       1424/2048000  ( 0.1%) 
+edges                  199/256000        796/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            66/65536         132/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        5984/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          34/16777216 ( 0.0%) 
+entdata               [variable]        6345/393216   ( 1.6%) 
+LDR ambient table       50/65536         200/262144   ( 0.1%) 
+HDR ambient table       50/65536         200/262144   ( 0.1%) 
+LDR leaf ambient       173/65536        4844/1835008  ( 0.3%) 
+HDR leaf ambient        50/65536        1400/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       11711/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 106
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 146
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12276 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 19
+Reduced 5 texdatas to 5 (99 bytes to 99)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   6 portalclusters
+   7 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 34
+Average clusters visible: 5
+Building PAS...
+Average clusters audible: 6
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+50 faces
+3786 square feet [545280.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+320 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14281, max 121
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1614, 454, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1140, 90, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(813, 18, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(579, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(412, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(293, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(209, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(148, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(105, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(53, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(38, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 124/65536        2480/1310720  ( 0.2%) 
+vertexes                93/65536        1116/786432   ( 0.1%) 
+nodes                   46/65536        1472/2097152  ( 0.1%) 
+texinfos                19/12288        1368/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               39/65536        2184/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  53/65536        1696/2097152  ( 0.1%) 
+leaffaces               55/65536         110/131072   ( 0.1%) 
+leafbrushes             30/65536          60/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              368/512000       1472/2048000  ( 0.1%) 
+edges                  209/256000        836/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       10780/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        6244/393216   ( 1.6%) 
+LDR ambient table       53/65536         212/262144   ( 0.1%) 
+HDR ambient table       53/65536         212/262144   ( 0.1%) 
+LDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+HDR leaf ambient        53/65536        1484/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       12276/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 112
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 147
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12276 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 19
+Reduced 5 texdatas to 5 (99 bytes to 99)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   6 portalclusters
+   7 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 34
+Average clusters visible: 5
+Building PAS...
+Average clusters audible: 6
+visdatasize:64  compressed from 96
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+50 faces
+3786 square feet [545280.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+50 patches before subdivision
+320 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14281, max 121
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1614, 454, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1140, 90, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(813, 18, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(579, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(412, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(293, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(209, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(148, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(105, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(75, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(53, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(38, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(27, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(13, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 124/65536        2480/1310720  ( 0.2%) 
+vertexes                93/65536        1116/786432   ( 0.1%) 
+nodes                   46/65536        1472/2097152  ( 0.1%) 
+texinfos                19/12288        1368/884736   ( 0.2%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   50/65536        2800/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               39/65536        2184/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          50/0             200/0        ( 0.0%) 
+leaves                  53/65536        1696/2097152  ( 0.1%) 
+leaffaces               55/65536         110/131072   ( 0.1%) 
+leafbrushes             30/65536          60/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              368/512000       1472/2048000  ( 0.1%) 
+edges                  209/256000        836/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]       10780/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          64/16777216 ( 0.0%) 
+entdata               [variable]        6244/393216   ( 1.6%) 
+LDR ambient table       53/65536         212/262144   ( 0.1%) 
+HDR ambient table       53/65536         212/262144   ( 0.1%) 
+LDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+HDR leaf ambient        53/65536        1484/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       12276/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 112
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 148
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12340 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 18
+Reduced 5 texdatas to 5 (99 bytes to 99)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   5 portalclusters
+   5 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 23
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 5
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+48 faces
+3716 square feet [535168.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+48 patches before subdivision
+212 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5696, max 85
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1592, 448, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(985, 78, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(595, 13, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(361, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(218, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(132, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(80, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(49, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 122/65536        2440/1310720  ( 0.2%) 
+vertexes                87/65536        1044/786432   ( 0.1%) 
+nodes                   45/65536        1440/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   48/65536        2688/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               39/65536        2184/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          48/0             192/0        ( 0.0%) 
+leaves                  52/65536        1664/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              356/512000       1424/2048000  ( 0.1%) 
+edges                  201/256000        804/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        6245/393216   ( 1.6%) 
+LDR ambient table       52/65536         208/262144   ( 0.1%) 
+HDR ambient table       52/65536         208/262144   ( 0.1%) 
+LDR leaf ambient       212/65536        5936/1835008  ( 0.3%) 
+HDR leaf ambient        52/65536        1456/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       12340/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 104
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 149
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12340 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 18
+Reduced 5 texdatas to 5 (99 bytes to 99)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   5 portalclusters
+   5 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 23
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 5
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+48 faces
+3716 square feet [535168.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+48 patches before subdivision
+212 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5696, max 85
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1592, 448, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(985, 78, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(595, 13, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(361, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(218, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(132, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(80, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(49, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 122/65536        2440/1310720  ( 0.2%) 
+vertexes                87/65536        1044/786432   ( 0.1%) 
+nodes                   45/65536        1440/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   48/65536        2688/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               39/65536        2184/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          48/0             192/0        ( 0.0%) 
+leaves                  52/65536        1664/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              356/512000       1424/2048000  ( 0.1%) 
+edges                  201/256000        804/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        6461/393216   ( 1.6%) 
+LDR ambient table       52/65536         208/262144   ( 0.1%) 
+HDR ambient table       52/65536         208/262144   ( 0.1%) 
+LDR leaf ambient       212/65536        5936/1835008  ( 0.3%) 
+HDR leaf ambient        52/65536        1456/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       12340/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 104
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 150
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12340 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 18
+Reduced 5 texdatas to 5 (99 bytes to 99)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   5 portalclusters
+   5 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 23
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 5
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+48 faces
+3716 square feet [535168.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+48 patches before subdivision
+212 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5696, max 85
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1592, 448, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(985, 78, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(595, 13, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(361, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(218, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(132, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(80, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(49, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 122/65536        2440/1310720  ( 0.2%) 
+vertexes                87/65536        1044/786432   ( 0.1%) 
+nodes                   45/65536        1440/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   48/65536        2688/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               39/65536        2184/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          48/0             192/0        ( 0.0%) 
+leaves                  52/65536        1664/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              356/512000       1424/2048000  ( 0.1%) 
+edges                  201/256000        804/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        6893/393216   ( 1.8%) 
+LDR ambient table       52/65536         208/262144   ( 0.1%) 
+HDR ambient table       52/65536         208/262144   ( 0.1%) 
+LDR leaf ambient       212/65536        5936/1835008  ( 0.3%) 
+HDR leaf ambient        52/65536        1456/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       12340/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 104
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.vmf
+Map revision 152
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12340 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 29 texinfos to 18
+Reduced 5 texdatas to 5 (99 bytes to 99)
+Writing D:\OneDrive\Desktop\csgo\hammer maps\The Road to Hell\The Road To Hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+24 threads
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+reading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.prt
+   5 portalclusters
+   5 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 23
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 5
+visdatasize:54  compressed from 80
+writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+48 faces
+3716 square feet [535168.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+48 patches before subdivision
+212 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5696, max 85
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1592, 448, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(985, 78, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(595, 13, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(361, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(218, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(132, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(80, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(49, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 23/8192          276/98304    ( 0.3%) 
+brushsides             146/81920        1168/655360   ( 0.2%) 
+planes                 122/65536        2440/1310720  ( 0.2%) 
+vertexes                87/65536        1044/786432   ( 0.1%) 
+nodes                   45/65536        1440/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  5/4096          160/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   48/65536        2688/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               39/65536        2184/3670016  ( 0.1%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists          48/0             192/0        ( 0.0%) 
+leaves                  52/65536        1664/2097152  ( 0.1%) 
+leaffaces               52/65536         104/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              356/512000       1424/2048000  ( 0.1%) 
+edges                  201/256000        804/1024000  ( 0.1%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]        7808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          54/16777216 ( 0.0%) 
+entdata               [variable]        7118/393216   ( 1.8%) 
+LDR ambient table       52/65536         208/262144   ( 0.1%) 
+HDR ambient table       52/65536         208/262144   ( 0.1%) 
+LDR leaf ambient       212/65536        5936/1835008  ( 0.3%) 
+HDR leaf ambient        52/65536        1456/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74494/0        ( 0.0%) 
+physics               [variable]       12340/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 104
+Writing d:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\onedrive\desktop\csgo\hammer maps\the road to hell\the road to hell 3\achievement_road_to_hell.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
