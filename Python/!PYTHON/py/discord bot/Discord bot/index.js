@@ -20,41 +20,59 @@ const user_ID = "364787379518701569"; // Jared ID
 const hentai_channel_ID = "756291926277357600"; // hentai channel ID
 const channel_IDs = ["751827086137622658", "762103168061538315"]; // announcement channel IDs
 const muted_role_ID = "755217590296772658" // muted role ID
+const bot_ID = "767561850404864071";
 
 var logging = true;				// turn logging on or off
+var sniping = true;				// records recently deleted messages
 var reply_chance = 4;			// message reply chance
 var prefix = "-";				// default prefix
-var tag_tag_output = "Admin" 	// Display tag when mod commands are run
-var perm_invite_link = "https://discord.gg/QDeUXq4" // permanent invite link
+var tag_tag_output = "Admin"; 	// Display tag when mod commands are run
+var perm_invite_link = "https://discord.gg/QDeUXq4"; // permanent invite link
 
 // file names
-const output_file_henati = "output.txt"
-const inputs_file_henati = "commands.txt"
-const output_file_execute = "execute_output.txt"
-const inputs_file_execute = "execute.py"
-const output_file_chatbot = "chat_bot_output.txt"
-const inputs_file_chatbot = "chat_bot_input.txt"
-const output_file_animals = "animal_output.txt"
-const inputs_file_animals = "animal_input.txt"
-const output_file_steaminfo = "steam_data_output.txt"
-const inputs_file_steaminfo = "steam_info_input.txt"
-const output_file_random_animal_png = "./current_image.png"
-const inputs_file_meme = "meme_input.txt"
-const outputs_file_meme = "./meme.png"
+const output_file_henati = "InputOutput/output.txt";
+const inputs_file_henati = "InputOutput/commands.txt";
+const output_file_execute = "InputOutput/execute_output.txt";
+const inputs_file_execute = "execute.py";
+const output_file_chatbot = "InputOutput/chat_bot_output.txt";
+const inputs_file_chatbot = "InputOutput/chat_bot_input.txt";
+const output_file_animals = "InputOutput/animal_output.txt";
+const inputs_file_animals = "InputOutput/animal_input.txt";
+const output_file_steaminfo = "InputOutput/steam_data_output.txt";
+const inputs_file_steaminfo = "InputOutput/steam_info_input.txt";
+const output_file_random_animal_png = "./current_image.png";
+const inputs_file_meme = "InputOutput/meme_input.txt";
+const outputs_file_meme = "./meme.png";
 
 const dataset_imbored = "datasets/imbored.txt";
-const dataset_firstname = "datasets/firstname.txt"
-const dataset_surname = "datasets/surname.txt"
-const default_dance_dir = "datasets/deafult_dance/"
-const dataset_methods_of_death = "datasets/methods_of_death.txt"
-const dataset_coins_dir = "datasets/coins/"
+const dataset_firstname = "datasets/firstname.txt";
+const dataset_surname = "datasets/surname.txt";
+const default_dance_dir = "datasets/deafult_dance/";
+const dataset_methods_of_death = "datasets/methods_of_death.txt";
+const dataset_coins_dir = "datasets/coins/";
 
-const flip_coin_tails = "tails.gif"
-const flip_coin_heads = "heads.gif"
-const flip_coin_file_extension = ".gif"
-const text_meme_thef = "datasets/text_memes/thef.txt"
+const flip_coin_tails = "tails.gif";
+const flip_coin_heads = "heads.gif";
+const flip_coin_file_extension = ".gif";
+const text_meme_thef = "datasets/text_memes/thef.txt";
 const log_file_name = "SERVER_LOG_DONT_SHARE.log";
 const token_file_name = "TOKEN_DO_NOT_SHARE.txt";
+const deleted_messages_log_file = "logs/deleted_messages.log";
+const logging_path = "logs"
+
+// Delays (milliseconds)
+const read_output_file_delay_henati = 1000;			// henati
+const read_output_file_delay_execute = 3000;		// execute python code
+const read_output_file_delay_clever_bot = 1000;		// initial clever bot delay
+const read_output_file_delay_clever_bot_2 = 1000;	// check again for output delay
+const read_output_file_delay_random_animal = 5000;	// random animal delay
+const read_output_file_delay_random_meme = 1000;	// delay for -catmeme and -meme
+const read_output_file_delay_steam_info = 3000;		// get steam info delay
+const higher_lower_end_game_delay = 60*1000;		// higher or lower end game delay
+const anti_spam_delay = 1000;						// delay between chat replys (prevents bot from spamming)
+const hash_delay = 100;								// delay between hashing file and reading checksum
+const auto_henati_delay = 10*60*1000				// auto henati delay
+const enable_auto_henati = true;					// turn auto henati on or off
 
 // Dont change these variables
 var DoReply = true;					// Dont change value
@@ -70,6 +88,91 @@ var member = undefined;				// Dont change value
 var up_time = new Date();			// Dont change value
 var n = [[".",".","."],[".",".","."],[".",".","."]];
 const ASCII = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+1234567890-=[]{}\|,.<>/?`~";
+var FileSent = false;				// Dont change value
+
+// Hashs
+var md5_sum_of_meme_original = "";
+var md5_sum_of_meme_updated = "";
+var md5_sum_of_current_img_original = "";
+var md5_sum_of_current_img_updated = "";
+var File_hash = "";
+
+
+// functions
+
+function get_md5(file_name) {
+	// require
+	var cryp = require("crypto");
+	var file_reader = require('fs');
+	var sum = cryp.createHash("md5");
+	
+	// read file
+	file = file_reader.ReadStream(file_name)
+	file.on('data', function(data) {
+		sum.update(data);
+	})
+
+	// update hash
+	file.on('end', function() {
+		File_hash = sum.digest('hex');
+	})
+}
+
+function check_if_file_changed(outputs_file, msg, continued, delay, IsFile) {
+	// read output
+	// get file check sum
+	if (continued == true) {
+		get_md5(outputs_file)
+		setTimeout(function() {
+			md5_sum_of_meme_original = File_hash;
+			console.log("updated = " + md5_sum_of_meme_updated+" ["+md5_sum_of_meme_original == md5_sum_of_meme_updated+"]!");
+		}, hash_delay);
+	}
+	
+	// wait until the file check sum has changed, then send message
+	FileSent = false;
+	setTimeout(function() {
+		get_md5(outputs_file);
+		setTimeout(function() {
+			md5_sum_of_meme_updated = File_hash;
+			if (md5_sum_of_meme_original != md5_sum_of_meme_updated) {
+				console.log(" = " + md5_sum_of_meme_updated)
+			}
+					
+			// check if hash changed
+			if (md5_sum_of_meme_original == md5_sum_of_meme_updated) {
+				setTimeout(function(){
+					check_if_file_changed(outputs_file, msg, false, delay, IsFile);
+				}, delay, msg)
+			} if (md5_sum_of_meme_original != md5_sum_of_meme_updated) {
+				// if hash has changed then send message
+				if (FileSent == false) {
+					if (IsFile == true) {
+						msg.reply("", { files: [outputs_file] }).then (msg => {
+							console.log("uploaded meme to discord!");
+							FileSent = true;
+						});
+					} else if (IsFile == false) {
+						// open output file
+						fs_output = require('fs');
+						fs_output.readFile(output_file_henati, "utf8", function(err, data) {
+							if (err) {
+								return console.log(err);
+							}
+							// send message
+							msg.channel.send(data);
+						});
+					}
+				}
+			}
+		}, hash_delay);
+	}, delay, msg);
+	
+	// file sent change back to false
+	FileSent = false;
+}
+
+
 
 
 // --- Main ---
@@ -153,7 +256,10 @@ Admin/mod Commands:
 -ban @user				- bans a user
 -unban @user			- unbans a use
 -logging [on/off]		- turn message logging on or off
--prefix {prefix}		- change the bots prefix`)
+-prefix {prefix}		- change the bots prefix
+-snipe					- shows recently deleted messages
+-snipping [on/off]		- turn logging of recently deleted messages on or off
+-exit					- shuts the bot down`)
 	}
 })
 
@@ -211,25 +317,47 @@ bot.on("message", msg => {
 			console.log("wrote command -get-henati to file!")
 			});
 	
-			// read file after 1 second
-			setTimeout(function(){
-				// read output file
-				fs_output = require('fs');
-				fs_output.readFile(output_file_henati, "utf8", function(err,data) {
-					if (err) {
-						return console.log(err);
-					}
-				
-					//send message
-					bot.channels.cache.get(hentai_channel_ID).send(data);
-				});
-			},1000, msg);
+			// output image
+			check_if_file_changed(output_file_henati, msg, true, read_output_file_delay_henati, false);
+			
 		} else {
 			msg.reply("This command can only be used in NSFW channels!");
 		}
 	}
 })
 
+// auto henati
+post_henati = setInterval(function() {
+	if (enable_auto_henati == true) {
+		// write command to file
+		const fs_commands = require('fs');
+		fs_commands.writeFile(inputs_file_henati, "get-henati", function(err) {
+			if (err) {
+				return console.log(err);
+			}
+		console.log("wrote command -get-henati to file!")
+		});
+		
+		// output image
+		setTimeout(function(){
+			// read output file
+			fs_output = require('fs');
+			fs_output.readFile(output_file_henati, "utf8", function(err,data) {
+				if (err) {
+					return console.log(err);
+				}
+				
+				//send message
+				bot.channels.cache.get(hentai_channel_ID).send(data);
+			});
+		}, read_output_file_delay_henati);
+	}
+}, auto_henati_delay)
+
+//bot.on("message", msg => {
+//})
+
+// execute
 bot.on("message", msg => {
 	if (msg.content.slice(0,8) === prefix+"execute") {
 		var input_code = msg.content.slice(9,msg.length);
@@ -255,7 +383,7 @@ bot.on("message", msg => {
 				// send message
 				msg.reply(data);
 			});
-		}, 3000, msg);
+		}, read_output_file_delay_execute, msg);
 		
 	}
 })
@@ -366,7 +494,7 @@ function get_output(msg, channel_id) {
 		} catch (err) {
 			msg.reply("...");
 		}
-	}, 1000, msg, channel_id);
+	}, read_output_file_delay_clever_bot, msg, channel_id);
 }
 
 // clever bot
@@ -407,7 +535,7 @@ bot.on("message", msg => {
 				get_output(msg, msg.channel.id);
 				
 			});
-		}, 1000, msg);
+		}, read_output_file_delay_clever_bot_2, msg);
 	}
 })
 
@@ -437,7 +565,7 @@ bot.on("message", msg => {
 				})
 			})
 			
-		},5000, msg);
+		}, read_output_file_delay_random_animal, msg);
 	}
 })
 
@@ -461,16 +589,12 @@ bot.on("message", msg => {
 					if (err) {
 						return console.log(err);
 					}
-				console.log("wrote command random animal to file!")
+				console.log("wrote command random meme to file!")
 				});
 			}
 		
-			// read output
-			setTimeout(function() {
-				msg.reply("", { files: [outputs_file_meme] }).then (msg => {
-					console.log("uploaded meme to discord!");
-				});
-			}, 5000, msg);
+			// send message
+			check_if_file_changed(outputs_file_meme, msg, true, read_output_file_delay_random_meme, true);
 			
 		} catch (error) {
 			console.log(error);
@@ -882,7 +1006,7 @@ bot.on("message", msg => {
 		DoReply = false;
 		setTimeout(function(){
 			DoReply = true;
-		}, 1000)
+		}, anti_spam_delay);
 	}
 })
 
@@ -1044,7 +1168,7 @@ bot.on("message", msg => {
 				start_game = false;
 				user_counter = 0;
 			}
-		}, 60*1000, start_game);
+		}, higher_lower_end_game_delay, start_game);
 	}
 })
 
@@ -1211,7 +1335,7 @@ bot.on("message", msg => {
 				}
 				msg.reply("\n" + data);
 			})
-		}, 3000, msg);
+		}, read_output_file_delay_steam_info, msg);
 	}
 })
 
@@ -1244,7 +1368,7 @@ bot.on("message", msg => {
 		show_prefix = false;
 		setTimeout(function(){
 			show_prefix = true;
-		}, 1000);
+		}, anti_spam_delay);
 	}
 })
 
@@ -1410,20 +1534,110 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (logging == true) {
+		if (msg.channel.id != hentai_channel_ID) {
+			try {
+				// check if the log file exists
+				date1 = new Date();
+				log_current_file = logging_path + "/server_log_"+date1.getDate()+"-"+(date1.getMonth()+1)+"-"+date1.getFullYear()+".log";
+				fs_test = require('fs');
+				try {
+					fs_test.existsSync(log_current_file);
+				} catch (err) {
+					// create file
+					file_creater = require('fs');
+					file_creater.writeFile(log_current_file, "", function(err) {
+						if (err) {
+							return console.log(err);
+						}
+					})
+				}
+
+				// write message to log
+				date = String(new Date()).split(" GMT")[0];
+				user = msg.member.user.tag;
+				channel = msg.channel.name;
+		
+				fs_log_writer = require('fs');
+				fs_log_writer.appendFile(log_current_file, "["+channel+"]["+user+"]["+date+"] "+msg.content+"\n", function(err) {
+					if (err) {
+						console.log(err);
+					}
+				})
+				
+			} catch (err) {
+				console.log("Failed to write to log file! " + err);
+			}
+		}
+	}
+})
+
+// Snipe (log deleted messages)
+bot.on("messageDelete", msg => {
+	if (sniping == true) {
 		try {
+			// write data to log file
 			date = String(new Date()).split(" GMT")[0];
 			user = msg.member.user.tag;
 			channel = msg.channel.name;
 		
 			fs_log_writer = require('fs');
-			fs_log_writer.appendFile(log_file_name, "["+channel+"]["+user+"]["+date+"] "+msg.content+"\n", function(err) {
+			fs_log_writer.appendFile(deleted_messages_log_file, "["+channel+"]["+user+"]["+date+"] "+msg.content+"\n", function(err) {
 				if (err) {
 					console.log(err);
 				}
 			})
 		} catch (err) {
-			console.log("Failed to write to log file! " + err);
+			console.log("Failed to write deleted message to log file!" + err);
 		}
 	}
 })
 
+bot.on("message", msg => {
+	if (msg.content == prefix+"snipe") {
+		if (authorised_IDs.indexOf(msg.author.id) > -1) {
+			fs_output = require('fs');
+			fs_output.readFile(deleted_messages_log_file, "utf8", function(err, data) {
+				if (err) {
+					return console.log(err);
+				}
+				// show deleted messages
+				msg.channel.send("Deleted Messages:\n");
+				lines = data.split("\n");
+				for (i=0;i<lines.length;i++) {
+					msg.channel.send(lines[i])
+				}
+			})
+		}
+	}
+})
+
+bot.on("message", msg => {
+	if (msg.content.slice(0,10) == prefix+"snipping ") {
+		if (authorised_IDs.indexOf(msg.author.id) > -1) {
+			command = msg.content.slice(10, msg.content.length);
+			if (command == "on") {
+				sniping = true;
+				msg.reply("Snipping has been turned on! Recently deleted messages will be logged!");
+			} else if (command == "off") {
+				snipping = false;
+				msg.reply("Snipping has been turned off! Deleted messages will no longer be logged!");
+			}
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can use the snipe command!");
+		}
+	}
+})
+
+// exit
+bot.on("message", msg => {
+	if (msg.content == "-exit") {
+		if (authorised_IDs.indexOf(msg.author.id) > -1) {
+			msg.channel.send("JaredBot has been terminated!");
+			setTimeout(function(){
+				process.exit(1);
+			},100);
+		} else {
+			msg.reply("Your discord ID is not authorised, only moderators and admins can shutdown the bot!");
+		}
+	}
+})

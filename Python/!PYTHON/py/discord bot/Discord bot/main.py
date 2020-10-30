@@ -4,18 +4,21 @@ from urllib.request import urlretrieve, urlopen
 
 driver = webdriver.Chrome("chromedriver.exe")
 website_url = "https://danbooru.donmai.us"
+henati_tags = "&tags=breasts+"
 trust_modules = ["datetime", "math", "random", "hashlib", "time", "getpass", "socket", "urllib"]
 dangerious_keywords = ["input", "exec", "eval", "compile", "open", "builtins", "os", "globals", "locals", "breakpoint", "dir", "delattr", "getattr", "repr", "vars"]
 cat_memes = []
 normal_memes = []
 
+IO_folder = "InputOutput/"
+
 def process():
-    commands = open("commands.txt","r").read()
+    commands = open(IO_folder+"commands.txt","r").read()
     if "get-henati" in commands:
         pgnum = str(random.randint(0,50))
 
         # get and write url to output file
-        driver.get(website_url + "/posts?page="+pgnum+"&tags=nipples")
+        driver.get(website_url + "/posts?page="+pgnum+henati_tags)
         urls = driver.execute_script("return" + open("get_henati.js","r").read())
 
         img_href = urls[random.randint(0, len(urls)-1)]
@@ -24,11 +27,11 @@ def process():
         post = website_url + img_href
         driver.get(post)
         src = driver.execute_script('return document.getElementById("image").getAttribute("src")')
-        with open("output.txt", "w", encoding="utf-8") as output:
+        with open(IO_folder+"output.txt", "w", encoding="utf-8") as output:
             output.write(src)
 
         # clear the commands file
-        with open("commands.txt","w", encoding="utf-8") as commands_file:
+        with open(IO_folder+"commands.txt","w", encoding="utf-8") as commands_file:
             commands_file.write("\n")
 
 def clear_exec():
@@ -64,7 +67,7 @@ def run_code():
                     execute_file.write("")
                     
                 # write output to file
-                with open("execute_output.txt", "w", encoding="utf-8") as f_output:
+                with open(IO_folder+"execute_output.txt", "w", encoding="utf-8") as f_output:
                     f_output.write("Attempted to load untrusted module!")
                     time.sleep(1)
                 clear_exec()
@@ -72,7 +75,7 @@ def run_code():
 
         for keyword in dangerious_keywords:
             if keyword in execute_file_reader:
-                with open("execute_output.txt", "w", encoding="utf-8") as f_output:
+                with open(IO_folder+"execute_output.txt", "w", encoding="utf-8") as f_output:
                     f_output.write(keyword + " is not allowed!")
                 clear_exec()
                 return True
@@ -82,20 +85,20 @@ def run_code():
             value = [float(i.split(")")[0]) if i.split(")")[0].replace(".","").isdigit()==True else i for i in a.split("time.sleep(")[1:]]
             try:
                 if (False in [i <= 1 for i in value]) == True:
-                        with open("execute_output.txt", "w", encoding="utf-8") as f_output:
+                        with open(IO_folder+"execute_output.txt", "w", encoding="utf-8") as f_output:
                             f_output.write("time.sleep delay too long!")
                         clear_exec()
                         return True
                     
             except NameError as err:
                 output = str(traceback.format_exc())
-                with open("execute_output.txt", "w", encoding="utf-8") as f_output:
+                with open(IO_folder+"execute_output.txt", "w", encoding="utf-8") as f_output:
                     f_output.write(output)
                 clear_exec()
                 return True
             
             except:
-                with open("execute_output.txt", "w", encoding="utf-8") as f_output:
+                with open(IO_folder+"execute_output.txt", "w", encoding="utf-8") as f_output:
                     f_output.write("time.sleep delay too long!")
                 clear_exec()
                 return True
@@ -118,7 +121,7 @@ def run_code():
                 execute_file.write("")
 
             # write output to file
-            with open("execute_output.txt","w", encoding="utf-8") as output_file:
+            with open(IO_folder+"execute_output.txt","w", encoding="utf-8") as output_file:
                 output_file.write("Script terminated as it ran for too long!")
             clear_exec()
             return True
@@ -160,7 +163,7 @@ def run_code():
             execute_file.write("")
 
         # write output to file
-        with open("execute_output.txt","w", encoding="utf-8") as output_file:
+        with open(IO_folder+"execute_output.txt","w", encoding="utf-8") as output_file:
             output_file.write(output)
 
         return "Complete!"
@@ -171,7 +174,7 @@ def run_code():
 
 def clever_bot():
     try:
-        user_input = open("chat_bot_input.txt", "r", encoding="utf-8").read()
+        user_input = open(IO_folder+"chat_bot_input.txt", "r", encoding="utf-8").read()
         if user_input == "":
             return True
         elif user_input.lower() == "{restart}":
@@ -188,11 +191,11 @@ def clever_bot():
             print("input:", user_input)
 
         # clear input file
-        with open("chat_bot_input.txt", "w", encoding="utf-8") as input_file:
+        with open(IO_folder+"chat_bot_input.txt", "w", encoding="utf-8") as input_file:
             input_file.write("")
 
         # clear output file
-        with open("chat_bot_output.txt", "w", encoding="utf-8") as output_file:
+        with open(IO_folder+"chat_bot_output.txt", "w", encoding="utf-8") as output_file:
             output_file.write("")
 
         # go to website if it is not open
@@ -213,21 +216,21 @@ def clever_bot():
         print("output:", output)
 
         # write output to file
-        with open("chat_bot_output.txt", "w", encoding="utf-8") as output_file:
+        with open(IO_folder+"chat_bot_output.txt", "w", encoding="utf-8") as output_file:
             output_file.write(output)
             
     except Exception as error:
         print("an error occured in clever bot!", error)
 
         # write output to file
-        with open("chat_bot_output.txt", "w", encoding="utf-8") as output_file:
+        with open(IO_folder+"chat_bot_output.txt", "w", encoding="utf-8") as output_file:
             output_file.write("...")
 
 def random_animal():
     try:
-        if open("animal_input.txt", "r").read() == "random-animal":
+        if open(IO_folder+"animal_input.txt", "r").read() == "random-animal":
             # clear animal_input file
-            with open("animal_input.txt", "w") as input_file:
+            with open(IO_folder+"animal_input.txt", "w") as input_file:
                 input_file.write("")
             print("cleared animal_input")
 
@@ -245,7 +248,7 @@ def random_animal():
             urlretrieve(url, file_name)
 
             # write animal name to file
-            with open("animal_output.txt", "w") as animal_writer:
+            with open(IO_folder+"animal_output.txt", "w") as animal_writer:
                 animal_writer.write(animal)
                 
     except Exception as error:
@@ -255,8 +258,8 @@ def get_meme():
     file_name = "meme.png"
 
     # clear meme_input file
-    command = open("meme_input.txt", "r").read()
-    with open("meme_input.txt", "w") as meme_input:
+    command = open(IO_folder+"meme_input.txt", "r").read()
+    with open(IO_folder+"meme_input.txt", "w") as meme_input:
         meme_input.write("")
 
     # get meme
@@ -323,8 +326,8 @@ def get_meme():
         print("["+str(len(cat_memes))+"]downloaded normal meme! ")
 
 def get_steam_info():
-    command = open("steam_info_input.txt", "r").read()
-    with open("steam_info_input.txt", "w") as info_input:
+    command = open(IO_folder+"steam_info_input.txt", "r").read()
+    with open(IO_folder+"steam_info_input.txt", "w") as info_input:
         info_input.write("")
 
     # check for command in file
@@ -346,7 +349,7 @@ def get_steam_info():
 
         # check for error
         if "The specified profile could not be found" in html:
-            with open("steam_data_output.txt", "w") as file:
+            with open(IO_folder+"steam_data_output.txt", "w") as file:
                 file.write("The specified profile could not be found.")
 
         # remove tags from HTML
@@ -366,7 +369,7 @@ def get_steam_info():
         data["isLimitedAccount"] = ["No", "Yes"][int(data["isLimitedAccount"])]
 
         # write data to output file
-        file = open("steam_data_output.txt", "w")
+        file = open(IO_folder+"steam_data_output.txt", "w")
         for key in data.keys():
             file.write(key + ": \t" + data[key] + "\n")
 
