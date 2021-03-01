@@ -10,7 +10,7 @@ time.sleep(5)
 print("start")
 while True:
     try:
-        time.sleep(0.1)
+        #time.sleep(0.1)
         x, y = win32gui.GetCursorPos()
         click(x, y)
         print("mouse clicked!")

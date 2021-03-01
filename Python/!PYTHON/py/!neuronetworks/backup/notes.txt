@@ -1,0 +1,10 @@
+input data
+init random waits
+init random bias
+
+first layer: dot matrix (inputs, weights) + bias
+
+second layer: output --> relu(dot matrix (layer 1 outputs, weights) + bias)
+
+exponentiate output
+normalise values

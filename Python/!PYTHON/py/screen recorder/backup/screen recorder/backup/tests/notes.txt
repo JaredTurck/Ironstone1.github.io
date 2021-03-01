@@ -1,0 +1,20 @@
+Seconds			function		description
+0.03181910514831543	win1_DC2.BitBlt 	captures screenshot
+0.01561594009399414	img1.SaveBitmapFile 	save BSP to file
+0.0						all other functions
+
+
+0.03181910514831543 + 0.01561594009399414 = 0.04743504524230957
+
+1 / 0.04743504524230957 = 21 FPS	capture and save file
+1 / 0.03181910514831543 = 31 FPS	capture only
+1 / 0.01561594009399414 = 64 FPS	save file only
+
+
+could be faster if you assigned capture function to multiple CPU cores
+
+16 * 21 = 336 FPS (if every CPU thread was in use, on my Ryzen)
+
+img sequence to bitmap
+
+store the images in RAM, not HDD
