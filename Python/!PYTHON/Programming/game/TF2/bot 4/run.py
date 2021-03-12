@@ -6,7 +6,7 @@ data = ""
 
 # steam login
 user = "Ironstone1_"
-pasw = "Gingko1234"
+pasw = input("Enter Password (G*****1234): ")
 
 login = '-login "{0}" "{1}" -applaunch 440 -novid'.format(user, pasw)
 print(os.popen('"C:/Program Files (x86)/Steam/Steam.exe" ' + login).read())

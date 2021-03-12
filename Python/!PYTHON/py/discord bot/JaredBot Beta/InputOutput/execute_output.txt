@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "C:\OneDrive\Backup\Jared's Desktop 2\Desktop\Discord bot\main.py", line 135, in run_code
-    str(exec(open("execute.py", "r", encoding="utf-8").read()))
-  File "<string>", line 1, in <module>
-NameError: name 'gghujk' is not defined
