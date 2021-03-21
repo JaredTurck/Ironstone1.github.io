@@ -1,0 +1,1 @@
+import random as r;(lambda x,y:print(["Rock!","Paper!","Scissors!"][y]+"\n"+["HAHA I Win!","You Win!","Draw!"][{"rr":2,"rp":0,"rs":1,"pr":1,"pp":2,"ps":0,"sr":0,"sp":1,"ss":2}[x+"rps"[y]]] ) )(input("> ")[0], r.randint(0,2))

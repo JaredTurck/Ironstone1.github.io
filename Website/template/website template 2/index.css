@@ -1,0 +1,12 @@
+#navigationBar {
+	padding: 10px;
+	background-color: grey;
+	position: absolute;
+	display: block;
+	
+}
+#navigationBar ul li {
+	float: left;
+}
+#navigationBar ul {
+} 

@@ -2,7 +2,7 @@ from selenium import webdriver
 import pickle, time
 
 user = "Ironstone1_"
-pasw = "Gingko1234"
+pasw = "Enter password (G*****1234): "
 url = "steamcommunity.com"
 
 def login():

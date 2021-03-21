@@ -24,3 +24,7 @@ def test_hash(text):
         h = h >> (h.bit_length()-32)
 
     return h
+
+def get_hash(text):
+    text = text + ("0"*32)
+    return hashcode(text)

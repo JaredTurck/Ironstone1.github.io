@@ -1,1 +1,1 @@
-wscript.exe "%cd%\invisible.vbs" "%cd%\fork.bat"
+wscript.exe "%cd%\invisible.vbs" "%cd%\mybat.bat"

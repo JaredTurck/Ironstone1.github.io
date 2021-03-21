@@ -1,0 +1,23 @@
+160 input
+
+64 output
+
+SHA256(SHA256(round))
+
+Inputs:
+Block version number
+Previous block hash
+merkle route
+time stamp
+bits
+nonce
+
+steps:
+convert inputs to hex
+inputs rearanged in little endian format
+inputs appened to get message
+
+SHA256:
+hex one is appened to message
+message is padded untill it's length is a multiple of 512
+size of the message in hex is appened to end of message

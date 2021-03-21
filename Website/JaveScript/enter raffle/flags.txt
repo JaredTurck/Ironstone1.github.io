@@ -1,0 +1,10 @@
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "https://scrap.tf/raffles/?bot=auto"
+ --headless --remote-debugging-port=9222
+ --user-data-dir="C:\Users\STEAM\AppData\Local\Google\Chrome\User Data"
+ --profile-directory=Default
+
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "https://scrap.tf/raffles/?bot=auto" --headless --remote-debugging-port=9222 --profile-directory="C:\Users\STEAM\AppData\Local\Google\Chrome\User Data\Default"
+
+--user-data-dir="C:\Users\STEAM\AppData\Local\Google\Chrome\User Data"
+
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "https://scrap.tf/raffles/?bot=auto" --headless --user-data-dir=C:\Users\STEAM\AppData\Local\Google\Chrome\User Data --profile-directory=Default --remote-debugging-port=9222

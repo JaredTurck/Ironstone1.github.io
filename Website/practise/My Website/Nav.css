@@ -1,0 +1,27 @@
+#nav-bar-1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(images/nav.jpg);
+	height: 50px;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+button {
+	background: transparent;
+	border: none !important;
+	font-family: "Arial Black", "Calibri"
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

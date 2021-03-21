@@ -1,0 +1,26 @@
+.NavBar li {
+	margin: 0%;
+	float: left;
+	color: 1D00FF;
+	font-size: 30;
+}
+.NavBar {
+	height: 0px;
+	position: relative;
+	float: left;
+	text-align: justify;
+}
+.texture-image {
+	width: 94%
+}
+#GlobalNavBar {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	left: 45px;
+	font-family: Arial Black;
+}
+a:visited {
+	color: 1D00FF;
+}
