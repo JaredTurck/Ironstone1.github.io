@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <cmath>
+#include <algorithm>
 
 using namespace std;
 
@@ -77,6 +78,7 @@ void question4(string num) {
 	cout << "\n--- Question 4 ---" << endl;
 	vector<string> list;
 	string c = "";
+	num += ',';
 	for (int i = 0; i <= num.size(); i++) {
 		if (num[i] != ',') {
 			c += num[i];
@@ -138,6 +140,7 @@ void question6(string d) {
 	cout << "\n--- Question 6 ---" << endl;
 	vector<int> x;
 	string y = "";
+	d += ',';
 	int r;
 	int C = 50;
 	int H = 30;
@@ -169,11 +172,11 @@ void question6(string d) {
 //Hints:
 //Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.
 void question7(int x, int y) {
+	cout << "\n--- Question 7 ---" << endl;
 	for (int i = 0; i < x; i++) {
 		for (int j = 0; j < y; j++) {
 			cout << i * j << " ";
 		}
-		cout << endl;
 	}
 }
 
@@ -186,10 +189,77 @@ void question7(int x, int y) {
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-void question8(string x, chr=',') {
+
+string join_string(vector<string> input) {
+	string output;
+	for (int i = 0; i < input.size(); i++) {
+		output += input[i];
+	}
+	return output;
+}
+
+vector<string> join_vector(vector<string> a, vector<string> b) {
+	vector<string> output;
+	output.reserve(a.size() + b.size());
+	output.insert(output.end(), a.begin(), a.end());
+	output.insert(output.end(), b.begin(), b.end());
+	return output;
+}
+
+vector<string> merge(vector<string> l, vector<string> r) {
+	if (l.size() == 0) {
+		return r;
+	}
+	if (r.size() == 0) {
+		return l;
+	}
+
+	vector<string> re;
+	int il = 0;
+	int ir = 0;
+
+	while (re.size() < (l.size() + r.size())) {
+		if (l[ir] <= r[ir]) {
+			re.push_back(l[il]);
+			il++;
+		} else {
+			re.push_back(r[ir]);
+			ir++;
+		}
+
+		if (ir == r.size()) {
+			vector<string> temp1 = vector<string>(l.begin() + il, l.end()); // remove items from vector
+			re = join_vector(temp1, re);
+			break;
+		}
+		if (il == l.size()) {
+			vector<string> temp2 = vector<string>(r.begin() + ir, r.end()); // remove items from vector
+			re = join_vector(temp2, re);
+			break;
+		}
+	}
+	return re;
+}
+
+vector<string> merge_sort(vector<string> a) {
+	if (a.size() < 2) {
+		return a;
+	}
+	
+	int m = static_cast<int>(a.size() / 2);
+	vector<string> start = vector<string>(a.begin(), a.end() - m);
+	vector<string> end = vector<string>(a.begin() + m, a.end());
+	return merge(
+		merge_sort(start),
+		merge_sort(end)
+	);
+}
+
+vector<string> split_string(string x, char chr=',') {
 	// split the text
 	vector<string> inputs;
 	string r;
+	x += chr;
 	for (int i = 0; i < x.size(); i++) {
 		if (x[i] != chr) {
 			r += x[i];
@@ -198,10 +268,16 @@ void question8(string x, chr=',') {
 			r = "";
 		}
 	}
+	return inputs;
+}
 
-	// sort
-
-
+void question8(string input) {
+	cout << "\n--- Question 8 ---" << endl;
+	vector<string> s = split_string(input, ',');
+	vector<string> output = merge_sort(s);
+	for (int i = 0; i < output.size(); i++) {
+		cout << output[i] << " ";
+	}
 }
 
 
@@ -219,12 +295,23 @@ void question8(string x, chr=',') {
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//Question 10
-//Level 2
-//
+void question9(string input) {
+	cout << "\n--- Question 9 ---" << endl;
+	string lowercase = "abcdefghijklmnopqrstuvwxyz";
+	string uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	vector<string> s = split_string(input, '\n');
+	string output;
+
+	for (int i = 0; i < input.size(); i++) {
+		if (lowercase.find(input[i]) != string::npos) {
+			output += uppercase[lowercase.find(input[i])];
+		} else {
+			output += input[i];
+		}
+	}
+	cout << output << endl;
+}
+
 //Question:
 //Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.
 //Suppose the following input is supplied to the program:
@@ -235,12 +322,34 @@ void question8(string x, chr=',') {
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
 //We use set container to remove duplicated data automatically and then use sorted() to sort the data.
-//
-//
-//
-//Question 11
-//Level 2
-//
+vector<string> filter(vector<string> input, string chr=" ", bool dupes=true) {
+	vector<string> output;
+	for (int i = 0; i < input.size(); i++) {
+		if (input[i] != chr) {
+			if (dupes == true) {
+				// check if the item is already in vector
+				if (find(output.begin(), output.end(), input[i]) != output.end()) {
+					output.push_back(input[i]);
+				}
+			} else {
+				output.push_back(input[i]);
+			}
+		}
+	}
+	return output;
+}
+
+void question10(string input) {
+	cout << "\n--- Question 10 ---" << endl;
+	vector<string> s = split_string(input, ' ');
+	vector<string> f = filter(s);
+	vector<string> m = merge_sort(f);
+	cout << s.size() << " " << f.size() << " " << m.size();
+	for (int i = 0; i < m.size(); i++) {
+		cout << m[i] << " ";
+	}
+}
+
 //Question:
 //Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence.
 //Example:
@@ -251,24 +360,68 @@ void question8(string x, chr=',') {
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//Question 12
-//Level 2
-//
+string reverse_string(string input) {
+	string output;
+	for (int i = 0; i < input.size()+1; i++) {
+		output += input[input.size() - i];
+	}
+	return output;
+}
+
+int bin2int(string bin) {
+	int total = 0;
+	int c;
+	// for bin num in array
+	string r = reverse_string(bin);
+	for (int i = 0; i < r.size(); i++) {
+		if (r[i] == '1') {
+			c = pow(2, i-1);
+			total += c;
+		}
+	}
+	return total;
+}
+
+void question11(string input) {
+	cout << "\n--- Question 11 ---" << endl;
+	vector<string> s = split_string(input, ',');
+	cout << "input size: " << input.size() << " s size: " << s.size() << endl;
+	string output;
+	int c;
+	for (int i = 0; i < s.size(); i++) {
+		string c = to_string(bin2int(s[i]) % 5 == 0);
+		if (bin2int(s[i]) % 5 == 0) {
+			output += (s[i] + ",");
+		}
+	}
+	cout << output.substr(0, output.length()-1);
+}
+
 //Question:
 //Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.
 //The numbers obtained should be printed in a comma-separated sequence on a single line.
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//Question 13
-//Level 2
-//
+void question12() {
+	cout << "\n--- Question 12 ---" << endl;
+	string c;
+	int r;
+	for (int i = 1000; i <= 3000; i++) {
+		c = to_string(i);
+		r = 0;
+		for (int x = 0; x < c.size(); x++) {
+			if (static_cast<int>(c[x]) % 2 == 0) {
+				r++;
+			}
+		}
+		if (r == c.length()) {
+			cout << c << ",";
+		}
+		r = 0;
+	}
+}
+
 //Question:
 //Write a program that accepts a sentence and calculate the number of letters and digits.
 //Suppose the following input is supplied to the program:
@@ -279,12 +432,22 @@ void question8(string x, chr=',') {
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//Question 14
-//Level 2
-//
+void question13(string text) {
+	cout << "\n--- Question 13 ---" << endl;
+	string alpha = "abcdefghijklmnopqrstuvwxyz";
+	string num = "0123456789";
+	int letters = 0;
+	int digits = 0;
+	for (int i = 0; i < text.length(); i++) {
+		if (alpha.find(text[i]) != string::npos) {
+			letters++;
+		} else if (num.find(text[i]) != string::npos) {
+			digits++;
+		}
+	}
+	cout << "Letters: " << letters << "\nDigits: " << digits;
+}
+
 //Question:
 //Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
 //Suppose the following input is supplied to the program:
@@ -295,12 +458,19 @@ void question8(string x, chr=',') {
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//Question 15
-//Level 2
-//
+void question14(string text) {
+	cout << "\n--- Question 14 ---" << endl;
+	vector<int> cas = { 0, 0 };
+	for (int i = 0; i < text.length(); i++) {
+		if (isupper(text[i]) == true) {
+			cas[0]++;
+		} else if (islower(text[i]) != 0) {
+			cas[1]++;
+		}
+	}
+	cout << "Upper Case: " << cas[0] << "\nLower Case: " << cas[1];
+}
+
 //Question:
 //Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
 //Suppose the following input is supplied to the program:
@@ -310,12 +480,21 @@ void question8(string x, chr=',') {
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//Question 16
-//Level 2
-//
+string repeat_string(string t, int n) {
+	string a;
+	for (int i = 0; i < n; i++) {
+		a += t;
+	}
+	return a;
+}
+
+void question15(int a) {
+	cout << "\n--- Question 15 ---" << endl;
+	string n = to_string(a);
+	int answer = a + stoi(repeat_string(n, 2)) + stoi(repeat_string(n, 3)) + stoi(repeat_string(n, 4));
+	cout << answer;
+}
+
 //Question:
 //Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers.
 //Suppose the following input is supplied to the program:
@@ -325,13 +504,15 @@ void question8(string x, chr=',') {
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//
-//Question 17
-//Level 2
-//
+void question16(int n) {
+	cout << "\n--- Question 16 ---" << endl;
+	for (int i = 0; i < n; i++) {
+		if (i % 2 == 1) {
+			cout << i << ",";
+		}
+	}
+}
+
 //Question:
 //Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:
 //D 100
@@ -348,12 +529,21 @@ void question8(string x, chr=',') {
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//Question 18
-//Level 3
-//
+void question17(string input) {
+	cout << "\n--- Question 17 ---" << endl;
+	int balance = 0;
+	vector<string> actions = split_string(input, '\n');
+	for (int i = 0; i < actions.size(); i++) {
+		vector<string> action = split_string(actions[i], ' ');
+		if (action[0] == "D") {
+			balance += stoi(action[1]);
+		} else if (action[0] == "W") {
+			balance -= stoi(action[1]);
+		}
+	}
+	cout << "Balance: " << balance;
+}
+
 //Question:
 //A website requires the users to input username and password to register. Write a program to check the validity of password input by users.
 //Following are the criteria for checking the password:
@@ -372,12 +562,43 @@ void question8(string x, chr=',') {
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//Question 19
-//Level 3
-//
+bool check_password_condition(string password, int f_index) {
+	vector<string> formats = {
+		"abcdefghijklmnopqrstuvwxyz",
+		"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+		"0123456789",
+		"@#$"
+	};
+	for (int i = 0; i < password.length(); i++) {
+		for (int x = 0; x < formats[f_index].size(); x++) {
+			if (password[i] == formats[f_index][x]) {
+				return true;
+			}
+		}
+	}
+	return false;
+}
+
+void question18(string input) {
+	cout << "\n--- Question 18 ---" << endl;
+	vector<string> passwords = split_string(input, ',');
+	vector<string> valid;
+	for (int i = 0; i < passwords.size(); i++) {
+		int r = 0;
+		for (int x = 0; x < 4; x++) {
+			if (6 <= passwords[i].length() && passwords[i].length() <= 12) {
+				if (check_password_condition(passwords[i], x) == true) {
+					r++;
+				}
+			}
+		}
+		if (r == 4) {
+			valid.push_back(passwords[i]);
+			cout << passwords[i] << ",";
+		}
+	}
+}
+
 //Question:
 //You are required to write a program to sort the (name, age, height) tuples by ascending order where name is string, age and height are numbers. The tuples are input by console. The sort criteria is:
 //1: Sort based on name;
@@ -396,23 +617,41 @@ void question8(string x, chr=',') {
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
 //We use itemgetter to enable multiple sort keys.
-//
-//
-//
-//Question 20
-//Level 3
-//
+void question19(vector<vector<string>> vect) {
+	cout << "\n--- Question 19 ---" << endl;
+	// reshape vectors
+	vector<vector<string>> data = { vector<string> {}, vector<string> {},  vector<string> {} };
+	for (int v = 0; v < vect[0].size(); v++) {
+		for (int i = 0; i < vect.size(); i++) {
+			data[v].push_back(vect[i][v]);
+		}
+	}
+
+	// sort
+	for (int i = 0; i < data.size(); i++) {
+		sort(data[i].begin(), data[i].end());
+	}
+
+	// display data
+	for (int i = 0; i < vect.size(); i++) {
+		cout << "('" << data[0][i] << "', '" << data[1][i] << "', '" << data[2][i] << "'), " << endl;
+	}
+}
+
 //Question:
 //Define a class with a generator which can iterate the numbers, which are divisible by 7, between a given range 0 and n.
 //
 //Hints:
 //Consider use yield
-//
-//
-//
-//Question 21
-//Level 3
-//
+void question20(int n) {
+	cout << "\n--- Question 20 ---" << endl;
+	for (int i = 0; i < n; i++) {
+		if (i % 7 == 0) {
+			cout << i << ", ";
+		}
+	}
+}
+
 //Question£º
 //A robot moves in a plane starting from the original point (0,0). The robot can move toward UP, DOWN, LEFT and RIGHT with a given steps. The trace of robot movement is shown as the following:
 //UP 5
@@ -432,12 +671,45 @@ void question8(string x, chr=',') {
 //
 //Hints:
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//Question 22
-//Level 3
-//
+int index_string(vector<string> v, string f) {
+	if (find(v.begin(), v.end(), f) != v.end()) {
+		return find(v.begin(), v.end(), f) - v.begin();
+	} else {
+		return -1;
+	}
+}
+
+int round_double(double x) {
+	x += 0.5 - (x < 0);
+	return static_cast<int>(x);
+}
+
+void question21(string input) {
+	cout << "\n--- Question 21 ---" << endl;
+	/*up is increase Y
+	down is decrease Y
+	left is decrease X
+	right is increase X*/
+
+	vector<int> current_vector = { 0,0 };
+	vector<string> actions = split_string(input, '\n');
+	vector<string> str_actions = { "UP", "DOWN", "LEFT", "RIGHT" };
+	for (int i = 0; i < actions.size(); i++) {
+		vector<string> current_action = split_string(actions[i], ' ');
+		vector<vector<int>> op = { 
+			vector<int>{current_vector[0], current_vector[1] + stoi(current_action[1])},
+			vector<int>{current_vector[0], current_vector[1] - stoi(current_action[1])},
+			vector<int>{current_vector[0] + stoi(current_action[1]), current_vector[1]},
+			vector<int>{current_vector[0] - stoi(current_action[1]), current_vector[1]},
+		};
+		current_vector = op[index_string(str_actions, current_action[0])];
+	}
+
+	// calculate vector length
+	int vector_length = round_double(pow(pow(current_vector[0], 2) + pow(current_vector[1], 2), 0.5));
+	cout << "Vector length: " << vector_length;
+}
+
 //Question:
 //Write a program to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. 
 //Suppose the following input is supplied to the program:
@@ -457,9 +729,59 @@ void question8(string x, chr=',') {
 //
 //Hints
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
+vector<vector<string>> global_dict = { vector<string>{}, vector<string>{} };
+string dict(string key, string value="none") {
+	// get value if it doesn't exist add it
+	//int index = index_string(global_dict[0], key);
+	cout << "index: " << index;
+	// update value
+	if (value != "none") {
+		if (index >= 0) {
+			// key already exists, update value
+			global_dict[0][index] = key;
+			global_dict[1][index] = value;
+		} else {
+			// key doesn't exist append it
+			global_dict[0].push_back(key);
+			global_dict[1].push_back(value);
+		}
+		return value;
+	// get value
+	} else {
+		if (index >= 0) {
+			// key exists return it
+			return global_dict[1][index];
+		} else {
+			// key doesn't exist
+			return value;
+		}
+	}
+}
+
+void question22(string input) {
+	cout << "\n--- Question 22 ---" << endl;
+	// count occurance of each word
+	vector<string> s = split_string(input, ' ');
+	vector<string> words;
+	for (int i = 0; i < s.size(); i++) {
+		int index = index_string(global_dict[0], s[i]);
+		if (index >= 0) {
+			// key exists increment it
+			global_dict[1][index] = to_string(stoi(global_dict[1][index]) + 1);
+		} else {
+			// add key
+			dict(s[i], 0);
+			words.push_back(s[i]);
+		}
+	}
+
+	// display result
+	for (int i = 0; i < words.size(); i++) {
+		cout << words[i] << ": " << dict(words[i]) << endl;
+	}
+}
+
+
 //Question 23
 //level 1
 //
@@ -1491,6 +1813,28 @@ int main() {
 	question5_test();
 	question6("100,150,180");
 	question7(3, 5);
+	question8("without,hello,bag,world");
+	question9("hello\nhey\nhow are you\nThis should all be in captials!");
+	question10("hello world and practice makes perfect and hello world again");
+	question11("0100,0011,1010,1001");
+	question12();
+	question13("hello world! 123");
+	question14("Hello world!");
+	question15(9);
+	question16(10);
+	question17("D 300\nD 300\nW 200\nD 100");
+	question18("ABd1234@1,a F1#,2w3E*,2We3345");
+	vector<vector<string>> question19_input = {
+		vector<string> {"Tom", "19", "80"},
+		vector<string> {"John", "20", "90"},
+		vector<string> {"Jony", "17", "93"},
+		vector<string> {"Jony", "17", "93"},
+		vector<string> {"Json", "21", "85"},
+	};
+	question19(question19_input);
+	question20(100);
+	question21("UP 5\nDOWN 3\nLEFT 3\nRIGHT 2");
+	question22("New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.");
 
 	cout << endl << endl;
 	system("pause");
