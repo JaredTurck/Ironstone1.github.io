@@ -5,7 +5,7 @@ run this script on dir before uploading to github
 import os
 
 banned_extensions = ['mp4', 'mov', 'avi', 'png', 'jpg', 'zip', 'exe',
-                     'psd', 'psb', 'msi', 'tlog', 'ipch', 'sqlite', 'webm']
+                     'psd', 'psb', 'msi', 'tlog', 'ipch', 'sqlite', 'webm', 'mpg']
 
 file_path = "/".join(__file__.split('\\')[:-1])
 
