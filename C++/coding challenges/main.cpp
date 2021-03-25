@@ -729,73 +729,47 @@ void question21(string input) {
 //
 //Hints
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-vector<vector<string>> global_dict = { vector<string>{}, vector<string>{} };
-string dict(string key, string value="none") {
-	// get value if it doesn't exist add it
-	//int index = index_string(global_dict[0], key);
-	cout << "index: " << index;
-	// update value
-	if (value != "none") {
-		if (index >= 0) {
-			// key already exists, update value
-			global_dict[0][index] = key;
-			global_dict[1][index] = value;
-		} else {
-			// key doesn't exist append it
-			global_dict[0].push_back(key);
-			global_dict[1].push_back(value);
-		}
-		return value;
-	// get value
-	} else {
-		if (index >= 0) {
-			// key exists return it
-			return global_dict[1][index];
-		} else {
-			// key doesn't exist
-			return value;
-		}
-	}
-}
-
 void question22(string input) {
 	cout << "\n--- Question 22 ---" << endl;
 	// count occurance of each word
 	vector<string> s = split_string(input, ' ');
 	vector<string> words;
+	vector<int> words_value;
 	for (int i = 0; i < s.size(); i++) {
-		int index = index_string(global_dict[0], s[i]);
+		int index = index_string(words, s[i]);
 		if (index >= 0) {
-			// key exists increment it
-			global_dict[1][index] = to_string(stoi(global_dict[1][index]) + 1);
+			// word exists increment its counter
+			words_value[index]++;
 		} else {
-			// add key
-			dict(s[i], 0);
+			// add new word
 			words.push_back(s[i]);
+			words_value.push_back(1);
 		}
 	}
 
-	// display result
+	// sort words
+	vector<string> key_pair;
 	for (int i = 0; i < words.size(); i++) {
-		cout << words[i] << ": " << dict(words[i]) << endl;
+		key_pair.push_back(words[i] + ": " + to_string(words_value[i]));
+	}
+	sort(key_pair.begin(), key_pair.end());
+
+	// display result
+	for (int i = 0; i < key_pair.size(); i++) {
+		cout << key_pair[i] << endl;
 	}
 }
 
-
-//Question 23
-//level 1
-//
 //Question:
 //    Write a method which can calculate square value of number
 //
 //Hints:
 //    Using the ** operator
-//
-//
-//
-//Question 24
-//Level 1
-//
+void question23(int n) {
+	cout << "\n--- Question 23 ---" << endl;
+	cout << "Square root of " << n << " is " << (pow(n, 0.5)) << "!" << endl;
+}
+
 //Question:
 //    Python has many built-in functions, and if you do not know how to use it, you can read document online or find some books. But Python has a built-in document function for every built-in functions.
 //    Please write a program to print some Python built-in functions documents, such as abs(), int(), raw_input()
@@ -803,95 +777,126 @@ void question22(string input) {
 //    
 //Hints:
 //    The built-in document method is __doc__
-//
-//
-//
-//Question 25
-//Level 1
-//
+void question24() {
+	cout << "\n--- Question 24 ---" << endl;
+	cout << "abs()\t\tReturns the absolute value of parameter n\n";
+	cout << "static_cast<int>\tConverts data to integer\n";
+	cout << "stoi(string)\tConverts string to integer\n";
+	cout << "to_string(int)\tConverts integer to string\n";
+}
+
 //Question:
 //    Define a class, which have a class parameter and have a same instance parameter.
 //
 //Hints:
 //    Define a instance parameter, need add it in __init__ method
 //    You can init a object with construct parameter or set the value later
-//
-//
-//
+class class_question25 {
+	public:
+		int x = 25;
+		void method1() {
+			cout << "method 1, x = " << x << endl;
+		}
+
+		void method2() {
+			cout << "method 2, x = " << x << endl;
+			cout << "both methods can access the same variable!" << endl;
+		}
+};
+
+void question25() {
+	cout << "\n--- Question 25 ---" << endl;
+	class_question25 a;
+	a.method1();
+	a.method2();
+}
+
 //Question:
 //Define a function which can compute the sum of two numbers.
 //
 //Hints:
 //Define a function with two numbers as arguments. You can compute the sum in the function and return the value.
-//
-//
-//
+void question26(int num1, int num2) {
+	cout << "\n---Question 26 ---" << endl;
+	cout << num1 << " + " << num2 << " = " << (num1 + num2);
+}
+
 //Question:
 //Define a function that can convert a integer into a string and print it in console.
 //
 //Hints:
 //
 //Use str() to convert a number to string.
-//
-//
-//
+void question27(int num) {
+	cout << "\n--- Question 27 ---" << endl;
+	cout << num << " as a string: " << to_string(num);
+}
+
 //Question:
-//Define a function that can convert a integer into a string and print it in console.
+//Define a function that can convert a float into a string and print it in console.
 //
 //Hints:
 //
 //Use str() to convert a number to string.
-//
-//
-//
-//2.10
-//
+void question28(double num) {
+	cout << "\n--- Question 28 ---" << endl;
+	cout << num << " as a string: " << to_string(num);
+}
+
 //Question:
 //Define a function that can receive two integral numbers in string form and compute their sum and then print it in console.
 //
 //Hints:
 //
 //Use int() to convert a string to integer.
-//
-//
-//
-//2.10
-//
-//
+void question29(string num1, string num2) {
+	cout << "\n--- Question 29 ---" << endl;
+	cout << num1 << " + " << num2 << " = " << (stoi(num1) + stoi(num2));
+}
+
 //Question:
 //Define a function that can accept two strings as input and concatenate them and then print it in console.
 //
 //Hints:
 //
 //Use + to concatenate the strings
-//
-//
-//
-//2.10
-//
-//
+void question30(string str1, string str2) {
+	cout << "\n--- Question 30 ---" << endl;
+	cout << str1 << " join " << str2 << " = " << (str1 + str2);
+}
+
 //Question:
 //Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print al l strings line by line.
 //
 //Hints:
 //
 //Use len() function to get the length of a string
-//
-//
-//
-//2.10
-//
+void question31(string str1, string str2) {
+	cout << "\n--- Question 31 ---" << endl;
+	if (str1.length() > str2.length()) {
+		cout << str1;
+	} else if (str2.length() > str1.length()) {
+		cout << str2;
+	} else {
+		cout << str1 << endl << str2;
+	}
+}
+
 //Question:
 //Define a function that can accept an integer number as input and print the "It is an even number" if the number is even, otherwise print "It is an odd number".
 //
 //Hints:
 //
 //Use % operator to check if a number is even or odd.
-//
-//
-//
-//2.10
-//
+void question32(int n) {
+	cout << "\n --- Question 32 ---" << endl;
+	if (n % 2 == 0) {
+		cout << n << " is an even number!";
+	} else {
+		cout << n << " is an odd number!";
+	}
+}
+
 //Question:
 //Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.
 //
@@ -899,11 +904,16 @@ void question22(string input) {
 //
 //Use dict[key]=value pattern to put entry into a dictionary.
 //Use ** operator to get power of a number.
-//
-//
-//
-//2.10
-//
+void question33() {
+	cout << "\n--- Question 33 ---" << endl;
+	vector<vector<double>> x;
+	for (int i = 1; i <= 3; i++) {
+		vector<double> c = { 1, pow(i, 2) };
+		x.push_back(c);
+		cout << "'" << i << "' : '" << c[1] << "'" << endl;
+	}
+}
+
 //Question:
 //Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.
 //
@@ -912,11 +922,16 @@ void question22(string input) {
 //Use dict[key]=value pattern to put entry into a dictionary.
 //Use ** operator to get power of a number.
 //Use range() for loops.
-//
-//
-//
-//2.10
-//
+void question34() {
+	cout << "\n--- Question 34 ---" << endl;
+	vector<vector<double>> x;
+	for (double i = 1; i <= 20; i++) {
+		vector<double> c = { i, pow(i, 2) };
+		x.push_back(c);
+		cout << "'" << c[0] << "' : '" << c[1] << "'!" << endl;
+	}
+}
+
 //Question:
 //Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the values only.
 //
@@ -926,11 +941,16 @@ void question22(string input) {
 //Use ** operator to get power of a number.
 //Use range() for loops.
 //Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
-//
-//
-//
-//2.10
-//
+void question35() {
+	cout << "\n--- Question 35 ---" << endl;
+	vector<vector<double>> x;
+	for (double i = 1; i <= 20; i++) {
+		vector<double> c = { i, pow(i, 2) };
+		x.push_back(c);
+		cout << c[1] << ", ";
+	}
+}
+
 //Question:
 //Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.
 //
@@ -940,11 +960,16 @@ void question22(string input) {
 //Use ** operator to get power of a number.
 //Use range() for loops.
 //Use keys() to iterate keys in the dictionary. Also we can use item() to get key/value pairs.
-//
-//
-//
-//2.10
-//
+void question36() {
+	cout << "\n--- Question 36 ---" << endl;
+	vector<vector<double>> x;
+	for (double i = 1; i <= 20; i++) {
+		vector<double> c = { i, pow(i, 2) };
+		x.push_back(c);
+		cout << c[0] << ", ";
+	}
+}
+
 //Question:
 //Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).
 //
@@ -953,11 +978,16 @@ void question22(string input) {
 //Use ** operator to get power of a number.
 //Use range() for loops.
 //Use list.append() to add values into a list.
-//
-//
-//
-//2.10
-//
+void question37() {
+	cout << "\n--- Question 37 ---" << endl;
+	vector<vector<double>> x;
+	for (double i = 1; i <= 20; i++) {
+		vector<double> c = { i, pow(i, 2) };
+		x.push_back(c);
+		cout << "'" << c[0] << "' : '" << c[1] << "'" << endl;
+	}
+}
+
 //Question:
 //Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.
 //
@@ -967,11 +997,18 @@ void question22(string input) {
 //Use range() for loops.
 //Use list.append() to add values into a list.
 //Use [n1:n2] to slice a list
-//
-//
-//
-//2.10
-//
+void question38() {
+	cout << "\n--- Question 38 ---" << endl;
+	vector<vector<double>> x;
+	for (double i = 1; i <= 20; i++) {
+		vector<double> c = {i, pow(i, 2)};
+		x.push_back(c);
+		if (i <= 5) {
+			cout << "'" << c[0] << "' : '" << c[1] << "'" << endl;
+		}
+	}
+}
+
 //Question:
 //Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.
 //
@@ -981,11 +1018,18 @@ void question22(string input) {
 //Use range() for loops.
 //Use list.append() to add values into a list.
 //Use [n1:n2] to slice a list
-//
-//
-//
-//2.10
-//
+void question39() {
+	cout << "\n--- Question 39 ---" << endl;
+	vector<vector<double>> x;
+	for (double i = 1; i <= 20; i++) {
+		vector<double> c = { i, pow(i, 2) };
+		x.push_back(c);
+		if (i >= 15) {
+			cout << "'" << c[0] << "' : '" << c[1] << "'" << endl;
+		}
+	}
+}
+
 //Question:
 //Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.
 //
@@ -995,11 +1039,18 @@ void question22(string input) {
 //Use range() for loops.
 //Use list.append() to add values into a list.
 //Use [n1:n2] to slice a list
-//
-//
-//
-//2.10
-//
+void question40() {
+	cout << "\n--- Question 40 ---" << endl;
+	vector<vector<double>> x;
+	for (double i = 1; i <= 20; i++) {
+		vector<double> c = { i, pow(i, 2) };
+		x.push_back(c);
+		if (i > 5) {
+			cout << "'" << c[0] << "' : '" << c[1] << "'" << endl;
+		}
+	}
+}
+
 //Question:
 //Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included). 
 //
@@ -1009,22 +1060,34 @@ void question22(string input) {
 //Use range() for loops.
 //Use list.append() to add values into a list.
 //Use tuple() to get a tuple from a list.
-//
-//
-//
-//2.10
-//
+void question41() {
+	cout << "\n--- Question 41 ---" << endl;
+	vector<vector<double>> x;
+	for (double i = 1; i <= 20; i++) {
+		vector<double> c = { i, pow(i, 2) };
+		x.push_back(c);
+		cout << "'" << c[0] << "' : '" << c[1] << "'" << endl;
+	}
+}
+
 //Question:
 //With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and the last half values in one line. 
 //
 //Hints:
 //
 //Use [n1:n2] notation to get a slice from a tuple.
-//
-//
-//
-//2.10
-//
+void question42(vector<int> num) {
+	cout << "\n--- Question 42 ---" << endl;;
+	vector<int> first_half = vector<int>(num.begin(), num.end() - (static_cast<int>(num.size()/2)));
+	vector<int> second_half = vector<int>(num.begin() - (static_cast<int>(num.size()/2)), num.end());
+	for (int i = i; i < first_half.size(); i++) {
+		cout << first_half[i] << ", ";
+	} cout << endl;
+	for (int i = 0; i < second_half.size(); i++) {
+		cout << second_half[i] << ", ";
+	} cout << endl;
+}
+
 //Question:
 //Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). 
 //
@@ -1032,22 +1095,38 @@ void question22(string input) {
 //
 //Use "for" to iterate the tuple
 //Use tuple() to generate a tuple from a list.
-//
-//
-//
-//2.14
-//
+void question43(vector<int> x) {
+	cout << "\n--- Question 43 ---" << endl;
+	for (int i = 0; i < x.size(); i++) {
+		if (x[i] % 2 == 0) {
+			cout << x[i] << ", ";
+		}
+	}
+}
+
 //Question:
 //Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". 
 //
 //Hints:
 //
 //Use if statement to judge condition.
-//
-//
-//
-//3.4
-//
+string to_lowercase(string text) {
+	string output;
+	for (int i = 0; i < text.length(); i++) {
+		output += tolower(text[i]);
+	}
+	return output;
+}
+
+void question44(string text) {
+	cout << "\n--- Question 44 ---" << endl;
+	if (to_lowercase(text) == "yes") {
+		cout << "Yes!";
+	} else {
+		cout << "No!";
+	}
+}
+
 //Question:
 //Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
 //
@@ -1055,11 +1134,17 @@ void question22(string input) {
 //
 //Use filter() to filter some elements in a list.
 //Use lambda to define anonymous functions.
-//
-//
-//
-//3.4
-//
+void question45(vector<int> num) {
+	cout << "\n--- Question 45 ---" << endl;
+	vector<int> output;
+	for (int i = 0; i < num.size(); i++) {
+		if (num[i] % 2 == 0) {
+			output.push_back(num[i]);
+			cout << num[i] << ", ";
+		}
+	}
+}
+
 //Question:
 //Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
 //
@@ -1067,11 +1152,16 @@ void question22(string input) {
 //
 //Use map() to generate a list.
 //Use lambda to define anonymous functions.
-//
-//
-//
-//3.5
-//
+void question46(vector<int> num) {
+	cout << "\n--- Question 46 ---" << endl;
+	vector<int> output;
+	for (int i = 0; i < num.size(); i++) {
+		int r = pow(num[i], 2);
+		output.push_back(r);
+		cout << r << ", ";
+	}
+}
+
 //Question:
 //Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
 //
@@ -1080,11 +1170,18 @@ void question22(string input) {
 //Use map() to generate a list.
 //Use filter() to filter elements of a list.
 //Use lambda to define anonymous functions.
-//
-//
-//
-//3.5
-//
+void question47(vector<int> num) {
+	cout << "\n--- Question 47 ---" << endl;
+	vector<int> output;
+	for (int i = 0; i < num.size(); i++) {
+		int r = pow(num[i], 2);
+		if (r % 2 == 0) {
+			output.push_back(r);
+			cout << r << ", ";
+		}
+	}
+}
+
 //Question:
 //Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
 //
@@ -1092,11 +1189,15 @@ void question22(string input) {
 //
 //Use filter() to filter elements of a list.
 //Use lambda to define anonymous functions.
-//
-//
-//
-//3.5
-//
+void question48() {
+	cout << "\n--- Question 48 ---" << endl;
+	for (int i = 0; i <= 20; i++) {
+		if (i % 2 == 0) {
+			cout << i << ", ";
+		}
+	}
+}
+
 //Question:
 //Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
 //
@@ -1104,36 +1205,66 @@ void question22(string input) {
 //
 //Use map() to generate a list.
 //Use lambda to define anonymous functions.
-//
-//
-//
-//7.2
-//
+void question49() {
+	cout << "\n--- Question 49 ---" << endl;
+	for (int i = 0; i <= 20; i++) {
+		int r = pow(i, 2);
+		if (r % 2 == 0) {
+			cout << r << ", ";
+		}
+	}
+}
+
 //Question:
 //Define a class named American which has a static method called printNationality.
 //
 //Hints:
 //
 //Use @staticmethod decorator to define class static method.
-//
-//
-//
-//
-//7.2
-//
+class American {
+	public:
+	static void printNationality() {
+		cout << "I am American!";
+	}
+};
+
+void question50() {
+	cout << "\n--- Question 50 ---" << endl;
+	American person;
+	person.printNationality();
+}
+
 //Question:
 //Define a class named American and its subclass NewYorker. 
 //
 //Hints:
 //
 //Use class Subclass(ParentClass) to define a subclass.
-//
-//
-//
-//
-//
-//7.2
-//
+class American2 {
+	public:
+	void person_us() {
+		cout << "an American Person!" << endl;
+	}
+};
+
+class NewYorker : public American2 {
+	public:
+	void person_ny() {
+		cout << "a New Yorker!" << endl;
+	}
+};
+
+void question51() {
+	cout << "\n--- Question 51 ---" << endl;
+	American2 a;
+	a.person_us();
+	
+	NewYorker b;
+	b.person_ny();
+	b.person_us();
+}
+
+
 //Question:
 //Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. 
 //
@@ -1835,6 +1966,35 @@ int main() {
 	question20(100);
 	question21("UP 5\nDOWN 3\nLEFT 3\nRIGHT 2");
 	question22("New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.");
+	question23(69);
+	question24();
+	question25();
+	question26(453, 875);
+	question27(345);
+	question28(3.1415);
+	question29("30", "2");
+	question30("00", "7");
+	question31("Cats are awesome", "no dogs are");
+	question32(32366);
+	question33();
+	question34();
+	question35();
+	question36();
+	question37();
+	question38();
+	question39();
+	question40();
+	question41();
+	question42(vector<int>{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
+	question43(vector<int>{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
+	question44("Yes");
+	question45(vector<int>{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
+	question46(vector<int>{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
+	question47(vector<int>{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
+	question48();
+	question49();
+	question50();
+	question51();
 
 	cout << endl << endl;
 	system("pause");

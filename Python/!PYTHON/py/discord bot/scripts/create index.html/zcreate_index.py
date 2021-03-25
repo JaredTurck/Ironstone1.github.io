@@ -83,6 +83,12 @@ template = """
 			top: 0.8em;
 			left: 5.2em;
 		}
+
+		.download-link {
+                        color: white;
+                        text-decoration: none;
+                        
+		}
 		
 		/* heading */
 		.heading-1 {
@@ -427,7 +433,7 @@ row = """
 						<td class="td-header">[file name]</td>
 						<td>[file size]</td>
 						<td>
-                                                    <a target="_blank" href="[file link]">here</a>
+                                                    <a class="download-link" target="_blank" href="[file link]">[download text]</a>
 						</td>
 					</tr>"""
 
@@ -485,6 +491,7 @@ class create_index():
         self.thumbnail_begin = "thumbnail_"
         self.listdir = os.listdir()
         self.print_itter = 50
+        self.folder_icon = "https://jaredbot.uk/img/src/folder_icon_transparent.png"
         
     def short_byte(self, n):
         sizes = [" bytes", "KB", "MB", "GB", "TB", "PB"]
@@ -520,14 +527,35 @@ class create_index():
         dir_name = os.path.abspath(__file__).split('\\')[-2]
         data = template.replace('[title tag]', dir_name)
         row_count = 0
+
+        # calculate file sizes
+        print("[+] Calculating files sizes!")
+        dict_sizes = {}
         for file in self.listdir:
+            dict_sizes[os.path.getsize(file)] = file
+
+        print("[+] Sorting data!")
+        sorted_files = []
+        for file_size in sorted(dict_sizes.keys()):
+            current_file = dict_sizes[file_size]
+            if current_file != self.thumbnail_path.replace('/', ''):
+                sorted_files.append(dict_sizes[file_size])
+
+        # add rows to table
+        print("[+] Adding rows to table!")
+        for file in sorted_files:
             if file.split('.')[-1] not in self.ignore_extensions:
                 try:
                     new_row = row
                     new_row = new_row.replace('[file name]', file)
                     new_row = new_row.replace('[file link]', urllib.parse.quote(file))
                     new_row = new_row.replace('[file size]', self.short_byte(os.path.getsize(file)))
-                    new_row = new_row.replace('[image src]', self.thumbnail_path + self.thumbnail_begin + file)
+                    if "." not in file:
+                        new_row = new_row.replace('[image src]', self.folder_icon)
+                        new_row = new_row.replace('[download text]', "cd")
+                    else:
+                        new_row = new_row.replace('[image src]', self.thumbnail_path + self.thumbnail_begin + file)
+                        new_row = new_row.replace('[download text]', 'download')
                     data += "\n" + new_row
                     row_count += 1
                     if row_count % self.print_itter == 0:
