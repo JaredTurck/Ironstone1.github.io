@@ -114,7 +114,7 @@ const youtube_data_filename = log_var("YouTube Data API", "API/YOUTUBE_DATA_API_
 const output_file_henati = log_var("Hentai output file", "InputOutput/output.txt");
 const inputs_file_henati = log_var("Hentai input file", "InputOutput/commands.txt");
 const output_file_execute = log_var("Execute output file", "InputOutput/execute_output.txt");
-const inputs_file_execute = log_var("Execute input file", "execute.py");
+const inputs_file_execute = log_var("Execute input file", "execute_input.txt");
 const output_file_chatbot = log_var("ChatBot output file", "InputOutput/chat_bot_output.txt");
 const inputs_file_chatbot = log_var("ChatBot input file", "InputOutput/chat_bot_input.txt");
 const output_file_animals = log_var("Animals output file", "InputOutput/animal_output.txt");
@@ -273,7 +273,7 @@ const global_logging_var_interval = log_var("log msg timeout", 10*1000);			// ti
 const download_speed_interval = log_var("Download speed", 12*60*60*1000);			// check download speed interval
 const snipe_cooldown_timeout = log_var("Snipe cooldown", 2*60*1000);				// snipe cooldown
 const get_inv_cooldown = log_var("Get inv cooldown", 8*1000);						// get CSGO Inventory cooldown
-const execute_code_cooldown = log_var("Execute Cooldown", 2000);					// Execute Cooldown
+const execute_code_cooldown = log_var("Execute Cooldown", 5000);					// Execute Cooldown
 const random_animal_cooldown = log_var("Cooldow Random Animal", 5000)				// Cooldown for random animal command to prevent spam
 
 // Local Database locations
@@ -3286,7 +3286,8 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0,8).toLowerCase() === prefix[msg.guild.id]+"howgay " || msg.content === prefix[msg.guild.id]+"howgay") {
+		if (msg.guild != null && msg.content.slice(0,8).toLowerCase() === prefix[msg.guild.id]+"howgay " || msg.content === prefix[msg.guild.id]+"howgay"
+		|| msg.content.slice(0, 4).toLowerCase() === prefix[msg.guild.id]+"gay") {
 			if (msg.content === prefix[msg.guild.id]+"howgay") {
 				embed_chat_reply_header(msg, "You are " + String(parseInt(Math.random()*100)) + "% gay!", "Gay Detector", pfp=false);
 			} else {
@@ -3752,9 +3753,45 @@ function autopost_nsfw(msg) {
 }
 
 // execute
+const execute_input_check = {};
+const python_input_codeblock = `
+# input function added to beginning of file
+def input(*args):
+    # check if modules imported
+    modules = ["time", "hashlib"]
+    for mod in modules:
+        if mod not in locals():
+            import time, hashlib
+
+    # read the files contents
+    try:
+        # get initial hashs
+        file_contents = open("`+inputs_file_execute+`", "rb").read()
+        first_hash = hashlib.md5(file_contents).hexdigest()
+        current_hash = hashlib.md5(file_contents).hexdigest()
+        
+        # loop until file contents changes
+        while first_hash == current_hash:
+            time.sleep(0.1)
+            file_contents = open("`+inputs_file_execute+`", "rb").read()
+            current_hash = hashlib.md5(file_contents).hexdigest()
+
+        # return the files contents and resume execuation of script
+        return file_contents.decode("utf-8")
+    
+    # the file cant be read for some reason so return an empty string
+    except Exception as error:
+        open("`+inputs_file_execute+`", "w")
+        with open("execute_error.txt", "w") as file_error:
+            file_error.write(str(error))
+        return ""
+
+# the users code
+`;
+
 function check_harmful_code(code) {
 	trust_modules = ["datetime", "math", "random", "hashlib", "time", "getpass", "socket", "urllib"];
-	dangerious_keywords = ["input", "exec", "eval", "compile", "open", "builtins", "os", "globals", 
+	dangerious_keywords = ["exec", "eval", "compile", "open", "builtins", "os", "globals", 
 		"locals", "breakpoint", "dir", "delattr", "getattr", "repr", "vars"];
 	
 	// import
@@ -3798,6 +3835,19 @@ function check_harmful_code(code) {
 	return [true, ""];
 }
 
+function check_input(msg, code) {
+	// input
+	if (code.indexOf("input") > -1) {
+		// add code block to beginning of execute.py
+		execute_input_check[msg.guild.id] = [true, msg.channel.id];
+		new_code = python_input_codeblock +"\n"+ code;
+		return new_code;
+		
+	} else {
+		return code;
+	}
+}
+
 function check_harmful_code_js(code) {
 	dangerious_keywords = ["require", "request", "fs", "os", "exec", "child_process", "module", "process", "eval", "import"];
 	
@@ -3829,16 +3879,19 @@ var execute_start = {};
 var execute_pids = {};
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0,9) === prefix[msg.guild.id]+"execute ") {
+		if (msg.guild != null && msg.content.slice(0,9) === prefix[msg.guild.id]+"execute " ||
+			msg.guild != null && msg.content.slice(0,6) === prefix[msg.guild.id]+"exec ") {
 			// timeout
 			if (execute_start[msg.guild.id] == undefined) {
 				execute_start[msg.guild.id] = false;
+			} if (execute_input_check[msg.guild.id] == undefined) {
+				execute_input_check[msg.guild.id] = [false, msg.channel.id];
 			}
 			
 			if (execute_start[msg.guild.id] == false) {
 				execute_start[msg.guild.id] = true;
 				// check if code is python or javascript
-				var input_code = msg.content.slice(9, msg.length);
+				var input_code = msg.content.slice(msg.content.split(" ")[0].length+1, msg.length);
 				if (input_code.indexOf("```js") > -1 || input_code.indexOf("```javascript") > -1) {
 					// code is javascript
 					input_code = input_code.replace(/```js/g, "").replace(/```javascript/g, "").split("```").join("").split("`").join("");
@@ -3871,7 +3924,9 @@ bot.on("message", msg => {
 					}, execute_code_cooldown, msg);
 				} else {
 					// write code to file
-					create_file_then_append_data(msg, execute_filename, input_code, function(cb) {
+					code = check_input(msg, input_code);
+					console.log([code, execute_filename]);
+					create_file_then_append_data(msg, execute_filename, code, function(cb) {
 						if (cb == false) {
 							console_log('Wrote '+language_name+' code to file for ' + msg.guild.name + "!");
 							
@@ -3910,6 +3965,7 @@ bot.on("message", msg => {
 									embed_execute_output(msg, input_code, stdout);
 								}
 								create_file_then_append_data(msg, execute_filename, "", endl="", overwrite=true);
+								execute_input_check[msg.guild.id] = [false, msg.channel.id];
 							}))
 							
 							// kill process
@@ -3933,6 +3989,30 @@ bot.on("message", msg => {
 							console_log("Failed to write python code to file!", error=true);
 						}
 					}, endl="", overwrite=true);
+				}
+			}
+		}
+	}
+})
+
+// update input file
+bot.on("message", msg => {
+	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
+		if (execute_input_check[msg.guild.id] != undefined) {
+			if (execute_input_check[msg.guild.id].length == 2) {
+				if (execute_input_check[msg.guild.id][0] == true) {
+					if (msg.channel.id == execute_input_check[msg.guild.id][1]) {
+						if (msg.author.bot == false) {
+							// get file location
+							server_name = get_server_name(msg); // server folder
+							server_file = logging_path +"/"+ server_name +"/" + inputs_file_execute;
+							console.log([server_file]);
+			
+							// write message to file
+							create_file_then_append_data(msg, server_file, msg.content, endl="");
+							console_log("Wrote execute input to input.txt!");
+						}
+					}
 				}
 			}
 		}

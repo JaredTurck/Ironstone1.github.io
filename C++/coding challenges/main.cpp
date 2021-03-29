@@ -3,6 +3,9 @@
 #include <string>
 #include <cmath>
 #include <algorithm>
+#include <assert.h>
+#include <ctime>
+#include <chrono>
 
 using namespace std;
 
@@ -1271,57 +1274,120 @@ void question51() {
 //Hints:
 //
 //Use def methodName(self) to define a method.
-//
-//
-//
-//
-//7.2
-//
+class Circle {
+	public:
+	int pi = 3.1415;
+	void get_area() {
+		int r;
+		cout << "enter area: ";
+		cin >> r;
+		cout << "Area: " << pow(pi * r, 2);
+	}
+};
+
+void question52() {
+	cout << "\n--- Question 52 ---" << endl;
+	Circle a;
+	a.get_area();
+}
+
 //Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. 
 //
 //Hints:
 //
 //Use def methodName(self) to define a method.
-//
-//
-//
-//
-//7.2
-//
+class Rectangle {
+	public:
+	void get_area() {
+		int width;
+		int height;
+		cout << "Enter Width: ";
+		cin >> width;
+		cout << "Enter Height: ";
+		cin >> height;
+		cout << "Area: " << (width * height);
+	}
+};
+
+void question53() {
+	cout << "\n--- Question 53 ---" << endl;
+	Rectangle a;
+	a.get_area();
+}
+
 //Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
 //
 //Hints:
 //
 //To override a method in super class, we can define a method with the same name in the super class.
-//
-//
-//
-//
-//
+class Shape {
+	public:
+	void get_area(int length, int height) {
+		cout << "Area: " << (length * height);
+	}
+};
+
+class Square {
+	public:
+	void get_area(int length, int height) {
+		cout << "Area: " << (length * height);
+	}
+};
+
+void question54() {
+	cout << "\n--- Question 54 ---" << endl;
+	Shape a;
+	a.get_area(56, 78);
+	Square b;
+	b.get_area(56, 89);
+}
+
 //Please raise a RuntimeError exception.
 //
 //Hints:
 //
 //Use raise() to raise an exception.
-//
-//
-//
+void question55() {
+	cout << "\n--- Question 55 ---" << endl;
+	const string& a = "a";
+	try {
+		throw runtime_error(a);
+	} catch (runtime_error err) {
+		cout << "Runtime error was thrown!";
+	}
+}
+
 //Write a function to compute 5/0 and use try/except to catch the exceptions.
 //
 //Hints:
 //
 //Use try/except to catch exceptions.
-//
-//
-//
+void question56() {
+	cout << "\n--- Question 56 ---" << endl;
+	try {
+		throw overflow_error("Divide by zero!");
+	} catch (overflow_error err) {
+		cout << "Error was thrown " << err.what();
+	}
+}
+
 //Define a custom exception class which takes a string message as attribute.
 //
 //Hints:
 //
 //To define a custom exception, we need to define a class inherited from Exception.
-//
-//
-//
+void question57() {
+	cout << "\n--- Question 57 ---" << endl;
+	try {
+		string text;
+		cout << "Enter something: ";
+		cin >> text;
+		throw runtime_error(text);
+	} catch (runtime_error err) {
+		cout << "Error thrown " << err.what();
+	}
+}
+
 //Question:
 //
 //Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.
@@ -1340,9 +1406,12 @@ void question51() {
 //Hints:
 //
 //Use //w to match letters.
-//
-//
-//
+void question58(string email) {
+	cout << "\n--- Question 58 ---" << endl;
+	string name = split_string(email, '@')[0];
+	cout << name;
+}
+
 //Question:
 //
 //Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.
@@ -1361,9 +1430,12 @@ void question51() {
 //Hints:
 //
 //Use //w to match letters.
-//
-//
-//
+void question59(string email) {
+	cout << "\n--- Question 59 ---" << endl;
+	string name = split_string(split_string(email, '@')[1], '.')[0];
+	cout << name;
+}
+
 //Question:
 //
 //Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
@@ -1382,9 +1454,33 @@ void question51() {
 //Hints:
 //
 //Use re.findall() to find all substring using regex.
-//
-//
-//
+bool is_digit(string text) {
+	int count = 0;
+	string digits = "0123456789";
+	for (int i = 0; i < text.size(); i++) {
+		if (digits.find(text[i]) != string::npos) {
+			count++;
+		}
+	}
+	if (count == text.size()) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+void question60(string text) {
+	cout << "\n--- Question 60 ---" << endl;
+	vector<string> t = split_string(text, ' ');
+	vector<string> output;
+	for (int i = 0; i < t.size(); i++) {
+		if (is_digit(t[i]) == true) {
+			output.push_back(t[i]);
+			cout << t[i] << ", ";
+		}
+	}
+}
+
 //Question:
 //
 //
@@ -1393,25 +1489,34 @@ void question51() {
 //Hints:
 //
 //Use u'strings' format to define unicode string.
-//
-//
-//
+void question61() {
+	cout << "\n--- Question 61---" << endl;
+	cout << "Hello Wordl!";
+}
+
 //Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
 //
 //Hints:
 //
 //Use unicode() function to convert.
-//
-//
-//
+void question62() {
+	cout << "\n--- Question 62 ---" << endl;
+	string input;
+	cout << "Enter text: ";
+	cin >> input;
+	cout << input;
+}
+
 //Question:
 //
 //Write a special comment to indicate a Python source code file is in unicode.
 //
 //Hints:
-//
-//
-//
+void question63() {
+	cout << "\n--- Question 63 ---" << endl;
+	cout << "Unicode!";
+}
+
 //Question:
 //
 //Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).
@@ -1429,9 +1534,15 @@ void question51() {
 //
 //Hints:
 //Use float() to convert an integer to a float
-//
-//
-//
+void question64(int n) {
+	cout << "\n--- Question 64 ---" << endl;
+	float t = 0;
+	for (float i = 1; i < n+1; i++) {
+		t += i / (i + 1);
+	}
+	cout << t;
+}
+
 //Question:
 //
 //Write a program to compute:
@@ -1454,10 +1565,19 @@ void question51() {
 //
 //Hints:
 //We can define recursive function in Python.
-//
-//
-//
-//
+int f(int n) {
+	if (n == 0) {
+		return 0;
+	} else {
+		return f(n - 1) + 100;
+	}
+}
+
+void question65(int n) {
+	cout << "\n--- Question 65 ---" << endl;
+	cout << f(n);
+}
+
 //Question:
 //
 //
@@ -1483,11 +1603,18 @@ void question51() {
 //
 //Hints:
 //We can define recursive function in Python.
-//
-//
-//
-//
-//
+void question66(int itter) {
+	cout << "\n--- Question 66 ---" << endl;
+	vector<int> n = {0, 1};
+	int oldn;
+	for (int i = 0; i < itter; i++) {
+		oldn = n[0];
+		n[0] = n[1];
+		n[1] = oldn + n[1];
+		cout << n[0] << ", ";
+	}
+}
+
 //Question:
 //
 //The Fibonacci Sequence is computed based on the following formula:
@@ -1515,10 +1642,20 @@ void question51() {
 //Use string.join() to join a list of strings.
 //
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//
+int fib2(vector<int> n, int itter) {
+	if (itter <= 0) {
+		return n[0];
+	} else {
+		cout << n[0] << ", ";
+		return fib2(vector<int> { n[1], n[0] + n[1] }, itter - 1);
+	}
+}
+
+void question67(int n) {
+	cout << "\n--- Question 67 ---" << endl;
+	cout << fib2(vector<int>{ 0, 1 }, n);
+}
+
 //Question:
 //
 //Please write a program using generator to print the even numbers between 0 and n in comma separated form while n is input by console.
@@ -1536,10 +1673,15 @@ void question51() {
 //Use yield to produce the next value in generator.
 //
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//
+void question68(int n) {
+	cout << "\n--- Question 68 ---" << endl;
+	for (int i = 0; i < n+1; i++) {
+		if (i % 2 == 0) {
+			cout << i << ", ";
+		}
+	}
+}
+
 //Question:
 //
 //Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console.
@@ -1557,10 +1699,15 @@ void question51() {
 //Use yield to produce the next value in generator.
 //
 //In case of input data being supplied to the question, it should be assumed to be a console input.
-//
-//
-//
-//
+void question69(int n) {
+	cout << "\n--- Question 69 ---" << endl;
+	for (int i = 0; i < n; i++) {
+		if (i % 5 == 0 && i % 7 == 0) {
+			cout << i << ", ";
+		}
+	}
+}
+
 //Question:
 //
 //
@@ -1570,10 +1717,31 @@ void question51() {
 //
 //Hints:
 //Use "assert expression" to make assertion.
-//
-//
-//
-//
+bool check_even(vector<int> n) {
+	int valid = 0;
+	for (int i = 0; i < n.size(); i++) {
+		if (n[i] % 2 == 0) {
+			valid += 1;
+		}
+	}
+	if (n.size() == valid) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+void question70(vector<int> n) {
+	cout << "\n--- Question 70 ---" << endl;
+	try {
+		assert(check_even(n));
+		cout << "All numbers in list are even!";
+	} catch (runtime_error error) {
+		cout << "Not every number in the list is even!";
+	}
+}
+
+
 //Question:
 //
 //Please write a program which accepts basic mathematic expression from console and print the evaluation result.
@@ -1589,10 +1757,13 @@ void question51() {
 //
 //Hints:
 //Use eval() to evaluate an expression.
-//
-//
-//
-//
+void question71(string input) {
+	cout << "\n--- Question 71 ---" << endl;
+	vector<string> parts = split_string(input, '+');
+	int output = stoi(parts[0]) + stoi(parts[1]);
+	cout << output;
+}
+
 //Question:
 //
 //Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
@@ -1600,10 +1771,25 @@ void question51() {
 //
 //Hints:
 //Use if/elif to deal with conditions.
-//
-//
-//
-//
+void question72(vector<int> li, int element) {
+	cout << "\n--- Question 72 ---" << endl;
+	int bottom = 0;
+	int top = li.size() - 1;
+	int index = -1;
+	while (top >= bottom && index == -1) {
+		int mid = static_cast<int>((top + bottom) / 2);
+		if (li[mid] == element) {
+			index = mid;
+		} else if (li[mid] > element) {
+			top = mid - 1;
+		} else {
+			bottom = mid + 1;
+		}
+	}
+	cout << index;
+}
+
+
 //Question:
 //
 //Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
@@ -1611,10 +1797,24 @@ void question51() {
 //
 //Hints:
 //Use if/elif to deal with conditions.
-//
-//
-//
-//
+void question73(vector<int> li, int element) {
+	cout << "\n--- Question 72 ---" << endl;
+	int bottom = 0;
+	int top = li.size() - 1;
+	int index = -1;
+	while (top >= bottom && index == -1) {
+		int mid = static_cast<int>((top + bottom) / 2);
+		if (li[mid] == element) {
+			index = mid;
+		} else if (li[mid] > element) {
+			top = mid - 1;
+		} else {
+			bottom = mid + 1;
+		}
+	}
+	cout << index;
+}
+
 //Question:
 //
 //Please generate a random float where the value is between 10 and 100 using Python math module.
@@ -1623,10 +1823,51 @@ void question51() {
 //
 //Hints:
 //Use random.random() to generate a random float in [0,1].
-//
-//
-//
-//
+class random {
+	public:
+	long int big = pow(10, 8);
+	long int seed = reinterpret_cast<long int>(time(0));
+	long int rand() {
+		seed = abs(static_cast<long int>((pow(seed, 0.1) * big)) % big);
+		return seed;
+	}
+
+	// produces unsigned int64 in range start to end
+	long int randint(int start, int end) {
+		return (this->rand() % (end - start)) + start;
+	}
+
+	// procude unsigned float in range 0 to 1
+	double randfloat(int start, int end) {
+		return (static_cast<float>(this->randint(1000, 9999)) / 10000) + this->randint(start, end);
+	}
+
+	// random choice
+	int choice(vector<int> n) {
+		return n[randint(0, n.size())];
+	}
+
+	// sample
+	vector<int> sample(int start, int end, int n) {
+		vector<int> output;
+		for (int i = 0; i < n; i++) {
+			output.push_back(this->randint(start, end));
+		}
+		return output;
+	}
+};
+
+void question74() {
+	cout << "\n--- Question 74 ---" << endl;
+	random a;
+	long long int output;
+	for (int i = 0; i < 5; i++) {
+		output = a.randint(10, 100);
+		cout << output << endl;
+	}
+}
+
+
 //Question:
 //
 //Please generate a random float where the value is between 5 and 95 using Python math module.
@@ -1635,35 +1876,55 @@ void question51() {
 //
 //Hints:
 //Use random.random() to generate a random float in [0,1].
-//
-//
-//
-//
+void question75() {
+	cout << "\n--- Question 75 ---" << endl;
+	random a;
+	long long int output;
+	for (int i = 0; i < 5; i++) {
+		double output = a.randfloat(5, 95);
+		cout << output << endl;
+	}
+}
+
 //Question:
 //
 //Please write a program to output a random even number between 0 and 10 inclusive using random module and list comprehension.
-//
-//
-//
+void question76() {
+	cout << "\n--- Question 76 ---" << endl;
+	random a;
+	int output = a.randint(0, 10);
+	while (output % 2 != 0) {
+		output = a.randint(0, 10);
+	}
+	cout << output;
+}
+
 //Hints:
 //Use random.choice() to a random element from a list.
-//
-//
-//
-//
+void question77() {
+	cout << "\n--- Question 77 ---" << endl;
+	random a;
+	int output = a.choice(vector<int>{134, 233, 354, 465, 345, 646, 734, 248, 975});
+	cout << output;
+}
+
 //Question:
 //
 //Please write a program to output a random number, which is divisible by 5 and 7, between 0 and 10 inclusive using random module and list comprehension.
 //
-//
-//
+// 
 //Hints:
 //Use random.choice() to a random element from a list.
-//
-//
-//
-//
-//
+void question78() {
+	cout << "\n--- Question 78 ---" << endl;
+	random a;
+	int n = a.randint(0, 10);
+	while (n % 5 != 0 || n % 7 != 0) {
+		n = a.randint(0, 10);
+	}
+	cout << n;
+}
+
 //Question:
 //
 //Please write a program to generate a list with 5 random numbers between 100 and 200 inclusive.
@@ -1672,10 +1933,15 @@ void question51() {
 //
 //Hints:
 //Use random.sample() to generate a list of random values.
-//
-//
-//
-//
+void question79() {
+	cout << "\n--- Question 79 ---" << endl;
+	random a;
+	vector<int> s = a.sample(100, 200, 5);
+	for (int i = 0; i < s.size(); i++) {
+		cout << s[i] << ", ";
+	}
+}
+
 //Question:
 //
 //Please write a program to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
@@ -1684,10 +1950,33 @@ void question51() {
 //
 //Hints:
 //Use random.sample() to generate a list of random values.
-//
-//
-//
-//
+bool is_vector_even(vector<int> n, int condition1 = 2, int condition2 = 2) {
+	int s = 0;
+	for (int i = 0; i < n.size(); i++) {
+		if (n[i] % condition1 == 0 && n[i] % condition2 == 0) {
+			s++;
+		}
+	}
+	cout << s << ", " << n.size() << endl;
+	if (s == n.size()) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+void question80() {
+	cout << "\n--- Question 80 ---" << endl;
+	random a;
+	vector<int> s = a.sample(100, 200, 5);
+	while (is_vector_even(s) == false) {
+		s = a.sample(100, 200, 5);
+	}
+	for (int i = 0; i < s.size(); i++) {
+		cout << s[i] << ", ";
+	}
+}
+
 //Question:
 //
 //Please write a program to randomly generate a list with 5 numbers, which are divisible by 5 and 7 , between 1 and 1000 inclusive.
@@ -1696,11 +1985,18 @@ void question51() {
 //
 //Hints:
 //Use random.sample() to generate a list of random values.
-//
-//
-//
-//
-//
+void question81() {
+	cout << "\n--- Question 81 ---" << endl;
+	random a;
+	vector<int> s = a.sample(1, 1000, 5);
+	while (is_vector_even(s, 5, 7) == false) {
+		s = a.sample(1, 1000, 5);
+	}
+	for (int i = 0; i < s.size(); i++) {
+		cout << s[i] << ", ";
+	}
+}
+
 //Question:
 //
 //Please write a program to randomly print a integer number between 7 and 15 inclusive.
@@ -1995,6 +2291,35 @@ int main() {
 	question49();
 	question50();
 	question51();
+	question52();
+	question53();
+	question54();
+	question55();
+	question56();
+	question57();
+	question58("John@gmail.com");
+	question59("John@gmail.com");
+	question60("2 cats and 3 dogs.");
+	question62();
+	question63();
+	question64(5);
+	question65(5);
+	question66(7);
+	question67(7);
+	question68(10);
+	question69(100);
+	question70(vector<int>{2, 4, 6, 8, 10});
+	question71("56+78");
+	question72(vector<int>{2, 5, 7, 9, 11, 17, 222}, 11);
+	question73(vector<int>{2, 5, 7, 9, 11, 17, 222}, 11);
+	question74();
+	question75();
+	question76();
+	question77();
+	question78();
+	question79();
+	question80();
+	question81();
 
 	cout << endl << endl;
 	system("pause");
