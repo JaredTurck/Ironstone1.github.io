@@ -1,0 +1,338 @@
+<html>
+	<style>
+		body {
+			margin: 0;
+			background-color: #1E1E21;
+			font-family: Arial;
+		}
+		
+		.topnav {
+			overflow: hidden;
+			background-color: #331a00;
+			padding-left: 1em;
+			padding-right: 1em;
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+		
+		.topnav a {
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding-left: 14px;
+			padding-right: 14px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			text-decoration: none;
+			font-size: 1em;
+			margin: 0;
+		}
+		
+		.nav-text {
+			padding-left: 0px;
+			padding-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			margin: 0%;
+			font-size: 0.8em;
+		}
+		
+		.nav-items-1 {
+			padding-left: 14px;
+			padding-right: 14px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+		}
+		
+		.topnav .nav-item-1:hover {
+			color: grey;
+			display: block;
+		}
+		
+		.topnav .nav-item-2:hover {
+			color: grey;
+		}
+		
+		.nav-image {
+			width: auto;
+			height: 50px;
+			position: absolute;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin: 0;
+			top: 1em;
+			left: 2em;
+		}
+		
+		.nav-image-2 {
+			width: auto;
+			height: 50px;
+			position: absolute;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin: 0;
+			top: 0.8em;
+			left: 5.2em;
+		}
+		
+		/* header */
+		.heading-1 {
+			color: white;
+			float: right;
+			padding-top: 0.3em;
+			padding-left: 0.5em;
+			padding-right: 0;
+			padding-bottom: 0;
+		}
+		
+		.heading-div {
+			float: left;
+			padding-top: 5em;
+			padding-left: 2em;
+			padding-right: 5em;
+			padding-bottom: 5em;
+		}
+		
+		.heading-img {
+			width: auto;
+			height: 6.5em;
+			border-radius: 50%;
+		}
+		
+		/* body */
+		.scoreboard {
+			clear: both;
+		}
+		
+		#main-table {
+			padding-top: 1em;
+			padding-left: 4em;
+			padding-right: 1em;
+			padding-bottom: 1em;
+			margin: 0;
+			left: 10em;
+		}
+		
+		/* table row left */
+		.row {
+			background-color: #3E3E3E;
+			padding-top: 1em;
+			padding-left: 1em;
+			padding-right: 1em;
+			padding-bottom: 5em;
+			margin: 0;
+		}
+		
+		.left-col {
+			float: right;
+			color: white;
+		}
+		
+		.rank {
+			float: left;
+			color: white;
+			background-color: #747474;
+			padding-top: 0.65em;
+			padding-left: 1em;
+			padding-right: 1em;
+			padding-bottom: 0.65em;
+			border-radius: 50%;
+		}
+		
+		.rank-gold {
+			float: left;
+			color: white;
+			background-color: #AF9500;
+			padding-top: 0.65em;
+			padding-left: 1em;
+			padding-right: 1em;
+			padding-bottom: 0.65em;
+			border-radius: 50%;
+		}
+		
+		.rank-silver {
+			float: left;
+			color: white;
+			background-color: #D7D7D7;
+			padding-top: 0.65em;
+			padding-left: 1em;
+			padding-right: 1em;
+			padding-bottom: 0.65em;
+			border-radius: 50%;
+		}
+		
+		.rank-bronze {
+			float: left;
+			color: white;
+			background-color: #6A3805;
+			padding-top: 0.65em;
+			padding-left: 1em;
+			padding-right: 1em;
+			padding-bottom: 0.65em;
+			border-radius: 50%;
+		}
+		
+		.rank-div {
+			padding-top: 0.8em;
+			padding-left: 0.5em;
+			padding-right: 1em;
+			padding-bottom: 0;
+			margin: 0;
+			position: absolute;
+		}
+		
+		.user-avatar {
+			float: left;
+			height: 4em;
+			width: auto;
+			padding-top: 0;
+			padding-left: 1em;
+			padding-right: 1em;
+			padding-bottom: 0;
+			border-radius: 50%;
+			position: absolute;
+		}
+		
+		.user-avatar-div {
+			padding-top: 0;
+			padding-left: 3em;
+			padding-right: 1em;
+			padding-bottom: 0;
+		}
+		
+		.user-name {
+			color: white;
+			font-family: Arial;
+			font-size: 2em;
+			padding-top: 0.5em;
+			padding-left: 4.5em;
+			padding-right: 0em;
+			padding-bottom: 0;
+			margin: 0;
+			position: absolute;
+		}
+		
+		/* table row right */
+		.right-colm {
+			float: none;
+		}
+		
+		.colm-cnt-msg {
+			float: right;
+			color: white;
+			padding-top: 0em;
+			padding-left: 1em;
+			padding-right: 2em;
+			padding-bottom: 0em;
+			margin: 0;
+			position: relative;
+		}
+		
+		.colm-cnt-xp {
+			float: right;
+			color: white;
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			margin: 0;
+		}
+		
+		.com-cnt-header {
+			color: #7D7D7D;
+			font-family: "Agency FB";
+			font-size: 1em;
+			
+		}
+		
+		.com-cnt-value {
+			color: white;
+			font-family: Arial;
+			font-size: 1.4em;
+			margin: 0;
+			padding-top: 0.4em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+		}
+		
+		/* Level */
+		.lvl-cl-div {
+			border: 2px solid #00FFF0;
+			border-radius: 50%;
+			height: 4em;
+			width: 4em;
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+		}
+		
+		.level-circle {
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 4em;
+			padding-bottom: 0em;
+			position: relative;
+			float: right;
+		}
+		
+		.lvl-cl-header {
+			font-family: "Agency FB";
+			font-size: 1em;
+			color: white;
+			padding-top: 0.6em;
+			padding-left: 1.2em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			position: absolute;
+		}
+		
+		.lvl-cl-value {
+			font-family: "Agency FB";
+			font-size: 1em;
+			color: white;
+			padding-top: 2em;
+			padding-left: 1.9em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			position: absolute;
+		}
+		
+		
+	</style>
+	<head></head>
+	<body>
+		<nav id="nav-bar">
+			<div class="topnav">
+				<a href="/"><img class="nav-image" src="https://jaredbot.uk/img/src/web/lion-blur.png"></img></a>
+				<a href="/"><img class="nav-image-2" src="https://jaredbot.uk/img/src/web/logo-text-1.png"></img></a>
+				<a class="nav-item-1" href="commands"><span class="nav-text" style="padding-left: 7em;">Commands</span></a>
+				<a class="nav-item-2" href="music"><span class="nav-text">Music</span></a>
+				<a class="nav-item-2" href="moderation"><span class="nav-text">Moderation</span></a>
+				<a class="nav-item-2" href="image"><span class="nav-text">Image</span></a>
+				<a class="nav-item-2" href="https://discord.com/invite/QDeUXq4" target="+blank"><span class="nav-text">Support Server</span></a>
+			</div>
+		</nav>
+		
+		<div id="main-body">
+			<div class="heading-div">
+				<img class="heading-img" src="#Server_Avatar_URL#"></img>
+				<h1 class="heading-1">#Server_Name#</h1>
+			</div>
+			<div class="scoreboard">
+				<div id="main-table">
+					#rows#
+				</div>
+			</div>
+			
+		</div>
+		
+		<div id="footer">
+		</div>
+	</body>
+</html>
