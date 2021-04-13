@@ -42,7 +42,7 @@ def rename_files():
                 hashed = hashlib.md5(peper + current_fname).hexdigest()
                 os.rename(os.path.join(path, file), os.path.join(path, hashed+"."+extension))
                 count += 1
-
+                
                 if count % 200 == 0:
                     print("["+str(count)+"]renamed file " + file)
             
@@ -57,10 +57,15 @@ if itter == "": itter = "1"
 while itter.isdigit() == False:
     itter = input("Invalid Input!\nNo. itterations: ")
 
+do_reanme = input("Do you want to rename the files? [y/n]: ")
+while do_reanme not in ["y", "n"]:
+    do_reanme = input("Invalid Input!\nDo you want to rename the files? [y/n]: ")
+
 print("Starting!")
 for i in range(1, int(itter)+1):
     remove_duplicates(path)
     print("[+] Itteration "+str(i)+"/"+str(itter)+" Complete!")
 
 # rename files
-rename_files()
+if do_reanme == "y":
+    rename_files()

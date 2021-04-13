@@ -1,6 +1,6 @@
 import os
 
-text = """A frog is any member of a diverse and largely carnivorous group of
+text = b"""A frog is any member of a diverse and largely carnivorous group of
 short-bodied, tailless amphibians composing the order Anura (literally without
 tail in Ancient Greek). The oldest fossil proto-frog appeared in the early
 Triassic of Madagascar, but molecular clock dating suggests their origins may
@@ -13,9 +13,9 @@ species tend to be called toads, but the distinction between frogs and toads is
 informal, not from taxonomy or evolutionary history."""
 
 codes = []
-frequency = lambda text: sorted(set([(text.count(i), i) for i in text]))
-trim_tree = lambda f:[f[1] if type(f[1]) == str else (trim_tree(f[1][0]), trim_tree(f[1][1]))][0]
-assign_codes = lambda node, pat :[codes.append([node, pat]) if type(node) == str else (assign_codes(node[0], pat+'0'), assign_codes(node[1], pat+"1"))]
+frequency = lambda text: sorted(set([[(text.count(i), i), [print(f"generating frequency {round((x/len(text))*100 ,2)}% Complete") if x % 5000 == 0 else None]][0] for x,i in enumerate(text)]))
+trim_tree = lambda f:[f[1] if type(f[1]) == int else (trim_tree(f[1][0]), trim_tree(f[1][1]))][0]
+assign_codes = lambda node, pat :[codes.append([node, pat]) if type(node) == int else (assign_codes(node[0], pat+'0'), assign_codes(node[1], pat+"1"))]
 encode = lambda f: "".join([dict(codes)[c] for c in f])
 
 def build_tree(f):
@@ -33,23 +33,12 @@ def decode(tree, f, output=""):
             t = tree
     return output
 
-def compress_file(filename="img1.png"):
-    text = "".join([chr(i+200) for i in open(filename, "rb").read()])
+def compress_file(text):
+    if os.path.isfile(text):
+        text = bytearray(open(text, "rb").read())
     tree = trim_tree(build_tree(frequency(text)))
     assign_codes(tree, "")
     encoded = encode(text)
-    path = os.path.dirname(os.path.abspath(__file__))
-    print(f"Original size: {len(text)} bytes")
-    print(f"Compressed size: {len(encoded)/8} bytes")
-    
-    driver = open(os.path.join(path, "a.txt"), "wb+")
-    driver.write(bytearray([int(encoded[i:i+8], 2) for i in range(0, len(encoded), 8)]))
-    driver.close()
-
-def compress_text(text):
-    tree = trim_tree(build_tree(frequency(text)))
-    assign_codes(tree, "")
-
-    encoded = encode(text)
-    decoded = decode(tree, encoded)
-    print(encoded)
+    print(f"Original size: {len(text)} bytes\nCompressed size: {len(encoded)/8} bytes\nfile size reduced by {round(((len(text)-(len(encoded)/8))/len(text))*100,2)}%! ({len(text)-(len(encoded)/8)} bytes)")
+    with open("a.txt", "wb+") as driver:
+        driver.write(bytearray([int(encoded[i:i+8], 2) for i in range(0, len(encoded), 8)]))

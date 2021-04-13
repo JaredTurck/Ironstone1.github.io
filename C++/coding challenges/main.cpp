@@ -1953,11 +1953,11 @@ void question79() {
 bool is_vector_even(vector<int> n, int condition1 = 2, int condition2 = 2) {
 	int s = 0;
 	for (int i = 0; i < n.size(); i++) {
-		if (n[i] % condition1 == 0 && n[i] % condition2 == 0) {
+		if (n[i] % condition1 == 0 || n[i] % condition2 == 0) {
 			s++;
 		}
 	}
-	cout << s << ", " << n.size() << endl;
+
 	if (s == n.size()) {
 		return true;
 	} else {
@@ -2005,11 +2005,12 @@ void question81() {
 //
 //Hints:
 //Use random.randrange() to a random integer in a given range.
-//
-//
-//
-//
-//
+void question82() {
+	cout << "\n--- Question 82 ---" << endl;
+	random a;
+	cout << a.randint(7, 15);
+}
+
 //Question:
 //
 //Please write a program to compress and decompress the string "hello world!hello world!hello world!hello world!".
@@ -2018,10 +2019,12 @@ void question81() {
 //
 //Hints:
 //Use zlib.compress() and zlib.decompress() to compress and decompress a string.
-//
-//
-//
-//
+void question83() {
+	cout << "\n--- Question 83 ---" << endl;
+
+}
+
+
 //Question:
 //
 //Please write a program to print the running time of execution of "1+1" for 100 times.
@@ -2320,6 +2323,7 @@ int main() {
 	question79();
 	question80();
 	question81();
+	question82();
 
 	cout << endl << endl;
 	system("pause");

@@ -51,6 +51,13 @@ feature will keep track of the number of messages each user sends, you can view
 the leaderboard at any time with the level command.
 */
 
+/*
+things to fix:
+capitals are broken on flip command
+pychallenge sometimes fails to fetch
+speedtest
+*/
+
 // --- Requires ---
 const Discord = require("discord.js");
 const cityTimezones = require('city-timezones');
@@ -150,6 +157,8 @@ const dataset_dict_words = log_var("Local Dict dataset", "datasets/dict_words_sh
 const dataset_country_codes = log_var("Local Country Codes dataset", "datasets/country_codes.txt");
 const dataset_morse = log_var("Morse Code dataset", "datasets/morse.txt");
 const dataset_animals = log_var("Animals dataset", "datasets/animals.txt");
+const dataset_cities = log_var("Cities dataset!", "datasets/cities.csv");
+const dataset_countries = log_var("Country dataset!", "datasets/countries.csv");
 
 // Webserver dataset locations
 const webserver_root_address = log_var("Webserver root", "https://jaredbot.uk/");
@@ -191,6 +200,8 @@ const webserver_floppa_dataset = log_var("Floppa dataset", webserver_root_addres
 const webserver_deleted_files_dir = log_var("Deleted files dir", webserver_root_address + "videos/deleted_attach");
 const webserver_cat_age_dataset = log_var("Cat Age dataset", webserver_root_address + "img/src/small_datasets/cat_age");
 const webserver_mars_dataset = log_var("Mars dataset", webserver_root_address + "img/dataset_mars");
+const webserver_cities_dataset = log_var("Cities dataset", webserver_root_address + "img/dataset_maps/cities");
+const webserver_country_dataset = log_var("Country dataset", webserver_root_address + "img/dataset_maps/country");
 
 const flip_coin_tails = log_var("Flip Coin Tails", "tails.gif");
 const flip_coin_heads = log_var("Flip Coin Heads", "heads.gif");
@@ -1556,7 +1567,7 @@ bot.on("message", msg => {
 					{name: "Perm", value: "`"+prefix[msg.guild.id]+"help perm`\n\u200B", inline: true},
 					{name: "Medicine", value: "`"+prefix[msg.guild.id]+"help medicine`\n\u200B", inline: true},
 					{name: "Covid", value: "`"+prefix[msg.guild.id]+"help covid`\n\u200B", inline: true},
-					{name: "\n\u200B", value: "\n\u200B", inline: true},
+					{name: "msgcount", value: "`"+prefix[msg.guild.id]+"help msgcount`\n\u200B", inline: true},
 				)
 				msg_channel_send(msg, help_module_embed);
 			// Chat
@@ -1594,7 +1605,8 @@ bot.on("message", msg => {
 					{name: "Meme", value: "`"+prefix[msg.guild.id]+"help meme`", inline: true},
 					{name: "Photo", value: "`"+prefix[msg.guild.id]+"help photos`", inline: true},
 					{name: "Reaction", value: "`"+prefix[msg.guild.id]+"help reaction`", inline: true},
-					{name: "Video", value: "`"+prefix[msg.guild.id]+"help video`", inline: true}
+					{name: "Video", value: "`"+prefix[msg.guild.id]+"help video`", inline: true},
+					{name: "Maps", value: "`"+prefix[msg.guild.id]+"help maps`", inline: true},
 				)
 				msg_channel_send(msg, help_module_embed);
 			} else if (module_name == "animal" || msg.content == prefix[msg.guild.id]+"animal") {
@@ -1666,6 +1678,8 @@ bot.on("message", msg => {
 				msg_channel_send(msg, help_module_embed);
 			} else if (module_name == "video") {
 				embed_help_reply(msg, {name: prefix[msg.guild.id]+"video", value: "posts a random video"});
+			} else if (module_name == "maps") {
+				embed_help_reply(msg, {name: prefix[msg.guild.id]+"maps", value: "`"+prefix[msg.guild.id]+"map {city}` shows a map of specified city."});
 			// Games	
 			} else if (module_name == "game" || module_name == "games" || msg.content == prefix[msg.guild.id]+"games" || msg.content == prefix[msg.guild.id]+"game") {
 				help_module_embed.setTitle("Help Games");
@@ -1736,7 +1750,7 @@ bot.on("message", msg => {
 				help_music(msg);
 			// Levels
 			} else if (module_name == "levels" || module_name == "level" || module_name == "leaderboard" || module_name == "scoreboard" || 
-				module_name == "score" || module_name == "msgcount" || module_name == "messagecount") {
+				module_name == "score" || module_name == "messages" || module_name == "messagecount") {
 				help_module_embed.setTitle("Help Admin/Mod commands");
 				help_module_embed.addFields (
 					{name: "Levels", value: "`"+prefix[msg.guild.id]+"levels` shows the leaderboard for your server.\n\u200B"},
@@ -1817,7 +1831,9 @@ bot.on("message", msg => {
 				embed_help_reply(msg, {name: prefix[msg.guild.id]+"userinfo @user", value: "displays information about a specific discord user.\n\u200B"});
 			} else if (module_name == "medicine") {	
 				embed_help_reply(msg, {name: prefix[msg.guild.id]+"medicine {name}", value: "displays information about a medicine, type `"+prefix[msg.guild.id]+"medicine` for more information..\n\u200B"});
-				
+			} else if (module_name == "msgcount") {
+				embed_help_reply(msg, {name: prefix[msg.guild.id]+"msgcount DD-MM-YYYY", value: "shows how many messages where sent in a particular channel on the specified day.\n\u200B"});
+			
 			// Chat
 			} else if (module_name == "default dance") {
 				embed_help_reply(msg, {name: prefix[msg.guild.id]+"default dance", value: "does the default dance.\n\u200B"});
@@ -3849,7 +3865,7 @@ function check_input(msg, code) {
 }
 
 function check_harmful_code_js(code) {
-	dangerious_keywords = ["require", "request", "fs", "os", "exec", "child_process", "module", "process", "eval", "import"];
+	dangerious_keywords = ["require", "request", "fs", "exec", "child_process", "module", "process", "eval", "import"];
 	
 	for (i=0;i<dangerious_keywords.length;i++) {
 		if (code.indexOf(dangerious_keywords[i]) > -1) {
@@ -3859,13 +3875,19 @@ function check_harmful_code_js(code) {
 	return [true, ""];
 }
 
-function embed_execute_output(msg, input_code, output) {
+function embed_execute_output(msg, input_code, output, lan) {
 	//send message
 	embed_execute = new Discord.MessageEmbed();
-	embed_execute.setTitle("Python Output");
-	embed_execute.setURL("https://www.python.org/"); // set this to URL of the message
+	if (lan == "javascript") {
+		embed_execute.setTitle("JavaScript Output");
+		embed_execute.setURL("https://en.wikipedia.org/wiki/JavaScript"); // set this to URL of the message
+		embed_execute.setDescription("This is the output from JavaScript terminal");
+	} else {
+		embed_execute.setTitle("Python Output");
+		embed_execute.setURL("https://www.python.org/"); // set this to URL of the message
+		embed_execute.setDescription("This is the output from Python terminal");
+	}
 	embed_execute.setColor(embed_color_chat);
-	embed_execute.setDescription("This is the output from Python terminal");
 	embed_execute.addFields(
 		{name: "Input", value: "```"+input_code.slice(0, 1000)+"```"},
 		{name: "Output", value: "``` "+output.slice(0, 1000)+" ```"}
@@ -3879,8 +3901,10 @@ var execute_start = {};
 var execute_pids = {};
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0,9) === prefix[msg.guild.id]+"execute " ||
-			msg.guild != null && msg.content.slice(0,6) === prefix[msg.guild.id]+"exec ") {
+		if (msg.guild != null && msg.content.slice(0,9) == prefix[msg.guild.id]+"execute " ||
+			msg.guild != null && msg.content.slice(0,6) == prefix[msg.guild.id]+"exec " ||
+			msg.guild != null && msg.content.slice(0,4) == prefix[msg.guild.id]+"py " ||
+			msg.guild != null && msg.content.slice(0,4) == prefix[msg.guild.id]+"js ") {
 			// timeout
 			if (execute_start[msg.guild.id] == undefined) {
 				execute_start[msg.guild.id] = false;
@@ -3892,7 +3916,8 @@ bot.on("message", msg => {
 				execute_start[msg.guild.id] = true;
 				// check if code is python or javascript
 				var input_code = msg.content.slice(msg.content.split(" ")[0].length+1, msg.length);
-				if (input_code.indexOf("```js") > -1 || input_code.indexOf("```javascript") > -1) {
+				if (input_code.indexOf("```js") > -1 || input_code.indexOf("```javascript") > -1
+					|| msg.content.slice(0,4) == prefix[msg.guild.id]+"js ") {
 					// code is javascript
 					input_code = input_code.replace(/```js/g, "").replace(/```javascript/g, "").split("```").join("").split("`").join("");
 					console_log("Execute input code is JavaScript!");
@@ -3916,7 +3941,7 @@ bot.on("message", msg => {
 				// check for harmful code
 				result = check_code_func(input_code);
 				if (result[0] == false) {
-					embed_execute_output(msg, input_code, result[1]);
+					embed_execute_output(msg, input_code, result[1], language_name);
 					setTimeout(function(){
 						execute_start[msg.guild.id] = false;
 						console_log(msg.author.tag+' Tried to run dangerious python code on '+msg.guild.name, error=false, mod=false, warning=true);
@@ -3925,7 +3950,6 @@ bot.on("message", msg => {
 				} else {
 					// write code to file
 					code = check_input(msg, input_code);
-					console.log([code, execute_filename]);
 					create_file_then_append_data(msg, execute_filename, code, function(cb) {
 						if (cb == false) {
 							console_log('Wrote '+language_name+' code to file for ' + msg.guild.name + "!");
@@ -3948,21 +3972,21 @@ bot.on("message", msg => {
 									if (is_python == true) {
 										output_error = err.toString().split('Traceback')[1];
 										if (output_error != undefined) {
-											embed_execute_output(msg, input_code, "Traceback" + output_error, lan="python");
+											embed_execute_output(msg, input_code, "Traceback" + output_error, language_name);
 										}
 									} else {
 										output_error = err.toString().split('\n\n')[1];
 										if (output_error != undefined) {
-											embed_execute_output(msg, input_code, output_error, lan="javascript");
+											embed_execute_output(msg, input_code, output_error, language_name);
 										} else {
 											output_error = err.toString().split('\r\n\r\n')[1];
 											if (output_error != undefined) {
-												embed_execute_output(msg, input_code, output_error, lan="javascript");
+												embed_execute_output(msg, input_code, output_error, language_name);
 											}
 										}
 									}
 								} else {
-									embed_execute_output(msg, input_code, stdout);
+									embed_execute_output(msg, input_code, stdout, language_name);
 								}
 								create_file_then_append_data(msg, execute_filename, "", endl="", overwrite=true);
 								execute_input_check[msg.guild.id] = [false, msg.channel.id];
@@ -3973,7 +3997,7 @@ bot.on("message", msg => {
 								for (i=0;i<execute_pids[msg.guild.id].length;i++) {
 									exec("taskkill /F /T /PID " + execute_pids[msg.guild.id][i].pid, (err, stdout, stderr) => {
 										if (stdout.indexOf("has been terminated.") > -1) {
-											embed_execute_output(msg, input_code, "Script terminated as it ran for too long!");
+											embed_execute_output(msg, input_code, "Script terminated as it ran for too long!", language_name);
 											create_file_then_append_data(msg, execute_filename, "", endl="", overwrite=true);
 											execute_start[msg.guild.id] = false;
 										}
@@ -4006,7 +4030,6 @@ bot.on("message", msg => {
 							// get file location
 							server_name = get_server_name(msg); // server folder
 							server_file = logging_path +"/"+ server_name +"/" + inputs_file_execute;
-							console.log([server_file]);
 			
 							// write message to file
 							create_file_then_append_data(msg, server_file, msg.content, endl="");
@@ -6800,7 +6823,7 @@ function check_port(msg, port, host, reply=true) {
 function geoip_lookup(msg) {
 	try {
 		ip = msg.content.slice(7, msg.content.length);
-		url = "https://www.ultratools.com/tools/geoIpResult?&ipAddress=" + ip;
+		url = "http://geoiplookup.net/ip/" + ip;
 		ipv6_url = "https://www.whtop.com/tools.ip/" + ip;
 		ipv6 = false;
 	
@@ -6856,17 +6879,22 @@ function geoip_lookup(msg) {
 					
 					
 				} else {
-					table = html.split('class="tool-results-container"')[1].split('<iframe')[0].replace(/[\n\r\t ]/g, "");
-					tag_count = table.split('</span></div>').length;
-					output = {};
-			
-					for (i=0;i<tag_count;i++) {
-						if (table.split('class="label">').length > 1) {
-							row = table.split('class="label">')[1].split('</span></div>')[0].replace('</span><spanclass="value">', '');
-							table = table.slice(table.indexOf('</div>')+6, table.length);
-							row = row.replace("&nbsp;", "").split(":");
-							output[row[0]] = row[1];
+					try {
+						table = html.split('class="title-mid"')[1].split("</h2>")[1].split('</h2>')[0].replace(/[\n\r\t ]/g, "");
+						tag_count = table.split('</div>').length;
+						output = {};
+						
+						for (i=0;i<tag_count;i++) {
+							if (table.split('class="ipdata"').length > 1) {
+								row = table.split('class="ipdata">')[1].split('</div>')[0].replace('<div ', '');
+								table = table.slice(table.indexOf('</div>')+6, table.length);
+								row = row.replace("&nbsp;", "").split(":");
+								output[row[0]] = row[1];
+							}
 						}
+					} catch (err) {
+						embed_error(msg, "Failed to get geoip data! " + err);
+						console_log("Failed to get geoip data!", error=true);
 					}
 				}
 			
@@ -7928,6 +7956,37 @@ bot.on("ready", msg => {
 		global_logging_var = {};
 		
 	}, global_logging_var_interval);
+})
+
+// messages sent (log size)
+bot.on("message", msg => {
+	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
+		if (msg.content.slice(0, 9) == prefix[msg.guild.id]+"msgcount" || msg.content.slice(0, 8) == prefix[msg.guild.id]+"logsize") {
+			// get folder
+			channel_name = get_server_name(msg, type="channel");	// channel folder
+			server_name = get_server_name(msg);					// server folder
+			dir = logging_path +"/"+ server_name +"/"+ channel_name;
+			
+			// get log file name
+			if (msg.content.split(' ').length == 2) {
+				todays_date = msg.content.split(' ')[1].replace(/-0/g, '-');
+			} else {
+				todays_date = date1.getDate()+"-"+(date1.getMonth()+1)+"-"+date1.getFullYear();
+			}
+			log_current_file = dir + "/server_log_"+todays_date+".log";
+			
+			// read the file
+			fs_read.readFile(log_current_file, 'utf-8', function(err, data) {
+				if (err) {
+					embed_error(msg, "Failed to read log file`"+todays_date+"`! Did you type the date correctly `"+prefix[msg.guild.id]+"msgcount DD-MM-YYYY`!");
+					console_log("Failed to show log file size! " + err, mod=false, error=true);
+				} else {
+					msg_counts = data.split('\n').length;
+					embed_chat_reply(msg, msg_counts + " messages where sent on " + todays_date + " in "+msg.channel.name+" !");
+				}
+			})
+		}
+	}
 })
 
 // Snipe (log deleted messages)
@@ -13313,161 +13372,14 @@ bot.on("message", msg => {
 })
 
 // calc
-function global_replace(txt, a, b) {
-	output = "";
-	for (i=0;i<txt.split(a).length;i++) {
-		output = txt.replace(a, b);
-	}
-	return output;
-}
-
-function calculator(command) {
-	// check for double operator
-	command = command.replace(/\+-/g, "+0-").replace(/-+/g, "-0+").replace(/\*-/g, "*0-").replace(/\/-/g, "/0-");
-	command = global_replace(global_replace(global_replace(command, "/-", "-0/"), "+-", "+0-"), "*-", "*0-");
-	
-	// format the string
-	command = command.split("<<").join("l").split(">>").join("r").split("**").join("p").split(" ").join("") + "+0";
-	operators = "+-*/%&|^lrp";
-	syntax_error = false;
-	
-	last_op = 0
-	parts = [];
-	
-	// get each part
-	for (i=0;i<command.length;i++) {
-		current_part = command.slice(last_op, i);
-		if (operators.indexOf(command[i]) > -1) {
-			// current char is an operator
-			parts.push(current_part);
-			last_op = i;
-		}
-	}
-	
-	// check parts for non numeric char
-	for (i=0;i<parts.length;i ++) {
-		if (i != 0) {
-			cpart = parts[i].slice(1, parts[i].length);
-		} else {
-			cpart = parts[i];
-		} if (isNaN(cpart) == true) {
-			syntax_error = true;
-		}
-	}
-	
-	// do the math
-	answer = 0;
-	part_count = 0;
-	
-	for (i=0;i<parts.length;i++) {
-		operator = parts[i].slice(0, 1);
-		number = parts[i].slice(1, parts[i].length);
-		
-		// operators
-		if (part_count > 0) {
-			switch (operator) {
-				case "+":	// add
-					answer += parseFloat(number);
-					break;
-				case "-":	// subtract
-					answer -= parseFloat(number);
-					break;
-				case "*":	// times
-					answer *= parseFloat(number);
-					break;
-				case "/":	// divide
-					answer /= parseFloat(number);
-					break;
-				case "%":	// modulus
-					answer %= parseFloat(number);
-					break;
-				case "&":	// AND (bitwise)
-					answer &= parseFloat(number);
-					break;
-				case "|":	// OR (bitwise)
-					answer |= parseFloat(number);
-					break;
-				case "^":	// XOR (bitwise)
-					answer ^= parseFloat(number);
-					break;
-				case "l":	// Left Shift (bitwise)
-					answer <<= parseFloat(number);
-					break;
-				case "r":	// Right Shift (bitwise)
-					answer >>= parseFloat(number);
-					break;
-				case "p":	// Power
-					answer **= parseFloat(number);
-					break;
-			}
-			part_count += 1;
-		} else {
-			answer = parseFloat(parts[0]);
-			part_count += 1;
-		}
-	}
-	
-	// return answer
-	return answer;
-}
-
-function inner_bracket(a) {
-	n = a.split('(');
-	for (i=0;i<n.length;i++) {
-		if (n[i].indexOf(')') > -1) {
-			d = n[i].split(')')[0];
-			s = n.slice(0, i).join('(').length;
-			e = s + d.length+2;
-			return [d, s, e];
-		}
-	}
-}
-
-function remove_extra_brackets(a) {
-	count = 0;
-	for(i=0;i<a.length;i++) {
-		if (a.slice(0, i) == "(".repeat(i) && a.slice(i-i-i) == ")".repeat(i)) {
-			count += 1
-		}
-	}
-	return a.slice(count, count-count-count);
-}
-
-function check_for_operator(txt) {
-	// check for e+ number
-	if (txt.indexOf('e+') > -1) {
-		return false;
-	}
-	
-	// check for operators
-	operators = ["+", "-", "*", "/", "%", "&", "|", "^", "~"];
+function check_eval_input(txt) {
+	allow_chars = "0123456789+-*/%&|!~^<>(). ";
 	for (i=0;i<txt.length;i++) {
-		if (txt.indexOf(operators[i]) > -1) {
-			return true;
+		if (allow_chars.indexOf(txt[i]) == -1) {
+			return false;
 		}
 	}
-	return false;
-}
-
-function loop_calculation(command) {
-	if (command.split('(').length == command.split(')').length) {
-		for(i=0;i<command.length;i++) {
-			p = inner_bracket(command);
-			if (p != undefined) {
-				c = calculator(p[0].replace(/ /g, '') + "+0");
-				if (isNaN(c) == false) {
-					command = command.replace(command.slice(p[1], p[2]), c);
-				}
-			} else if (p == undefined) {
-				// final calc
-				if (check_for_operator(command) == true && command.indexOf('(') == -1 && command.indexOf(')') == -1) {
-					command = calculator(command);
-				}
-				return command;
-			}
-		}
-		return command;
-	}
+	return true;
 }
 
 bot.on("message", msg => {
@@ -13482,18 +13394,25 @@ bot.on("message", msg => {
 				return true;
 			}
 			
-			// calculate
-			command = "(" + remove_extra_brackets("(" + msg.content.slice(6, msg.content.length) + ")") + ")";
-			answer = loop_calculation(command);
-			
-			// send message to user
-			if (isNaN(answer) == true) {
-				embed_error(msg, "Error! Failed to calculate!");
-			} else if (answer == Infinity) {
-				embed_error(msg, "Infinity Error! Answer is to big!");
-			} else {
-				calc_output = msg.content.slice(6, msg.content.length);
-				embed_input_output_reply(msg, calc_output, answer, "Calculator", "type -help math for list of commands");
+			// Calculate using eval
+			command = msg.content.slice(6, msg.content.length);
+			try {
+				if (check_eval_input(command) == true) {
+					answer = eval(command);
+					// send message to user
+					if (isNaN(answer) == true) {
+						embed_error(msg, "Error! Failed to calculate!");
+					} else if (answer == Infinity) {
+						embed_error(msg, "Infinity Error! Answer is to big!");
+					} else {
+						calc_output = msg.content.slice(6, msg.content.length);
+						embed_input_output_reply(msg, calc_output, answer, "Calculator", "type -help math for list of commands");
+					}
+				} else {
+					embed_error(msg, "Failed to calculate, not a valid formula!");
+				}
+			} catch (err) {
+				embed_error(msg, "Failed to calculate, error thrown!");
 			}
 		}
 	}
@@ -13607,7 +13526,7 @@ function hundred(n) {
 			return "zero";
 		}
 	} catch (err) {
-		console_log("Error thrown in hundred function! " + err, error=true);
+		console_log("Error thrown in hundred function! " + err, err=true);
 	}
 }
 
@@ -14526,7 +14445,7 @@ bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
 		if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"level" || msg.content.slice(0, 12) == prefix[msg.guild.id]+"leaderboard" || 
 			msg.content.slice(0, 11) == prefix[msg.guild.id]+"scoreboard" || msg.content.slice(0, 6) == prefix[msg.guild.id]+"score" || 
-			msg.content.slice(0, 9) == prefix[msg.guild.id]+"msgcount" || msg.content.slice(0, 13) == prefix[msg.guild.id]+"messagecount") {
+			msg.content.slice(0, 9) == prefix[msg.guild.id]+"messages" || msg.content.slice(0, 13) == prefix[msg.guild.id]+"messagecount") {
 			// send leaderboard
 			embed_chat_reply(msg, webserver_leaderboard_dir + "/" + get_server_name(msg) + ".html");
 		}
@@ -15106,6 +15025,52 @@ bot.on("message", msg => {
 			} catch (err) {
 				console_log("Error was thrown when bot joined server! " + err, error=true);
 			}
+		}
+	}
+})
+
+// map command
+var global_cities = [];
+var global_countries = [];
+bot.on("ready", msg => {
+	fs_read.readFile(dataset_cities, "utf8", function(err, data) {
+		if (err) {
+			return console_log("Failed to read file", error=true);
+		}
+		global_cities = data.toLowerCase().split("\n");
+		console_log("Read cities dataset!");
+	});
+	fs_read.readFile(dataset_countries, "utf8", function(err, data) {
+		if (err) {
+			return console_log("Failed to read file", error=true);
+		}
+		global_countries = data.toLowerCase().split("\n");
+		console_log("Read countries dataset!");
+	});
+})
+
+bot.on("message", msg => {
+	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
+		if (msg.content.slice(0, 5) == prefix[msg.guild.id]+"map ") {
+			command = msg.content.slice(5, msg.content.length).toLowerCase();
+			// countries
+			for (i=0;i<global_countries.length;i++) {
+				if (global_countries[i].indexOf(command) > -1) {
+					full_path = webserver_country_dataset + "/" + encodeURI(global_countries[i].slice(0, -1)) + ".png";
+					embed_image(msg, full_path, command, guild="msg", header="");
+					return true;
+				}
+			}
+			
+			// cities
+			for (i=0;i<global_cities.length;i++) {
+				if (global_cities[i].indexOf(command) > -1) {
+					full_path = webserver_cities_dataset + "/" + encodeURI(global_cities[i].slice(0, -1)) + ".png";
+					embed_image(msg, full_path, command, guild="msg", header="");
+					return true;
+				}
+			}
+			embed_error(msg, "Failed to find city!");
 		}
 	}
 })

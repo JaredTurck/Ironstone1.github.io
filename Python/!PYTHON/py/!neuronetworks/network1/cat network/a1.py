@@ -36,13 +36,12 @@ class network:
             values += inputs[i] ** 2
         self.cost = values
             
-
 class data_handler:
     def resize_img(filename, psize=[16, 16]):
         current = Image.open(filename).resize((psize[0], psize[1]))
         return [i[0] + i[1] + i[2]/3 for i in current.getdata()]
 
-# data
+# load cat image - input data
 X = np.array([data_handler.resize_img('cat1.jpg')])
 
 # init weights and bias for layer 1
@@ -50,19 +49,19 @@ X = np.array([data_handler.resize_img('cat1.jpg')])
 layer1 = network(len(X[0]), 64)
 layer1.forward(X) # pass data into layer 1
 layer1.relu(layer1.output) # use relu activation function
-print(layer1.output)
+print(layer1.output) # print layer 1 output
 
 # init layer 2
 layer2 = network(64, 32)
 layer2.forward(layer1.output) # pass data through layer 2
 layer2.relu(layer2.output) # use relu activation on hidden layer
-print(layer2.output)
+print(layer2.output) # print layer 2 output
 
 # init output layer
 layer3 = network(32, 2) # init output layer
 layer3.forward(layer2.output) # pass data through layer 3
 layer3.softmax(layer3.output) # use softmax activation
-print(layer3.output)
+print(layer3.output) # print later 3 output
 
 # loss
 target_output = [1, 0]
@@ -72,3 +71,11 @@ print(loss)
 
 layer3.cost(layer3.output[0])
 print(layer3.cost)
+
+# backprop
+layer3.loss(layer3.output[0], target_output)
+loss = layer3.loss
+
+layer1.weights = layer1.weights * loss
+layer2.weights = layer2.weights * loss
+layer3.weights = layer3.weights * loss
