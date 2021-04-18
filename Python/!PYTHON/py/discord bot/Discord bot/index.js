@@ -1464,7 +1464,7 @@ bot.on("message", msg => {
 // commands
 bot.on("message", msg=> {
 	if (msg.guild != null && msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if(msg.content === prefix[msg.guild.id]+"testbot" || msg.content === prefix[msg.guild.id]+"test") {
+		if(msg.content.toLowerCase() === prefix[msg.guild.id]+"testbot" || msg.content.toLowerCase() === prefix[msg.guild.id]+"test") {
 			testbot_embed = new Discord.MessageEmbed();
 			testbot_embed.setColor(embed_colour_info);
 			testbot_embed.setDescription("Jared Bot is online!");
@@ -1475,8 +1475,9 @@ bot.on("message", msg=> {
 })
 
 bot.on("message", msg => {
-	if (msg.guild != null && msg.content == prefix[msg.guild.id]+"help" || 
-		msg.guild != null && msg.content == prefix[msg.guild.id]+"commands" || msg.guild != null && msg.content == "-help") {
+	if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"help" || 
+		msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"commands" || 
+		msg.guild != null && msg.content.toLowerCase() == "-help") {
 		help_embed = new Discord.MessageEmbed();
 		help_embed.setColor(embed_color_chat);
 		help_embed.setThumbnail(lion_profile_pic);
@@ -1501,7 +1502,7 @@ bot.on("message", msg => {
 bot.on("message", msg => {
 	try {
 		if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-			if (msg.guild != null && msg.content.slice(0, 6) === prefix[msg.guild.id]+"help " ||
+			if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() === prefix[msg.guild.id]+"help " ||
 			msg.content == prefix[msg.guild.id]+"tools" || msg.content == prefix[msg.guild.id]+"info" || 
 			msg.content == prefix[msg.guild.id]+"chat" || msg.content == prefix[msg.guild.id]+"chat commands" || msg.content == prefix[msg.guild.id]+"img" || msg.content == prefix[msg.guild.id]+"image" ||
 			msg.content == prefix[msg.guild.id]+"image commands" || msg.content == prefix[msg.guild.id]+"games" || msg.content == prefix[msg.guild.id]+"game"|| msg.content == prefix[msg.guild.id]+"math" || 
@@ -1607,6 +1608,7 @@ bot.on("message", msg => {
 					{name: "Reaction", value: "`"+prefix[msg.guild.id]+"help reaction`", inline: true},
 					{name: "Video", value: "`"+prefix[msg.guild.id]+"help video`", inline: true},
 					{name: "Maps", value: "`"+prefix[msg.guild.id]+"help maps`", inline: true},
+					{name: "Google", value: "`"+prefix[msg.guild.id]+"help google`", inline: true}
 				)
 				msg_channel_send(msg, help_module_embed);
 			} else if (module_name == "animal" || msg.content == prefix[msg.guild.id]+"animal") {
@@ -1680,6 +1682,8 @@ bot.on("message", msg => {
 				embed_help_reply(msg, {name: prefix[msg.guild.id]+"video", value: "posts a random video"});
 			} else if (module_name == "maps") {
 				embed_help_reply(msg, {name: prefix[msg.guild.id]+"maps", value: "`"+prefix[msg.guild.id]+"map {city}` shows a map of specified city."});
+			} else if (module_name == "google") {
+				embed_help_reply(msg, {name: prefix[msg.guild.id]+"google", value: "`"+prefix[msg.guild.id]+"google {query}` finds a photo of something."});
 			// Games	
 			} else if (module_name == "game" || module_name == "games" || msg.content == prefix[msg.guild.id]+"games" || msg.content == prefix[msg.guild.id]+"game") {
 				help_module_embed.setTitle("Help Games");
@@ -2341,24 +2345,24 @@ function help_fancy(msg) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"fancy") {
+		if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"fancy") {
 			help_fancy(msg);
 			
-		} else if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"fancy ") {
+		} else if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"fancy ") {
 			fancyASCII = ["𝔞","𝔟","𝔠","𝔡","𝔢","𝔣","𝔤","𝔥","𝔦","𝔧","𝔨","𝔩","𝔪","𝔫","𝔬","𝔭","𝔮","𝔯","𝔰","𝔱","𝔲","𝔴","𝔵",
 			"𝔶","𝔷","𝔄","𝔅","ℭ","𝔇","𝔈","𝔉","𝔊","ℌ","ℑ","𝔍","𝔎","𝔏","𝔐","𝔑","𝔒","𝔓","𝔔","ℜ","𝔖","𝔗","𝔘","𝔙","𝔚","𝔛",
 			"𝔜","ℨ","0","1","2","3","4","5","6","7","8","9","!","@","#","$","%","^","&","*","(",")","_","+","1","2","3",
 			"4","5","6","7","8","9","0","-","=","[","]","{","}","|",",",".","<",">","/","?","`","~",""," "];
 			text_sort(msg, msg.content.slice(7, msg.content.length), fancyASCII);
 			
-		} else if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"flip ") {
+		} else if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"flip ") {
 			fancyASCII = ["ɐ","q","ɔ","p","ǝ","ɟ","ƃ","ɥ","ᴉ","ɾ","ʞ","l","ɯ","u","o","d","b","ɹ","s","ʇ","n","ʌ","ʍ","x","ʎ","z","∀",
 			"q","Ɔ","p","Ǝ","פ","H","I","ſ","ʞ","˥","W","N","O","Ԁ","Q","ɹ","S","┴","∩","Λ","M","X","⅄","Z","0","Ɩ","ᄅ","Ɛ","ㄣ",
 			"ϛ","9","ㄥ","8","6","¡","@","#","$","%","^","⅋","*",")","(","‾","+","Ɩ","ᄅ","Ɛ","ㄣ","ϛ","9","ㄥ","8","6","0","-",
 			"=","]","[","}","{","","","'","˙",">","<","/","¿",",","~"," "];
 			text_sort(msg, msg.content.slice(6, msg.content.length), fancyASCII, append2end=true);
 		
-		} else if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"tiny ") {
+		} else if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"tiny ") {
 			fancyASCII = ['ᵃ', 'ᵇ', 'ᶜ', 'ᵈ', 'ᵉ', 'ᶠ', 'ᵍ', 'ʰ', 'ᶦ', 'ʲ', 'ᵏ', 'ˡ', 'ᵐ', 'ⁿ', 'ᵒ', 'ᵖ', 'ᵠ', 'ʳ', 'ˢ', 'ᵗ', 'ᵘ', 'ᵛ', 
 			'ʷ', 'ˣ', 'ʸ', 'ᶻ', 'ᴬ', 'ᴮ', 'ᶜ', 'ᴰ', 'ᴱ', 'ᶠ', 'ᴳ', 'ᴴ', 'ᴵ', 'ᴶ', 'ᴷ', 'ᴸ', 'ᴹ', 'ᴺ', 'ᴼ', 'ᴾ', 'ᵠ', 'ᴿ', 'ˢ', 'ᵀ', 'ᵁ',
 			'ⱽ', 'ᵂ', 'ˣ', 'ʸ', 'ᶻ', '⁰', '¹', '²', '³', '⁴', '⁵', '⁶', '⁷', '⁸', '⁹', 'ᵎ', '@', '#', '$', '%', '^', '&', '*', '⁽', '⁾', 
@@ -2366,13 +2370,13 @@ bot.on("message", msg => {
 			'ˀ', '`', ' '];
 			text_sort(msg, msg.content.slice(6, msg.content.length), fancyASCII)
 			
-		} else if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"clap ") {
+		} else if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"clap ") {
 			msg_channel_send(msg, (" "+msg.content.slice(6, msg.content.length)).split(" ").join("👏"));
 			
-		} else if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"width ") {
+		} else if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"width ") {
 			msg_channel_send(msg, msg.content.slice(7, msg.content.length).split("").join("   "));
 			
-		} else if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"wide ") {
+		} else if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"wide ") {
 			parts = msg.content.split(" ");
 			if (isInt_without_error(parts[1], 0, large_numb) == true) {
 				start = parts[0].length + parts[1].length + 2;
@@ -2380,7 +2384,7 @@ bot.on("message", msg => {
 			} else {
 				msg_channel_send(msg, msg.content.slice(6, msg.content.length).split("").join("   "));
 			}
-		} else if (msg.guild != null && msg.content.slice(0, 8) == prefix[msg.guild.id]+"wiggle " || msg.content.slice(0, 6) == prefix[msg.guild.id]+"worm " ||
+		} else if (msg.guild != null && msg.content.slice(0, 8).toLowerCase() == prefix[msg.guild.id]+"wiggle " || msg.content.slice(0, 6) == prefix[msg.guild.id]+"worm " ||
 			msg.content.slice(0, 7) == prefix[msg.guild.id]+"twist ") {
 			word = msg.content.slice(msg.content.split(" ")[0].length, msg.content.length);
 			output = do_the_wiggle(word) +"\n"+ do_the_wiggle(word, reverse=true) +"\n"+
@@ -2388,7 +2392,7 @@ bot.on("message", msg => {
 					 do_the_wiggle(word) +"\n"+ do_the_wiggle(word, reverse=true);
 			msg_channel_send(msg, output);
 			
-		} else if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"alter ") {
+		} else if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"alter ") {
 			word = msg.content.slice(7, msg.content.length);
 			letters = []
 			for (i=0;i<word.length;i++) {
@@ -2407,7 +2411,7 @@ bot.on("message", msg => {
 // Discord Community Guidlines
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"tos") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"tos") {
 			ToSURL = "http://jaredbot.uk";
 			embed_tos = new Discord.MessageEmbed();
 			embed_tos.setColor(embed_colour_info);
@@ -2454,7 +2458,7 @@ bot.on("message", msg => {
 // rules
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"rules") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"rules") {
 			embed_rules = new Discord.MessageEmbed();
 			embed_rules.setColor(embed_colour_info);
 			embed_rules.setTitle("Rules");
@@ -2480,7 +2484,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0,6) == prefix[msg.guild.id]+"rule ") {
+		if (msg.guild != null && msg.content.slice(0,6).toLowerCase() == prefix[msg.guild.id]+"rule ") {
 			rule_no = msg.content.slice(6, msg.content.length);
 			embed_rule = new Discord.MessageEmbed();
 			embed_rule.setColor(embed_colour_info);
@@ -2638,8 +2642,10 @@ bot.on("message", msg => {
 // report bug / make suggestion
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 11) == prefix[msg.guild.id]+"reportbug " || msg.content.slice(0, 5) == prefix[msg.guild.id]+"bug "
-		|| msg.content.slice(0, 9) == prefix[msg.guild.id]+"suggest " || msg.content.slice(0, 12) == prefix[msg.guild.id]+"suggestion ") {
+		if (msg.guild != null && msg.content.slice(0, 11).toLowerCase() == prefix[msg.guild.id]+"reportbug " || 
+		msg.content.slice(0, 5).toLowerCase() == prefix[msg.guild.id]+"bug " ||
+		msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"suggest " || 
+		msg.content.slice(0, 12).toLowerCase() == prefix[msg.guild.id]+"suggestion ") {
 			type_dict = {"reportbug":"Bug", "bug":"Bug", "suggest":"Suggestion", "suggestion":"Suggestion"};
 			type = type_dict[msg.content.slice(1, msg.content.split(" ")[0].length)];
 			description = msg.content.split(/ (.+)/)[1];
@@ -2686,7 +2692,7 @@ function add_reaction_role(msg, emoji, roleID) {
 
 // self roles
 bot.on("message", msg => {
-	if (msg.guild != null && msg.content == prefix[msg.guild.id]+"selfroles") {
+	if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"selfroles") {
 		async function selfroles(msg) {
 			// only Jared can use selfroles command
 			if (msg.author.id == "364787379518701569") {
@@ -3042,7 +3048,8 @@ US_states = {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"time " || msg.content.slice(0, 10) == prefix[msg.guild.id]+"timezone ") {
+		if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"time " || 
+		msg.content.slice(0, 10).toLowerCase() == prefix[msg.guild.id]+"timezone ") {
 			is_US_state = false;
 			
 			// get city
@@ -3225,7 +3232,7 @@ function weather_week_embed(msg, html) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 9) == prefix[msg.guild.id]+"weather ") {
+		if (msg.guild != null && msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"weather ") {
 			// URL
 			command = msg.content.slice(9, msg.content.length);
 			if (US_states[command] != undefined) {
@@ -3399,7 +3406,7 @@ function help_owo(msg) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 5) == prefix[msg.guild.id]+"owo ") {
+		if (msg.guild != null && msg.content.slice(0, 5).toLowerCase() == prefix[msg.guild.id]+"owo ") {
 			command = msg.content.slice(5, msg.content.length).toLowerCase().split(" ")[0];
 			owo_datset = {
 				"bite" : 1115, "blush" : 1111, "boop" : 1121, "bully" : 1121, "cry" : 974, "cuddle" : 1087, "dance" : 1115, "greet" : 1101,
@@ -3420,7 +3427,7 @@ bot.on("message", msg => {
 
 // hug
 bot.on("message", msg => {
-	if (msg.guild != null && msg.content.slice(0, 4) == prefix[msg.guild.id]+"hug") {
+	if (msg.guild != null && msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"hug") {
 		let member = msg.mentions.members.first();
 		if (member != undefined) {
 			user_receiver = member.user.tag.split("#")[0];
@@ -3440,7 +3447,7 @@ bot.on("message", msg => {
 
 // kiss
 bot.on("message", msg => {
-	if (msg.guild != null && msg.content.slice(0, 5) == prefix[msg.guild.id]+"kiss") {
+	if (msg.guild != null && msg.content.slice(0, 5).toLowerCase() == prefix[msg.guild.id]+"kiss") {
 		let member = msg.mentions.members.first();
 		if (member != undefined) {
 			user_receiver = member.user.tag.split("#")[0];
@@ -3806,8 +3813,8 @@ def input(*args):
 `;
 
 function check_harmful_code(code) {
-	trust_modules = ["datetime", "math", "random", "hashlib", "time", "getpass", "socket", "urllib"];
-	dangerious_keywords = ["exec", "eval", "compile", "open", "builtins", "os", "globals", 
+	trust_modules = ["datetime", "math", "random", "hashlib", "time", "getpass", "socket", "urllib", "requests"];
+	dangerious_keywords = ["exec", "eval", "compile", "open", "builtins", ".os", "globals", "os.", 
 		"locals", "breakpoint", "dir", "delattr", "getattr", "repr", "vars"];
 	
 	// import
@@ -3901,10 +3908,10 @@ var execute_start = {};
 var execute_pids = {};
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0,9) == prefix[msg.guild.id]+"execute " ||
-			msg.guild != null && msg.content.slice(0,6) == prefix[msg.guild.id]+"exec " ||
-			msg.guild != null && msg.content.slice(0,4) == prefix[msg.guild.id]+"py " ||
-			msg.guild != null && msg.content.slice(0,4) == prefix[msg.guild.id]+"js ") {
+		if (msg.guild != null && msg.content.slice(0,9).toLowerCase() == prefix[msg.guild.id]+"execute " ||
+			msg.guild != null && msg.content.slice(0,6).toLowerCase() == prefix[msg.guild.id]+"exec " ||
+			msg.guild != null && msg.content.slice(0,4).toLowerCase() == prefix[msg.guild.id]+"py " ||
+			msg.guild != null && msg.content.slice(0,4).toLowerCase() == prefix[msg.guild.id]+"js ") {
 			// timeout
 			if (execute_start[msg.guild.id] == undefined) {
 				execute_start[msg.guild.id] = false;
@@ -4390,7 +4397,7 @@ function post_video(msg, guild="msg") {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 4) == prefix[msg.guild.id]+"vid") {
+		if (msg.guild != null && msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"vid") {
 			post_video(msg, guild="msg");
 		}
 	}
@@ -4399,9 +4406,9 @@ bot.on("message", msg => {
 // post cat video
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 11) == prefix[msg.guild.id]+"epicgaming" || 
-		msg.content.slice(0, 5) == prefix[msg.guild.id]+"cute" || msg.content.slice(0, 4) == prefix[msg.guild.id]+"aww" || 
-		msg.content.slice(0, 7) == prefix[msg.guild.id]+"gaming") {
+		if (msg.guild != null && msg.content.slice(0, 11).toLowerCase() == prefix[msg.guild.id]+"epicgaming" || 
+		msg.content.slice(0, 5).toLowerCase() == prefix[msg.guild.id]+"cute" || msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"aww" || 
+		msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"gaming") {
 			// send message
 			get_photo_name("meow", function(file_name) {
 				file = local_meow_dataset + "/" + file_name +".mp4";
@@ -4432,8 +4439,9 @@ bot.on("message", msg => {
 // avatar
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"avatar" ||
-			msg.content.slice(0, 4) == prefix[msg.guild.id]+"pfp" || msg.content.slice(0, 3) == prefix[msg.guild.id]+"av") {
+		if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"avatar" ||
+			msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"pfp" || 
+			msg.content.slice(0, 3).toLowerCase() == prefix[msg.guild.id]+"av") {
 			let member = msg.mentions.members.first();
 			
 			// embed
@@ -4465,16 +4473,16 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.guild != null && msg.content == prefix[msg.guild.id]+"invitebot" || 
-		msg.guild != null && msg.content == prefix[msg.guild.id]+"addbot" || 
-		msg.guild != null && msg.content == prefix[msg.guild.id]+"botinvite") {
+	if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"invitebot" || 
+		msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"addbot" || 
+		msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"botinvite") {
 		embed_chat_reply_header(msg, bot_invite_link, "Jared Bot Invite Link", pfp=false);
 	}
 })
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"invite") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"invite") {
 			if (msg.guild.me.hasPermission("CREATE_INSTANT_INVITE") == true) {
 				async function create_invite(msg) {
 					try {
@@ -4506,7 +4514,7 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.guild != null && msg.content === prefix[msg.guild.id]+"author") {
+	if (msg.guild != null && msg.content.toLowerCase() === prefix[msg.guild.id]+"author") {
 		embed_author_jared = new Discord.MessageEmbed();
 		embed_author_jared.setTitle("Jared Info")
 		embed_author_jared.setDescription("JaredBot is a multipurpose Discord bot created by Jared Turck, mainly to be used on the Jared Network Discord server.\n\u200B\n\u200B" +
@@ -4536,15 +4544,15 @@ bot.on("message", msg => {
 })
 
 bot.on("message", msg => {
-	if (msg.guild != null && msg.content == prefix[msg.guild.id]+"web" || 
-		msg.guild != null && msg.content == prefix[msg.guild.id]+"website") {
+	if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"web" || 
+		msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"website") {
 		embed_chat_reply_header(msg, "https://jaredbot.uk/", "Bot Website", pfp=false);
 	}
 })
 
 // about server
 bot.on("message", msg => {
-	if (msg.guild != null && msg.content === prefix[msg.guild.id]+"about") {
+	if (msg.guild != null && msg.content.toLowerCase() === prefix[msg.guild.id]+"about") {
 		embed_chat_reply(msg, "Jared Network is a discord server created and owned by Jared Turck, I originally created it to test out bot commands, "+
 		"as I was planning to one day develop a discord bot. Jared Network was a test server to try out different bot commands, and also a "+
 		"place to interact with other discord bots to get ideas. \n\u200B\n"+
@@ -4558,7 +4566,7 @@ bot.on("message", msg => {
 // member count
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content === prefix[msg.guild.id]+"membercount") {
+		if (msg.content.toLowerCase() === prefix[msg.guild.id]+"membercount") {
 			embed_chat_reply(msg, "There are " + msg.guild.memberCount + " members on the server!");
 		}
 	}
@@ -4567,7 +4575,7 @@ bot.on("message", msg => {
 // server count
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"servercount") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"servercount") {
 			embed_chat_reply(msg, "The bot is currently in " + bot.guilds.cache.size + " servers, and has been authorised on "+
 			authrosied_server_IDs.length + " servers in total!");
 		}
@@ -4696,7 +4704,7 @@ var fancy_fonts = {
 };
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"font ") {
+		if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"font ") {
 			// process text
 			txt = msg.content.slice(6, msg.content.length);
 			font_output = [];
@@ -4736,7 +4744,7 @@ bot.on("message", msg => {
 // Rock, Paper, Scissors
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if ([prefix[msg.guild.id]+"rock", prefix[msg.guild.id]+"paper", prefix[msg.guild.id]+"scissors"].indexOf (msg.content.toLowerCase()) > -1) {
+		if ([prefix[msg.guild.id]+"rock", prefix[msg.guild.id]+"paper", prefix[msg.guild.id]+"scissors"].indexOf(msg.content.toLowerCase()) > -1) {
 			bot_answer = ["Rock!", "Paper!", "Scissors!"][parseInt(Math.random() * 10) % 3];
 			winning_text = "";
 		
@@ -5014,7 +5022,7 @@ function help_justone(msg) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"justone start") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"justone start") {
 			// start game
 			justone_guild[msg.guild.id] = msg.channel.id;
 			
@@ -5043,7 +5051,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"justone join") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"justone join") {
 			
 			// get directory
 			justone_dir = get_server_name(msg);
@@ -5095,7 +5103,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"justone ready") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"justone ready") {
 			if (msg.member.hasPermission("MANAGE_MESSAGES") == true) {
 				// choose word
 				//words_dataset
@@ -5211,7 +5219,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"justone endgame") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"justone endgame") {
 			// clear files
 			clear_file(msg, justone_channel_id_fname); 	// clear channel ID
 			clear_file(msg, justone_members_fname);		// clear members list
@@ -5226,7 +5234,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.channel.type == "dm") {
-		if (msg.guild != null && msg.content.slice(0, 15) == prefix[msg.guild.id]+"justone clues ") {
+		if (msg.guild != null && msg.content.slice(0, 15).toLowerCase() == prefix[msg.guild.id]+"justone clues ") {
 			clues = msg.content.slice(15, msg.content.length);
 			if (clues.length > 0) {
 				if (clues.indexOf(" ") == -1) {
@@ -5507,7 +5515,7 @@ bot.on("message", msg => {
 //botup time
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"uptime") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"uptime") {
 			current_time = new Date();
 			run_sec = (current_time - up_time)/1000;
 			formatted = parseInt(run_sec / 3600) + " hours, " + parseInt(run_sec % 3600 / 60) + " mins, " + parseInt(run_sec % 3600 % 60);
@@ -5553,7 +5561,7 @@ bot.on("message", msg => {
 // URL shortner
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 7) == prefix[msg.guild.id]+"short ") {
+		if (msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"short ") {
 			url = encodeURI(msg.content.slice(7, msg.content.length));
 			if (url.slice(0, 8).replace("https","http") == "http://") {
 				get_hash(url, "md5", function(digest) {
@@ -5789,7 +5797,7 @@ function condition_draw(msg) {
 }
 
 bot.on("message", msg => {
-	if (msg.guild != null && msg.content == prefix[msg.guild.id]+"ttt") {
+	if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"ttt") {
 		TicTacToe_start_game[msg.guild.id] = true;
 		draw_board(msg);
 	}
@@ -5864,7 +5872,7 @@ bot.on("message", msg => {
 // covid
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content == prefix[msg.guild.id]+"covid") {
+		if (msg.content.toLowerCase() == prefix[msg.guild.id]+"covid") {
 			// get html
 			request("https://www.worldometers.info/coronavirus/", {
 				headers: {
@@ -5926,7 +5934,7 @@ bot.on("message", msg => {
 // flip a coin
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"flipcoin") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"flipcoin") {
 			coin = [flip_coin_tails, flip_coin_heads][parseInt(Math.random() * 10) % 2];
 			name = coin[0].toUpperCase() + coin.slice(1,coin.length).replace(flip_coin_file_extension, "") + "!";
 			embed_image(msg, webserver_root_address+"img/src/coins/" + coin, name);
@@ -5938,7 +5946,7 @@ bot.on("message", msg => {
 // roll a dice
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content == prefix[msg.guild.id]+"roll") {
+		if (msg.content.toLowerCase() == prefix[msg.guild.id]+"roll") {
 			num = (parseInt(Math.random() * 100) % 6)+1;
 			embed_image(msg, webserver_root_address+"img/src/dice/dice" + num + ".png", num);
 			console_log("Dice rolled for server " + msg.guild.id);
@@ -5976,7 +5984,7 @@ function owoify(txt, rp=3) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 7) == prefix[msg.guild.id]+"owoify") {
+		if (msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"owoify") {
 			embed_chat_reply(msg, owoify(msg.content.slice(8)));
 		}
 	}
@@ -6156,7 +6164,7 @@ async function get_user_id(msg, callback) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 4) == prefix[msg.guild.id]+"sl ") {
+		if (msg.guild != null && msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"sl ") {
 			sl_url = "https://steamladder.com/profile/";
 			avatar_url = "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/";
 			game_badge_url = "https://static.steamladder.com/static/img/game_collector/";
@@ -6267,7 +6275,7 @@ bot.on("message", msg => {
 // next steam sale
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content == prefix[msg.guild.id]+"steamsale") {
+		if (msg.content.toLowerCase() == prefix[msg.guild.id]+"steamsale") {
 			get_html("https://steamdb.info/sales/history/", html => {
 				// get data
 				seconds = html.split('<span id="js-sale-countdown" role="tab" data-target="')[1].split('"')[0] - Date.now();
@@ -6295,7 +6303,7 @@ bot.on("message", msg => {
 // steam achievements
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 7) == prefix[msg.guild.id]+"achiv " || msg.content.slice(0, 14) == prefix[msg.guild.id]+"achievements ") {
+		if (msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"achiv " || msg.content.slice(0, 14) == prefix[msg.guild.id]+"achievements ") {
 			// get Steam ID
 			get_user_id(msg, function(current_user_id) {
 				if (current_user_id != false) {
@@ -6363,7 +6371,8 @@ var inv_retry = {};
 var inv_max_tries = 2;
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 5) == prefix[msg.guild.id]+"inv " || msg.content.slice(0, 11) == prefix[msg.guild.id]+"inventory ") {
+		if (msg.content.slice(0, 5).toLowerCase() == prefix[msg.guild.id]+"inv " || 
+		msg.content.slice(0, 11).toLowerCase() == prefix[msg.guild.id]+"inventory ") {
 			// get Steam ID
 			function get_steam_inventory_value() {
 				console_log("Checking steam inventory!");
@@ -6438,7 +6447,7 @@ bot.on("message", msg => {
 // find steam user by ID
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 4) == prefix[msg.guild.id]+"id ") {
+		if (msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"id ") {
 			user_id = encodeURI(msg.content.slice(4, msg.content.length));
 			get_html("https://steamidfinder.com/lookup/" + user_id, function(html) {
 				pfp = remove_html_tags(format_html(e(html, [['class="img-rounded avatar"', 1], ['src="', 1], ['"', 0]])));
@@ -6475,7 +6484,7 @@ function help_dict(msg) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 7) == prefix[msg.guild.id]+"urban ") {
+		if (msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"urban ") {
 			word = msg.content.slice(7, msg.content.length);
 			get_html("https://www.urbandictionary.com/define.php?term=" + word, function(html) {
 				// check for invalid term
@@ -6508,7 +6517,7 @@ bot.on("message", msg => {
 // dictonary
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 6) == prefix[msg.guild.id]+"dict ") {
+		if (msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"dict ") {
 			word = msg.content.slice(6, msg.content.length);
 			get_html("https://www.dictionary.com/browse/" + word, function(html) {
 				if (html.length > 0) {
@@ -6526,7 +6535,8 @@ bot.on("message", msg => {
 // change prefix
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 8) == "-prefix " || msg.content.slice(0, 8) == prefix[msg.guild.id]+"prefix ") {
+		if (msg.guild != null && msg.content.slice(0, 8).toLowerCase() == "-prefix " || 
+		msg.content.slice(0, 8).toLowerCase() == prefix[msg.guild.id]+"prefix ") {
 			if (msg.member.hasPermission("MANAGE_MESSAGES") == true) {
 				new_prefix = msg.content.slice(8, msg.content.length);
 				if (new_prefix.length == 1) {
@@ -6552,7 +6562,7 @@ bot.on("message", msg => {
 // show current prefix
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"prefix") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"prefix") {
 			embed_chat_reply(msg, "JaredBot's prefix is `" + prefix[msg.guild.id] + "`");
 		}
 	}
@@ -6577,7 +6587,7 @@ bot.on("message", msg => {
 // get user info
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 9) == prefix[msg.guild.id]+"userinfo") {
+		if (msg.guild != null && msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"userinfo") {
 			let member = msg.mentions.members.first();
 			if (member != undefined) {
 				joined = new Date(member.joinedTimestamp).toGMTString();
@@ -6648,7 +6658,7 @@ bot.on("message", msg => {
 // server info
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"serverinfo") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"serverinfo") {
 			creation_date = msg.guild.joinedTimestamp;
 			
 			// get roles
@@ -6701,7 +6711,7 @@ bot.on("message", msg => {
 // role info
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 9) == prefix[msg.guild.id]+"roleinfo") {
+		if (msg.guild != null && msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"roleinfo") {
 			// get role ID
 			if (msg.content.indexOf("<@&") > -1) {
 				role_id = msg.content.split("<@&")[1].split(">")[0];
@@ -7018,15 +7028,15 @@ function help_network_cmd(msg) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"ping ") {
+		if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"ping ") {
 			execute_cmd(msg, "Ping", msg.content);
-		} else if (msg.guild != null && msg.content.slice(0, 10) == prefix[msg.guild.id]+"nslookup ") {
+		} else if (msg.guild != null && msg.content.slice(0, 10).toLowerCase() == prefix[msg.guild.id]+"nslookup ") {
 			execute_cmd(msg, "Nslookup", msg.content);
-		} else if (msg.guild != null && msg.content.slice(0, 9) == prefix[msg.guild.id]+"tracert ") {
+		} else if (msg.guild != null && msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"tracert ") {
 			execute_cmd(msg, "Tracert", msg.content);
-		} else if (msg.guild != null && msg.content.slice(0, 10) == prefix[msg.guild.id]+"pathping ") {
+		} else if (msg.guild != null && msg.content.slice(0, 10).toLowerCase() == prefix[msg.guild.id]+"pathping ") {
 			execute_cmd(msg, "Pathping", msg.content);
-		} else if (msg.guild != null && msg.content.slice(0, 9) == prefix[msg.guild.id]+"ipconfig") {
+		} else if (msg.guild != null && msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"ipconfig") {
 			if (authorised_IDs.indexOf(msg.author.id) > -1) {
 				execute_cmd(msg, "Ipconfig", msg.content);
 			} else {
@@ -7037,13 +7047,13 @@ bot.on("message", msg => {
 				"application, to do maintenance. The server is 'headless' this means it does not have a screen, keyboard, or mouse. The only " +
 				" way to interact with it is using remote desktop software, and you have to know the IP in order to connect to the server.");
 			}
-		} else if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"whois ") {
+		} else if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"whois ") {
 			execute_cmd(msg, "Whois", msg.content);
-		} else if (msg.guild != null && msg.content == prefix[msg.guild.id]+"speedtest") {
+		} else if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"speedtest") {
 			execute_cmd(msg, "Speedtest", msg.content);
-		} else if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"echo ") {
+		} else if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"echo ") {
 			execute_cmd(msg, "Echo", msg.content);
-		} else if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"geoip ") {
+		} else if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"geoip ") {
 			geoip_lookup(msg);
 		}
 	}
@@ -7052,7 +7062,7 @@ bot.on("message", msg => {
 port_scan_timeout = {};
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"port ") {
+		if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"port ") {
 			command = msg.content.split(" ");
 			if (command.length == 3) {
 				port = command[1];
@@ -7145,8 +7155,8 @@ bot.on("message", msg => {
 // Proxy check
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 12) == prefix[msg.guild.id]+"checkproxy " ||
-			msg.guild != null && msg.content.slice(0, 12) == prefix[msg.guild.id]+"proxycheck ") {
+		if (msg.guild != null && msg.content.slice(0, 12).toLowerCase() == prefix[msg.guild.id]+"checkproxy " ||
+			msg.guild != null && msg.content.slice(0, 12).toLowerCase() == prefix[msg.guild.id]+"proxycheck ") {
 			ip = msg.content.slice(12, msg.content.length);
 			
 			url = "http://api.xdefcon.com/proxy/check/?ip=";
@@ -7177,7 +7187,7 @@ function check_perm(member, perm, url) {
 }
 
 bot.on("message", msg => {
-	if (msg.guild != null && msg.content.slice(0, 5) == prefix[msg.guild.id]+"perm") {
+	if (msg.guild != null && msg.content.slice(0, 5).toLowerCase() == prefix[msg.guild.id]+"perm") {
 		if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
 			let member = msg.mentions.members.first();
 			if (member != undefined) {
@@ -7261,7 +7271,7 @@ bot.on("message", msg => {
 // moderation
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 6) == prefix[msg.guild.id]+"warn ") {
+		if (msg.guild != null && msg.content.slice(0, 6).toLowerCase() == prefix[msg.guild.id]+"warn ") {
 			if (msg.member.hasPermission("MANAGE_MESSAGES") == true) {
 				if (msg.author.id != bot_ID) {
 					let member = msg.mentions.members.first();
@@ -7431,7 +7441,7 @@ async function remove_muted_role(msg, member) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 5) == prefix[msg.guild.id]+"mute") {
+		if (msg.guild != null && msg.content.slice(0, 5).toLowerCase() == prefix[msg.guild.id]+"mute") {
 			if (msg.member.hasPermission("MUTE_MEMBERS") == true) {
 				let member = msg.mentions.members.first();
 				if (member != undefined) {
@@ -7459,7 +7469,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"unmute") {
+		if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"unmute") {
 			if (msg.member.hasPermission("MUTE_MEMBERS") == true) {
 				let member = msg.mentions.members.first();
 				if (member != undefined) {
@@ -7491,7 +7501,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 9) == prefix[msg.guild.id]+"tempmute") {
+		if (msg.guild != null && msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"tempmute") {
 			if (msg.member.hasPermission("MUTE_MEMBERS") == true) {
 				let member = msg.mentions.members.first();
 				if (member != undefined) {
@@ -7558,7 +7568,7 @@ bot.on("message", msg => {
 // kick
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 5) == prefix[msg.guild.id]+"kick") {
+		if (msg.guild != null && msg.content.slice(0, 5).toLowerCase() == prefix[msg.guild.id]+"kick") {
 			if (msg.member.hasPermission("KICK_MEMBERS") == true) {
 				let member = msg.mentions.members.first();
 				if (member != undefined) {
@@ -7587,7 +7597,8 @@ bot.on("message", msg => {
 // ban
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 4) == prefix[msg.guild.id]+"ban" && msg.content.slice(0, 9) != prefix+"banemoji" && msg.content.slice(0, 7) != prefix+"banurl") {
+		if (msg.guild != null && msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"ban" && 
+		msg.content.slice(0, 9).toLowerCase() != prefix+"banemoji" && msg.content.slice(0, 7).toLowerCase() != prefix+"banurl") {
 			if (msg.member.hasPermission("BAN_MEMBERS") == true) {
 				let member = msg.mentions.members.first();
 				custom_ID = msg.content.slice(5, msg.content.length);
@@ -7616,7 +7627,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 8) == prefix[msg.guild.id]+"tempban") {
+		if (msg.guild != null && msg.content.slice(0, 8).toLowerCase() == prefix[msg.guild.id]+"tempban") {
 			if (msg.member.hasPermission("BAN_MEMBERS") == true) {
 				let member2 = msg.mentions.members.first();
 				if (member2 != undefined) {
@@ -7696,7 +7707,7 @@ bot.on("message", msg => {
 // invisible
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 10) == prefix[msg.guild.id]+"invisible") {
+		if (msg.guild != null && msg.content.slice(0, 10).toLowerCase() == prefix[msg.guild.id]+"invisible") {
 			if (msg.member.hasPermission("MUTE_MEMBERS") == true) {
 				let member = msg.mentions.members.first();
 				if (member != undefined) {
@@ -7730,7 +7741,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 8) == prefix[msg.guild.id]+"visible") {
+		if (msg.guild != null && msg.content.slice(0, 8).toLowerCase() == prefix[msg.guild.id]+"visible") {
 			if (msg.member.hasPermission("MUTE_MEMBERS") == true) {
 				if (msg.guild.me.hasPermission("MANAGE_ROLES") == true) {
 					let member = msg.mentions.members.first();
@@ -7761,7 +7772,7 @@ bot.on("message", msg => {
 // give role
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 9) == prefix[msg.guild.id]+"giverole") {
+		if (msg.guild != null && msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"giverole") {
 			if (msg.member.hasPermission("MANAGE_ROLES") == true) {
 				if (msg.guild.me.hasPermission("MANAGE_ROLES") == true) {
 					let member = msg.mentions.members.first();
@@ -7799,7 +7810,7 @@ bot.on("message", msg => {
 // remove role
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 11) == prefix[msg.guild.id]+"removerole") {
+		if (msg.guild != null && msg.content.slice(0, 11).toLowerCase() == prefix[msg.guild.id]+"removerole") {
 			if (msg.member.hasPermission("MANAGE_ROLES") == true) {
 				if (msg.guild.me.hasPermission("MANAGE_ROLES") == true) {
 					let member = msg.mentions.members.first();
@@ -7837,7 +7848,7 @@ bot.on("message", msg => {
 // logging
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 9) == prefix[msg.guild.id]+"logging ") {
+		if (msg.guild != null && msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"logging ") {
 			if (authorised_IDs.indexOf(msg.author.id) > -1) {
 				command = msg.content.slice(9, msg.content.length);
 				if (command == "on") {
@@ -7961,7 +7972,8 @@ bot.on("ready", msg => {
 // messages sent (log size)
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 9) == prefix[msg.guild.id]+"msgcount" || msg.content.slice(0, 8) == prefix[msg.guild.id]+"logsize") {
+		if (msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"msgcount" || 
+		msg.content.slice(0, 8).toLowerCase() == prefix[msg.guild.id]+"logsize") {
 			// get folder
 			channel_name = get_server_name(msg, type="channel");	// channel folder
 			server_name = get_server_name(msg);					// server folder
@@ -8049,7 +8061,7 @@ bot.on("messageDelete", msg => {
 var snipe_cooldown = {};
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"snipe") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"snipe") {
 			if (msg.member.hasPermission("SEND_MESSAGES") == true) {
 				// cooldown
 				if (snipe_cooldown[msg.guild.id] == undefined) {
@@ -8090,7 +8102,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0,10) == prefix[msg.guild.id]+"snipping ") {
+		if (msg.guild != null && msg.content.slice(0,10).toLowerCase() == prefix[msg.guild.id]+"snipping ") {
 			if (authorised_IDs.indexOf(msg.author.id) > -1) {
 				command = msg.content.slice(10, msg.content.length);
 				if (command == "on") {
@@ -8111,7 +8123,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"clearlog") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"clearlog") {
 			if (msg.member.hasPermission("MANAGE_MESSAGES") == true) {
 				// server name
 				server_name = get_server_name(msg);
@@ -8137,13 +8149,14 @@ bot.on("message", msg => {
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
 		// show help menu
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"purge") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"purge") {
 			help_clear(msg);
 			return;
 		}
 		
 		// do clear
-		if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"purge " || msg.content.slice(0, 7) == prefix[msg.guild.id]+"clear ") {
+		if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"purge " || 
+		msg.content.slice(0, 7) == prefix[msg.guild.id]+"clear ") {
 			if (msg.content != prefix+"clearlog") {
 				if (msg.member.hasPermission("MANAGE_MESSAGES") == true) {
 					purge_num = msg.content.slice(6, msg.content.length);
@@ -8231,7 +8244,8 @@ function automod_help(msg) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"automod" || msg.content == prefix[msg.guild.id]+"automod help") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"automod" || 
+		msg.content.toLowerCase() == prefix[msg.guild.id]+"automod help") {
 			automod_help(msg);
 			
 		} else if (msg.guild != null && msg.content == prefix[msg.guild.id]+"automod rules") {
@@ -8684,7 +8698,8 @@ function on_warning(msg, warning_code, reason="") {
 // exit
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"exit" || msg.content == prefix[msg.guild.id]+"quit") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"exit" || 
+		msg.content.toLowerCase() == prefix[msg.guild.id]+"quit") {
 			if (authorised_IDs.indexOf(msg.author.id) > -1) {
 				embed_chat_reply(msg, "JaredBot has been terminated!");
 				console_log("JaredBot has been terminated!", error=false, mod=true);
@@ -9030,7 +9045,7 @@ bot.on("message", msg => {
 bot.on("message", msg => {
 	if (msg.guild != null && filter_onoff[msg.guild.id] != undefined) {
 		if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-			if (msg.guild != null && msg.content.slice(0, 10) == prefix[msg.guild.id]+"banemoji ") {
+			if (msg.guild != null && msg.content.slice(0, 10).toLowerCase() == prefix[msg.guild.id]+"banemoji ") {
 				if (msg.member.hasPermission("MANAGE_MESSAGES") == true) {
 					emoji_id = msg.content.slice(10, msg.content.length);
 					// list banned emojis
@@ -9093,7 +9108,7 @@ bot.on("message", msg => {
 bot.on("message", msg => {
 	if (msg.guild != null && filter_onoff[msg.guild.id] != undefined) {
 		if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-			if (msg.guild != null && msg.content.slice(0, 12) == prefix[msg.guild.id]+"unbanemoji ") {
+			if (msg.guild != null && msg.content.slice(0, 12).toLowerCase() == prefix[msg.guild.id]+"unbanemoji ") {
 				if (msg.member.hasPermission("MANAGE_MESSAGES") == true) {
 					emoji_id = msg.content.slice(12, msg.content.length);
 					if (isInt_without_error(emoji_id, 0, 10**20) == true) {
@@ -9133,7 +9148,8 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"emoji" || msg.content == prefix[msg.guild.id]+"banemoji" || msg.content == prefix[msg.guild.id]+"unbanemoji") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"emoji" || 
+		msg.content.toLowerCase() == prefix[msg.guild.id]+"banemoji" || msg.content.toLowerCase() == prefix[msg.guild.id]+"unbanemoji") {
 			// embed
 			embed_emoji = new Discord.MessageEmbed();
 			embed_emoji.setColor(embed_colour_info);
@@ -9165,7 +9181,7 @@ bot.on("message", msg => {
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
 		if (msg.guild != null && filter_onoff[msg.guild.id] != undefined) {
-			if (msg.guild != null && msg.content.slice(0, 8) == prefix[msg.guild.id]+"banurl ") {
+			if (msg.guild != null && msg.content.slice(0, 8).toLowerCase() == prefix[msg.guild.id]+"banurl ") {
 				if (filter_onoff[msg.guild.id].indexOf("104") > -1 || filter_onoff[msg.guild.id].indexOf("199") > -1) {
 					if (msg.member.hasPermission("MANAGE_MESSAGES") == true) {
 						url = msg.content.slice(8, msg.content.length);
@@ -9663,7 +9679,7 @@ bot.on("message", msg => {
 // slowmode
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content == prefix[msg.guild.id]+"slowmode off") {
+		if (msg.guild != null && msg.content.toLowerCase() == prefix[msg.guild.id]+"slowmode off") {
 			msg.channel.setRateLimitPerUser("0");
 			embed_chat_reply(msg, "slow mode has been turned off!");
 			
@@ -9729,7 +9745,7 @@ function get_tag_value(txt, tag) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"embed ") {
+		if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"embed ") {
 			commands = msg.content.slice(7, msg.content.length);
 			color_codes = {
 				"red" : "#FF0000", "cyan" : "#00FFFF", "blue" : "#0000FF", "dark blue" : "#0000A0", "light blue" : "#ADD8E6", "purple" : "#800080",
@@ -9910,11 +9926,9 @@ bot.on("ready", msg => {
 	read_dataset_file(dataset_country_codes, "Country Code", country_codes)
 })
 
-async function process_lan(msg, src, no_english=false) {
+async function process_lan(msg, src, no_english=false, source_lan = "auto", destin_lan = "eng") {
 	try {
 		url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=";
-		source_lan = "auto"
-		destin_lan = "eng"
 		url_encode = encodeURI(url + source_lan + "&tl=" + destin_lan + "&dt=t&q=" + src);
 
 		// get html
@@ -9966,16 +9980,24 @@ async function process_lan(msg, src, no_english=false) {
 	}
 }
 
-bot.on("message", msg => {
+function translate_message(msg, term, no_english=false, source_lan = "auto", destin_lan = "eng") {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0,11) == prefix[msg.guild.id]+"translate ") {
-			src = msg.content.slice(11,msg.content.length);
+		if (msg.guild != null && msg.content.slice(0, term.length+1) == prefix[msg.guild.id]+term) {
+			src = msg.content.slice(term.length, msg.content.length);
 			
-			process_lan(msg, src).catch(error => {
+			process_lan(msg, src, no_english=false, source_lan=source_lan, destin_lan=destin_lan).catch(error => {
 				console_log("error thrown in process_lan function! " + error, error=true);
 			})
 		}
 	}
+}
+
+bot.on("message", msg => {
+	translate_message(msg, 'translate ', no_english=false, source_lan="auto", destin_lan = "eng");
+	translate_message(msg, 'french ', no_english=false, source_lan="eng", destin_lan = "fr");
+	translate_message(msg, 'mandarin ', no_english=false, source_lan="eng", destin_lan = "cn");
+	translate_message(msg, 'spanish ', no_english=false, source_lan="eng", destin_lan = "es");
+	translate_message(msg, 'russian ', no_english=false, source_lan="eng", destin_lan = "ru");
 })
 
 // autotranslate
@@ -10280,7 +10302,7 @@ function base2text(msg, base_charset, base) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 10) == prefix[msg.guild.id]+"bin2text ") {
+		if (msg.guild != null && msg.content.slice(0, 10).toLowerCase() == prefix[msg.guild.id]+"bin2text ") {
 			base2text(msg, "01", 2);
 		}
 	}
@@ -10288,7 +10310,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 10) == prefix[msg.guild.id]+"oct2text ") {
+		if (msg.guild != null && msg.content.slice(0, 10).toLowerCase() == prefix[msg.guild.id]+"oct2text ") {
 			base2text(msg, "01234567", 8);
 		}
 	}
@@ -10296,7 +10318,7 @@ bot.on("message", msg => {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 10) == prefix[msg.guild.id]+"hex2text ") {
+		if (msg.guild != null && msg.content.slice(0, 10).toLowerCase() == prefix[msg.guild.id]+"hex2text ") {
 			base2text(msg, "0123456789abcdef", 16);
 		}
 	}
@@ -10368,7 +10390,7 @@ function int2roman(msg, num) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.guild != null && msg.content.slice(0, 7) == prefix[msg.guild.id]+"roman ") {
+		if (msg.guild != null && msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"roman ") {
 			int2roman(msg, msg.content.slice(7, msg.content.length));
 		}
 	}
@@ -10419,10 +10441,10 @@ var mov2mpt_start_time = {};
 var render_dots = {};
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 4) == prefix[msg.guild.id]+"mp4" || msg.content.slice(0, 4) == prefix[msg.guild.id]+"mov" || 
-		msg.content.slice(0, 5) == prefix[msg.guild.id]+"webm" || msg.content.slice(0, 7) == prefix[msg.guild.id]+"mp4low" || 
-		msg.content.slice(0, 7) == prefix[msg.guild.id]+"movlow" || msg.content.slice(0, 8) == prefix[msg.guild.id]+"webmlow" || 
-		msg.content.slice(0, 4) == prefix[msg.guild.id]+"mp3" || msg.content.slice(0, 4) == prefix[msg.guild.id]+"gif") {
+		if (msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"mp4" || msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"mov" || 
+		msg.content.slice(0, 5).toLowerCase() == prefix[msg.guild.id]+"webm" || msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"mp4low" || 
+		msg.content.slice(0, 7).toLowerCase() == prefix[msg.guild.id]+"movlow" || msg.content.slice(0, 8).toLowerCase() == prefix[msg.guild.id]+"webmlow" || 
+		msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"mp3" || msg.content.slice(0, 4).toLowerCase() == prefix[msg.guild.id]+"gif") {
 			url = undefined;
 			if (msg.content.split(" ").length == 2) {
 				if (msg.content.split(" ")[1].replace("https","http").slice(0, 38) == "http://cdn.discordapp.com/attachments/" ||
@@ -10714,7 +10736,7 @@ function calc_font_size(img_width, txt) {
 
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 5) == prefix[msg.guild.id]+"cap " || msg.content.slice(0, 9) == prefix[msg.guild.id]+"caption ") {
+		if (msg.content.slice(0, 5).toLowerCase() == prefix[msg.guild.id]+"cap " || msg.content.slice(0, 9).toLowerCase() == prefix[msg.guild.id]+"caption ") {
 			// url
 			parts = msg.content.split(' ');
 			url = undefined;
@@ -11095,8 +11117,9 @@ var yt_download_start_time = {};
 var yt_timeout = {};
 bot.on("message", msg => {
 	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
-		if (msg.content.slice(0, 10) == prefix[msg.guild.id]+"download " || msg.content.slice(0, 13) == prefix[msg.guild.id]+"downloadlow " || 
-			msg.content.slice(0, 13) == prefix[msg.guild.id]+"downloadmp3 ") {
+		if (msg.content.slice(0, 10).toLowerCase() == prefix[msg.guild.id]+"download " || 
+			msg.content.slice(0, 13).toLowerCase() == prefix[msg.guild.id]+"downloadlow " || 
+			msg.content.slice(0, 13).toLowerCase() == prefix[msg.guild.id]+"downloadmp3 ") {
 			if (msg.content.slice(0, 13) == prefix[msg.guild.id]+"downloadmp3 " || msg.content.slice(0, 13) == prefix[msg.guild.id]+"downloadlow ") {
 				url = msg.content.slice(13, msg.content.length).replace("http://", "https://");
 				ytdl_filter_video = {quality: "lowestvideo", filter: "video"};
@@ -13663,6 +13686,33 @@ bot.on("message", msg => {
 				embed_catage.setDescription("`"+content[0]+"` human "+unit+" is `"+answer+"` cat years!");
 				embed_catage.setImage(webserver_cat_age_dataset + "/" + num + ".png");
 				msg_channel_send(msg, embed_catage);
+			}
+		}
+	}
+})
+
+// google
+function get_urls(html) {
+	url = "https://encrypted-tbn0.gstatic.com/"
+	data = html.split('src="' + url);
+	output = [];
+	for (i=0;i<data.length;i++) {
+		output.push(url + data[i].split('"')[0].split("'")[0]);
+	}
+	return output.slice(1, output.length);
+}
+
+bot.on("message", msg => {
+	if (msg.guild != null && authrosied_server_IDs.indexOf(msg.guild.id) > -1) {
+		if (msg.content.slice(0, 8).toLowerCase() == prefix[msg.guild.id]+"google ") {
+			query = msg.content.slice(8, msg.content.length);
+			if (query.length > 0) {
+				get_html("https://www.google.co.uk/search?q="+query+"&tbm=isch&safe=active", function(html) {
+					urls = get_urls(html);
+					url = urls[parseInt(Math.random() * 100) % urls.length];
+					embed_image(msg, url, query, guild="msg", header=query);
+					
+				})
 			}
 		}
 	}

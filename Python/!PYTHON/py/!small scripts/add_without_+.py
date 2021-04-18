@@ -14,3 +14,8 @@ def add4(x, y):
         x = x ^ y
         y = c << 1
     return x
+
+print(add1(1, 6))
+print(add2(1, 6))
+print(add3(1, 6))
+print(add4(1, 6))
