@@ -1,0 +1,25 @@
+ask user who they are voting for
+ask user for a password
+
+hash the password
+use the password hash as the encryption key
+ - encrypt the users vote
+
+sent encrypted vote to server to be stored
+data is stored on the server as: email address, encrypted vote
+
+from any computer in the world
+can query the webserver to ask for encrypted vote for a specific user
+
+decrypt vote
+ask user for password
+hash the password
+use hash to decrypt the encrypted  vote
+
+ways to attack it:
+- malware on the users computer
+- vote is intercepted while travelling over network
+- how do you know your vote has been counted?
+- how do you know the software on the machine hasn't been modified?
+
+software can't be modified if the voting machine is physically coded at transistor level

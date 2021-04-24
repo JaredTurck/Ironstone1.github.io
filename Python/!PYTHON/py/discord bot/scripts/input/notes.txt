@@ -1,7 +1,0 @@
-this is my thoughts on how it could be possible though:
-if an input is present in the code
-node takes the next messages after code is started executing, and writes each message to a text file (overwriting the previous message in the input.txt file)
-the python input() function then reads the message from the text file
-
-only if the files content has changed does the python input function then return the string of files content
-- python can check if the files content has changed by generating an md5 hash of the files contents ever lets say 0.1 seconds
