@@ -58,8 +58,15 @@ class num_methods {
 
 	// transpose matrix
 	vector<vector<float>> transpose(vector<vector<float>> input) {
-		
-
+		vector<vector<float>> output;
+		for (int i = 0; i < input[0].size(); i++) {
+			vector<float> current_row;
+			for (int l = 0; l < input.size(); l++) {
+				current_row.push_back(input[l][i]);
+			}
+			output.push_back(current_row);
+		}
+		return output;
 	}
 
 	// generate matrix of zeros
@@ -115,16 +122,15 @@ class network {
 		// dot matrix
 		vector<float> neuron_output = {};
 		for (int i = 0; i < inputs.size(); i++) {
-			//for (int l = 0; l < this->weights[i].size(); l++) {
-			//	//neuron_output[i] += inputs[i] * this->weights[i][l];
-			//	//cout << neuron_output[i] << endl;
-			//}
-
-			float current_output = 0;
-			for (int l = 0; l < inputs.size(); l++) {
-				
-
+			for (int l = 0; l < this->weights[i].size(); l++) {
+				neuron_output[i] += inputs[i] * this->weights[i][l];
+				cout << neuron_output[i] << endl;
 			}
+
+			//float current_output = 0;
+			//for (int l = 0; l < inputs.size(); l++) {
+			//	
+			//}
 
 		}
 		return neuron_output;
@@ -137,12 +143,22 @@ int main() {
 	
 	// layer 1
 	network layer1;
+	num_methods nums;
 	layer1.create_layer(6, 2);
 	layer1.numm.cout_matrix(layer1.weights);
 	layer1.numm.cout_matrix(layer1.biases);
 	
+	vector<vector<float>> temp_x = {
+		vector<float>{1,2,3},
+		vector<float>{4,5,6},
+		vector<float>{7,8,9}
+	};
+
+	//vector<vector<float>> output = nums.transpose(temp_x);
+	//nums.cout_matrix(output);
+
 	vector<float> output = layer1.forward(x);
-	//layer1.numm.cout_vector(output);
+	layer1.numm.cout_vector(output);
 
 	system("pause");
 	return 0;

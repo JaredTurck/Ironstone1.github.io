@@ -1,4 +1,4 @@
-import socket
+import socket, datetime
 from urllib.parse import unquote
 
 class server():
@@ -79,7 +79,18 @@ class http():
 
         # check if file exists
         try:
-            file_to_sent = open(unquote(filename[1:]), "rb").read()
+            path = unquote(filename[1:]).replace('//', '/')
+            print(path)
+            file_to_sent = open(path, "rb").read()
+
+            # send the file
+            data_type = "text/html"
+            head = f"HTTP/1.1 OK "+\
+            "date: " + datetime.datetime.now().strftime("%a, %d %B %Y %H:%M:%S GMT")+\
+            f"Content-Length: {len(file_to_sent)} Connection: close Content-Type: {data_type} "+\
+            " cache-control: max-age=3600 CF-Cache-Status: DYNAMIC Content-Encoding: gzip "
+            data = head.encode('UTF-8') + file_to_sent
+            
             conn.sendall(file_to_sent)
             print(f"[+] Sent file '{filename}' to {addr[0]}!")
         

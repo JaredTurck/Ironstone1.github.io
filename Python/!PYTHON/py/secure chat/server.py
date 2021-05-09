@@ -58,6 +58,7 @@ class chat():
                             text = text[:-1]
                         elif key.name == "space":
                             text.append(" ")
+                            
             return "".join(text)
         else:
             return ""
@@ -68,7 +69,7 @@ class chat():
         self.read_config()
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.settimeout(3600)
-        s.bind((self.my_ip, self.port))
+        s.bind(("127.0.0.1", self.port))
         s.settimeout(None)
         s.listen()
         print("Your IP is: " + self.my_ip)
@@ -91,6 +92,7 @@ class chat():
             if len(message) > 1:
                 s.sendall(message)
                 self.print_message("Sent", message)
+                print(message)
     
 
 #http://127.0.0.1:8080/
