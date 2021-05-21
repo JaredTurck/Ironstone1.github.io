@@ -15,6 +15,7 @@ def pi(i):
         k += 1
         if ak == 0:
             break
+        break;
 
         if k % 1000 == 0:
             print(f"K={k}!")
