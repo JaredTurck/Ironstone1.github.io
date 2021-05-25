@@ -1,0 +1,28 @@
+cost function - add the output - excepted output sqaured
+(network output - expected output)^2 + (... - ...)^2
+
+gives you total cost of network
+you want to decreate the cost so get it closer to 0
+
+want the network to output a yes or no answer if it is a cat
+
+--- i think ---
+back propogation
+itterate throhygh each layer for each layer
+
+single layer back:
+relu(data, weight)
+np.dot(data, previous data)
+
+you need to calculate cost for every weight and indivudall adjust
+
+for i in layer:
+	for weight in layer:
+		figure out dicrection to move value using cost
+
+log:
+Li = -log(yi, k)
+Euler's number e = 2.718281828459045
+
+solving for x:
+b = e ** x

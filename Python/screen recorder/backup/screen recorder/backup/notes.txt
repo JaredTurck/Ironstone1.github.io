@@ -1,0 +1,29 @@
+[f1,f2,f3,...]
+
+multi threading is not being used if the pool.map function is taking 1.5 seconds to execute
+
+dont clear the whole list, jsut delete a frame from the list after adding it to the video
+
+get key by value
+
+62, 91, 121, 151 - last frame gets stuck
+
+frames still being assigned in wrong order
+
+
+records 30 frames, adds them to the list
+tries ot iterate through length of dict writing every frame
+- instead what should happen is the write func is assigned a range of frames to write
+
+write counter is only used in the naming of the file
+
+most frames are in order now, a few at the end are not
+
+to do:
+- video compression
+- export options, e.g. export as mp4
+- record sound
+- GUI with buttons
+
+3-4 frames at the end of each second in wrong order
+frames 0-30 not being written

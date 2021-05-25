@@ -1,0 +1,698 @@
+<html>
+	<head>
+		<style>
+			body {
+			margin: 0;
+			background-color: #00222D;
+			font-family: Arial;
+		}
+		
+		.nav-bar {
+			width: 100%;
+			display: inline-block;
+		}
+		
+		.topnav {
+			overflow: hidden;
+			background-color: #331a00;
+			padding-left: 1em;
+			padding-right: 1em;
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+		
+		.topnav a {
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding-left: 14px;
+			padding-right: 14px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			text-decoration: none;
+			font-size: 1em;
+			margin: 0;
+		}
+		
+		.nav-text {
+			padding-left: 0px;
+			padding-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			margin: 0%;
+			font-size: 0.8em;
+		}
+		
+		.nav-items-1 {
+			padding-left: 14px;
+			padding-right: 14px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+		}
+		
+		.topnav .nav-item-1:hover {
+			color: grey;
+			display: block;
+		}
+		
+		.topnav .nav-item-2:hover {
+			color: grey;
+		}
+		
+		.nav-image {
+			width: auto;
+			height: 50px;
+			position: absolute;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin: 0;
+			top: 1em;
+			left: 2em;
+		}
+		
+		.nav-image-2 {
+			width: auto;
+			height: 50px;
+			position: absolute;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin: 0;
+			top: 0.8em;
+			left: 5.2em;
+		}
+		
+		/* heading */
+		.heading-1 {
+			color: white;
+		}
+		
+		.sub-header {
+			color: white;
+		}
+		
+		/* table */
+		.table-content, th, td {
+			border: 0.1em solid black;
+			color: white;
+		}
+		
+		/* Automod */
+		.automod-text {
+			color: white;
+		}
+		
+		.automod-img-right {
+			float: right;
+			padding-left: 60%;
+			padding: 0;
+			margin: 0;
+		}
+		
+		.automod-img-left {
+			float: clear;
+		}
+		
+		.end-section {
+			clear: left;
+			clear: right;
+		}
+		
+		.phishing {
+			width: auto;
+			height: 20em;
+			padding-left: 2em;
+			padding-right: 2em;
+			padding-top: 2em;
+			padding-bottom: 2em;
+		}
+		
+		.table-1 th, td {
+			border-collapse: collapse;
+			border: none;
+		}
+		
+		.table-2 td, th {
+			float: clear;
+			border-collapse: collapse;
+			border: none;
+		}
+		
+		.sec-1-title {
+			font-family: "Arial";
+			font-weight: bold;
+		}
+		
+		.sec-2-title {
+			font-family: "Arial";
+			font-weight: bold;
+		}
+		
+		.img-tag {
+			padding-left: 2em;
+			padding-right: 2em;
+			padding-top: 2em;
+			padding-bottom: 2em;
+		}
+		
+		.section-1 {
+			padding-left: 40%;
+		}
+		
+		.section-2 {
+			padd-right: 40%;
+		}
+		
+		.sec-1-content {
+			color: #BABABA;
+		}
+		
+		/* table */
+		.table-div {
+			padding-left: 4em;
+			padding-right: 0em;
+			padding-top:  2em;
+			padding-bottom:  2em;
+			clear: both;
+		}
+		
+		.table-content {
+			border-collape: collapse;
+			margin: 25px 0;
+			font-size: 0.9em;
+			font-family: sans-serif;
+			min-width: 400px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+			color: white;
+			padding-left: 4em;
+			padding-right: 4em;
+			padding-top:  4em;
+			padding-bottom:  4em;
+			width: 90%;
+		}
+		
+		.table-content thead tr {
+			background-color: #009879;
+			text-align: left;
+		}
+		
+		.table-content th, .table-content td {
+			padding: 12px 15px;
+		}
+		
+		.table-content tbody tr {
+			border-bottom: 1px solid #00222D;
+			width: 100%;
+		}
+		
+		.td-header {
+			width: 6.5em;
+		}
+		
+		.table-content tbody tr:nth-of-type(even) {
+			background-color: #003444;
+			color: #FFFFFF;
+		}
+		
+		.table-content tbody tr:nth-of-type(odd) {
+			background-color: #002936;
+			color: #E9F2FF;
+		}
+		
+		.table-content tbody tr: last-of-type {
+			border-bottom: 2px solid #009879;
+		}
+		
+		.sub-header-2 {
+			color: white;
+		}
+		
+		/* Glow */
+		.glow {
+			font-size: 2em;
+			color: #E2E2E2;
+			-webkit-animation: glow 1s ease-in-out infinite alternate;
+			-moz-animation: glow 1s ease-in-out infinite alternate;
+			animation: glow 1s ease-in-out infinite alternate;
+			padding-left: 1em;
+			padding-right: 0;
+			padding-top: 1em;
+			padding-bottom: 0;
+		}
+		
+		@-webkit-keyframes glow {
+			from {
+				text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #005D7B, 0 0 40px #005D7B, 0 0 50px #005D7B, 0 0 60px #005D7B, 0 0 70px #005D7B;
+			}
+  
+			to {
+				text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #005D7B, 0 0 40px #005D7B, 0 0 50px #005D7B, 0 0 60px #005D7B, 0 0 70px #005D7B;
+			}
+		}
+		
+		/* footer */
+		#foot {
+			background-color: #001B25;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 2em;
+			padding-bottom: 11em;
+		}
+		
+		.logo-img {
+			width: 8em;
+			height: 8em;
+			float: left;
+			padding-left: 4em;
+			padding-right: 0;
+			padding-top: 1em;
+			padding-bottom: 0;
+			position: absolute;
+		}
+		
+		.logo-text {
+			color: white;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 0.5em;
+			padding-bottom: 0;
+			position: absolute;
+		}
+		
+		.logo-text-title {
+			padding-left: 6.5em;
+			padding-right: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			text-align: left;
+			font-size: 2em;
+			position: absolute;
+			width: 10%;
+			font-family: "Helvetica";
+		}
+		
+		.logo-text-copyright {
+			padding-left: 13em;
+			padding-right: 0;
+			padding-top: 4em;
+			padding-bottom: 0;
+			font-family: "Times New Roman";
+		}
+		
+		.right-panel {
+			float: right;
+			position: relative;
+			padding-left: 0em;
+			padding-right: 1em;
+			padding-top: 3em;
+			padding-bottom: 0;
+		}
+		
+		.right-panel-colm {
+			padding-left: 0em;
+			padding-right: 24em;
+			padding-top: 0em;
+			padding-bottom: 0;
+		}
+		
+		.colm-div-1 {
+			text-align: left;
+			position: absolute;
+			padding-left: 8em;
+			padding-right: 0em;
+			padding-top: 0;
+			padding-bottom: 0;
+			z-index: 1;
+		}
+		
+		.colm-div-2 {
+			text-align: left;
+			position: absolute;
+			padding-left: 16em;
+			padding-right: 0em;
+			padding-top: 0em;
+			padding-bottom: 0;
+			z-index: 0;
+		}
+		
+		.colm-div-3 {
+			text-align: left;
+			position: absolute;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-top: 0;
+			padding-bottom: 0;
+			z-index: 3;
+		}
+		
+		.colm-link {
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin: 0;
+			text-decoration: none;
+			color: white;
+			font-family: "Calibri Light";
+			position: relative;
+		}
+		
+		/* mobile */
+		@media (max-width: 820px) {
+			#foot {
+				background-color: #001B25;
+				padding-left: 0;
+				padding-right: 0;
+				padding-top: 2em;
+				padding-bottom: 6em;
+			}
+		
+			.logo-img {
+				width: 8em;
+				height: 8em;
+				float: left;
+				padding-left: 2em;
+				padding-right: 0;
+				padding-top: 1em;
+				padding-bottom: 0;
+				position: absolute;
+			}
+		
+			.logo-text {
+				color: white;
+				padding-left: 0;
+				padding-right: 0;
+				padding-top: 0.5em;
+				padding-bottom: 0;
+				position: absolute;
+			}
+		
+			.logo-text-title {
+				padding-left: 5.5em;
+				padding-right: 0;
+				padding-top: 0;
+				padding-bottom: 0;
+				text-align: left;
+				font-size: 2em;
+				position: absolute;
+				width: 10%;
+				font-family: "Helvetica";
+			}
+		
+			.logo-text-copyright {
+				padding-left: 11em;
+				padding-right: 0;
+				padding-top: 4em;
+				padding-bottom: 0;
+				font-family: "Times New Roman";
+				width: 8em;
+			}
+		
+			.right-panel {
+				float: none;
+				position: relative;
+				padding-left: 4em;
+				padding-right: 1em;
+				padding-top: 10em;
+				padding-bottom: 0;
+			}
+		
+			.right-panel-colm {
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-top: 0em;
+				padding-bottom: 0;
+			}
+		
+			.colm-div-1 {
+				text-align: left;
+				position: absolute;
+				padding-left: 4em;
+				padding-right: 0em;
+				padding-top: 0;
+				padding-bottom: 0;
+				z-index: 1;
+			}
+		
+			.colm-div-2 {
+				text-align: left;
+				position: absolute;
+				padding-left: 10em;
+				padding-right: 0em;
+				padding-top: 0em;
+				padding-bottom: 0;
+				z-index: 0;
+			}
+		
+			.colm-div-3 {
+				text-align: left;
+				position: absolute;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-top: 0;
+				padding-bottom: 0;
+				z-index: 3;
+			}
+		
+			.colm-link {
+				padding-left: 0;
+				padding-right: 0;
+				padding-top: 0;
+				padding-bottom: 0;
+				margin: 0;
+				text-decoration: none;
+				color: white;
+				font-family: "Calibri Light";
+				position: relative;
+			}
+		}
+		
+		
+		</style>
+		<title>JaredBot - Modderation</title>
+		<meta name="description" content="JaredBot is a multipurpose discord bot with a huge range of features, from music, moderation, levels, to image commands."></meta>
+		<meta name="viewport" content="width=device-width, initial-scale-1"></meta>
+		<link rel="icon" href="img/src/favicon.png" type="image/png" />
+	</head>
+	<body>
+		<nav id="nav-bar">
+			<div class="topnav">
+				<a href="/"><img class="nav-image" src="img/src/web/lion-blur.png"></img></a>
+				<a href="/"><img class="nav-image-2" src="img/src/web/logo-text-1.png"></img></a>
+				<a class="nav-item-1" href="command"><span class="nav-text" style="padding-left: 7em;">Commands</span></a>
+				<a class="nav-item-2" href="music"><span class="nav-text">Music</span></a>
+				<a class="nav-item-2" href="moderation"><span class="nav-text">Moderation</span></a>
+				<a class="nav-item-2" href="image"><span class="nav-text">Image</span></a>
+				<a class="nav-item-2" href="https://discord.com/invite/QDeUXq4" target="+blank"><span class="nav-text">Support Server</span></a>
+			</div>
+		</nav>
+		<div class="command-content">
+			<h1 class="glow">Moderarion</h1>
+			<div class="automod">
+				<div>
+					<p class="automod-text"></p>
+					<div class="section-1" class="automod-img-right">
+						<table class="table-1">
+							<tr>
+								<td>
+									<h3 class="sec-1-title">Language Filter</h3>
+									<p class="sec-1-content">Warn users when they use offensive or rude language</p>
+								</td>
+								<td><img class="img-tag" src="img/src/web/automod/filter_language.png"></img></td>
+							</tr>
+						</table>
+					</div>
+					<div class="section-2" class="automod-img-left">
+						<table class="table-2">
+							<tr>
+								<td>
+									<img class="phishing" src="img/src/web/automod/phishing_filter.png"></img>
+								</td>
+								<td>
+									<h3 class="sec-2-title">Phishing Detection</h3>
+									<p class="sec-1-content">Block links to malicious websites</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="section-1" class="automod-img-right">
+						<table class="table-1">
+							<tr>
+								<td>
+									<h3 class="sec-1-title">Adult Content Detection</h3>
+									<p class="sec-1-content">Find and delete links to Adult content</p>
+								</td>
+								<td><img class="img-tag" src="img/src/web/automod/porn_filter.png"></img></td>
+							</tr>
+						</table>
+					</div>
+					<div class="section-2" class="automod-img-left">
+						<table class="table-2">
+							<tr>
+								<td><img class="img-tag" src="img/src/web/automod/promotion_filter.png"></img></td>
+								<td>
+									<h3 class="sec-2-title">Promotion Detection</h3>
+									<p class="sec-1-content">Deletes links to others servers and warns the user</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="section-1" class="automod-img-right">
+						<table class="table-2">
+							<tr>
+								<td>
+									<h3 class="sec-1-title">Spam Detection</h3>
+									<p class="sec-1-content">Warn users for spamming the same messages</p>
+								</td>
+								<td><img class="img-tag" src="img/src/web/automod/spam_filter.png"></img></td>
+							</tr>
+						</table>
+					</div>
+					<div class="section-2" class="automod-img-left">
+						<table class="table-1">
+							<tr>
+								<td><img class="img-tag" src="img/src/web/automod/emoji_spam.png"></img></td>
+								<td>
+									<h3 class="sec-2-title">Emoji Spam Detection</h3>
+									<p class="sec-1-content">Warns users for spamming the same emojis</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="table-div" id="admin">
+				<h1 class="glow">Commands</h1>
+				<table class="table-content">
+					<tr>
+						<td class="td-header">-announce</td>
+						<td>Sends an announcement!</td>
+					</tr>
+					<tr>
+						<td class="td-header">-mute</td>
+						<td>Mutes a user preventing them from speaking and messaging in channels, beaware that muted users can still read the chat, they just cannot respond or talk back. the syntax for the command is -mute @user, you can also specify a reason after the @ tag for the mute if you want too, for example -mute @jared for spamming!.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-unmute</td>
+						<td>unmutes the user allowing them to talk again in both text and voice channels on the server, beaware that users that have been unmuted will be able to edit previos messages and fully interact within the channels channels again, the syntax for the command is -unmute @user.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-tempmute</td>
+						<td>allows you to temporerly mute a user for a specified amount of time, the bot will then unmute that user after the specified length of time is complete, the syntax for the command is -tempmute @user {length in mins}, for example -tempmute @jared 5 will mute jared for 5 mins. Make sure that your length is an integer, if you want to mute a user for an hour you would type 60, and 24 hours 1 day would be 1440 mins e.g. -tempmute @user 1440.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-kick</td>
+						<td>kicks a user from the server, beaware that once a user has been kicked from the server they can still join back if they have an invite link. Once a user is kicked all of there roles are lost, so if they do join back they wont have any of the previous roles they had. The syntax for the command is -kick @user, for example -kick @jared will kick Jared from the server, you can also sepcify a reason for the kick e.g. -kick @jared for spamming.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-ban</td>
+						<td>Bans a user from the server, once a user is banned they cannot join the server again even if they have an invite link, bans are also IP based which in most cases prevents from from joining the server again on an alt account. The syntax for the command is -ban @user, for example -ban @jared ban Jared from the server, you can also specify a reason for the ban e.g. -ban @jared for organsing a raid.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-unban</td>
+						<td>Allows you to unban a user from the server, you can't @ someone who isn't in the server, so you will need to specify the users ID when unbanning them. You can get the banned users ID by right clicking on a previous message they have sent and clicking copy ID, for example to unban Jared from a server the command would be -unban 738484352568262747.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-tempban</td>
+						<td>Temporerly bans a user from the server for a specified length of time, then unbans them. Syntax is -tempban @user {length in mins} for example -tempban @jared 60 would ban jared for 1 hour, for 24 hours 1 day you would type 1440 mins.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-logging</td>
+						<td>Toggle between turning logging on or off, logging is where messages are recorded in the server and saved to a log file, turning logging on will result in all messages being saved to a log file, this is very useful for looking at conversation history.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-prefix</td>
+						<td>Allows you to change the prefix of the bot, the syntax for this command is -prefix {new prefix} for example to change JaredBot's prefix to . you would type -prefix . .</td>
+					</tr>
+					<tr>
+						<td class="td-header">-snipe</td>
+						<td>This command shows all messages that have been recently deleted, please beaware the command could show some inappropriate or offensive content, as it also shows messages that where deleted by JaredBot's contenting filtering, as tell as message which where manually deleted by a user. also be beaware the log file is clear every 24 hours, so you wont be able to see deleted messages from a few days ago.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-snipping</td>
+						<td>turn snipping on or off, snipping is a feature that logs recently deleted messages, turnning snipping on -snipping on will result in all messages that where recently deleted being logged. You can then view the contents on this log file with the -snipe command.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-filter</td>
+						<td>turn content filtering on or off, content filtering is a feature that automatically blocks offensive or unwanted content such as: links to adult content, repeating messages (spam), offensive or alarming language, and deletes links to other discord servers.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-exit</td>
+						<td>shuts the entire bot down, taking JaredBot offline. Only Jared can use this command, it's designed to be used during development incase something goes wrong Jared can shut the bot down for whatever reason.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-bot restart</td>
+						<td>restarts the bot, only Jared can use this command, used during development for restarting the bot.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-clearlog</td>
+						<td>clears the deleted messages log file, any messages that are stored in the log file will be removed</td>
+					</tr>
+					<tr>
+						<td class="td-header">-purge</td>
+						<td>Deletes the specified amount of messages from the channel, e.g. -purge 20 will delete the last 20 message that where sent in the channel, useful command for example for deleting messages are a raid or user spamming.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-automod</td>
+						<td>Automod is a feature where the bot will mute, kick or ban users who get to many warnings, type -automod help for more information on how to use the feature.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-automeme</td>
+						<td>AutoMeme is a feature where the bot will automatically post a meme after a specified perioid of time, for example -automeme on 10 will post a meme every 10 mins. To disable automeme just run the -automeme off command.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-autopost</td>
+						<td>As well as AutoMeme the bot can also be configured to automatically post other types of photos like animals, for example -autocat on 60, will post a cat photo every every hour. To turn it off type -autocat off.</td>
+					</tr>
+					<tr>
+						<td class="td-header">-filter</td>
+						<td>Allows you to manage content filtering.</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<div id="foot">
+			<div class="logo-div">
+				<div class="logo-img-div">
+					<img class="logo-img" src="img/src/web/lion-blur.png"></img>
+				</div>
+				<div class="logo-text">
+					<div class="logo-text-title">
+						<p>JaredBot</p>
+					</div>
+					<div class="logo-text-copyright">
+						<p>Copyright © 2020 JaredBot</p>
+					</div>
+				</div>
+				<div class="right-panel">
+					<div class="right-panel-colm">
+						<div class="colm-div-1">
+							<a class="colm-link" href="/">Home</a><br>
+							<a class="colm-link" href="command">Commands</a><br>
+							<a class="colm-link" target="_blank" href="https://discord.com/invite/QDeUXq4">Discord</a>
+						</div>
+					</div>
+					<div class="right-panel-colm">
+						<div class="colm-div-2">
+							<a class="colm-link" target="_blank" href="https://steamcommunity.com/id/jaredcat">Steam</a><br>
+							<a class="colm-link" target="_blank" href="https://github.com/JaredTurck">GitHub</a><br>
+							<a class="colm-link" target="_blank" href="https://www.youtube.com/channel/UCZMhn0olhq5G2ttBqNOv1IQ">YouTube</a>
+						</div>
+					</div>
+					<div class="right-panel-colm">
+						<div class="colm-div-3">
+							<a class="colm-link" target="_blank" href="https://discord.com/oauth2/authorize?client_id=767561850404864071&scope=bot&permissions=1610088439">Invite</a><br>
+							<a class="colm-link" href="#">About</a><br>
+							<a class="colm-link" href="#">Privacy</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</html>

@@ -1,0 +1,11 @@
+compress:
+mp3 is decompressed back to original samples
+only record the peaks and trofs of the waveform, throw away all the other samples
+array of peaks/troffs then compressed into a string of characters that represents the original waveform
+
+decompress:
+string of characters is converted back to array of peaks/troffs
+maths is used to guess what the rest of the waveform looks like
+- draw vectors using the peak/troff information
+resample the vector
+compress the resampled vectors back into an mp3 file
