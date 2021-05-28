@@ -37,3 +37,5 @@ class AESCipher():
     def unpad(self, s):
         # removes padding
         return s[:-ord(s[len(s)-1:])]
+
+cipher = AESCipher("your secret key")

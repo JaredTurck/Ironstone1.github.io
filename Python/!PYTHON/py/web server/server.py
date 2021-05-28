@@ -51,6 +51,7 @@ class server():
         """ accepts multiple requests from client and passes them to request handler """
         with conn:
             request = self.format_request(conn)
+            #self.print_request(request)
             http.serve(conn, request, addr)
 
     def server(self):

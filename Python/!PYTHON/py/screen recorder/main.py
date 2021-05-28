@@ -1,6 +1,7 @@
-import time, os, cv2, numpy, gc, threading, keyboard
+import time, os, cv2, numpy, gc, threading, keyboard, os
 from PIL import ImageGrab, Image
 from io import BytesIO
+from zlib import compress
 
 # 28 in 1 sec - with date written to HDD
 # 30 in 1 sec - without saving bitmap
@@ -35,6 +36,8 @@ class screen_recorder():
         self.error_timeout = 0.1
         self.error_count = 0
         self.running_time = 0
+        self.compression_level = 9
+        self.compress_itters = 1
 
     def reset(self):
         self.frames = {}
@@ -114,13 +117,26 @@ class screen_recorder():
             keys = list(self.frames.keys())
             if keys != []:
                 if keys[0] in self.frames.keys():
-                    self.frames[keys[0]] = self.frames[keys[0]].resize((int(self.res_w//self.quality), int(self.res_h//self.quality)))
-                    print(True)
+                    #self.frames[keys[0]] = self.frames[keys[0]].resize((int(self.res_w//self.quality), int(self.res_h//self.quality)))
+                    for key in range(len(keys)):
+                        try:
+                            for i in range(self.compress_itters):
+                                if type(self.frames[keys[key]]) != bytes:
+                                    self.frames[keys[key]] = compress(self.frames[keys[key]].tobytes(), self.compression_level)
+                                else:
+                                    self.frames[keys[key]] = compress(self.frames[keys[key]], self.compression_level)
+                        except: pass
+
+    def start_optimize_thread(self):
+        o = []
+        for i in range(os.cpu_count()):
+            o.append(threading.Thread(target = self.optimize_frames).start())
+            print(f"started optimize thread {i}!")
 
     def start(self, sec=pow(2,16)):
         threading.Thread(target = self.write2video_loop).start()
         threading.Thread(target = self.wait4exit, args = [sec]).start()
-        #threading.Thread(target = self.optimize_frames).start()
+        threading.Thread(target = self.start_optimize_thread).start()
         
         while self.running_time < sec:
             for i in range(self.avg_fps):
