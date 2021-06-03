@@ -63,6 +63,8 @@ def time_sin():
     timeit(cos)
     timeit(sin2)
     timeit(cos2)
+    timeit(sin3)
+    timeit(cos3)
     print("math:")
     timeit(math.sin)
     timeit(math.cos)
@@ -162,6 +164,17 @@ def cos2(x):
 
     return cos
 
+pi = 3.141592653589793
+pi2 = pi * 2
+
+def sin3(x):
+    return sin2((x + pi) % pi2 - pi)
+
+def cos3(x):
+    return cos2((x + pi) % pi2 - pi)
+
 #draw_graph(sin, math.sin, start=-1100, end=1100)
-#draw_graph(cos, math.cos)
+#compare_accuracy(sin3, math.sin, r1=100_000, r2=10, prnt=False)
+#draw_graph(cos2, math.cos)
 #time_sin()
+#compare_accuracy(sin2, math.sin)
