@@ -1,16 +1,16 @@
 import os
 
-text = b"""A frog is any member of a diverse and largely carnivorous group of
-short-bodied, tailless amphibians composing the order Anura (literally without
-tail in Ancient Greek). The oldest fossil proto-frog appeared in the early
-Triassic of Madagascar, but molecular clock dating suggests their origins may
-extend further back to the Permian, 265 million years ago. Frogs are widely
-distributed, ranging from the tropics to subarctic regions, but the greatest
-concentration of species diversity is in tropical rainforest. There are about
-7,300 recorded species, which account for around 88% of extant amphibian species.
-[1] They are also one of the five most diverse vertebrate orders. Warty frog
-species tend to be called toads, but the distinction between frogs and toads is
-informal, not from taxonomy or evolutionary history."""
+#text = b"""A frog is any member of a diverse and largely carnivorous group of
+#short-bodied, tailless amphibians composing the order Anura (literally without
+#tail in Ancient Greek). The oldest fossil proto-frog appeared in the early
+#Triassic of Madagascar, but molecular clock dating suggests their origins may
+#extend further back to the Permian, 265 million years ago. Frogs are widely
+#distributed, ranging from the tropics to subarctic regions, but the greatest
+#concentration of species diversity is in tropical rainforest. There are about
+#7,300 recorded species, which account for around 88% of extant amphibian species.
+#[1] They are also one of the five most diverse vertebrate orders. Warty frog
+#species tend to be called toads, but the distinction between frogs and toads is
+#informal, not from taxonomy or evolutionary history."""
 
 codes = []
 frequency = lambda text: sorted(set([[(text.count(i), i), [print(f"generating frequency {round((x/len(text))*100 ,2)}% Complete") if x % 5000 == 0 else None]][0] for x,i in enumerate(text)]))

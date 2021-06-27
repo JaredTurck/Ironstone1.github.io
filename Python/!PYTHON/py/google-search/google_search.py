@@ -143,6 +143,8 @@ class google_search():
             "Accept-Language" : "en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7",
         }
 
+        print(self.head)
+
         # generate cookies
         self.current_date = datetime.datetime.now()
         self.todays_date = self.current_date.strftime("%Y-%m-%d-%S")

@@ -7,6 +7,14 @@ def timeit(func):
     end = time.time() - start
     print(f"{func.__name__}: {end}")
 
+def time_all():
+    #timeit(ln1)
+    #timeit(ln2)
+    #timeit(ln3)
+    timeit(log1)
+    timeit(log2)
+    timeit(log3)
+
 def ln1(x):
     n = 10**12
     return n * ((x ** (1/n)) - 1)
@@ -38,6 +46,15 @@ def log2(x, k=100):
     n = (x - 1) / (x + 1)
     for i in range(1, k, 2):
         a += (n ** i) / i
+    return 2 * a
+
+itter = 30
+log_range = [i for i in range(1, itter, 2)]
+def log3(x):
+    a = 0
+    n = (x - 1) / (x + 1)
+    for i in log_range:
+        a = a + (n ** i) / i
     return 2 * a
 
 #timeit(log1)

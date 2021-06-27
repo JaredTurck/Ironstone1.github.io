@@ -1,6 +1,6 @@
 import socket, threading, time
 
-host = "173.8.57.44"
+host = "103.62.153.98"
 port = 80
 process_count = 16
 

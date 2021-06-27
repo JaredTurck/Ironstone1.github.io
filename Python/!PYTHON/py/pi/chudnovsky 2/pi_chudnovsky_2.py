@@ -7,15 +7,12 @@ def pi(i):
     bsum = 0
     c = 640320
     co24 = c**3 // 24
-    while True:
+    while ak != 0:
         ak *= -(6*k-5)*(2*k-1)*(6*k-1)
         ak //= k*k*k*co24
         asum += ak
         bsum += k * ak
         k += 1
-        if ak == 0:
-            break
-        break;
 
         if k % 1000 == 0:
             print(f"K={k}!")
