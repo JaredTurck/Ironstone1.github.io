@@ -1,3 +1,10 @@
+import time
+
+def timeit(func, list1, itter=1_000_000):
+    start = time.time()
+    for i in range(itter):
+        func(list1)
+    print(f"{func.__name__}: {time.time() - start}")
 
 # itterate through unsorted list
 # - find the lowest value in unsorted list
@@ -38,3 +45,7 @@ def in_place_selection_sort(list1):
 data = [70, 95, 5, 25, 26, 54, 57, 89, 93, 19, 4, 42, 86, 32, 6, 54, 74, 25, 34, 76]
 print(sorted(data))
 print(in_place_selection_sort(data))
+
+def timeall():
+    timeit(not_in_place_selection_sort, [70, 95, 5, 25, 26, 54, 57, 89, 93, 19, 4, 42, 86, 32, 6, 54, 74, 25, 34, 76])
+    timeit(in_place_selection_sort, [70, 95, 5, 25, 26, 54, 57, 89, 93, 19, 4, 42, 86, 32, 6, 54, 74, 25, 34, 76])

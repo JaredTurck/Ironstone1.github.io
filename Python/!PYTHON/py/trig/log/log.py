@@ -44,7 +44,7 @@ def log(x):
     a = 0
     n = (x - 1) / (x + 1)
     for i in range(1, itter, 2):
-        a = a + (n ** i) / i
+        a = a + ((n ** i) / i)
     return 2 * a
 
 # calculate e using compound intrest

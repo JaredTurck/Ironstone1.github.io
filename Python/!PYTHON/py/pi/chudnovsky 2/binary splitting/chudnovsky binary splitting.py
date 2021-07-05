@@ -43,16 +43,19 @@ def pi_chudnovsky_bs(digits):
 def sqrt3(n, digits):
     # prepare x
     pt = 10 ** 16
+    print("[+] Calculating floats!")
     nf = float(((10005*n) * pt) // n) / pt
     x = (int(pt * math.sqrt(nf)) * n) // pt
     ni = n * n * 10005
 
     # preform the square root
+    print("[+] Preforming square root!")
     y = 0
 
     while y != x:
         y = x
         x = (x + ni // x) // 2
+        print(True)
 
     return x
 

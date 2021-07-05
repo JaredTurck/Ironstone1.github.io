@@ -16,7 +16,7 @@ def draw_graph(func1, func2, start = 1, end = 1001):
 def timeit(func):
     start = time.time()
     for i in range(1, 1000000):
-        func(i)
+        func(i/100_000)
     end = time.time() - start
     print(f"{func.__name__}: {end}")
 

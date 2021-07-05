@@ -1,4 +1,4 @@
-import math
+import math, time
 
 def pi(i):
     k = 1
@@ -34,6 +34,10 @@ def sqrt(n, i):
     return x
 
 def calc_pi(itter):
+    start = time.time()
     result = pi(1000000**int(itter/5.9))
     with open('pi_output.txt', 'w') as f:
         f.write("3." + str(result)[1:itter+1])
+    print(f"[+] Total time {time.time() - start}!")
+    
+calc_pi(200_000)
